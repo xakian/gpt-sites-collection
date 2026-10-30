@@ -25,7 +25,9 @@
 
 網站使用的 localStorage / sessionStorage 仍以各自網址儲存。舊 GPT Sites 的本機存檔不會自動出現在新網域；可使用原站已有的匯出／匯入功能轉移支援的資料。
 
-GPT Sites 的日後修改不會自動同步到本儲存庫；本次是固定版本複製，後續同步需明確更新來源版本。
+GPT Sites 的日後修改不會自動同步到本儲存庫。日常更新採用「在 GPT Sites 修改並發佈 → 告訴 Codex 要同步哪一站 → 更新 GitHub main → Vercel 自動部署」的流程。
+
+完整步驟、可直接複製的指令句與回復舊版方式，請看 [更新與同步流程](UPDATE_WORKFLOW.md)。GPT Sites 作為內容編輯來源，這 10 個副本繼續獨立部署，尚未接入 xakian 主站。
 
 ## 驗證
 
