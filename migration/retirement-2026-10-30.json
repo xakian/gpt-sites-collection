@@ -1,0 +1,9 @@
+{
+  "site": "diffusion-points-20261029",
+  "from_version": 26,
+  "to_version": 27,
+  "source_commit": "7f18102328851791145f17702523fce9a1c5fe9e",
+  "source_date": "2026-10-30T12:45:31+08:00",
+  "decision": "正式 dist 仍逐檔等於首次遷移的 v26；沒有後續內容修改。採用原始來源較新的 v27。",
+  "formal_previous_commit": "f4f456a8f99f2564b37a9d6f79678732b1e7dc82"
+}
