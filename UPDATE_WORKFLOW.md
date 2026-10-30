@@ -2,8 +2,7 @@
 
 2026-10-30 後續決定：使用者要求最後一次遷移後手動刪除原 GPT Sites。本次僅將正式內容仍停留在 v26 的「擴散 · 01」更新至 v27，依據見 migration/retirement-2026-10-30.json。這段取代下方「原 GPT Sites 保留」的歷史描述；之後仍以本 GitHub 儲存庫為唯一修改來源，不再同步 GPT Sites。
 
-
-使用者於 2026-10-30 選定：**`xakian/gpt-sites-collection` 是這 10 站唯一的修改來源；既有 Vercel 網址是正式網站；GPT Sites 保留作舊版參考。** 本流程取代原先從 GPT Sites 同步的流程。這 10 站繼續獨立部署，先不接入 xakian 主站。
+使用者於 2026-10-30 選定：**`xakian/gpt-sites-collection` 是這 10 站唯一的修改來源；既有 Vercel 網址是正式網站；GPT Sites 由使用者手動刪除。** 本流程取代原先從 GPT Sites 同步的流程。這 10 站繼續獨立部署，先不接入 xakian 主站。
 
 ```text
 你告訴 Codex「哪個網站，要改什麼」
@@ -60,7 +59,7 @@ node scripts/verify-deployments.mjs
 
 ## 原 GPT Sites 與歷史紀錄
 
-- 原 10 個 GPT Sites 保留，不刪除、不改動；今後視作舊版參考。
+- 原 10 個 GPT Sites 已完成收尾遷移與備份，由使用者手動刪除。
 - 不建立 GPT Sites → GitHub 的自動同步，也不把 GitHub 修改發佈回 GPT Sites。
 - 日後即使有人再修改原 GPT Site，也不自動覆蓋 GitHub 正式版本。若要採用某個舊站改動，須另外明確指定，並與 GitHub 最新版本比較整合。
 - `migration/sources.json` 保存首次遷移來源、版本與檔案雜湊；原有測試、HTTP 及瀏覽器報告同樣保留為歷史證據。
