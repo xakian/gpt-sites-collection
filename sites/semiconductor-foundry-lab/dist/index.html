@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#edf0e9"><meta name="description" content="以六角工廠操作學習製程、檢測與物流的獨立單機遊戲。"><title>半導體製程實驗基地</title><link rel="stylesheet" href="./style.css"></head>
+<body><main id="arena">
+ <canvas id="game" tabindex="0" aria-label="六角工廠地圖。E I J N C D 六向移動，空白鍵互動；也可使用設備清單與前往入口按鈕。"></canvas>
+ <header class="masthead"><div class="eyebrow">FOUNDRY / 01 <span>HEXBASE v0.4</span></div><h1>半導體製程實驗基地</h1><p>可替換的示例內容 · 單機</p></header>
+ <nav class="toolbar" aria-label="遊戲控制"><button id="pause" class="primary">開始運轉</button><button data-panel="build">建造</button><button data-panel="workers">人員</button><button data-panel="research">廠務</button><button id="guide">操作說明</button><button id="save-menu">存檔</button><button id="fullscreen">全螢幕</button><button id="sound" aria-pressed="false">音效關</button></nav>
+ <div id="display-status" role="status" hidden></div>
+ <section class="order" aria-label="目前訂單"><div class="small-label">當前目標 <span id="chapter">01 / 03</span></div><h2 id="order-title"></h2><p id="order-description"></p><div class="order-progress"><span id="order-fill"></span></div><div class="order-meta"><span id="order-count"></span><span id="order-unlock"></span></div></section>
+ <aside id="panel" class="panel" aria-label="選取與管理"><div class="panel-top"><span id="panel-kicker" class="small-label">設備</span><button id="close-panel" class="icon" aria-label="關閉面板">×</button></div><div id="panel-content"></div></aside>
+ <div class="map-tools"><button id="zoom-out" aria-label="縮小地圖">−</button><span id="zoom-level">120%</span><button id="zoom-in" aria-label="放大地圖">＋</button><button id="follow">跟隨玩家</button><button data-panel="equipment">設備清單</button></div>
+ <div id="placement-bar" hidden><span id="placement-message"></span><button id="confirm-placement" class="primary">確認放置</button><button id="cancel-placement">取消</button></div>
+ <footer class="statusbar"><div class="resource"><span class="small-label">經費</span><strong id="credits"></strong></div><div class="resource"><span class="small-label">供電</span><strong id="power"></strong></div><div class="resource inventory"><span class="small-label">攜帶 <span id="carry-count"></span></span><strong id="carrying"></strong></div><button id="interact" class="primary context-button">取料</button><div class="time"><span id="clock">00:00</span><span id="run-status">已暫停</span></div></footer>
+ <div id="notice" role="status" aria-live="polite"></div><div class="keyhint">E I J N C D 移動 <span>／</span> 空白互動 <span>／</span> 點地面前往 · 拖曳平移 · 滾輪縮放</div>
+ <div id="pause-badge">模擬已暫停</div>
+ <dialog id="modal"><div class="modal-heading"><h2 id="modal-title"></h2><button id="close-modal" aria-label="關閉">×</button></div><div id="modal-body"></div></dialog>
+ <input id="import-file" type="file" accept="application/json,.json" hidden>
+ <noscript>本遊戲需要啟用 JavaScript。</noscript>
+</main><script type="module" src="./main.js"></script></body></html>

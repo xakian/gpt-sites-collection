@@ -1,0 +1,33 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {collectionHierarchy, collectionPaths, preferredPath} from '../dist/hierarchy.mjs';
+const data=JSON.parse(readFileSync(new URL('../dist/data.json',import.meta.url)));
+const index=collectionHierarchy(data);
+assert.deepEqual(collectionPaths(index,'K27').paths,[['K03','K25','K27']]);
+assert.deepEqual(collectionPaths(index,'K39').paths,[['K05','K36','K39']]);
+assert.equal(index.roots.length,7);
+assert.equal(index.unassigned.length,6);
+assert.deepEqual(index.unresolved,[]);
+assert(index.unassigned.includes('K45'));
+assert(index.unassigned.includes('K14'));
+assert.equal(index.ids.filter(id=>collectionPaths(index,id).paths.length===1).length,48);
+console.log('PASS real hierarchy covers 48 topics, preserves ALD/CoWoS paths and six unassigned topics');
+
+const topics=['A','B','C','D','E'].map(id=>({id}));
+const edge=(from,to,kind='收錄於',status='confirmed')=>({from,to,kind,status});
+const input={topics,relations:[edge('C','A'),edge('C','B'),edge('D','C'),edge('C','A'),edge('E','A','使用材料'),edge('E','B','收錄於','pending'),edge('A','A'),edge('missing','A')]};
+const before=JSON.stringify(input),multi=collectionHierarchy(input);
+assert.deepEqual(collectionPaths(multi,'D').paths,[['A','C','D'],['B','C','D']]);
+assert.deepEqual(preferredPath(collectionPaths(multi,'D').paths,['B','C']),['B','C','D']);
+assert.deepEqual(multi.unassigned,['E']);
+assert.equal(JSON.stringify(input),before);
+console.log('PASS multiple parents keep both routes, deduplicate collection edges, ignore unrelated/pending/invalid edges and preserve input');
+
+const cyclic=collectionHierarchy({topics,relations:[edge('A','B'),edge('B','A'),edge('C','A')]});
+assert.deepEqual(cyclic.unresolved,['A','B','C']);
+assert.deepEqual(collectionPaths(cyclic,'C').paths,[]);
+assert.equal(collectionPaths(cyclic,'C').cycle,true);
+assert.deepEqual(collectionPaths(index,'missing').paths,[]);
+assert.equal(collectionPaths(multi,'D',1).truncated,true);
+assert.deepEqual(collectionHierarchy({topics:[],relations:[]}).roots,[]);
+console.log('PASS cycles, missing IDs, bounded multiple routes and empty data are safe');

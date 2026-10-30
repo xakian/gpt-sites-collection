@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f5f6f4">
+  <meta name="description" content="切換描述資訊的兩個量，觀察點進出有限座標。所有資訊始終共同存在。">
+  <title>座標之間 — 資訊視野實驗</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23f5f6f4'/%3E%3Crect x='10' y='10' width='20' height='20' fill='none' stroke='%23bbc3bf'/%3E%3Ccircle cx='19' cy='23' r='3' fill='%2324776c'/%3E%3Ccircle cx='33' cy='7' r='2' fill='%23838d87'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main id="app">
+    <section class="workspace" aria-label="互動資訊座標">
+      <header class="toolbar">
+        <span aria-hidden="true"></span>
+        <button id="settings-toggle" class="settings-toggle" aria-expanded="false" aria-controls="options" title="座標選項">
+          <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 6h14M3 14h14" stroke="currentColor" stroke-width="1.2"/><circle cx="7" cy="6" r="2" fill="var(--bg)" stroke="currentColor" stroke-width="1.2"/><circle cx="13" cy="14" r="2" fill="var(--bg)" stroke="currentColor" stroke-width="1.2"/></svg>
+          <span>選項</span>
+        </button>
+      </header>
+      <div id="stage" class="stage">
+        <svg id="field" aria-label="全部 30 個資訊點；可使用 Tab 選取，Enter 查看內容。">
+          <g id="grid"></g><g id="leaders" aria-hidden="true"></g><g id="points"></g>
+        </svg>
+        <div id="hover-label" class="hover-label" hidden></div>
+      </div>
+      <section id="inspector" class="inspector" aria-label="選取點的資訊" hidden>
+        <div class="inspect-head"><div><span id="point-kind" class="eyebrow"></span><h2 id="point-name"></h2></div><button id="close-inspector" class="close" title="取消選取" aria-label="取消選取">×</button></div>
+        <p id="point-description"></p>
+        <dl id="point-values"></dl>
+        <div id="point-reason" class="reason"></div>
+      </section>
+      <footer class="statusbar" aria-hidden="true" hidden><span id="position-count"></span><span class="total">30 個點 · 始終在場</span></footer>
+      <div id="live-status" class="sr-only" aria-live="polite"></div>
+    </section>
+    <aside id="options" class="options" aria-label="座標選項" hidden>
+      <div class="panel-heading"><span>座標選項</span><span class="panel-index" aria-hidden="true">XY</span></div>
+      <div class="axis-controls">
+        <label><span class="axis-letter">X</span><span class="sr-only">X 軸的量</span><select id="x-axis" aria-label="X 軸的量"></select></label>
+        <label><span class="axis-letter">Y</span><span class="sr-only">Y 軸的量</span><select id="y-axis" aria-label="Y 軸的量"></select></label>
+      </div>
+      <div class="panel-actions"><button id="reset">重設預設座標<span aria-hidden="true">↺</span></button></div>
+      <div class="data-notes">
+        <h3>關於這 30 個點</h3>
+        <p>書籍、物品、活動與想法的虛構示範。數值只用來探索這個介面，不是實際商品報價或個人評量。</p>
+        <p>兩個量皆適用且已知，才進入座標。<strong>0 是數值</strong>；「未知」與「不適用」各自保留。</p>
+        <p>興趣、難度採 <strong>0–10 分</strong>主觀尺度，分數越高代表越感興趣、越難理解。時間為估計完成分鐘數。</p>
+        <p>外圍位置固定，與資料、類別及重要性無關。每個點的身分與大小保持一致。</p>
+        <p>座標範圍依當前完整資料自動調整。點太接近時會稍作避讓，<strong>細線端點保留真實座標</strong>。</p>
+        <div class="legend"><span><i class="inside"></i>座標內</span><span><i class="outside"></i>外圍</span><span><i class="selected"></i>選取</span></div>
+      </div>
+    </aside>
+  </main>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

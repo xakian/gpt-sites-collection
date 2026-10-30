@@ -1,0 +1,1012 @@
+[
+  {
+    "id": "tsmc",
+    "title": "台積電",
+    "type": "企業",
+    "formalName": "台灣積體電路製造股份有限公司",
+    "englishName": "Taiwan Semiconductor Manufacturing Company Limited",
+    "aliases": [
+      "TSMC",
+      "台積公司",
+      "2330"
+    ],
+    "definition": "把客戶設計的晶片製造成晶圓，並提供先進封裝整合服務的專業晶圓代工公司。",
+    "detail": "台積電以客戶的晶片設計為起點，發展製程平台並執行晶圓製造。它的製造能力涵蓋邏輯與特殊製程，應用包括高效能運算、手機、車用與消費電子。\n\n理解台積電不能只看製程節點：設計支援、生產良率、製造規模與封裝互連共同影響客戶能否把設計變成可交付產品。此處以公司官網及 2025 年報描述業務，不以市占、營收或技術排名替知識節點打分。",
+    "classification": {
+      "activities": [
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        },
+        {
+          "label": "封裝",
+          "priority": "其他"
+        }
+      ],
+      "models": [
+        "Foundry"
+      ],
+      "domains": [
+        "邏輯",
+        "類比",
+        "功率元件"
+      ],
+      "applications": [
+        "運算",
+        "通訊",
+        "車用",
+        "消費電子",
+        "工業"
+      ]
+    },
+    "answers": [
+      {
+        "question": "它主要提供什麼產品或服務？",
+        "text": "主要提供晶圓代工，另有 3DFabric 矽堆疊與先進封裝服務，例如 CoWoS。",
+        "refs": [
+          "foundry",
+          "advanced-packaging",
+          "cowos"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "它親自完成哪些工作，交付物是什麼？",
+        "text": "建立製程與設計規則、製造晶圓、管理製程品質與良率；交付製造完成的晶圓，或依委託範圍交付整合後的封裝。",
+        "refs": [
+          "manufacturing",
+          "pdk",
+          "yield",
+          "advanced-packaging"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "客戶通常屬於哪些類型，為什麼需要它？",
+        "text": "典型客戶是無晶圓廠 IC 設計商及需外部製造的半導體公司；它們需要可量產的製程、產能與封裝整合，才能把電路設計變成產品。",
+        "refs": [
+          "fabless",
+          "design",
+          "foundry"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它參與哪些產業環節，採取什麼商業模式？",
+        "text": "以 Foundry（專業晶圓代工）為主；晶圓製造是核心活動，先進封裝是延伸服務。官網說明其專注製造客戶設計的晶片。",
+        "refs": [
+          "foundry",
+          "manufacturing",
+          "advanced-packaging"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "理解它的定位，需要先懂哪三到五個關鍵概念？",
+        "text": "先理解晶圓代工、晶圓製造、先進製程、先進封裝與製程設計套件。",
+        "refs": [
+          "foundry",
+          "manufacturing",
+          "advanced-node",
+          "advanced-packaging",
+          "pdk"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它與相似企業有哪些業務差異，與其他環節如何銜接？",
+        "text": "與力積電都提供代工，但台積電的定位解讀需同時看先進邏輯製程、特殊製程與先進封裝；力積電則明列記憶體、客製邏輯及分離式元件代工。上游接設計，下游銜接封裝測試。此為業務比較，非特定訂單關係。",
+        "refs": [
+          "comparison-foundries",
+          "specialty-process",
+          "packaging",
+          "testing"
+        ],
+        "status": "分析性解釋"
+      }
+    ],
+    "sources": [
+      {
+        "title": "台積電：公司介紹",
+        "url": "https://www.tsmc.com/chinese/aboutTSMC/company_profile",
+        "publishedAt": "未標示",
+        "period": "查核當日官網內容；未列發布日期",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "台積電 2025 年報",
+        "url": "https://investor.tsmc.com/static/annualReports/2025/chinese/index.html",
+        "publishedAt": "未標示",
+        "period": "2025 年度",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "台積電 2025 年報：技術與服務",
+        "url": "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20Annual%20Report.C.pdf",
+        "publishedAt": "未標示",
+        "period": "2025 年度",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "note": "客戶需求與企業差異為根據來源所作的分析性解釋；主要／其他表示本圖的業務聚焦，不代表精算營收比例。"
+  },
+  {
+    "id": "psmc",
+    "title": "力積電",
+    "type": "企業",
+    "formalName": "力晶積成電子製造股份有限公司",
+    "englishName": "Powerchip Semiconductor Manufacturing Corporation",
+    "aliases": [
+      "PSMC",
+      "力積",
+      "6770"
+    ],
+    "definition": "以記憶體、客製邏輯與分離式元件為服務重點的晶圓代工公司。",
+    "detail": "力積電官網以 Open Foundry 描述營運方式：依客戶需求提供從設計、製造到設備與產能分享的合作。三大服務主軸是先進記憶體、客製化邏輯積體電路與分離式元件的晶圓代工。\n\n「記憶體」是產品領域，「晶圓代工」是商業模式，兩者可以並存。力積電本節點只指 PSMC 法人；「力晶」或集團名稱不能直接作為本法人所有業務與股權的替代。",
+    "classification": {
+      "activities": [
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        },
+        {
+          "label": "測試",
+          "priority": "其他"
+        }
+      ],
+      "models": [
+        "Foundry"
+      ],
+      "domains": [
+        "記憶體",
+        "邏輯",
+        "功率元件"
+      ],
+      "applications": [
+        "運算",
+        "通訊",
+        "消費電子",
+        "工業"
+      ]
+    },
+    "answers": [
+      {
+        "question": "它主要提供什麼產品或服務？",
+        "text": "提供記憶體、客製邏輯與分離式元件代工，官網另列設計支援、製造與記憶體晶圓測試服務。",
+        "refs": [
+          "foundry",
+          "dram",
+          "logic",
+          "power",
+          "wafer-test"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "它親自完成哪些工作，交付物是什麼？",
+        "text": "執行製程開發與晶圓加工，依服務範圍支援設計及晶圓測試；核心交付物是依客戶需求製造的晶圓。",
+        "refs": [
+          "manufacturing",
+          "wafer",
+          "wafer-test"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "客戶通常屬於哪些類型，為什麼需要它？",
+        "text": "典型對象為 IC 設計公司及有代工需求的半導體業者；它們需要相符的記憶體、邏輯或功率製程及可用產能。",
+        "refs": [
+          "design",
+          "fabless",
+          "specialty-process"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它參與哪些產業環節，採取什麼商業模式？",
+        "text": "核心為 Foundry（專業晶圓代工），活動以晶圓製造為主。Open Foundry 是公司對彈性合作方式的描述，不是與記憶體互斥的分類。",
+        "refs": [
+          "foundry",
+          "manufacturing",
+          "dram"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "理解它的定位，需要先懂哪三到五個關鍵概念？",
+        "text": "先理解晶圓代工、DRAM、特色製程、功率元件與晶圓製造。",
+        "refs": [
+          "foundry",
+          "dram",
+          "specialty-process",
+          "power",
+          "manufacturing"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它與相似企業有哪些業務差異，與其他環節如何銜接？",
+        "text": "與台積電都承接客戶晶片製造；力積電較適合從其官網列示的記憶體、客製邏輯與分離式元件三個主軸理解，不能用單一最小線寬替所有業務排序。製造後再接晶圓測試與封裝。",
+        "refs": [
+          "comparison-foundries",
+          "wafer-test",
+          "packaging"
+        ],
+        "status": "分析性解釋"
+      }
+    ],
+    "sources": [
+      {
+        "title": "力積電：公司簡介",
+        "url": "https://www.powerchip.com/zh-tw/staticpage/company-profile",
+        "publishedAt": "未標示",
+        "period": "查核當日官網內容；未列發布日期",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "力積電：代工技術與服務",
+        "url": "https://www.powerchip.com/zh-tw/services/foundry-services",
+        "publishedAt": "未標示",
+        "period": "查核當日官網內容；未列發布日期",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "經濟部：力晶積成電子製造股份有限公司登記資料",
+        "url": "https://findbiz.nat.gov.tw/fts/company/28112667",
+        "publishedAt": "未標示",
+        "period": "查核當日登記頁",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "note": "「力積」依需求對應力積電 PSMC；未把力晶科技等其他法人合併。應用標籤為依產品用途的分析整理，並非具名客戶清單。"
+  },
+  {
+    "id": "umc",
+    "title": "聯電",
+    "type": "企業",
+    "formalName": "聯華電子股份有限公司",
+    "englishName": "United Microelectronics Corporation",
+    "aliases": [
+      "UMC",
+      "聯華電子",
+      "2303"
+    ],
+    "definition": "替客戶製造晶片，並以邏輯與特色製程滿足不同電子產品需求的晶圓代工公司。",
+    "detail": "聯電提供晶圓專工製程平台、設計規則與 IP 支援，客戶可依電路的電壓、功耗、射頻或嵌入式記憶體需求選擇製程。其官網列出邏輯、RFCMOS、高壓、BCD 與嵌入式非揮發性記憶體等技術。\n\n它也提供與測試、封裝相關的一站式解決方案；本圖把這類服務整合與親自執行晶圓製造區分，不把服務入口直接解讀成所有封裝測試均由同一法人自製。",
+    "classification": {
+      "activities": [
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        }
+      ],
+      "models": [
+        "Foundry"
+      ],
+      "domains": [
+        "邏輯",
+        "類比",
+        "功率元件"
+      ],
+      "applications": [
+        "運算",
+        "通訊",
+        "車用",
+        "工業",
+        "消費電子"
+      ]
+    },
+    "answers": [
+      {
+        "question": "它主要提供什麼產品或服務？",
+        "text": "主要提供邏輯及特色製程晶圓代工，並提供設計套件、IP 支援與相關製造整合服務。",
+        "refs": [
+          "foundry",
+          "specialty-process",
+          "pdk"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "它親自完成哪些工作，交付物是什麼？",
+        "text": "開發與維護製程平台，執行晶圓加工及良率管理；核心交付物是依客戶設計製造的晶圓。",
+        "refs": [
+          "manufacturing",
+          "wafer",
+          "yield"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "客戶通常屬於哪些類型，為什麼需要它？",
+        "text": "典型客戶是 IC 設計公司及有外部製造需求的半導體業者；它們需要與產品電性、成本、可靠度相符的製程。",
+        "refs": [
+          "fabless",
+          "design",
+          "specialty-process"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它參與哪些產業環節，採取什麼商業模式？",
+        "text": "商業模式為 Foundry（專業晶圓代工），核心活動是晶圓製造；設計支援協助客戶將電路轉成可製造的版圖。",
+        "refs": [
+          "foundry",
+          "manufacturing",
+          "pdk"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "理解它的定位，需要先懂哪三到五個關鍵概念？",
+        "text": "先理解晶圓代工、特色製程、類比、功率元件與製程設計套件。",
+        "refs": [
+          "foundry",
+          "specialty-process",
+          "analog",
+          "power",
+          "pdk"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它與相似企業有哪些業務差異，與其他環節如何銜接？",
+        "text": "同屬晶圓代工，聯電可以從邏輯平台與多樣特色製程理解；世界先進亦聚焦特殊製程，台積電還需觀察先進邏輯與封裝整合。差異要看產品需求與實際平台，不能僅以製程數字判優劣。",
+        "refs": [
+          "comparison-foundries",
+          "advanced-node",
+          "specialty-process"
+        ],
+        "status": "分析性解釋"
+      }
+    ],
+    "sources": [
+      {
+        "title": "聯電：公司總覽",
+        "url": "https://www.umc.com/zh-TW/About/about_overview",
+        "publishedAt": "未標示",
+        "period": "查核當日官網內容；未列發布日期",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "聯電：特殊製程",
+        "url": "https://www.umc.com/zh-TW/Product/technologies/Index/specialty",
+        "publishedAt": "未標示",
+        "period": "查核當日官網內容；未列發布日期",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "聯電：公司年報",
+        "url": "https://www.umc.com/zh-TW/Download/annual_reports",
+        "publishedAt": "未標示",
+        "period": "2025 年度年報入口",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "note": "比較內容為業務定位分析；一站式服務不等於每一工作均為聯電法人自行製造。"
+  },
+  {
+    "id": "vis",
+    "title": "世界先進",
+    "type": "企業",
+    "formalName": "世界先進積體電路股份有限公司",
+    "englishName": "Vanguard International Semiconductor Corporation",
+    "aliases": [
+      "VIS",
+      "世界",
+      "5347"
+    ],
+    "definition": "以電源管理、類比及其他特殊積體電路製程為重點的晶圓代工公司。",
+    "detail": "世界先進的定位是特殊積體電路製造服務，產品所需的高電壓、類比與功率特性，是理解其製程選擇的重要線索。科學園區官方介紹列出顯示驅動、電源管理與分離式功率元件等業務。\n\nVIS 與 NXP 的 2024 年共同公告另說明成立 VSMC 合資公司，規劃 300mm 晶圓廠與混合訊號、電源管理、類比產品。這是獨立合資法人與建廠計畫，不能把計畫產能寫成 VIS 已實現的當期產出。",
+    "classification": {
+      "activities": [
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        }
+      ],
+      "models": [
+        "Foundry"
+      ],
+      "domains": [
+        "類比",
+        "功率元件",
+        "邏輯"
+      ],
+      "applications": [
+        "車用",
+        "工業",
+        "消費電子",
+        "通訊"
+      ]
+    },
+    "answers": [
+      {
+        "question": "它主要提供什麼產品或服務？",
+        "text": "提供特殊積體電路晶圓代工，包含電源管理、類比、高壓與分離式元件相關製程。",
+        "refs": [
+          "foundry",
+          "specialty-process",
+          "analog",
+          "power"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "它親自完成哪些工作，交付物是什麼？",
+        "text": "以製程開發及晶圓製造把客戶的電路做成晶粒，交付加工完成的晶圓；核心價值是對應產品電性與可靠度的製造能力。",
+        "refs": [
+          "manufacturing",
+          "wafer",
+          "yield"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "客戶通常屬於哪些類型，為什麼需要它？",
+        "text": "典型客戶是設計電源管理、顯示驅動及其他特殊 IC 的公司；需要的往往是特定電壓、功率與可靠度條件。",
+        "refs": [
+          "design",
+          "power",
+          "analog"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它參與哪些產業環節，採取什麼商業模式？",
+        "text": "採 Foundry（專業晶圓代工），以晶圓製造活動為主；「特色製程」描述技術訴求，不是較差製程的代稱。",
+        "refs": [
+          "foundry",
+          "manufacturing",
+          "specialty-process"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "理解它的定位，需要先懂哪三到五個關鍵概念？",
+        "text": "先理解晶圓代工、特色製程、類比、功率元件與晶圓。",
+        "refs": [
+          "foundry",
+          "specialty-process",
+          "analog",
+          "power",
+          "wafer"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它與相似企業有哪些業務差異，與其他環節如何銜接？",
+        "text": "和聯電有特殊製程定位的交集；世界先進適合從電源管理及類比需求切入。與封測業者的前後銜接在此為典型流程，不代表已核對任何一對公司的訂單。",
+        "refs": [
+          "comparison-foundries",
+          "specialty-process",
+          "packaging",
+          "testing"
+        ],
+        "status": "分析性解釋"
+      }
+    ],
+    "sources": [
+      {
+        "title": "新竹科學園區：世界先進公司與技術介紹",
+        "url": "https://saturn.sipa.gov.tw/SPAEPI/page_detail.do?fmeLv1Id=8e33aec0-4e36-4cef-8e22-dce8c0bafd57&fmeLv2Id=bbee5b82-6e59-4446-a753-37ef21fe8c2b&fmeLv3Id=8549b2a1-3b85-41b5-90ac-4f91d65e7a89&pageContentId=9f590d55-5dde-4c86-8899-f85b31b85a01",
+        "publishedAt": "未標示",
+        "period": "公司介紹，技術定位；未採其中歷史產能數字",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "VIS 與 NXP：正式成立 VSMC 合資公司",
+        "url": "https://www.nxp.com/company/about-nxp/newsroom/NW-VSMC-V2",
+        "publishedAt": "2024-09-04",
+        "period": "2024-09-04 公告，計畫不等同已量產",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "note": "世界先進官網查核遇 403；本版使用科學園區官方介紹與合作方共同公告，未採用即時產能或市占數字。"
+  },
+  {
+    "id": "mediatek",
+    "title": "聯發科",
+    "type": "企業",
+    "formalName": "聯發科技股份有限公司",
+    "englishName": "MediaTek Inc.",
+    "aliases": [
+      "MediaTek",
+      "聯發科技",
+      "2454"
+    ],
+    "definition": "設計手機、智慧家庭及連網等晶片平台，交由製造夥伴生產的 IC 設計公司。",
+    "detail": "聯發科以系統單晶片及平台方案為核心，將運算、多媒體、連結等功能整合，供裝置品牌與系統廠開發產品。官網明列無晶圓廠半導體公司的定位。\n\n理解它需要區分「設計晶片」與「替別人製造晶片」：聯發科的產品價值主要來自架構、電路、軟體平台與系統整合。此法人與其子公司分開記錄，不把集團各公司的專門產品線全部視為本體直營。",
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        }
+      ],
+      "models": [
+        "Fabless"
+      ],
+      "domains": [
+        "邏輯",
+        "系統單晶片",
+        "射頻與連結"
+      ],
+      "applications": [
+        "運算",
+        "通訊",
+        "車用",
+        "消費電子"
+      ]
+    },
+    "answers": [
+      {
+        "question": "它主要提供什麼產品或服務？",
+        "text": "提供行動裝置、智慧家庭、連結與物聯網等 SoC 與平台方案，亦有客製化 ASIC 產品方向。",
+        "refs": [
+          "soc",
+          "design",
+          "rf"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "它親自完成哪些工作，交付物是什麼？",
+        "text": "執行晶片架構與電路設計、驗證及平台開發，委外製造；對客戶的交付是晶片產品與相關系統支援，而非代工產能。",
+        "refs": [
+          "design",
+          "soc",
+          "fabless"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "客戶通常屬於哪些類型，為什麼需要它？",
+        "text": "典型客戶是手機、電視、網通或其他智慧裝置的品牌與系統廠；它們希望縮短整合及上市時間，取得符合效能、功耗與連結需求的平台。",
+        "refs": [
+          "soc",
+          "ecosystem",
+          "value-chain"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它參與哪些產業環節，採取什麼商業模式？",
+        "text": "採 Fabless（無晶圓廠 IC 設計）模式，核心活動是 IC 設計與產品銷售，透過外部製造服務實現量產。",
+        "refs": [
+          "fabless",
+          "design",
+          "foundry"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "理解它的定位，需要先懂哪三到五個關鍵概念？",
+        "text": "先理解 IC 設計、Fabless、SoC、晶圓代工與產業價值鏈。",
+        "refs": [
+          "design",
+          "fabless",
+          "soc",
+          "foundry",
+          "value-chain"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它與相似企業有哪些業務差異，與其他環節如何銜接？",
+        "text": "與瑞昱同屬 IC 設計，產品組合有連網與多媒體交集；聯發科可由行動運算及完整 SoC 平台切入，瑞昱可由網路、音訊與周邊晶片切入。與代工及封測的銜接是分工，不是相同業務。",
+        "refs": [
+          "soc",
+          "rf",
+          "foundry",
+          "packaging",
+          "testing"
+        ],
+        "status": "分析性解釋"
+      }
+    ],
+    "sources": [
+      {
+        "title": "MediaTek：公司介紹",
+        "url": "https://www.mediatek.com/zh-tw/company/discover",
+        "publishedAt": "未標示",
+        "period": "查核當日官網內容；未列發布日期",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "MediaTek：產品與公司定位",
+        "url": "https://www.mediatek.com/zh-tw/",
+        "publishedAt": "未標示",
+        "period": "查核當日官網內容；未列發布日期",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "note": "客戶類型、縮短上市時間及公司對照是對官網產品範圍的分析性解釋；不表示具名客戶或採購關係。"
+  },
+  {
+    "id": "realtek",
+    "title": "瑞昱",
+    "type": "企業",
+    "formalName": "瑞昱半導體股份有限公司",
+    "englishName": "Realtek Semiconductor Corporation",
+    "aliases": [
+      "Realtek",
+      "2379"
+    ],
+    "definition": "設計網路、音訊、多媒體與電腦周邊晶片，讓系統廠把連結和訊號處理功能裝進產品的 IC 設計公司。",
+    "detail": "瑞昱的產品範圍包括乙太網路、無線連網、音訊、USB 周邊與多媒體 SoC。其官網說明公司採 Fabless 模式，設計及銷售晶片，晶圓製造委由專業代工廠負責。\n\n它的定位常與射頻、類比、混合訊號及系統整合能力有關。網路與音訊晶片看似只是終端設備的小部分，卻直接影響互通性、訊號品質與功耗。後一句為功能價值的分析解釋。",
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        }
+      ],
+      "models": [
+        "Fabless"
+      ],
+      "domains": [
+        "邏輯",
+        "類比",
+        "射頻與連結",
+        "系統單晶片"
+      ],
+      "applications": [
+        "運算",
+        "通訊",
+        "車用",
+        "消費電子"
+      ]
+    },
+    "answers": [
+      {
+        "question": "它主要提供什麼產品或服務？",
+        "text": "設計與銷售通訊網路、音訊、電腦周邊及多媒體晶片，包括乙太網路、Wi-Fi、USB 與智慧電視相關 IC。",
+        "refs": [
+          "design",
+          "rf",
+          "analog",
+          "soc"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "它親自完成哪些工作，交付物是什麼？",
+        "text": "自行開發晶片電路與系統方案，製造委由代工夥伴執行；交付晶片產品及支援客戶整合的方案。",
+        "refs": [
+          "design",
+          "fabless",
+          "soc"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "客戶通常屬於哪些類型，為什麼需要它？",
+        "text": "典型服務對象是網通、電腦、電視與其他電子設備的品牌及系統廠；它們需要現成可整合的連網、音訊或介面功能。",
+        "refs": [
+          "value-chain",
+          "rf",
+          "analog"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它參與哪些產業環節，採取什麼商業模式？",
+        "text": "採 Fabless（無晶圓廠 IC 設計），參與設計與晶片產品銷售；官方明述晶圓製造委外。",
+        "refs": [
+          "fabless",
+          "design",
+          "foundry"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "理解它的定位，需要先懂哪三到五個關鍵概念？",
+        "text": "先理解 IC 設計、Fabless、類比、射頻與 SoC。",
+        "refs": [
+          "design",
+          "fabless",
+          "analog",
+          "rf",
+          "soc"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它與相似企業有哪些業務差異，與其他環節如何銜接？",
+        "text": "與聯發科都有連網與多媒體業務，但瑞昱的網路、音訊和周邊產品線是重要切入點。其製造前後需要代工與封測服務；本圖未據此推定任何具名供應商。",
+        "refs": [
+          "soc",
+          "rf",
+          "foundry",
+          "packaging",
+          "testing"
+        ],
+        "status": "分析性解釋"
+      }
+    ],
+    "sources": [
+      {
+        "title": "瑞昱：關於公司",
+        "url": "https://www.realtek.com/Article/Index?menu_id=285",
+        "publishedAt": "未標示",
+        "period": "查核當日官網內容；未列發布日期",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "瑞昱：IBC2026 新聞稿與公司產品介紹",
+        "url": "https://www.realtek.com/Article/NewsDetail?app_id=18&id=4824",
+        "publishedAt": "2026-09-10",
+        "period": "2026-09-10 新聞稿",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "瑞昱：綠色營運，Fabless 分工說明",
+        "url": "https://www.realtek.com/Article/Index?lang=zh-TW&menu_id=927",
+        "publishedAt": "未標示",
+        "period": "查核當日官網內容；未列發布日期",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "note": "相似企業差異以產品組合解讀，不是完整競爭名單或技術能力排名。"
+  },
+  {
+    "id": "nanya",
+    "title": "南亞科",
+    "type": "企業",
+    "formalName": "南亞科技股份有限公司",
+    "englishName": "Nanya Technology Corporation",
+    "aliases": [
+      "南亞科技",
+      "Nanya",
+      "NTC",
+      "2408"
+    ],
+    "definition": "自行研發、設計與製造 DRAM，再向客戶銷售記憶體產品的公司。",
+    "detail": "南亞科的核心是 DRAM，官網描述其研發、設計、製造與銷售活動，並列出標準型與低功耗行動 DRAM、良裸晶、多晶片封裝與模組產品。\n\nDRAM 用來暫存運作中的資料，不能用「有製造工廠」就把南亞科與純晶圓代工視為同一種角色。它以自身記憶體產品與製程開發為主，與以客戶設計承接製造的 Foundry 有不同的產品責任。",
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        },
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        }
+      ],
+      "models": [
+        "IDM"
+      ],
+      "domains": [
+        "記憶體"
+      ],
+      "applications": [
+        "運算",
+        "通訊",
+        "車用",
+        "工業",
+        "消費電子"
+      ]
+    },
+    "answers": [
+      {
+        "question": "它主要提供什麼產品或服務？",
+        "text": "主要提供 DRAM 產品，包括標準型、低功耗行動型、良裸晶與模組等形式。",
+        "refs": [
+          "dram",
+          "wafer",
+          "soc"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "它親自完成哪些工作，交付物是什麼？",
+        "text": "執行 DRAM 產品研發、電路設計、製程開發與晶圓製造，再銷售記憶體；交付形式依產品為封裝晶片、良裸晶或模組。",
+        "refs": [
+          "design",
+          "manufacturing",
+          "dram",
+          "packaging"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "客戶通常屬於哪些類型，為什麼需要它？",
+        "text": "典型客戶是需要記憶體的模組與系統業者；它們需要符合容量、速度、功耗與可靠度要求的資料暫存元件。",
+        "refs": [
+          "dram",
+          "value-chain"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它參與哪些產業環節，採取什麼商業模式？",
+        "text": "可歸為 IDM（整合元件製造商）：同時掌握自有產品設計與晶圓製造。此分類是依官方營運活動的分析整理。",
+        "refs": [
+          "idm",
+          "design",
+          "manufacturing"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "理解它的定位，需要先懂哪三到五個關鍵概念？",
+        "text": "先理解 DRAM、IDM、IC 設計、晶圓製造與良率。",
+        "refs": [
+          "dram",
+          "idm",
+          "design",
+          "manufacturing",
+          "yield"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它與相似企業有哪些業務差異，與其他環節如何銜接？",
+        "text": "和華邦電都有記憶體業務，但南亞科核心聚焦 DRAM，華邦另有編碼型及安全快閃記憶體。和力積電的差異在產品責任與營運模式，不能只看兩者都涉及記憶體。",
+        "refs": [
+          "dram",
+          "flash",
+          "idm",
+          "foundry"
+        ],
+        "status": "分析性解釋"
+      }
+    ],
+    "sources": [
+      {
+        "title": "南亞科技：公司簡介及產品目錄",
+        "url": "https://www.nanya.com/tw/About",
+        "publishedAt": "未標示",
+        "period": "查核當日官網內容；未列發布日期",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "經濟部：南亞科技股份有限公司登記資料",
+        "url": "https://findbiz.nat.gov.tw/fts/company/89390656",
+        "publishedAt": "未標示",
+        "period": "查核當日登記頁",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "note": "IDM 是依設計、製造、銷售活動所作的分析分類；未把官網歷史新廠規劃當成已完成產能，也未推定所有封裝均自行完成。"
+  },
+  {
+    "id": "winbond",
+    "title": "華邦電",
+    "type": "企業",
+    "formalName": "華邦電子股份有限公司",
+    "englishName": "Winbond Electronics Corporation",
+    "aliases": [
+      "華邦電子",
+      "Winbond",
+      "2344"
+    ],
+    "definition": "自行設計與製造記憶體，提供快閃記憶體與客製化記憶體方案的公司。",
+    "detail": "華邦電子的本圖核心內容是記憶體產品：編碼型快閃記憶體、安全快閃記憶體與客製化記憶體解決方案。官方產品選單亦列 DDR/SDR、低功耗 DRAM 與良裸晶等形式。\n\n華邦官網的公司簡介也包含邏輯 IC 整體敘述；本圖不直接把子公司的邏輯業務併成華邦法人親自執行的活動。理解其記憶體定位時，應區分快閃記憶體的非揮發儲存與 DRAM 的工作資料暫存。",
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        },
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        }
+      ],
+      "models": [
+        "IDM"
+      ],
+      "domains": [
+        "記憶體"
+      ],
+      "applications": [
+        "運算",
+        "通訊",
+        "車用",
+        "工業",
+        "消費電子"
+      ]
+    },
+    "answers": [
+      {
+        "question": "它主要提供什麼產品或服務？",
+        "text": "提供編碼型與安全快閃記憶體，以及客製化記憶體方案；產品包括 NOR、NAND、DDR/SDR 與低功耗記憶體等。",
+        "refs": [
+          "flash",
+          "dram"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "它親自完成哪些工作，交付物是什麼？",
+        "text": "自行進行記憶體產品設計、技術研發與晶圓製造，並以自有品牌銷售；交付可供系統或封裝整合使用的記憶體產品。",
+        "refs": [
+          "design",
+          "manufacturing",
+          "flash",
+          "dram"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "客戶通常屬於哪些類型，為什麼需要它？",
+        "text": "典型客戶是車用、工業、通訊與消費電子的系統及模組廠；需要保存程式碼、資料或提供工作記憶體，並兼顧功耗、安全及供貨。",
+        "refs": [
+          "flash",
+          "dram",
+          "value-chain"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它參與哪些產業環節，採取什麼商業模式？",
+        "text": "記憶體本業可歸為 IDM（整合元件製造商），整合自有產品設計、製造與銷售。並非單純代工其他公司的記憶體設計。",
+        "refs": [
+          "idm",
+          "design",
+          "manufacturing"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "理解它的定位，需要先懂哪三到五個關鍵概念？",
+        "text": "先理解快閃記憶體、DRAM、IDM、晶圓製造與系統級封裝。",
+        "refs": [
+          "flash",
+          "dram",
+          "idm",
+          "manufacturing",
+          "sip"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它與相似企業有哪些業務差異，與其他環節如何銜接？",
+        "text": "與南亞科的 DRAM 核心相比，華邦還有明確的編碼型及安全 Flash 業務；與力積電的晶圓代工相比，應看自有產品品牌及產品責任。封裝形式可配合系統或 SiP 整合。",
+        "refs": [
+          "flash",
+          "dram",
+          "idm",
+          "foundry",
+          "sip"
+        ],
+        "status": "分析性解釋"
+      }
+    ],
+    "sources": [
+      {
+        "title": "華邦電子：公司簡介",
+        "url": "https://www.winbond.com/hq/about-winbond/company-profile/overview/?__locale=zh_TW",
+        "publishedAt": "未標示",
+        "period": "查核當日官網內容；未列發布日期",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "華邦電子：快閃記憶體產品",
+        "url": "https://www.winbond.com/hq/product/code-storage-flash/?__locale=zh_TW",
+        "publishedAt": "未標示",
+        "period": "查核當日官網內容；未列發布日期",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "華邦電子：公司工作與業務介紹",
+        "url": "https://careers.winbond.com/content/Welcome-to-be-a-Winbonder/?locale=zh_TW",
+        "publishedAt": "未標示",
+        "period": "查核當日官網內容；未列發布日期",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "note": "IDM 為依營運活動所作的分析分類。本節點聚焦華邦記憶體本業；集團、子公司及股權應另建關係，不以集團稱呼代替法人。"
+  }
+]

@@ -1,0 +1,79 @@
+# 驗收紀錄
+
+2026-10-29；Node v24.22.1；內容版本1；遊戲版本0.1.0。
+
+已執行的自動測試為28個Node測試群組，涵蓋下列多個T案例。固定情境僅用於單元與邊界測試；桌面端到端使用實際鍵盤與DOM按鈕，從空工廠建造、採購、補給、裝工具及加工，沒有改動資金、游標或成品。
+
+桌面瀏覽器：Chrome，實際viewport 1363×936。首單S0001 / B0001，五次加工歷史，20合格/20投入，收入300C，資金540C，成本100C；首單有效時間580.5秒（包含測試閱讀停頓，不是一般玩家節奏統計）。證據：`evidence/wafer-desktop-evidence.json`。
+
+實際工人：I0007 / B0002，由材料倉至沉積機，載物7格，168tick=2.8秒；目的LOADED，沒有自行開工，預約釋放為空。證據：`evidence/wafer-worker-evidence.json`及`wafer-worker.jpg`。截圖為搬運過程，精確持有狀態以JSON為準。
+
+存檔瀏覽器往返：保存tick40031，重載tick40031，cash300，M0001保留原槽物品並為LOADED，預設manual暫停。核心測試另外涵蓋RUNNING、持物、預約及短動作。
+
+行動尺寸端到端：Chrome內嵌真實遊戲，從空工廠完成全部建造、採購、補給、光罩、放取及五站加工，以Pointer搖桿、點地步行與DOM按鈕操作，沒有鍵盤捷徑或狀態注入。另切換360×800與844×390檢查版面。結果B0001五步履歷、20/20合格、300C收入、540C餘額，見`evidence/wafer-mobile-evidence.json`。驗收過程含跨工具閱讀、背景實驗及停頓，22分56秒不可當正常玩家節奏統計。
+
+最終介面回歸：暫停時開啟建造、移動預覽並取消，資金仍540C且設備仍5台；暫停時管理及保存正常。恢復後展開首單履歷，見`evidence/wafer-final.jpg`。
+
+## 判讀
+
+PASS表示列出的實作行為有對應自動斷言或瀏覽器證據。BLOCKED表示該案例的指定環境部分無法完成，不能稱為整份規格全部驗收通過。沒有把單元測試稱為真實觸控、WebKit或實機端到端。
+
+|案例|結果|證據與範圍|
+|---|---|---|
+|T01|PASS|新局遠距拒絕、鍵盤連續移動到倉庫、取出同一盒；manual.test及桌面UI|
+|T02|PASS|容量一件、落地與再拾取同一ID；manual.test、reliability.test及行動版實際放取|
+|T03|PASS|正面碰撞、斜向歸一化、固定小步移動；manual.test；桌面鍵盤流程|
+|T04|PASS|缺料不扣費、不建工作，返回材料缺額；manual.test|
+|T05|PASS|補給與開工分開扣量；桌面完整補給與加工、manual.test|
+|T06|PASS|原ID、20片、每工序一筆歷史、完成仍占槽；桌面首單及核心斷言|
+|T07|PASS|錯誤設備上料遭拒、route與膜/阻狀態驗證；manual.test|
+|T08|PASS|工人實走3/11格，載物時間1.2/4.4秒；logistics.test|
+|T09|PASS|RUNNING及持物設備禁止搬遷；manual.test|
+|T10|PASS|桌面全新存檔完整首單，5步履歷、300C收入；JSON證據|
+|T11|PASS|實際工人持有原物品、走路及上料；瀏覽器觀察與logistics.test|
+|T12|PASS|物品與目的雙預約，重複派工及玩家搶取拒絕；logistics.test|
+|T13|PASS|快照往返、短動作鎖、加工進度與預約；reliability.test及實際重載|
+|T14|BLOCKED|桌面完整鍵盤通過；390×844的CSS/Pointer新局完整首單通過，另檢查360×800及844×390；無WebKit、原生touch API與實機|
+|T15|PASS|缺料補給、滿槽保留、工人取消返回及滿倉接手可恢復；整合測試|
+|T16|PASS|首單540C，預購剩餘耗材160C，聘工後340C；核心與桌面UI|
+|T17|PASS|非法位置與購買限制不扣款；建造預覽取消不產生資產；核心與UI|
+|T18|PASS|升級費250C、36/24秒、保留金及滿槽限制；reliability.test|
+|T19|PASS|部分補給上限5、箱內餘量不消失，滿槽/錯料拒絕；reliability.test|
+|T20|PASS|光罩拆裝唯一ID，長流程反覆使用不消耗，缺工具/錯誤圖案開工不扣費料；整合測試|
+|T21|PASS|同commandId與重複完成不多扣、不多前進；manual.test|
+|T22|PASS|遠處只可看資料，開工命令拒絕；reliability.test及實際靠近流程|
+|T23|PASS|封閉橫向通道、覆蓋操作點、壓住角色拒絕；reliability.test|
+|T24|PASS|牆外、操作點、不合法格及設備內放物拒絕；合法放取守恆；reliability.test|
+|T25|PASS|標準20/20、快速18/20且缺陷索引19/20；logistics.test|
+|T26|PASS|檢查保留既有缺陷；MVP沒有下一檢查節點，不能重檢；配方驗證與整合|
+|T27|PASS|普通270/243/216，急件320/288/288；新開工限制與不可刷新；reliability.test|
+|T28|PASS|同盒重複出貨拒絕、封存且收入一次；manual.test及保存測試|
+|T29|PASS|首單後200C一名工人、保留100C；核心及瀏覽器聘工|
+|T30|PASS|工人無Start權限，送達保持LOADED；核心與瀏覽器|
+|T31|PASS|取消已持物任務實走返倉，物品不瞬移；logistics.test|
+|T32|PASS|滿倉返還阻塞保留持物，可就近接手；reliability.test|
+|T33|PASS|損壞JSON、版本、重複位置、無效引用拒絕；保留當前世界；保存測試|
+|T34|BLOCKED|核心所有pauseReasons凍結時間，保存/重載不追算通過；雲端瀏覽器開另一分頁177秒時未發出hidden狀態，原頁繼續加工；此操作不能構成真實背景生命週期驗證，詳見wafer-background-evidence.json|
+|T35|PASS|手機抽屜遮擋問題已修正，最低尺寸按鈕與建造兩排；響應式QA；真實touch另列T14限制|
+|T36|PASS|全新worldId、清除舊工作/任務，取消/確認UI分離；reliability.test及手機新局|
+|T37|PASS|首單後十批全額採購與工人搬運，11出貨、2340C、零有效殘留任務/預約；logistics.test|
+|T38|PASS|只加內容資料的新設備實際完成加工與存讀檔；錯誤引用拒絕；reliability.test|
+|T39|PASS|檢查點只在新局/出貨建立，恢復全世界；reliability.test|
+|T40|PASS|短動作結束重驗距離及revision，失敗保留原位置並釋鎖；reliability.test|
+|T41|PASS|在途保留最後倉位、重載後一次到貨；reliability.test|
+|T42|PASS|事件窗300秒，20+18片=7.6片/分、95%；過窗歸零；reliability.test|
+|T43|PASS|材料/設備/訂單的內容化產業入口，虛構商家、原始來源、後續IC/封測標示；內容及UI審閱|
+|T44|PASS|配額失敗不假稱保存、無效/超限匯入拒絕、無檢查點匯入不引用舊快照；reliability.test|
+|T45|PASS|首單禁止中止，後續隔離不退料費、游標不前進、取出後空機；reliability.test|
+|T46|PASS|暫停管理交易不推tick，多重pause不互相解除；核心及暫停管理UI修正|
+|T47|PASS|同類檢查設備可依測試路線再次進站，品質不增加且產出只計首次；reliability.test|
+
+## 重現
+
+執行 `npm test` 與 `npm run check`。瀏覽器從新局重做README步驟。`?qa=1`提供唯讀DOM快照；`qa-responsive.html`提供390×844、360×800、844×390的真實遊戲iframe，並非原生觸控或Safari模擬。
+
+單元測試中用於錯誤注入的直接狀態操作不可作為端到端完成證據；桌面JSON與遊戲事件由實際操作產生。
+
+## 最終結論
+
+28組自動測試通過；T01–T47共45項PASS、2項BLOCKED（T14原生觸控/WebKit、T34真實背景可見性生命週期）。遊戲核心可重複運作，但不能稱為整份規格的全裝置驗收全部通過。

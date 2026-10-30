@@ -1,0 +1,1198 @@
+[
+  {
+    "id": "ase-holding",
+    "title": "日月光投控",
+    "type": "企業",
+    "formalName": "日月光投資控股股份有限公司",
+    "englishName": "ASE Technology Holding Co., Ltd.",
+    "aliases": [
+      "ASEH",
+      "日月光投資控股",
+      "3711"
+    ],
+    "definition": "整合旗下封裝、測試與電子製造業務的控股公司；實際工廠服務由營運子公司承接。",
+    "detail": "日月光投控結合日月光半導體、矽品與環旭等事業。這個節點代表控股法人，不能把集團所有製造工作都算成控股公司親自執行。\n\n學習時先分清「股權組織」與「製程分工」：投控到日月光半導體是企業隸屬關係；日月光半導體到封裝服務才是提供服務關係。",
+    "classification": {
+      "activities": [
+        {
+          "label": "投資控股",
+          "priority": "主要"
+        },
+        {
+          "label": "封裝",
+          "priority": "其他"
+        },
+        {
+          "label": "測試",
+          "priority": "其他"
+        },
+        {
+          "label": "電子製造服務",
+          "priority": "其他"
+        }
+      ],
+      "models": [
+        "投資控股"
+      ],
+      "domains": [
+        "邏輯（集團）",
+        "系統整合（集團）"
+      ],
+      "applications": [
+        "運算",
+        "通訊",
+        "車用",
+        "消費電子"
+      ]
+    },
+    "answers": [
+      {
+        "question": "它主要提供什麼產品或服務？",
+        "text": "透過旗下事業提供封裝、測試及電子製造服務；投控本身負責集團層級整合。",
+        "refs": [
+          "packaging",
+          "testing",
+          "osat"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "它親自完成哪些工作，交付物是什麼？",
+        "text": "本體以控股與資源配置為主；封裝晶片、測試結果及系統組裝等交付物屬於各營運公司業務。",
+        "refs": [
+          "ase",
+          "packaging",
+          "testing"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "客戶通常屬於哪些類型，為什麼需要它？",
+        "text": "下游客戶由營運公司服務；半導體及電子系統企業需要封測與系統整合能力來完成可出貨產品。",
+        "refs": [
+          "fabless",
+          "idm",
+          "sip"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它參與哪些產業環節，採取什麼商業模式？",
+        "text": "本法人採投資控股模式，集團涵蓋 OSAT（委外封裝與測試）及 EMS（電子製造服務），不可視為同一法人同一製程。",
+        "refs": [
+          "osat",
+          "value-chain"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "理解它的定位，需要先懂哪三到五個關鍵概念？",
+        "text": "先理解委外封測、封裝、測試與系統級封裝，再區分控股法人與營運法人。",
+        "refs": [
+          "osat",
+          "packaging",
+          "testing",
+          "sip"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它與相似企業有哪些業務差異，與其他環節如何銜接？",
+        "text": "與日月光半導體的差別在法人層次：前者是控股平台，後者是營運公司。本圖以獨立股權關係連接兩者。",
+        "refs": [
+          "ase",
+          "osat",
+          "value-chain"
+        ],
+        "status": "分析性解釋"
+      }
+    ],
+    "sources": [
+      {
+        "title": "日月光投控：集團概況",
+        "url": "https://www.aseglobal.com/about/",
+        "publishedAt": "未標示",
+        "period": "官網業務說明；查核日可見版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "ASE Technology Holding：SEC 子公司清單 Exhibit 8",
+        "url": "https://www.sec.gov/Archives/edgar/data/1122411/000119312526135585/d50802dex8.htm",
+        "publishedAt": "未標示",
+        "period": "截至 2026-01-31 的子公司名單",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "經濟部：日月光投控公司登記",
+        "url": "https://findbiz.nat.gov.tw/fts/company/29187308",
+        "publishedAt": "未標示",
+        "period": "官網業務說明；查核日可見版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "note": "分類中封裝、測試與電子製造服務均指集團子公司活動，不是控股公司直接製造。客戶價值與差異比較為依業務範圍撰寫的教學解釋。",
+    "offerings": [
+      "集團投資與事業整合"
+    ],
+    "deliverables": [
+      "投資與資源配置；實體產品由子公司交付"
+    ],
+    "customerTypes": [
+      "旗下營運公司及其半導體、系統客戶"
+    ],
+    "technologyRefs": [
+      "advanced-packaging",
+      "sip"
+    ],
+    "prerequisiteRefs": [
+      "osat",
+      "packaging",
+      "testing",
+      "sip"
+    ]
+  },
+  {
+    "id": "ase",
+    "title": "日月光半導體",
+    "type": "企業",
+    "formalName": "日月光半導體製造股份有限公司",
+    "englishName": "Advanced Semiconductor Engineering, Inc.",
+    "aliases": [
+      "ASE",
+      "日月光（營運公司）"
+    ],
+    "definition": "把晶片封裝成可連接、可保護的元件，並測試它是否符合需求的半導體後段服務公司。",
+    "detail": "日月光半導體提供封裝與測試，業務涵蓋封裝設計、基板相關服務、晶圓針測、封裝組裝與最終測試。產品可延伸至異質整合和系統級封裝。\n\n它與日月光投控是不同法人；本節點聚焦半導體營運公司的服務範圍，集團電子製造服務不直接併入本體。",
+    "classification": {
+      "activities": [
+        {
+          "label": "封裝",
+          "priority": "主要"
+        },
+        {
+          "label": "測試",
+          "priority": "主要"
+        },
+        {
+          "label": "載板",
+          "priority": "其他"
+        }
+      ],
+      "models": [
+        "OSAT"
+      ],
+      "domains": [
+        "邏輯",
+        "射頻",
+        "混合訊號",
+        "系統整合"
+      ],
+      "applications": [
+        "運算",
+        "通訊",
+        "車用",
+        "消費電子"
+      ]
+    },
+    "answers": [
+      {
+        "question": "它主要提供什麼產品或服務？",
+        "text": "提供 IC 封裝、測試、封裝與基板設計，以及系統級封裝等整合服務。",
+        "refs": [
+          "packaging",
+          "testing",
+          "sip",
+          "substrate"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "它親自完成哪些工作，交付物是什麼？",
+        "text": "進行晶片組裝與互連、晶圓針測及成品測試；交付封裝元件、模組與測試結果。",
+        "refs": [
+          "packaging",
+          "wafer-test",
+          "final-test"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "客戶通常屬於哪些類型，為什麼需要它？",
+        "text": "典型服務對象是 IC 設計與 IDM 類客戶，需要把製造完成的晶粒變成可靠、可裝入系統的元件。",
+        "refs": [
+          "fabless",
+          "idm",
+          "packaging"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它參與哪些產業環節，採取什麼商業模式？",
+        "text": "主要參與封裝與測試，屬 OSAT（委外封裝與測試）模式；部分整合工作跨越傳統封裝邊界。",
+        "refs": [
+          "osat",
+          "advanced-packaging"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "理解它的定位，需要先懂哪三到五個關鍵概念？",
+        "text": "先懂封裝、測試、委外封測、系統級封裝與異質整合的基本目的。",
+        "refs": [
+          "packaging",
+          "testing",
+          "osat",
+          "sip",
+          "advanced-packaging"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它與相似企業有哪些業務差異，與其他環節如何銜接？",
+        "text": "相對以測試為主要工作的京元電子，日月光涵蓋更廣的封裝組裝與測試；典型流程承接晶圓製造後的晶粒。",
+        "refs": [
+          "kyec",
+          "manufacturing",
+          "packaging",
+          "testing"
+        ],
+        "status": "分析性解釋"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ASE：公司與業務介紹",
+        "url": "https://ase.aseglobal.com/about-ase/",
+        "publishedAt": "未標示",
+        "period": "官網業務說明；查核日可見版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "ASE：測試服務",
+        "url": "https://ase.aseglobal.com/test-services/",
+        "publishedAt": "未標示",
+        "period": "官網業務說明；查核日可見版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "ASE Technology Holding：SEC 子公司清單 Exhibit 8",
+        "url": "https://www.sec.gov/Archives/edgar/data/1122411/000119312526135585/d50802dex8.htm",
+        "publishedAt": "未標示",
+        "period": "截至 2026-01-31 的子公司名單",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "日月光：繁體中文公司介紹",
+        "url": "https://ase.aseglobal.com/ch/about-ase/",
+        "publishedAt": "未標示",
+        "period": "官網公司說明；查核日可見版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "note": "日月光集團、投控與本營運公司分開記錄。跨企業差異為業務範圍比較，不表示排名，也不推定具名客戶。",
+    "offerings": [
+      "封裝",
+      "晶圓針測",
+      "成品測試",
+      "系統級封裝"
+    ],
+    "deliverables": [
+      "封裝 IC",
+      "SiP 模組",
+      "測試結果"
+    ],
+    "customerTypes": [
+      "IC 設計公司",
+      "IDM"
+    ],
+    "technologyRefs": [
+      "advanced-packaging",
+      "sip",
+      "substrate",
+      "wafer-test",
+      "final-test"
+    ],
+    "prerequisiteRefs": [
+      "packaging",
+      "testing",
+      "osat",
+      "sip",
+      "advanced-packaging"
+    ]
+  },
+  {
+    "id": "ptech",
+    "title": "力成",
+    "type": "企業",
+    "formalName": "力成科技股份有限公司",
+    "englishName": "Powertech Technology Inc.",
+    "aliases": [
+      "PTI",
+      "力成科技",
+      "6239"
+    ],
+    "definition": "以記憶體封裝與測試為重要基礎，也提供邏輯及先進封裝服務的後段專業公司。",
+    "detail": "力成的服務可從晶圓凸塊、針測，延伸到封裝、測試、預燒與出貨。記憶體封測是理解其定位的重要起點，但不能據此認定只處理記憶體。\n\n官網亦列出覆晶、晶圓級封裝、SiP 與模組組裝；比較同業時應同時看產品領域與實際服務範圍。",
+    "classification": {
+      "activities": [
+        {
+          "label": "封裝",
+          "priority": "主要"
+        },
+        {
+          "label": "測試",
+          "priority": "主要"
+        },
+        {
+          "label": "模組組裝",
+          "priority": "其他"
+        }
+      ],
+      "models": [
+        "OSAT"
+      ],
+      "domains": [
+        "記憶體",
+        "邏輯",
+        "系統整合"
+      ],
+      "applications": [
+        "運算",
+        "車用",
+        "消費電子"
+      ]
+    },
+    "answers": [
+      {
+        "question": "它主要提供什麼產品或服務？",
+        "text": "提供記憶體與邏輯元件的封裝、針測、最終測試及相關模組組裝服務。",
+        "refs": [
+          "packaging",
+          "testing",
+          "dram",
+          "flash"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "它親自完成哪些工作，交付物是什麼？",
+        "text": "依服務委託進行晶圓凸塊、封裝、測試與預燒；交付封裝元件、模組及測試結果。",
+        "refs": [
+          "wafer-test",
+          "final-test",
+          "sip"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "客戶通常屬於哪些類型，為什麼需要它？",
+        "text": "典型客戶為記憶體及邏輯晶片供應商，需委託專業工廠完成後段量產與品質篩選。",
+        "refs": [
+          "dram",
+          "flash",
+          "logic",
+          "osat"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它參與哪些產業環節，採取什麼商業模式？",
+        "text": "以封裝、測試為主要活動，採 OSAT（委外封裝與測試）模式；記憶體則是產品領域。",
+        "refs": [
+          "osat",
+          "packaging",
+          "testing"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "理解它的定位，需要先懂哪三到五個關鍵概念？",
+        "text": "理解委外封測、封裝、測試、DRAM 與快閃記憶體。",
+        "refs": [
+          "osat",
+          "packaging",
+          "testing",
+          "dram",
+          "flash"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它與相似企業有哪些業務差異，與其他環節如何銜接？",
+        "text": "相較京元電子的測試定位，力成同時完成封裝；相較日月光，官網強調其記憶體服務基礎，但兩者均有跨領域服務。",
+        "refs": [
+          "kyec",
+          "ase",
+          "packaging",
+          "dram"
+        ],
+        "status": "分析性解釋"
+      }
+    ],
+    "sources": [
+      {
+        "title": "力成科技：公司簡介",
+        "url": "https://www.pti.com.tw/zh/about/about",
+        "publishedAt": "未標示",
+        "period": "官網業務說明；查核日可見版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "力成科技：服務與技術",
+        "url": "https://www.pti.com.tw/zh",
+        "publishedAt": "未標示",
+        "period": "官網業務說明；查核日可見版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "note": "「記憶體基礎」是服務組合描述，不代表所有營收或排他性市場定位；不列未查證的具名客戶。",
+    "offerings": [
+      "記憶體封測",
+      "邏輯封測",
+      "模組組裝"
+    ],
+    "deliverables": [
+      "封裝 IC",
+      "模組",
+      "測試結果"
+    ],
+    "customerTypes": [
+      "記憶體晶片供應商",
+      "邏輯晶片供應商"
+    ],
+    "technologyRefs": [
+      "wafer-test",
+      "final-test",
+      "sip",
+      "advanced-packaging"
+    ],
+    "prerequisiteRefs": [
+      "osat",
+      "packaging",
+      "testing",
+      "dram",
+      "flash"
+    ]
+  },
+  {
+    "id": "kyec",
+    "title": "京元電子",
+    "type": "企業",
+    "formalName": "京元電子股份有限公司",
+    "englishName": "King Yuan Electronics Co., Ltd.",
+    "aliases": [
+      "KYEC",
+      "2449"
+    ],
+    "definition": "替晶片做電性、功能與可靠度相關測試，協助客戶篩選出符合規格的產品。",
+    "detail": "京元電子以專業測試服務為核心，涵蓋晶圓測試、成品測試、預燒與系統級測試。測試晶片的產品領域包括邏輯、混合訊號、射頻及 SoC 等。\n\n測試在封裝前後皆可能出現；它提供測試產能與工程能力，不因同處後段產業就等於以封裝組裝為主。",
+    "classification": {
+      "activities": [
+        {
+          "label": "測試",
+          "priority": "主要"
+        },
+        {
+          "label": "設備研發（內部測試用途）",
+          "priority": "其他"
+        }
+      ],
+      "models": [
+        "委外專業測試"
+      ],
+      "domains": [
+        "邏輯",
+        "混合訊號",
+        "射頻",
+        "SoC"
+      ],
+      "applications": [
+        "運算",
+        "通訊",
+        "車用",
+        "工業",
+        "消費電子"
+      ]
+    },
+    "answers": [
+      {
+        "question": "它主要提供什麼產品或服務？",
+        "text": "提供晶圓針測、成品測試、預燒、系統級測試與測試工程支援。",
+        "refs": [
+          "testing",
+          "wafer-test",
+          "final-test"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "它親自完成哪些工作，交付物是什麼？",
+        "text": "開發與執行測試流程，量測、篩選與分級晶片；交付測試結果及完成篩選的晶圓或封裝元件。",
+        "refs": [
+          "wafer-test",
+          "final-test",
+          "yield"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "客戶通常屬於哪些類型，為什麼需要它？",
+        "text": "官網列出 Fabless、IDM 與 Foundry 類客戶，需要測試產能、工程支援及出貨品質篩選。",
+        "refs": [
+          "fabless",
+          "idm",
+          "foundry",
+          "testing"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "它參與哪些產業環節，採取什麼商業模式？",
+        "text": "主要活動是測試，採委外專業測試模式，可理解為廣義 OSAT 產業的測試分工。",
+        "refs": [
+          "testing",
+          "osat"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "理解它的定位，需要先懂哪三到五個關鍵概念？",
+        "text": "先懂測試、晶圓針測、成品測試及良率，便能分辨它與製造或封裝公司的工作。",
+        "refs": [
+          "testing",
+          "wafer-test",
+          "final-test",
+          "yield"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它與相似企業有哪些業務差異，與其他環節如何銜接？",
+        "text": "日月光與力成同時提供封裝與測試；京元電子的核心辨識點是專業測試。晶圓針測接在製造之後，成品測試接在封裝之後。",
+        "refs": [
+          "ase",
+          "ptech",
+          "manufacturing",
+          "packaging"
+        ],
+        "status": "分析性解釋"
+      }
+    ],
+    "sources": [
+      {
+        "title": "京元電子：公司簡介與核心測試業務",
+        "url": "https://www.kyec.com.tw/zh-tw/About/%E5%85%AC%E5%8F%B8%E7%B0%A1%E4%BB%8B",
+        "publishedAt": "未標示",
+        "period": "官網業務說明；查核日可見版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "note": "不將自製測試設備研發直接等同對外設備銷售。比較為產業分工解釋。",
+    "offerings": [
+      "晶圓針測",
+      "成品測試",
+      "預燒",
+      "系統級測試"
+    ],
+    "deliverables": [
+      "測試報告與分級結果",
+      "完成測試的晶圓或元件"
+    ],
+    "customerTypes": [
+      "Fabless",
+      "IDM",
+      "Foundry"
+    ],
+    "technologyRefs": [
+      "wafer-test",
+      "final-test",
+      "soc",
+      "rf"
+    ],
+    "prerequisiteRefs": [
+      "testing",
+      "wafer-test",
+      "final-test",
+      "yield"
+    ]
+  },
+  {
+    "id": "globalwafers",
+    "title": "環球晶",
+    "type": "企業",
+    "formalName": "環球晶圓股份有限公司",
+    "englishName": "GlobalWafers Co., Ltd.",
+    "aliases": [
+      "環球晶圓",
+      "GWC",
+      "6488"
+    ],
+    "definition": "提供製造半導體所需的晶棒與晶圓材料，讓晶圓廠有合格的起始基材。",
+    "detail": "環球晶研發與製造半導體晶棒及晶圓，官網產品涵蓋拋光片、磊晶片、退火片、SOI 與化合物半導體材料等。\n\n材料晶圓是後續製造電路的起點；這與晶圓代工廠接受電路設計並加工晶片的工作不同。",
+    "classification": {
+      "activities": [
+        {
+          "label": "材料",
+          "priority": "主要"
+        }
+      ],
+      "models": [
+        "半導體材料製造與銷售"
+      ],
+      "domains": [
+        "矽晶圓",
+        "化合物半導體材料"
+      ],
+      "applications": [
+        "運算",
+        "通訊",
+        "車用",
+        "工業",
+        "消費電子"
+      ]
+    },
+    "answers": [
+      {
+        "question": "它主要提供什麼產品或服務？",
+        "text": "提供晶棒、拋光晶圓、磊晶晶圓等半導體基材。",
+        "refs": [
+          "silicon-wafer",
+          "wafer"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "它親自完成哪些工作，交付物是什麼？",
+        "text": "進行晶體與晶圓材料製造、加工與品質控制，交付符合客戶材料規格的晶圓基材。",
+        "refs": [
+          "silicon-wafer",
+          "manufacturing"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "客戶通常屬於哪些類型，為什麼需要它？",
+        "text": "典型對象為晶圓製造企業，需要純度、平坦度等符合製程要求的起始材料。",
+        "refs": [
+          "manufacturing",
+          "foundry",
+          "idm"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它參與哪些產業環節，採取什麼商業模式？",
+        "text": "屬材料供應與製造環節，以晶圓材料產品銷售為主，不把材料晶圓製造標成 Foundry。",
+        "refs": [
+          "silicon-wafer",
+          "foundry"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "理解它的定位，需要先懂哪三到五個關鍵概念？",
+        "text": "先分清材料晶圓、晶圓製造、晶圓代工與產業價值鏈。",
+        "refs": [
+          "silicon-wafer",
+          "manufacturing",
+          "foundry",
+          "value-chain"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它與相似企業有哪些業務差異，與其他環節如何銜接？",
+        "text": "相對晶圓代工廠，它交付的是製造電路所需的基材；與家登的差別是晶圓本身和保護、傳送晶圓的載具。",
+        "refs": [
+          "foundry",
+          "gudeng",
+          "carrier"
+        ],
+        "status": "分析性解釋"
+      }
+    ],
+    "sources": [
+      {
+        "title": "環球晶：公司治理與基本業務",
+        "url": "https://www.sas-globalwafers.com/corporate/",
+        "publishedAt": "未標示",
+        "period": "官網業務說明；查核日可見版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "環球晶：公司簡介與產品分類",
+        "url": "https://www.sas-globalwafers.com/profile-tw/",
+        "publishedAt": "未標示",
+        "period": "官網業務說明；查核日可見版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "環球晶：英文公司概況與材料製程",
+        "url": "https://www.sas-globalwafers.com/en/group-profile/",
+        "publishedAt": "未標示",
+        "period": "官網公司說明；查核日可見版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "note": "下游應用表示材料可支援的產業需求，不代表它直接銷售終端系統；未推定特定公司交易關係。",
+    "offerings": [
+      "晶棒",
+      "矽晶圓",
+      "磊晶晶圓"
+    ],
+    "deliverables": [
+      "半導體晶圓基材"
+    ],
+    "customerTypes": [
+      "晶圓代工廠",
+      "IDM 等晶圓製造商"
+    ],
+    "technologyRefs": [
+      "silicon-wafer",
+      "wafer"
+    ],
+    "prerequisiteRefs": [
+      "silicon-wafer",
+      "manufacturing",
+      "foundry",
+      "value-chain"
+    ]
+  },
+  {
+    "id": "unimicron",
+    "title": "欣興",
+    "type": "企業",
+    "formalName": "欣興電子股份有限公司",
+    "englishName": "Unimicron Technology Corp.",
+    "aliases": [
+      "欣興電子",
+      "3037"
+    ],
+    "definition": "製造 IC 載板與印刷電路板，把晶片、封裝與電子系統的電路連接起來。",
+    "detail": "欣興提供 IC 載板與 PCB，證交所公司資料亦列出高密度互連（HDI）相關能力。IC 載板位在封裝與系統連接介面，是半導體周邊的重要產品。\n\n製造載板與製造晶片電路是不同工作；「基板」一詞亦須分清半導體材料基材和封裝用載板。",
+    "classification": {
+      "activities": [
+        {
+          "label": "載板",
+          "priority": "主要"
+        },
+        {
+          "label": "印刷電路板",
+          "priority": "主要"
+        }
+      ],
+      "models": [
+        "載板與電路板製造"
+      ],
+      "domains": [
+        "IC 載板",
+        "高密度互連 PCB"
+      ],
+      "applications": [
+        "運算",
+        "通訊",
+        "消費電子"
+      ]
+    },
+    "answers": [
+      {
+        "question": "它主要提供什麼產品或服務？",
+        "text": "提供 IC 封裝載板與各類印刷電路板，包含高密度互連產品。",
+        "refs": [
+          "substrate",
+          "packaging"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "它親自完成哪些工作，交付物是什麼？",
+        "text": "製造電路互連結構，交付 IC 載板或 PCB；它交付的不是已完成電晶體製程的晶圓。",
+        "refs": [
+          "substrate",
+          "manufacturing"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "客戶通常屬於哪些類型，為什麼需要它？",
+        "text": "典型需求來自封裝與電子系統製造環節，需把晶片細密接點連至較大的系統電路。",
+        "refs": [
+          "packaging",
+          "sip",
+          "substrate"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它參與哪些產業環節，採取什麼商業模式？",
+        "text": "屬載板與電子互連製造，按客戶規格供應實體產品；不是晶圓代工模式。",
+        "refs": [
+          "substrate",
+          "foundry"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "理解它的定位，需要先懂哪三到五個關鍵概念？",
+        "text": "先理解封裝、封裝載板、晶圓材料與系統級封裝，避免把不同「基板」混淆。",
+        "refs": [
+          "packaging",
+          "substrate",
+          "silicon-wafer",
+          "sip"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它與相似企業有哪些業務差異，與其他環節如何銜接？",
+        "text": "與日月光的封裝組裝工作可在典型流程中銜接；與環球晶的差別在封裝互連載板與半導體材料基材。這不表示兩家公司間已確認交易。",
+        "refs": [
+          "ase",
+          "globalwafers",
+          "substrate",
+          "silicon-wafer"
+        ],
+        "status": "分析性解釋"
+      }
+    ],
+    "sources": [
+      {
+        "title": "臺灣證券交易所：欣興公司基本業務資料",
+        "url": "https://www.twse.com.tw/pdf/en/3037_en.pdf",
+        "publishedAt": "2026-10-28",
+        "period": "2026-10-28 產生的公司資料",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "note": "欣興官網本次擷取逾時，已以證交所公司資料核對 PCB、IC 載板與 HDI 業務；未採用無法查核的最新營收或客戶敘述。",
+    "offerings": [
+      "IC 載板",
+      "PCB",
+      "HDI 板"
+    ],
+    "deliverables": [
+      "封裝載板",
+      "印刷電路板"
+    ],
+    "customerTypes": [
+      "半導體封裝環節",
+      "電子系統製造商"
+    ],
+    "technologyRefs": [
+      "substrate",
+      "sip"
+    ],
+    "prerequisiteRefs": [
+      "packaging",
+      "substrate",
+      "silicon-wafer",
+      "sip"
+    ]
+  },
+  {
+    "id": "gudeng",
+    "title": "家登",
+    "type": "企業",
+    "formalName": "家登精密工業股份有限公司",
+    "englishName": "Gudeng Precision Industrial Co., Ltd.",
+    "aliases": [
+      "家登精密",
+      "Gudeng",
+      "3680"
+    ],
+    "definition": "製作保護、儲存與傳送光罩和晶圓的精密載具，降低製程中的污染與搬運風險。",
+    "detail": "家登的半導體主力產品包括光罩傳載、晶圓傳載及先進封裝傳載解決方案。EUV POD、FOUP 等是理解其價值的具體例子。\n\n這些載具雖不負責曝光或蝕刻，卻要與製程設備、潔淨環境及搬運介面相容；本節點聚焦家登本體，不把子公司的機台設備全部算成本體業務。",
+    "classification": {
+      "activities": [
+        {
+          "label": "材料與載具",
+          "priority": "主要"
+        },
+        {
+          "label": "精密製造",
+          "priority": "主要"
+        },
+        {
+          "label": "清洗服務",
+          "priority": "其他"
+        }
+      ],
+      "models": [
+        "精密載具製造與整合服務"
+      ],
+      "domains": [
+        "晶圓載具",
+        "光罩載具",
+        "先進封裝載具"
+      ],
+      "applications": [
+        "運算",
+        "通訊",
+        "車用",
+        "工業"
+      ]
+    },
+    "answers": [
+      {
+        "question": "它主要提供什麼產品或服務？",
+        "text": "供應晶圓載具、光罩載具、EUV 光罩傳送盒及先進封裝載具，並提供相關清洗服務。",
+        "refs": [
+          "carrier",
+          "lithography",
+          "advanced-packaging"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "它親自完成哪些工作，交付物是什麼？",
+        "text": "設計與製造符合潔淨、保護與傳載需求的精密載具，交付可用於製造流程的盒體或承載方案。",
+        "refs": [
+          "carrier",
+          "yield"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "客戶通常屬於哪些類型，為什麼需要它？",
+        "text": "典型使用者是半導體製造與光罩相關廠商，需要在搬運、儲存時保護高價值的晶圓與光罩。",
+        "refs": [
+          "manufacturing",
+          "lithography",
+          "carrier"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它參與哪些產業環節，採取什麼商業模式？",
+        "text": "位於製造支援環節，以精密載具及整合服務創造價值；不因服務晶圓廠就成為 Foundry。",
+        "refs": [
+          "carrier",
+          "foundry",
+          "value-chain"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "理解它的定位，需要先懂哪三到五個關鍵概念？",
+        "text": "先理解載具、晶圓、微影及良率，便可理解潔淨保護與製程的連結。",
+        "refs": [
+          "carrier",
+          "wafer",
+          "lithography",
+          "yield"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它與相似企業有哪些業務差異，與其他環節如何銜接？",
+        "text": "環球晶提供晶圓材料，家登提供傳載保護工具；漢唐則建構廠務環境，三者對應不同製造支援需求。",
+        "refs": [
+          "globalwafers",
+          "uis",
+          "silicon-wafer",
+          "facilities"
+        ],
+        "status": "分析性解釋"
+      }
+    ],
+    "sources": [
+      {
+        "title": "家登：官網產品範疇",
+        "url": "https://www.gudeng.com/",
+        "publishedAt": "未標示",
+        "period": "官網業務說明；查核日可見版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "家登：事業簡介與主力產品",
+        "url": "https://esg.gudeng.com/Value",
+        "publishedAt": "未標示",
+        "period": "官網業務說明；查核日可見版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "經濟部：家登公司登記與英文名稱",
+        "url": "https://findbiz.nat.gov.tw/fts/company/16406379",
+        "publishedAt": "未標示",
+        "period": "官網公司說明；查核日可見版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "note": "「材料與載具」是製造支援分類；實體機台設備與子公司活動應另行查核，不將集團稱呼與法人混合。",
+    "offerings": [
+      "光罩載具",
+      "晶圓載具",
+      "先進封裝載具",
+      "清洗服務"
+    ],
+    "deliverables": [
+      "EUV POD",
+      "FOUP 等傳載產品"
+    ],
+    "customerTypes": [
+      "半導體製造企業",
+      "光罩相關企業"
+    ],
+    "technologyRefs": [
+      "carrier",
+      "lithography",
+      "advanced-packaging"
+    ],
+    "prerequisiteRefs": [
+      "carrier",
+      "wafer",
+      "lithography",
+      "yield"
+    ]
+  },
+  {
+    "id": "uis",
+    "title": "漢唐",
+    "type": "企業",
+    "formalName": "漢唐集成股份有限公司",
+    "englishName": "United Integrated Services Co., Ltd.",
+    "aliases": [
+      "漢唐集成",
+      "UIS",
+      "2404"
+    ],
+    "definition": "整合無塵室、機電與製程支援系統，讓高科技工廠具備可運轉的生產環境。",
+    "detail": "漢唐以工程系統整合服務支援高科技建廠，涵蓋無塵室、空調、電力、監控、氣體、超純水及二次配等工程。\n\n它可以承接採購、施工、試車、移交與維護，交付的是可用的設施與系統，而非晶片或晶圓加工服務。",
+    "classification": {
+      "activities": [
+        {
+          "label": "廠務工程",
+          "priority": "主要"
+        },
+        {
+          "label": "系統整合",
+          "priority": "主要"
+        },
+        {
+          "label": "維護服務",
+          "priority": "其他"
+        }
+      ],
+      "models": [
+        "工程統包與系統整合"
+      ],
+      "domains": [
+        "無塵室",
+        "機電與製程支援系統"
+      ],
+      "applications": [
+        "半導體製造",
+        "其他高科技產業"
+      ]
+    },
+    "answers": [
+      {
+        "question": "它主要提供什麼產品或服務？",
+        "text": "提供建廠工程、系統整合統包、無塵室、機電、二次配及維護保養服務。",
+        "refs": [
+          "facilities",
+          "manufacturing"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "它親自完成哪些工作，交付物是什麼？",
+        "text": "整合系統介面，執行採購、工程施工、試車及移交；交付具備運轉條件的廠務系統。",
+        "refs": [
+          "facilities",
+          "ecosystem"
+        ],
+        "status": "已查證事實"
+      },
+      {
+        "question": "客戶通常屬於哪些類型，為什麼需要它？",
+        "text": "客戶類型為建置或擴充高科技工廠的企業，需要多種系統協調並達到生產環境要求。",
+        "refs": [
+          "manufacturing",
+          "facilities"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它參與哪些產業環節，採取什麼商業模式？",
+        "text": "參與廠務與建廠工程，以工程承攬、統包與維護服務為主，不屬 Fabless、Foundry 或 OSAT。",
+        "refs": [
+          "facilities",
+          "value-chain"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "理解它的定位，需要先懂哪三到五個關鍵概念？",
+        "text": "先懂廠務工程、晶圓製造、產業價值鏈與生態系協作。",
+        "refs": [
+          "facilities",
+          "manufacturing",
+          "value-chain",
+          "ecosystem"
+        ],
+        "status": "分析性解釋"
+      },
+      {
+        "question": "它與相似企業有哪些業務差異，與其他環節如何銜接？",
+        "text": "晶圓廠執行晶片製程，漢唐支援工廠可運轉的條件；相較家登的單項傳載產品，漢唐以多系統工程整合為主。",
+        "refs": [
+          "foundry",
+          "gudeng",
+          "carrier",
+          "facilities"
+        ],
+        "status": "分析性解釋"
+      }
+    ],
+    "sources": [
+      {
+        "title": "漢唐：關於漢唐與服務項目",
+        "url": "https://www.uisco.com.tw/aboutus.html",
+        "publishedAt": "未標示",
+        "period": "官網業務說明；查核日可見版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "漢唐：公司簡介",
+        "url": "https://www.uisco.com.tw/UIS_introduction-2023.pdf",
+        "publishedAt": "2023",
+        "period": "2023 公司簡介",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "note": "工程統包不代表所有工項均由本體員工施作；具體分包與合約範圍依各專案而定。本圖不推定具名建廠客戶。",
+    "offerings": [
+      "建廠工程",
+      "無塵室與機電整合",
+      "二次配",
+      "維護"
+    ],
+    "deliverables": [
+      "廠務系統",
+      "工程移交與維護服務"
+    ],
+    "customerTypes": [
+      "晶圓製造企業",
+      "其他高科技建廠業主"
+    ],
+    "technologyRefs": [
+      "facilities",
+      "ecosystem"
+    ],
+    "prerequisiteRefs": [
+      "facilities",
+      "manufacturing",
+      "value-chain",
+      "ecosystem"
+    ]
+  }
+]

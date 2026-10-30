@@ -1,0 +1,129 @@
+[
+  {
+    "name": "one-screen layout",
+    "viewport": [
+      1440,
+      900
+    ],
+    "sceneHeight": 672,
+    "scenePercent": 75
+  },
+  {
+    "name": "reduced motion",
+    "pass": true
+  },
+  {
+    "name": "one-screen layout",
+    "viewport": [
+      1366,
+      768
+    ],
+    "sceneHeight": 540,
+    "scenePercent": 70
+  },
+  {
+    "name": "one-screen layout",
+    "viewport": [
+      1280,
+      720
+    ],
+    "sceneHeight": 527,
+    "scenePercent": 73
+  },
+  {
+    "name": "one-screen layout",
+    "viewport": [
+      390,
+      844
+    ],
+    "sceneHeight": 597,
+    "scenePercent": 71
+  },
+  {
+    "name": "one-screen layout",
+    "viewport": [
+      375,
+      667
+    ],
+    "sceneHeight": 420,
+    "scenePercent": 63
+  },
+  {
+    "name": "one-screen layout",
+    "viewport": [
+      360,
+      740
+    ],
+    "sceneHeight": 493,
+    "scenePercent": 67
+  },
+  {
+    "name": "all content preserved",
+    "missing": [],
+    "oldLinks": [
+      "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm",
+      "https://www.sec.gov/Archives/edgar/data/1122411/000119312526135585/d50802d20f.htm",
+      "https://asekh.aseglobal.com/products-services/test.html",
+      "https://www.kyec.com.tw/en/Solution/testing-technology-support"
+    ],
+    "links": [
+      "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm",
+      "https://www.sec.gov/Archives/edgar/data/1122411/000119312526135585/d50802d20f.htm",
+      "https://asekh.aseglobal.com/products-services/test.html",
+      "https://www.kyec.com.tw/en/Solution/testing-technology-support"
+    ],
+    "title": true,
+    "legend": true,
+    "notes": "實物只在一處，資訊可以保留。同一家公司，同時參與三種關係。",
+    "steps": 11
+  },
+  {
+    "name": "controls and keyboard",
+    "pass": true
+  },
+  {
+    "name": "full cycle",
+    "viewport": [
+      390,
+      844
+    ],
+    "speed": 1,
+    "elapsed": 31.996,
+    "nodes": 126
+  },
+  {
+    "name": "full cycle",
+    "viewport": [
+      1440,
+      900
+    ],
+    "speed": 1,
+    "elapsed": 32.06,
+    "nodes": 127
+  },
+  {
+    "name": "full cycle",
+    "viewport": [
+      390,
+      844
+    ],
+    "speed": 0.5,
+    "elapsed": 63.994,
+    "nodes": 126
+  },
+  {
+    "name": "full cycle",
+    "viewport": [
+      1440,
+      900
+    ],
+    "speed": 0.5,
+    "elapsed": 64.035,
+    "nodes": 127
+  },
+  {
+    "name": "complete",
+    "passed": 6,
+    "total": 6
+  }
+]

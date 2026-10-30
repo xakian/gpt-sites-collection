@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-28",
+  "dataset": {"nodes":40,"relations":62,"dimensions":5,"domains":8},
+  "browser":"Chrome via supported Sites preview",
+  "verified": [
+    "Switch X axis and prevent identical axis selection",
+    "Open aggregate marker and select a non-representative node",
+    "Navigate shared child KD-014 and its three parents",
+    "Inspect directed parent-child relations",
+    "Edit title, score and reason; reload; recover changes",
+    "Create a node with null scores and connect it to an existing node",
+    "Fill a pending score and return that node to the plot",
+    "Download full JSON, import the downloaded file, and reload",
+    "Reject invalid import without changing the current dataset",
+    "Add a dimension and show all nodes as pending for that axis",
+    "Import a dataset with different dimensions and recover valid axes",
+    "Pan, zoom, and reset to original transform",
+    "834px tablet iframe layout has no horizontal overflow",
+    "Tablet filter drawer opens and exposes search"
+  ],
+  "automated":"node verify.mjs: PASS",
+  "limits":"Touch gesture handlers implemented; no physical iPad or Safari test was available.",
+  "testData":"All temporary browser test edits restored via the baseline JSON backup. Deployment serves the final seed content."
+}

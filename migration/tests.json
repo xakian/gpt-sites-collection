@@ -1,0 +1,86 @@
+[
+  {
+    "site": "wafer-electrical-test-20261030",
+    "command": "node --test tests/model.test.mjs tests/player.test.mjs",
+    "exitCode": 0,
+    "output": "✔ SCI-01,03,04: measure, compare, then functional result (2.9216ms)\n✔ SCI-05,06,08,10: current, comparison, total, map thresholds (0.7848ms)\n✔ SCI-13: movement and electrical invariants throughout 4001 frames (18.3478ms)\n✔ SCI-14,16: preserved final data, limits, null and windows (0.2251ms)\n✔ PLAY-04,08,09: deterministic seeking and masked reset (3.6769ms)\n✔ PLAY-01..10 & VIEW-05: clock lifecycle with deterministic host events (6.9398ms)\nℹ tests 6\nℹ suites 0\nℹ pass 6\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 144.476\n"
+  },
+  {
+    "site": "supply-chain-three-relations-20261029",
+    "command": "node tests/model.test.cjs",
+    "exitCode": 0,
+    "output": "192057 assertions passed; all 32,001 time samples plus required boundaries.\n"
+  },
+  {
+    "site": "soic-eight-observer",
+    "command": "node --test tests/acceptance.test.mjs",
+    "exitCode": 0,
+    "output": "✔ wide: six scientific keyframes and retained identity (2.6995ms)\n✔ wide: direct seeking equals sequential evaluation; +/-1ms joins are continuous (64.9395ms)\n✔ wide: transfer bounds and permanent bonds (3.222ms)\n✔ tall: six scientific keyframes and retained identity (0.1748ms)\n✔ tall: direct seeking equals sequential evaluation; +/-1ms joins are continuous (41.2865ms)\n✔ tall: transfer bounds and permanent bonds (2.8597ms)\n✔ pause freezes all state, speeds preserve phase, replay keeps one schedule (0.7495ms)\n✔ 30 second background freeze preserves both playing and paused intentions (0.1968ms)\n✔ reduced motion starts at 1.70s and requires explicit play; seek is paused (0.2525ms)\nℹ tests 9\nℹ suites 0\nℹ pass 9\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 236.919\n"
+  },
+  {
+    "site": "semiconductor-coordinate-atlas-1029",
+    "command": "node --test tests/coordinate-motion.test.mjs tests/core.test.mjs tests/hierarchy.test.mjs tests/history.test.mjs tests/map-layout.test.mjs tests/relations.test.mjs tests/transfer.test.mjs",
+    "exitCode": 0,
+    "output": "PASS easing endpoints, intermediate positions, monotonic path, unlocated transitions, interruption continuity, cancellation and reduced motion.\n✔ tests\\coordinate-motion.test.mjs (110.5465ms)\nPASS 48 unique complete topics and valid references\nPASS PM has 44 central and 4 outside\nPASS all 12 axis pairs conserve identities\nPASS companies cross into SR without overwriting not-applicable\nPASS groups preserve every real coordinate and identity\nPASS search Chinese English aliases and filters\nPASS filter does not change max or counts\nPASS S uses only direct collection and R deduplicates predicates\nPASS metrics exclude self loops invalid endpoints pending edges\nPASS known zero zero enters origin\nPASS unknown pending and not applicable stay outside\nPASS reject invalid types negative fractional >4 and sentinel missing values\nPASS adding topic updates counts and preserves previous scores\nPASS empty search and all unpositioned are legal\n14 checks passed; 72 relationships; R max 9, S max 8\n✔ tests\\core.test.mjs (136.2118ms)\nPASS real hierarchy covers 48 topics, preserves ALD/CoWoS paths and six unassigned topics\nPASS multiple parents keep both routes, deduplicate collection edges, ignore unrelated/pending/invalid edges and preserve input\nPASS cycles, missing IDs, bounded multiple routes and empty data are safe\n✔ tests\\hierarchy.test.mjs (117.4504ms)\nHistory: camera, back/forward, branches, deduplication, filters, routes, storage validation, resize and 60-position bound passed.\n✔ tests\\history.test.mjs (124.2574ms)\nPassed: 48 axis/viewport layouts, independent dots, deterministic overview, edge deduplication, boundaries, nearest selection, unchanged data.\n✔ tests\\map-layout.test.mjs (352.379ms)\nPASS 17 relation kinds have unique non-color signatures, five colors and valid arrow heads\nPASS parallel and opposite-direction edges retain separate paths, reverse endpoints and finite geometry\nPASS actual ALD pair preserves both predicates without mutating or merging data\n✔ tests\\relations.test.mjs (111.243ms)\nPASS import shape/security/IDs/scores/references, exact diff, ordering/removal, zero/unknown/empty/cycles, file bounds, atomic storage, reload, undo, reset, stale writes and quota/corrupt recovery\n✔ tests\\transfer.test.mjs (245.6902ms)\nℹ tests 7\nℹ suites 0\nℹ pass 7\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 407.8204\n"
+  },
+  {
+    "site": "semiconductor-foundry-lab",
+    "command": "node --test tests/game.test.mjs",
+    "exitCode": 0,
+    "output": "✔ retained hex geometry: 217 cells, six neighbors and round-trip coordinates (2.4706ms)\n✔ manual production loop uses actual path movement, conserves all material and rewards once (8.6782ms)\n✔ paused simulation ignores all intents and preserves jobs, inventory, tasks and clocks (0.5794ms)\n✔ processing consumes inputs once and emits output exactly once (4.2498ms)\n✔ inspection classifies anomalous material without improving quality (0.7934ms)\n✔ fast mode has explicit power and periodic anomaly; stable mode avoids sample anomaly (3.6164ms)\n✔ power pressure rejects new jobs without consuming ingredients (2.3459ms)\n✔ construction preview and cancel cost nothing; occupancy / entry obstruction / outside rejected (3.0441ms)\n✔ moving equipment preserves its inventory, invalidates routes and refuses in-flight work (1.3878ms)\n✔ actors and equipment cannot overlap, but a clear direction moves once (0.4286ms)\n✔ two workers cannot reserve the last source material twice (0.9206ms)\n✔ manual take respects worker reservations (0.4442ms)\n✔ workers use real movement and shared production rules to complete all orders without duplication (2439.9166ms)\n✔ operator assignment stays unchanged until active transport completes (0.292ms)\n✔ save round-trip preserves partially processed batch and no offline advancement (5.1662ms)\n✔ save round-trip preserves reserved / carried logistics task without duplicating a wafer (97.7707ms)\n✔ separate save envelope rejects combat saves, content changes, negative stock, missing recipes and collisions (1.308ms)\n✔ corrupt job metadata and duplicate reservations rejected atomically (0.4395ms)\n✔ research and utility upgrade cost once and unlock measurable behavior (2.0804ms)\n✔ presentation interpolates any actor collection in 140ms and never changes logical state (0.6872ms)\n✔ pause freezes presentation and reduced motion snaps without state mutation (0.2027ms)\n✔ data validator rejects duplicate ids, missing references, negative quantities and cyclic unlocks (1.1284ms)\n✔ same-type content extension needs no geometry, camera or runtime changes (0.2533ms)\n✔ new equipment definition actually runs the same process behavior with different data (1.1642ms)\n✔ a second tap buffers during movement recovery and executes once when ready (0.5103ms)\nℹ tests 25\nℹ suites 0\nℹ pass 25\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 2708.9934\n"
+  },
+  {
+    "site": "semiconductor-foundry-lab",
+    "command": "node scripts/validate.mjs",
+    "exitCode": 0,
+    "output": "Content contracts, 23 static assets, module imports and JavaScript syntax passed.\n"
+  },
+  {
+    "site": "wafer-works-lab-20261029",
+    "command": "node --test tests/logistics.test.mjs tests/manual.test.mjs tests/reliability.test.mjs",
+    "exitCode": 0,
+    "output": "✔ T11 T12 T29 T30 actual worker path, reservation and permissions (342.1662ms)\n✔ T08 exact layout distance and time 3/11 tiles (470.2159ms)\n✔ T31 cancel held material walks back, T13 reload mid-action (241.0537ms)\n✔ T18 T25 T26 T27 fast recipe and upgrade use real costs (370.243ms)\n✔ T37 ten further batches with worker and paid supplies, no ghosts (1315.4993ms)\n✔ M0 content and initial invariants (10.2235ms)\n✔ T01 T02 T03 T17 T23 T24 movement pickup drop capacity placement (105.5293ms)\n✔ M2 T04 T05 T06 T07 T09 T19 T21 T22 exact single deposit (65.9165ms)\n✔ M3 T10 T16 T20 T28 manual command end-to-end from new resources (259.5889ms)\n✔ T13 T33 T34 T39 T44 snapshot roundtrip, invalid imports, quota and checkpoints (894.2464ms)\n✔ T40 short actions revalidate range, revisions and retain their source (45.7946ms)\n✔ T13 saved in-flight short action keeps its lock and commits once (113.1028ms)\n✔ T19 partial refill caps, wrong material and full tank leave containers (27.9304ms)\n✔ T20 tool requirement, wrong pattern and unique removal (71.9846ms)\n✔ T18 upgraded time 36/24 seconds and reserved operating cash (202.1555ms)\n✔ T22 remote operation rejected while inspect information stays available (52.5873ms)\n✔ T27 exact deadline tiers, rush freshness and no active-order replacement (319.5005ms)\n✔ T32 worker returning to full warehouse waits safely then handoff (216.9367ms)\n✔ T41 purchase reserves final slot, reload and receive once (303.6406ms)\n✔ T42 actual rolling event metrics (0.6398ms)\n✔ T45 abort prohibited first order, quarantine retained and empty machine recovers (268.7038ms)\n✔ T46 paused management commits without advancing any process tick (54.1947ms)\n✔ T36 new world discards all old task/job references (197.8974ms)\n✔ T38 T47 content-only alternative machine and repeat inspection node (234.2938ms)\n✔ T38 alternative equipment runs existing route and roundtrips through persistence (285.6784ms)\n✔ T23 rejects complete barrier, infrastructure ports and occupied player cell (6.3008ms)\n✔ T24 rejects invalid floor drop without losing held item (40.1583ms)\n✔ T20 missing or incorrect mask rejects start atomically (40.672ms)\nℹ tests 28\nℹ suites 0\nℹ pass 28\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 3524.14\n"
+  },
+  {
+    "site": "diffusion-points-20261029",
+    "command": "node qa/unit21-check.cjs",
+    "exitCode": 0,
+    "output": "{\"syntax\":\"pass\",\"pages\":24,\"conservedStates\":9001,\"atoms\":24,\"vacancies\":1,\"exchanges\":6,\"dopantJumps\":2,\"concepts\":7,\"transitionContinuity\":\"pass\",\"renderContracts\":\"pass\"}\n"
+  },
+  {
+    "site": "diffusion-points-20261029",
+    "command": "node qa/unit22-check.cjs",
+    "exitCode": 0,
+    "output": "{\"syntax\":\"pass\",\"pages\":24,\"states\":8109,\"totalAtoms\":8,\"neutrality\":\"pass\",\"activationAndIonizationAssumptions\":\"separate\",\"periodicMotion\":\"continuous\",\"concepts\":8,\"renderContracts\":\"pass\"}\n"
+  },
+  {
+    "site": "diffusion-points-20261029",
+    "command": "node qa/unit23-check.cjs",
+    "exitCode": 0,
+    "output": "{\"syntax\":\"pass\",\"pages\":24,\"states\":25,\"massBalance\":\"pass\",\"thresholdBoundary\":\"pass\",\"markerSeparation\":\"pass\",\"concepts\":6,\"renderChecks\":2625}\n"
+  },
+  {
+    "site": "diffusion-points-20261029",
+    "command": "node qa/unit24-check.cjs",
+    "exitCode": 0,
+    "output": "{\"syntax\":\"pass\",\"pages\":24,\"states\":1001,\"junctionRoots\":\"pass\",\"independentReference\":\"pass\",\"fixedTotal\":\"pass\",\"surfaceFlux\":\"pass\",\"twoDimensionalPDE\":\"pass\",\"threeDesignStates\":\"pass\",\"concepts\":7,\"renderChecks\":360}\n"
+  },
+  {
+    "site": "coordinate-field-xjq-1028",
+    "command": "node --test tests/model.test.js",
+    "exitCode": 0,
+    "output": "✔ all quantities distinguish known zero, unknown, and inapplicable (1.2106ms)\n✔ all 36 axis pairs preserve every point, fit values, and keep outer slots stable (47.2762ms)\n✔ automatic domains include zero, single values, extreme values and negatives (0.4746ms)\nℹ tests 3\nℹ suites 0\nℹ pass 3\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 167.65\n"
+  },
+  {
+    "site": "taiwan-semiconductor-atlas",
+    "command": "node tests.mjs",
+    "exitCode": 0,
+    "output": "PASS 60 substantive units, 16 legal entities, 6 linked answers each\nPASS schema, references, unique ids, source metadata and all score reasons validate\nPASS all 20 ordered axis pairs preserve exact scores and node counts\nPASS overlapping enterprises cluster without score jitter\nPASS company and concept share references in both directions\nPASS aliases, role and company filters\nPASS ASE ownership is independent and sourced\nPASS missing ratings remain pending without inventing coordinates\nPASS modified score, reason, classification and relationships survive JSON round trip\nPASS custom dimension includes 1–5 rules and creates pending records\nPASS bad imports fail: broken ids, invalid scores, empty reasons, malicious sources\n11 checks passed.\n"
+  },
+  {
+    "site": "knowledge-atlas-20261028",
+    "command": "node verify.mjs",
+    "exitCode": 0,
+    "output": "{\"result\":\"PASS\",\"nodes\":40,\"relations\":62,\"coordinateGroups\":11,\"pending\":1,\"checks\":\"Connectivity, aggregation, axis switch, filters, shared children, editable scores, JSON round trip, invalid imports, future dimensions, worked examples\"}\n"
+  }
+]

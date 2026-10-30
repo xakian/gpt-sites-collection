@@ -1,0 +1,212 @@
+[
+  {
+    "name": "AC01/02/04-10/12/15 direct frames and DOM",
+    "times": [
+      0,
+      3,
+      4.5,
+      6,
+      8.5,
+      10.5,
+      13.5,
+      16,
+      17.5,
+      19,
+      20,
+      22,
+      24,
+      24.75,
+      26,
+      29,
+      31.2,
+      31.5,
+      31.8,
+      32
+    ]
+  },
+  {
+    "name": "AC15 adjacent boundaries",
+    "boundaries": [
+      4,
+      10,
+      12,
+      15,
+      16,
+      19,
+      21,
+      23,
+      24.5,
+      25,
+      27.5,
+      31.35,
+      31.5,
+      31.65,
+      32
+    ],
+    "offsets": [
+      -0.001,
+      0,
+      0.001
+    ]
+  },
+  {
+    "name": "AC20 reduced motion all branches",
+    "pass": true
+  },
+  {
+    "name": "AC13 five-second pauses",
+    "times": [
+      3,
+      13.5,
+      17.5
+    ]
+  },
+  {
+    "name": "AC14 speeds preserve phase and pause",
+    "speeds": [
+      0.5,
+      1,
+      1.5,
+      2
+    ]
+  },
+  {
+    "name": "AC16/19 keyboard, panel, focus and timeline",
+    "pass": true
+  },
+  {
+    "name": "AC17 responsive and orientation state",
+    "pass": true
+  },
+  {
+    "name": "AC03/11 grayscale and route captures",
+    "pass": true
+  },
+  {
+    "name": "AC21/22 cycle",
+    "cycle": 1,
+    "n": 127,
+    "max": 1,
+    "lot": 1
+  },
+  {
+    "name": "AC18 complete real-time cycle",
+    "viewport": [
+      390,
+      844
+    ],
+    "speed": 1,
+    "elapsed": 32.029,
+    "horizontal": true,
+    "controls": true,
+    "rafMax": 1
+  },
+  {
+    "name": "AC18 complete real-time cycle",
+    "viewport": [
+      1440,
+      900
+    ],
+    "speed": 1,
+    "elapsed": 32.134,
+    "horizontal": true,
+    "controls": true,
+    "rafMax": 1
+  },
+  {
+    "name": "AC21/22 cycle",
+    "cycle": 2,
+    "n": 127,
+    "max": 1,
+    "lot": 1
+  },
+  {
+    "name": "AC21/22 cycle",
+    "cycle": 3,
+    "n": 127,
+    "max": 1,
+    "lot": 1
+  },
+  {
+    "name": "AC18 complete real-time cycle",
+    "viewport": [
+      390,
+      844
+    ],
+    "speed": 0.5,
+    "elapsed": 64.049,
+    "horizontal": true,
+    "controls": true,
+    "rafMax": 1
+  },
+  {
+    "name": "AC18 complete real-time cycle",
+    "viewport": [
+      1440,
+      900
+    ],
+    "speed": 0.5,
+    "elapsed": 64.122,
+    "horizontal": true,
+    "controls": true,
+    "rafMax": 1
+  },
+  {
+    "name": "AC21/22 cycle",
+    "cycle": 4,
+    "n": 127,
+    "max": 1,
+    "lot": 1
+  },
+  {
+    "name": "AC21/22 cycle",
+    "cycle": 5,
+    "n": 127,
+    "max": 1,
+    "lot": 1
+  },
+  {
+    "name": "AC21/22 cycle",
+    "cycle": 6,
+    "n": 127,
+    "max": 1,
+    "lot": 1
+  },
+  {
+    "name": "AC21/22 cycle",
+    "cycle": 7,
+    "n": 127,
+    "max": 1,
+    "lot": 1
+  },
+  {
+    "name": "AC21/22 cycle",
+    "cycle": 8,
+    "n": 127,
+    "max": 1,
+    "lot": 1
+  },
+  {
+    "name": "AC21/22 cycle",
+    "cycle": 9,
+    "n": 127,
+    "max": 1,
+    "lot": 1
+  },
+  {
+    "name": "AC21/22 cycle",
+    "cycle": 10,
+    "n": 127,
+    "max": 1,
+    "lot": 1
+  },
+  {
+    "name": "AC22 cleanup and re-entry",
+    "pass": true
+  },
+  {
+    "name": "suite complete",
+    "passed": 7,
+    "total": 7
+  }
+]

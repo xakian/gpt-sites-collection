@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-28",
+  "result": "PASS",
+  "automated": "node verify.mjs; node --check dist/app.js",
+  "browser": {
+    "initialView": "White full-viewport canvas; no brand, slogan, permanent point labels, sidebar or detail panel. Only central axes, ticks, 11 small points, menu button.",
+    "axes": "X/Y changed to application/generality; points regrouped into 14 coordinates; reset to abstraction/math. Axes intersect at score (3,3), preserving original scores.",
+    "tooltip": "Focused point 4,3 exposes six titles, types, scores and open instruction; pointerover uses same tooltip handler.",
+    "overlap": "Point 4,3 opens six selectable nodes; KD-014 selected.",
+    "hierarchy": "KD-014 shows its three shared parents: KD-001, KD-015, KD-018.",
+    "persistence": "Edited KD-014 detail in preview; reload retained edit.",
+    "backup": "UI-exported full JSON with 40 nodes, 62 relations and 5 dimensions; pasted into import, validated, confirmed, original content restored.",
+    "panZoom": "Dragging moved central axis from y468 to y503; sidebar zoom and reset work.",
+    "tablet": "834x800 preview: centered axes, sidebar search returned 5 Gaussian point groups, single-point selection opened Gaussian kernel detail.",
+    "data": "Seed content, IDs, relations, storage key and scoring schema unchanged."
+  }
+}

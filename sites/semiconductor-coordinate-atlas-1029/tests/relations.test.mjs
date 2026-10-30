@@ -1,0 +1,33 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {relationStyle,RELATION_STYLES,ARROW_SHAPES,relationCurve,sortRelations,relationColor} from '../dist/relation-style.mjs';
+const data=JSON.parse(readFileSync(new URL('../dist/data.json',import.meta.url)));
+const kinds=[...new Set(data.relations.map(e=>e.kind))];
+assert.equal(kinds.length,17);
+assert(kinds.every(k=>relationStyle(k).id!=='relation-fallback'));
+assert.equal(new Set(kinds.map(k=>{const s=relationStyle(k);return `${s.head}|${s.dash}`})).size,17);
+assert.equal(new Set(kinds.map(k=>{const s=relationStyle(k),head=ARROW_SHAPES[s.head];return `${head.d}|${head.fill}|${s.dash}`})).size,17);
+assert(RELATION_STYLES.every(s=>ARROW_SHAPES[s.head]));
+assert.equal(new Set(RELATION_STYLES.map(s=>relationColor(s,false))).size,1);
+assert.equal(new Set(RELATION_STYLES.map(s=>relationColor(s,true))).size,5);
+console.log('PASS 17 relation kinds have unique non-color signatures, five colors and valid arrow heads');
+
+const a={x:100,y:100},b={x:100,y:400};
+const lanes=[true,true,false].map((forward,i)=>relationCurve(a,b,forward,i,3));
+assert.equal(new Set(lanes.map(p=>p.path)).size,3);
+assert.equal(new Set(lanes.map(p=>p.middle.x)).size,3);
+const two=[0,1].map(i=>relationCurve(a,b,true,i,2));
+assert(Math.hypot(two[0].end.x-two[1].end.x,two[0].end.y-two[1].end.y)>=14);
+assert(lanes[0].start.y<lanes[0].end.y);
+assert(lanes[2].start.y>lanes[2].end.y);
+assert.deepEqual(relationCurve(a,b,false,0,3).start,lanes[0].end);
+assert.deepEqual(relationCurve(a,b,false,0,3).end,lanes[0].start);
+assert(lanes.every(p=>Math.hypot(p.start.x-a.x,p.start.y-a.y)>0));
+for(const [x,y] of [[0,0],[.001,.001],[500,10]])assert(!/NaN|Infinity/.test(relationCurve({x:0,y:0},{x,y},true,1,2).path));
+console.log('PASS parallel and opposite-direction edges retain separate paths, reverse endpoints and finite geometry');
+
+const original=JSON.stringify(data.relations),pair=data.relations.filter(e=>new Set(['K25','K27']).has(e.from)&&new Set(['K25','K27']).has(e.to));
+assert.deepEqual(sortRelations(pair).map(e=>e.kind),['收錄於','是一種']);
+assert.equal(JSON.stringify(data.relations),original);
+assert.equal(relationStyle('future kind').family,'尚未定義樣式');
+console.log('PASS actual ALD pair preserves both predicates without mutating or merging data');

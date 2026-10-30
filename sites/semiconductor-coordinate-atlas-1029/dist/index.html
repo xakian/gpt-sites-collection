@@ -1,0 +1,56 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#fafafa"><meta name="description" content="48 個半導體主題的可切換座標與局部關係圖。"><title>半導體知識座標圖</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M6 3v23h23' fill='none' stroke='%23111' stroke-width='2'/%3E%3Ccircle cx='18' cy='13' r='4'/%3E%3C/svg%3E"><link rel="stylesheet" href="style.css"></head><body>
+<div id="app">
+<header aria-label="畫面工具">
+<div class="toolbar"><button id="menu" class="icon-button" title="探索與設定" aria-label="探索與設定" aria-expanded="false" aria-controls="controls"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="9" cy="6" r="2"/><circle cx="15" cy="12" r="2"/><circle cx="9" cy="18" r="2"/></svg><i id="filter-dot" hidden></i></button>
+<nav aria-label="視角"><button data-view="coordinates" class="icon-button active" aria-label="座標視角" title="座標視角"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3v16h16"/><circle cx="11" cy="12" r="1.6"/><circle cx="17" cy="6" r="1.6"/></svg></button><button data-view="relations" class="icon-button" aria-label="關係視角" title="關係視角"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 11 6 5m7 6 6-5m-7 7-6 5m7-5 6 5"/><circle cx="12" cy="12" r="2.5"/><circle cx="5" cy="4" r="1.6"/><circle cx="20" cy="5" r="1.6"/><circle cx="5" cy="19" r="1.6"/><circle cx="20" cy="19" r="1.6"/></svg></button></nav><button id="nav-toggle" class="icon-button" hidden title="總覽定位樹" aria-label="總覽定位樹" aria-expanded="false" aria-controls="navigator"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5v14m0-10h10M6 19h10"/><circle cx="6" cy="4" r="2"/><circle cx="18" cy="9" r="2"/><circle cx="18" cy="19" r="2"/></svg></button><button id="legend-toggle" class="icon-button" hidden title="關係圖例" aria-label="關係圖例" aria-expanded="false" aria-controls="legend-panel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h17m-4-3 4 3-4 3M3 12h17m-4-3 4 3-4 3M3 19h17m-4-3 4 3-4 3"/></svg></button></div>
+<div class="viewport-tools"><div class="history-arrows" role="group" aria-label="探索歷程"><button id="history-back" class="icon-button" disabled title="返回上一位置" aria-label="返回上一位置"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6"/></svg></button><button id="history-forward" class="icon-button" disabled title="前往下一位置" aria-label="前往下一位置"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6"/></svg></button></div><button id="topic-info" class="icon-button" aria-label="查閱目前主題詳情" title="查閱目前主題詳情" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v1"/></svg></button>
+</div><span id="history-announcement" class="sr-only" aria-live="polite"></span>
+</header>
+<section id="axis-dock" aria-label="座標與換軸">
+<div class="axis-dock-head"><span>總覽座標</span><label class="sr-only" for="preset">預設座標配對</label><select id="preset" aria-label="預設座標配對"><option value="PM">內容方向</option><option value="SR">收錄結構</option><option value="MR">實作與連結</option><option value="custom" disabled>自訂配對</option></select></div>
+<div class="axis-dock-fields"><label for="xaxis">橫軸<select id="xaxis"></select></label><button id="swap" aria-label="交換橫軸與縱軸" title="交換橫軸與縱軸">⇄</button><label for="yaxis">縱軸<select id="yaxis"></select></label></div>
+<div class="axis-dock-footer"><span id="axis-counts" aria-live="polite"></span><button id="axis-reset">恢復預設座標</button></div>
+</section>
+<div id="workspace">
+<main id="canvas-area" aria-label="知識探索畫面"><div id="stage"><svg id="plot" role="group" aria-label="主題座標平面"></svg><div id="empty" hidden></div><div id="tooltip" role="tooltip" hidden></div></div>
+<section id="outer" aria-label="未定位主題"><div id="outer-points"></div></section>
+<div id="location-strip" hidden><button id="location-button" aria-controls="navigator"><span class="location-mark" aria-hidden="true">⌖</span><span id="location-text"></span><small id="location-depth"></small></button></div>
+<button id="filter-chip" hidden title="清除搜尋與篩選"><span id="filter-chip-label"></span><span aria-hidden="true"> ×</span></button>
+</main>
+<aside id="controls" class="panel" hidden aria-label="探索設定"><div class="panel-head"><h2>探索</h2><button data-close="controls" aria-label="關閉探索設定">×</button></div>
+<label class="search"><span class="sr-only">搜尋主題</span><input id="search" type="search" placeholder="搜尋名稱、英文或別名" autocomplete="off" maxlength="2000"></label>
+<details class="section" id="axis-section"><summary>座標定義與評分</summary><details id="axis-definition"><summary>量的定義與評分規準</summary><div id="axis-guide"></div><p>0 沒有直接討論 · 1 背景提及 · 2 次要內容 · 3 主要目標 · 4 核心主旨。</p><p>評分依單元範圍判斷，可修訂。間距不表示知識差異的精確倍數；計數只描述目前收錄資料。</p></details></details>
+<details class="section" id="list-section"><summary>篩選與主題清單 <small id="result-count"></small></summary><label for="type">主題類型</label><select id="type"><option value="">全部類型</option></select><button id="clear" class="text-button">清除搜尋與篩選</button><div id="results-meta" class="muted"></div><div id="results" class="results" aria-label="主題清單"></div></details>
+<details class="section" id="relationship-section"><summary>關係與查閱</summary><div id="graph-filter"><label>關係種類<select id="relation-type"><option value="">全部直接關係</option></select></label></div><p id="graph-note">左圖顯示選取主題的一階直接關係；右圖顯示全部主題，以一條淡線表示兩主題存在已確認關係。位置僅供閱讀，不表示數值或層級。</p><p>移入連線可查看關係；點按連線可展開條件與來源。選取主題後，也可從詳情查閱全部直接關係。</p><details><summary>關係名稱索引</summary><div id="relation-index" class="muted"></div></details></details>
+<details class="section" id="display-section"><summary>顯示與操作</summary><label class="check-row"><input id="show-names" type="checkbox" checked>顯示主題名稱</label><label class="check-row"><input id="show-edge-labels" type="checkbox" checked>顯示關係名稱</label><p>換軸時主題以平滑動畫移動；快速連續換軸會從目前位置接續。系統設定減少動態效果時直接顯示結果。兩種視角皆固定適應畫面；不拖曳或縮放圖面。開關浮層不改變節點位置與比例。關係圖點選其他主題切換中心，再點目前主題或右上角資訊鈕查閱詳情。</p><p>每點代表一個主題。座標相同時以固定小幅錯位分開，錯位不改變原始評分；實際數值見移入提示與詳情。空心點為未定位主題。</p><p>名稱會自動避讓；密集處放不下的名稱可移入或點按查看。右側全域圖不顯示關係文字，僅保留簡化連線；箭頭及條件在左圖查閱。</p></details>
+<details class="section" id="history-section"><summary>探索歷程 <small id="history-count"></small></summary><ol id="history-list" aria-label="本分頁探索位置"></ol><button id="history-clear" class="text-button">清除歷程，保留目前位置</button><p>左右箭頭返回／前進，會還原主題、座標軸、篩選與離開時的視角。開關面板只更新目前位置，不新增步驟；所有位置均固定適應畫面。</p><p id="history-storage-note">本分頁最多保留 60 個位置；重新整理可接續。返回後改走新位置會取代後續分支，沒有跨裝置同步。</p></details>
+<details class="section" id="data-section"><summary>資料匯入與回復</summary>
+<p id="data-status"></p><p id="data-version-name" class="muted"></p>
+<div class="data-actions"><button id="import-choose">選擇 JSON 檔</button><input id="import-file" type="file" accept=".json,application/json" hidden><button id="export">匯出目前資料 ↓</button></div>
+<details id="import-paste"><summary>貼上 JSON</summary><label for="import-json" class="sr-only">完整資料 JSON</label><textarea id="import-json" rows="7" maxlength="1048576" spellcheck="false" placeholder="貼上完整資料 JSON，先檢查差異"></textarea><button id="import-check">檢查與預覽</button></details>
+<p id="import-message" role="status" aria-live="polite"></p>
+<section id="import-preview" hidden aria-label="資料變更預覽"><h3 id="import-preview-name"></h3><div id="import-warnings"></div><div id="import-diff"></div><p class="muted">套用完整版本，包含預覽中的移除項目；原資料可回復一次。探索歷程會從目前位置重新開始。</p><div class="data-actions"><button id="import-apply" disabled>套用此版本</button><button id="import-cancel">取消</button></div></section>
+<div class="data-actions data-recovery"><button id="data-undo" disabled>回復上一版…</button><button id="data-default">還原網站內建資料…</button></div>
+<details id="data-help"><summary>格式、保存與查核範圍</summary><p>先匯出目前資料作為模板，修改後再匯入。單檔上限 1 MB；最多 600 個主題、4000 筆關係、1200 個來源。</p><p>檢查格式、評分、ID、端點與來源引用；內容正確性及來源支持範圍仍需自行查核。未知、待評估及不適用須保留 null，不能填成 0。</p><p>資料保存在此瀏覽器，可重新整理接續；清除瀏覽器資料會移除本機版本。請用匯出檔備份或移到其他裝置。其他已開啟分頁請重新整理。</p></details>
+</details>
+<details class="section" id="info-section"><summary>統計、說明與資料</summary><div id="chart-caption"><span id="view-caption"></span><p id="chart-hint"></p></div><div id="counts" aria-live="polite"></div><p>未定位 <span id="outer-count"></span> 個；搜尋與篩選不改變原始資料。</p><button id="clear-footer" class="text-button" hidden>清除篩選</button><p id="footer-note"></p><p>設定保存在目前瀏覽器，沒有跨裝置同步。主題資料隨網站版本保存。</p><p>半導體知識座標圖 · <span id="dataset-topic-count">48</span> 個主題。可在「資料匯入與回復」管理目前瀏覽器的版本。</p><p>資料日期：<span id="dataset-date">2026-10-29</span>。查核日期依各來源記錄；來源支持內容，不支持編輯評分。外部連結失效時，可用來源標題向原機構查找。</p></details>
+</aside>
+<aside id="navigator" class="panel" hidden aria-label="總覽定位樹">
+<div class="panel-head"><h2>全覽 <small id="nav-count"></small></h2><div class="nav-head-actions"><button id="nav-reveal" title="定位目前主題" aria-label="定位目前主題">⌖</button><button data-close="navigator" aria-label="關閉總覽定位樹">×</button></div></div>
+<div class="nav-selection"><div><strong id="nav-current"></strong><small id="nav-depth"></small></div><button id="nav-open-detail" title="查閱目前主題詳情" aria-label="查閱目前主題詳情">ⓘ</button></div>
+<nav id="nav-breadcrumb" aria-label="目前收錄路徑"></nav>
+<label id="nav-routes-wrap" hidden>其他收錄路徑<select id="nav-routes"></select></label>
+<div id="nav-filter-note" hidden><small>此主題不符合目前篩選，仍保留在圖上。</small><button id="nav-clear-filter" class="text-button">清除篩選，顯示主題</button></div>
+<nav id="nav-tree" aria-label="主題收錄層級"></nav>
+<details id="nav-help"><summary>層級依據與操作</summary><p>連線依已確認的「收錄於」關係，表示本站的內容編排。層數從最上層主題算起，不代表重要性、難度或物理上的包含關係。</p><p>未分層主題尚無收錄上下層，仍可有其他關係。同一主題可沿不同收錄路徑出現；總數以主題 ID 去重。淡色項目不符合目前篩選。</p><p>點名稱切換主圖；點箭頭展開分支。鍵盤上下移動、左右展開收合、Enter 選取。定位鈕會展開目前路徑。</p><button id="nav-collapse" class="text-button">收合全部分支</button><p id="nav-route-warning" hidden></p></details>
+</aside>
+<aside id="legend-panel" class="panel" hidden aria-label="關係圖例">
+<div class="panel-head"><h2>圖例 <small id="legend-count"></small></h2><button data-close="legend" aria-label="關閉關係圖例">×</button></div>
+<div id="legend-list" aria-label="關係樣式對照"></div><p id="legend-empty" class="muted" hidden>目前圖中沒有可顯示的關係。</p>
+<div id="legend-focus-note" hidden><span>聚焦：<b id="legend-focus-name"></b></span><button id="legend-reset-focus" class="text-button">還原</button></div>
+<details id="legend-options"><summary>顯示與判讀</summary><label class="check-row"><input id="legend-colors" type="checkbox" checked>色彩輔助</label><label class="check-row"><input id="legend-all" type="checkbox">查看全部關係種類</label><details id="legend-reading"><summary>符號與方向說明</summary><p>箭頭從敘述的主詞指向受詞：A → B 讀作「A〔關係〕B」。顏色輔助分組；箭頭形狀與線型仍可在黑白模式辨認。</p><p>點圖例聚焦該種類，再點一次還原。數字是目前圖中的關係條數，不是強度；每條關係各自保留方向。同一對主題有多種關係時以並行曲線分開。</p><p>這是視覺對照，原始關係名稱、條件與來源仍可點按連線查閱；顏色、曲率與線寬不代表物理量或重要性。</p></details></details>
+</aside>
+<aside id="detail" class="panel" hidden aria-label="主題詳情"><div class="panel-head"><span>主題詳情</span><button data-close="detail" aria-label="關閉主題詳情">×</button></div><div id="detail-content"></div></aside>
+<aside id="edge-info" class="panel" hidden aria-label="關係詳情"><div class="panel-head"><span>關係詳情</span><button id="edge-close" aria-label="關閉關係詳情">×</button></div><div id="edge-content"></div></aside>
+</div></div>
+<script type="module" src="app.mjs"></script></body></html>

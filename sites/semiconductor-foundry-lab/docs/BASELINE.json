@@ -1,0 +1,37 @@
+{
+  "sourceSite": "appgprj_6ac0c679ad648191a98de80f4b19164e",
+  "sourceVersion": 38,
+  "commit": "edd19a5426da16b766de618faf48bd4b65208b32",
+  "files": {
+    "hex.js": {
+      "sha256": "c2e52db73da2ec413650f520374d373437b2ae8278cb7d2d9a09bff0612169c1"
+    },
+    "config.js": {
+      "sha256": "1155c1918142d0feefae8ddc0567dbe27f1a73f908a733ccd83286768043b973"
+    },
+    "movement.js": {
+      "sha256": "59a3c35ed8ee076243f084f807776fd0893fb085f049c4f19c8db0a20752fd14"
+    },
+    "input.js": {
+      "sha256": "a2c81581b225d4d218896d8ddac52db66f03caa586bf93cc94479dee9b8758c7"
+    },
+    "intent-input.js": {
+      "sha256": "2ec48ef7434b2801b8857fccc89b994ad0637669bd6f40c799269ffac07c2872"
+    },
+    "presentation.js": {
+      "sha256": "ceb1bdee8396d8f89357b9aa3c6264eedcd49a8e3123b26df7b21072d5dca0e5"
+    },
+    "rendering.js": {
+      "sha256": "86b9bae419c30a294dd79cb28b024809db19fdf8efa3efd7bd8a0ba9cac4b3fd"
+    },
+    "main.js": {
+      "sha256": "ffd8c5d9a514a8afa1d680b09dbc6c316de4fe068c2b9f513491cc7822ebc518"
+    },
+    "game-state.js": {
+      "sha256": "04ced7830d6dd960b4e96cd89042edc7b7e4cfad2b11bd33da392d51ac66e2f2"
+    },
+    "fullscreen.js": {
+      "sha256": "4633770af0cb853204b3a239a6b992009c506228f45613b2cd3fe55e7de6e7b5"
+    }
+  }
+}

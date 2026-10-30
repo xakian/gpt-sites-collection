@@ -1,0 +1,33 @@
+{
+  "testedAt": "2026-10-28T10:18:13.910Z",
+  "checks": [
+    "60 substantive units, 16 legal entities, 6 linked answers each",
+    "schema, references, unique ids, source metadata and all score reasons validate",
+    "all 20 ordered axis pairs preserve exact scores and node counts",
+    "overlapping enterprises cluster without score jitter",
+    "company and concept share references in both directions",
+    "aliases, role and company filters",
+    "ASE ownership is independent and sourced",
+    "missing ratings remain pending without inventing coordinates",
+    "modified score, reason, classification and relationships survive JSON round trip",
+    "custom dimension includes 1–5 rules and creates pending records",
+    "bad imports fail: broken ids, invalid scores, empty reasons, malicious sources"
+  ],
+  "browserChecks": [
+    "20 ordered axis pairs covered by unit checks; alternate axes switched in browser",
+    "Overlapping coordinate (1,5) opened 18-item list; PSMC selected",
+    "PSMC navigated to shared foundry node",
+    "TSMC / PSMC / ASE three-column comparison opened",
+    "Abstract score edited to 2, reloaded and visibly retained",
+    "Actual browser JSON downloaded, validated and imported; modified score retained",
+    "Malformed JSON refused without mutation",
+    "Custom dimension created; all 60 nodes appeared pending",
+    "Node added and prerequisite relationship saved",
+    "Pan transform changed on drag; zoom changed to120% and reset100%",
+    "Role filter and company scope checked",
+    "All browser test data removed using initial JSON import"
+  ],
+  "limitations": [
+    "Touch pinch implementation present; physical tablet not tested."
+  ]
+}

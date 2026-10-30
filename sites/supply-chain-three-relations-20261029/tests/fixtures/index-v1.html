@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="用 32 秒觀察同一委外封測案例中的實物、服務與資訊：成品給系統廠，報告回設計公司，工作在封測廠。">
+  <title>供應鏈：區分物料、服務與資訊</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="model.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<main class="viewer">
+  <header class="page-head"><div><p class="eyebrow">半導體・關係觀察 <span>01</span></p><h1>供應鏈：區分物料、服務與資訊</h1></div><button id="explain" class="quiet" aria-expanded="false" aria-controls="explanation">說明 <span aria-hidden="true">＋</span></button></header>
+  <div class="legend" aria-label="三種關係圖例">
+    <span><i class="sample material"></i>實物：移交</span><span><i class="sample info"></i>資訊：傳送與保留</span><span><i class="sample service"></i>服務：誰替誰做</span>
+  </div>
+  <section class="animation" aria-label="供應鏈動畫">
+    <div class="stage"><span id="stage-index" class="stage-number">01 / 11</span><div><h2 id="stage-title" aria-live="polite">同一委託，三種關係</h2><p id="stage-caption">先認識四個角色，再追蹤同一批次 A。</p></div></div>
+    <svg id="scene" role="img" aria-labelledby="scene-title scene-description"></svg>
+    <div class="figure-note"><span>委外封測案例・非實際工期</span><span id="reset-note"></span></div>
+  </section>
+  <section class="controls" aria-label="動畫播放控制">
+    <div class="timeline-row"><label for="timeline" class="sr-only">動畫時間定位，單位秒</label><input id="timeline" type="range" min="0" max="32" step="0.01" value="0" aria-valuetext="0 秒，共 32 秒"><output id="time" for="timeline">00.0 <span>/ 32 秒</span></output></div>
+    <div class="button-row"><div class="transport"><button id="play" class="primary" aria-label="暫停動畫"><span id="play-icon" aria-hidden="true">Ⅱ</span><span id="play-label">暫停</span></button><button id="replay" class="quiet"><span aria-hidden="true">↺</span> 重播</button></div><p id="motion-note" role="status"></p><label class="speed-label">速度 <select id="speed" aria-label="播放速度"><option value="0.5">0.5 倍</option><option value="1" selected>1 倍</option><option value="1.5">1.5 倍</option><option value="2">2 倍</option></select></label></div>
+  </section>
+  <footer>實物只在一處，資訊可以保留。<span>同一家公司，同時參與三種關係。</span></footer>
+</main>
+<aside id="explanation" aria-labelledby="panel-title" hidden>
+  <div class="panel-head"><div><p class="eyebrow">觀察與對照</p><h2 id="panel-title">看這三件事</h2></div><button id="close-panel" class="quiet" aria-label="關閉說明">關閉 ×</button></div>
+  <div class="panel-body">
+    <ol class="look-list"><li><strong>實物在哪裡？</strong>批次 A 只在一處，從晶圓代工廠到封測廠，再到系統廠。</li><li><strong>誰替誰做？</strong>封測廠替設計公司執行封裝與測試，工作在提供者廠內發生。</li><li><strong>傳遞哪些要求與結果？</strong>規格、報告、出貨指示是資訊，傳送後可在授權端點保留副本。</li></ol>
+    <p>晶圓上有許多晶粒；封裝為晶粒提供連接與保護；測試依指定條件取得結果。</p>
+    <details open><summary>逐步觀察與定位</summary><div id="steps"></div></details>
+    <details><summary>三題理解檢查</summary><details><summary>誰委託、誰執行、誰收到成品？</summary><p>設計公司委託，封測廠執行，指定系統廠收貨。這是本例安排，並非所有供應鏈都如此。</p></details><details><summary>委託資料與測試報告都是「服務」嗎？</summary><p>它們是資訊。受託執行封裝與測試是服務活動；資訊用來說明要求、記錄結果與協調交付。提供服務也可以同時交付加工後的實物。</p></details><details><summary>報告回設計公司，晶片也一定回去了嗎？</summary><p>沒有。報告傳送時晶片留在封測廠，之後依本例指示送到系統廠。資訊副本不等於另一批晶片。</p></details></details>
+    <details><summary>文件內容與圖像意義</summary><p><strong>規格 A：</strong>本批封裝要求、測試要求與批次對應的概括；前置方案、設備、介面與工程已備妥，並非收到一張文件就能製造任何晶片。</p><p><strong>報告 A：</strong>A／本例條件符合。只示範可交付部分，不代表良率 100%。</p><p><strong>出貨指示 A：</strong>設計公司確認本例交付條件後，指定系統廠 C 收貨。</p><p>文件圖示代表電子資料內容。服務線沒有運送物件。圖示不代表件數；A 連結加工前後來源，不保證實際批號永不改變；動畫秒數不代表工期；實物箭頭不表示貨權。</p></details>
+    <details><summary>案例範圍與限制</summary><p>這是一次指定的委外安排。先回報、確認後出貨是本例協調規則，不是全產業通則。真實資料、排程與物流也可並行；本片依序突出關係是教學安排。</p><p>本片合併示意一般矽基單晶粒 IC 的切割與封裝，再展示封裝後電性測試；前置晶圓測試與選片資料已備妥。其他材料供應、損耗、不良分流、重測與合約省略，不推論它們不存在。</p><p>三類是關係、活動與交付內容的分析角度，不是三種互斥公司。傳遞資料本身也可能是一種服務；這裡把資料內容稱為資訊，把受託工作稱為服務。</p><p>設計公司（Fabless semiconductor company）採無自有晶圓廠模式；封測廠（Outsourced Semiconductor Assembly and Test，OSAT）執行本例受託工作。四個抽象角色不代表真實公司的交易。</p></details>
+    <details><summary>來源與支持主張</summary><p class="source-intro">依任務檔所附研究，查閱日期：2026-10-29。來源支持此分工可成立；四角色、時序與 32 秒動畫為教學設計。</p><ol class="sources"><li><a href="https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm" target="_blank" rel="noopener">Amkor Technology — 2025 Form 10-K</a><p>Item 1. Business／Overview：支持 Fabless 委外晶圓製造與封測，也有由代工廠統籌後段的安排；搜尋 Fabless semiconductor companies、drop shipment services。</p></li><li><a href="https://www.sec.gov/Archives/edgar/data/1122411/000119312526135585/d50802d20f.htm" target="_blank" rel="noopener">ASE Technology Holding — 2025 Form 20-F</a><p>Drop Shipment Services；Raw Materials and Suppliers／Packaging：支持從客戶或晶圓廠收晶圓、封裝有額外材料投入，以及直接送到指定收貨端。</p></li><li><a href="https://asekh.aseglobal.com/products-services/test.html" target="_blank" rel="noopener">ASE Kaohsiung — Test Service</a><p>Wafer probing／package final test、Test Engineering Capability：支持晶圓測試與封裝後測試為不同階段，測試生成量測與摘要資料。</p></li><li><a href="https://www.kyec.com.tw/en/Solution/testing-technology-support" target="_blank" rel="noopener">KYEC — Testing Technology Support</a><p>4. Test Data Management；5. Test Data and Yield Analysis：支持業者保留測試資料並傳給客戶。此處文件外觀與核准時點不是 KYEC 實際流程。</p></li></ol></details>
+    <button id="panel-play" class="primary">播放並收合說明</button>
+  </div>
+</aside>
+</body></html>

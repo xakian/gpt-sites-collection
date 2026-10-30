@@ -1,0 +1,36 @@
+✔ T11 T12 T29 T30 actual worker path, reservation and permissions (389.268131ms)
+✔ T08 exact layout distance and time 3/11 tiles (456.000429ms)
+✔ T31 cancel held material walks back, T13 reload mid-action (259.548242ms)
+✔ T18 T25 T26 T27 fast recipe and upgrade use real costs (359.741595ms)
+✔ T37 ten further batches with worker and paid supplies, no ghosts (1537.926982ms)
+✔ M0 content and initial invariants (12.184356ms)
+✔ T01 T02 T03 T17 T23 T24 movement pickup drop capacity placement (113.775807ms)
+✔ M2 T04 T05 T06 T07 T09 T19 T21 T22 exact single deposit (64.41767ms)
+✔ M3 T10 T16 T20 T28 manual command end-to-end from new resources (210.831043ms)
+✔ T13 T33 T34 T39 T44 snapshot roundtrip, invalid imports, quota and checkpoints (1129.220135ms)
+✔ T40 short actions revalidate range, revisions and retain their source (66.429849ms)
+✔ T13 saved in-flight short action keeps its lock and commits once (160.525016ms)
+✔ T19 partial refill caps, wrong material and full tank leave containers (26.725416ms)
+✔ T20 tool requirement, wrong pattern and unique removal (98.719973ms)
+✔ T18 upgraded time 36/24 seconds and reserved operating cash (234.930054ms)
+✔ T22 remote operation rejected while inspect information stays available (60.815143ms)
+✔ T27 exact deadline tiers, rush freshness and no active-order replacement (426.098549ms)
+✔ T32 worker returning to full warehouse waits safely then handoff (292.116708ms)
+✔ T41 purchase reserves final slot, reload and receive once (333.152525ms)
+✔ T42 actual rolling event metrics (1.076022ms)
+✔ T45 abort prohibited first order, quarantine retained and empty machine recovers (307.562032ms)
+✔ T46 paused management commits without advancing any process tick (90.758858ms)
+✔ T36 new world discards all old task/job references (210.758911ms)
+✔ T38 T47 content-only alternative machine and repeat inspection node (319.869466ms)
+✔ T38 alternative equipment runs existing route and roundtrips through persistence (348.350772ms)
+✔ T23 rejects complete barrier, infrastructure ports and occupied player cell (10.552255ms)
+✔ T24 rejects invalid floor drop without losing held item (60.97174ms)
+✔ T20 missing or incorrect mask rejects start atomically (54.787936ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4454.918155

@@ -1,0 +1,1151 @@
+{
+  "world": {
+    "schemaVersion": 1,
+    "contentVersion": 1,
+    "worldId": "world-1793251208816-0.31880700950092733",
+    "tick": 82586,
+    "nextIds": {
+      "I": 6,
+      "B": 1,
+      "M": 5,
+      "J": 5,
+      "T": 0,
+      "A": 23,
+      "P": 5,
+      "O": 1,
+      "L": 16,
+      "E": 51,
+      "S": 1,
+      "C": 40
+    },
+    "cash": 540,
+    "actors": {
+      "player": {
+        "id": "player",
+        "kind": "player",
+        "x": 20.5,
+        "y": 3.5,
+        "speed": 3,
+        "carried": null,
+        "action": null,
+        "task": null,
+        "distance": 176.2173976195845,
+        "loadedDistance": 101.19999999999608,
+        "loadedTicks": 2024
+      }
+    },
+    "items": {
+      "I0001": {
+        "id": "I0001",
+        "definitionId": "mask",
+        "kind": "tool",
+        "revision": 3,
+        "lifecycle": "available",
+        "location": {
+          "type": "installed",
+          "id": "M0002"
+        },
+        "pattern": "A"
+      },
+      "I0002": {
+        "id": "I0002",
+        "definitionId": "wafer",
+        "kind": "wafer_lot",
+        "revision": 16,
+        "lifecycle": "shipped",
+        "location": {
+          "type": "archived",
+          "reason": "shipped",
+          "id": "S0001"
+        },
+        "lotId": "B0001"
+      },
+      "I0003": {
+        "id": "I0003",
+        "definitionId": "dep",
+        "kind": "supply_box",
+        "revision": 5,
+        "lifecycle": "consumed",
+        "location": {
+          "type": "archived",
+          "reason": "emptySupply"
+        },
+        "contents": {
+          "filmA": 0
+        }
+      },
+      "I0004": {
+        "id": "I0004",
+        "definitionId": "litho",
+        "kind": "supply_box",
+        "revision": 5,
+        "lifecycle": "consumed",
+        "location": {
+          "type": "archived",
+          "reason": "emptySupply"
+        },
+        "contents": {
+          "resist": 0,
+          "developer": 0
+        }
+      },
+      "I0005": {
+        "id": "I0005",
+        "definitionId": "etch",
+        "kind": "supply_box",
+        "revision": 5,
+        "lifecycle": "consumed",
+        "location": {
+          "type": "archived",
+          "reason": "emptySupply"
+        },
+        "contents": {
+          "etchA": 0
+        }
+      },
+      "I0006": {
+        "id": "I0006",
+        "definitionId": "clean",
+        "kind": "supply_box",
+        "revision": 5,
+        "lifecycle": "consumed",
+        "location": {
+          "type": "archived",
+          "reason": "emptySupply"
+        },
+        "contents": {
+          "stripCleanA": 0
+        }
+      }
+    },
+    "lots": {
+      "B0001": {
+        "id": "B0001",
+        "itemId": "I0002",
+        "waferCount": 20,
+        "routeId": "sampleA",
+        "routeVersion": 1,
+        "productId": "sample.patternA",
+        "pattern": "A",
+        "cursor": 5,
+        "film": "patterned",
+        "resist": "none",
+        "defects": [],
+        "defectEvents": [],
+        "history": [
+          {
+            "jobId": "J0001",
+            "recipeId": "dep.standard",
+            "recipeVersion": 1,
+            "machineId": "M0001",
+            "startTick": 37401,
+            "endTick": 38901,
+            "before": 0,
+            "after": 1,
+            "consumed": {
+              "filmA": 1
+            },
+            "fee": 6,
+            "status": "completed"
+          },
+          {
+            "jobId": "J0002",
+            "recipeId": "litho.standard",
+            "recipeVersion": 1,
+            "machineId": "M0002",
+            "startTick": 51161,
+            "endTick": 53861,
+            "before": 1,
+            "after": 2,
+            "consumed": {
+              "resist": 1,
+              "developer": 1
+            },
+            "fee": 5,
+            "status": "completed"
+          },
+          {
+            "jobId": "J0003",
+            "recipeId": "etch.standard",
+            "recipeVersion": 1,
+            "machineId": "M0003",
+            "startTick": 57481,
+            "endTick": 58981,
+            "before": 2,
+            "after": 3,
+            "consumed": {
+              "etchA": 1
+            },
+            "fee": 4,
+            "status": "completed"
+          },
+          {
+            "jobId": "J0004",
+            "recipeId": "clean.standard",
+            "recipeVersion": 1,
+            "machineId": "M0004",
+            "startTick": 70511,
+            "endTick": 71411,
+            "before": 3,
+            "after": 4,
+            "consumed": {
+              "stripCleanA": 1
+            },
+            "fee": 3,
+            "status": "completed"
+          },
+          {
+            "jobId": "J0005",
+            "recipeId": "inspect.standard",
+            "recipeVersion": 1,
+            "machineId": "M0005",
+            "startTick": 78169,
+            "endTick": 78769,
+            "before": 4,
+            "after": 5,
+            "consumed": {},
+            "fee": 2,
+            "status": "completed"
+          }
+        ],
+        "inspection": {
+          "good": 20,
+          "bad": 0,
+          "tick": 78769,
+          "jobId": "J0005"
+        },
+        "disposition": "shipped",
+        "productionCost": 100
+      }
+    },
+    "machines": {
+      "M0001": {
+        "id": "M0001",
+        "definitionId": "dep",
+        "x": 5,
+        "y": 5,
+        "rotation": 0,
+        "level": 1,
+        "phase": "EMPTY",
+        "slot": null,
+        "tool": null,
+        "job": null,
+        "tanks": {
+          "filmA": 4
+        },
+        "recipe": "dep.standard",
+        "revision": 5,
+        "stats": {
+          "idle": 66241,
+          "running": 1500,
+          "blocked": 9752
+        }
+      },
+      "M0002": {
+        "id": "M0002",
+        "definitionId": "litho",
+        "x": 9,
+        "y": 5,
+        "rotation": 0,
+        "level": 1,
+        "phase": "EMPTY",
+        "slot": null,
+        "tool": "I0001",
+        "job": null,
+        "tanks": {
+          "resist": 4,
+          "developer": 4
+        },
+        "recipe": "litho.standard",
+        "revision": 6,
+        "stats": {
+          "idle": 74302,
+          "running": 2700,
+          "blocked": 432
+        }
+      },
+      "M0003": {
+        "id": "M0003",
+        "definitionId": "etch",
+        "x": 13,
+        "y": 5,
+        "rotation": 0,
+        "level": 1,
+        "phase": "EMPTY",
+        "slot": null,
+        "tool": null,
+        "job": null,
+        "tanks": {
+          "etchA": 4
+        },
+        "recipe": "etch.standard",
+        "revision": 5,
+        "stats": {
+          "idle": 73076,
+          "running": 1500,
+          "blocked": 2797
+        }
+      },
+      "M0004": {
+        "id": "M0004",
+        "definitionId": "clean",
+        "x": 17,
+        "y": 5,
+        "rotation": 0,
+        "level": 1,
+        "phase": "EMPTY",
+        "slot": null,
+        "tool": null,
+        "job": null,
+        "tanks": {
+          "stripCleanA": 4
+        },
+        "recipe": "clean.standard",
+        "revision": 5,
+        "stats": {
+          "idle": 72595,
+          "running": 900,
+          "blocked": 3819
+        }
+      },
+      "M0005": {
+        "id": "M0005",
+        "definitionId": "inspect",
+        "x": 17,
+        "y": 10,
+        "rotation": 0,
+        "level": 1,
+        "phase": "EMPTY",
+        "slot": null,
+        "tool": null,
+        "job": null,
+        "tanks": {},
+        "recipe": "inspect.standard",
+        "revision": 4,
+        "stats": {
+          "idle": 73868,
+          "running": 600,
+          "blocked": 2789
+        }
+      }
+    },
+    "jobs": {
+      "J0001": {
+        "id": "J0001",
+        "machineId": "M0001",
+        "lotId": "B0001",
+        "recipe": {
+          "id": "dep.standard",
+          "version": 1,
+          "label": "標準配方",
+          "capability": "dep",
+          "seconds": 25,
+          "fee": 6,
+          "input": {
+            "film": "none",
+            "resist": "none"
+          },
+          "materials": {
+            "filmA": 1
+          },
+          "effects": {
+            "film": "blanket"
+          }
+        },
+        "startTick": 37401,
+        "duration": 1500,
+        "cursor": 0,
+        "status": "completed",
+        "consumed": {
+          "filmA": 1
+        },
+        "fee": 6,
+        "remaining": 0,
+        "endTick": 38901
+      },
+      "J0002": {
+        "id": "J0002",
+        "machineId": "M0002",
+        "lotId": "B0001",
+        "recipe": {
+          "id": "litho.standard",
+          "version": 1,
+          "label": "標準配方",
+          "capability": "litho",
+          "seconds": 45,
+          "fee": 5,
+          "input": {
+            "film": "blanket",
+            "resist": "none"
+          },
+          "materials": {
+            "resist": 1,
+            "developer": 1
+          },
+          "effects": {
+            "resist": "patterned"
+          },
+          "tool": "A"
+        },
+        "startTick": 51161,
+        "duration": 2700,
+        "cursor": 1,
+        "status": "completed",
+        "consumed": {
+          "resist": 1,
+          "developer": 1
+        },
+        "fee": 5,
+        "remaining": 0,
+        "endTick": 53861
+      },
+      "J0003": {
+        "id": "J0003",
+        "machineId": "M0003",
+        "lotId": "B0001",
+        "recipe": {
+          "id": "etch.standard",
+          "version": 1,
+          "label": "標準配方",
+          "capability": "etch",
+          "seconds": 25,
+          "fee": 4,
+          "input": {
+            "film": "blanket",
+            "resist": "patterned"
+          },
+          "materials": {
+            "etchA": 1
+          },
+          "effects": {
+            "film": "patterned",
+            "resist": "residual"
+          }
+        },
+        "startTick": 57481,
+        "duration": 1500,
+        "cursor": 2,
+        "status": "completed",
+        "consumed": {
+          "etchA": 1
+        },
+        "fee": 4,
+        "remaining": 0,
+        "endTick": 58981
+      },
+      "J0004": {
+        "id": "J0004",
+        "machineId": "M0004",
+        "lotId": "B0001",
+        "recipe": {
+          "id": "clean.standard",
+          "version": 1,
+          "label": "標準配方",
+          "capability": "clean",
+          "seconds": 15,
+          "fee": 3,
+          "input": {
+            "film": "patterned",
+            "resist": "residual"
+          },
+          "materials": {
+            "stripCleanA": 1
+          },
+          "effects": {
+            "resist": "none"
+          }
+        },
+        "startTick": 70511,
+        "duration": 900,
+        "cursor": 3,
+        "status": "completed",
+        "consumed": {
+          "stripCleanA": 1
+        },
+        "fee": 3,
+        "remaining": 0,
+        "endTick": 71411
+      },
+      "J0005": {
+        "id": "J0005",
+        "machineId": "M0005",
+        "lotId": "B0001",
+        "recipe": {
+          "id": "inspect.standard",
+          "version": 1,
+          "label": "標準配方",
+          "capability": "inspect",
+          "seconds": 10,
+          "fee": 2,
+          "input": {
+            "film": "patterned",
+            "resist": "none"
+          },
+          "materials": {},
+          "effects": {
+            "inspect": true
+          }
+        },
+        "startTick": 78169,
+        "duration": 600,
+        "cursor": 4,
+        "status": "completed",
+        "consumed": {},
+        "fee": 2,
+        "remaining": 0,
+        "endTick": 78769
+      }
+    },
+    "actions": {},
+    "tasks": {},
+    "reservations": {},
+    "purchases": {
+      "P0001": {
+        "id": "P0001",
+        "definition": "wafer",
+        "quantity": 1,
+        "cost": 40,
+        "slot": 1,
+        "dueTick": 6049,
+        "status": "received",
+        "itemId": "I0002"
+      },
+      "P0002": {
+        "id": "P0002",
+        "definition": "dep",
+        "quantity": 5,
+        "cost": 60,
+        "slot": 2,
+        "dueTick": 6110,
+        "status": "received",
+        "itemId": "I0003"
+      },
+      "P0003": {
+        "id": "P0003",
+        "definition": "litho",
+        "quantity": 5,
+        "cost": 60,
+        "slot": 3,
+        "dueTick": 6171,
+        "status": "received",
+        "itemId": "I0004"
+      },
+      "P0004": {
+        "id": "P0004",
+        "definition": "etch",
+        "quantity": 5,
+        "cost": 40,
+        "slot": 4,
+        "dueTick": 6233,
+        "status": "received",
+        "itemId": "I0005"
+      },
+      "P0005": {
+        "id": "P0005",
+        "definition": "clean",
+        "quantity": 5,
+        "cost": 40,
+        "slot": 5,
+        "dueTick": 6293,
+        "status": "received",
+        "itemId": "I0006"
+      }
+    },
+    "orders": {
+      "O0001": {
+        "id": "O0001",
+        "template": "tutorial",
+        "acceptedTick": 118,
+        "dueTick": null,
+        "minGood": 20,
+        "price": 15,
+        "fresh": false,
+        "status": "FULFILLED",
+        "shipmentId": "S0001"
+      }
+    },
+    "activeOrder": null,
+    "ledger": [
+      {
+        "id": "L0001",
+        "tick": 5093,
+        "kind": "equipment",
+        "delta": -400,
+        "ref": "M0001"
+      },
+      {
+        "id": "L0002",
+        "tick": 5152,
+        "kind": "equipment",
+        "delta": -500,
+        "ref": "M0002"
+      },
+      {
+        "id": "L0003",
+        "tick": 5213,
+        "kind": "equipment",
+        "delta": -300,
+        "ref": "M0003"
+      },
+      {
+        "id": "L0004",
+        "tick": 5272,
+        "kind": "equipment",
+        "delta": -150,
+        "ref": "M0004"
+      },
+      {
+        "id": "L0005",
+        "tick": 5329,
+        "kind": "equipment",
+        "delta": -150,
+        "ref": "M0005"
+      },
+      {
+        "id": "L0006",
+        "tick": 5449,
+        "kind": "purchase",
+        "delta": -40,
+        "ref": "P0001"
+      },
+      {
+        "id": "L0007",
+        "tick": 5510,
+        "kind": "purchase",
+        "delta": -60,
+        "ref": "P0002"
+      },
+      {
+        "id": "L0008",
+        "tick": 5571,
+        "kind": "purchase",
+        "delta": -60,
+        "ref": "P0003"
+      },
+      {
+        "id": "L0009",
+        "tick": 5633,
+        "kind": "purchase",
+        "delta": -40,
+        "ref": "P0004"
+      },
+      {
+        "id": "L0010",
+        "tick": 5693,
+        "kind": "purchase",
+        "delta": -40,
+        "ref": "P0005"
+      },
+      {
+        "id": "L0011",
+        "tick": 37401,
+        "kind": "processing",
+        "delta": -6,
+        "ref": "J0001"
+      },
+      {
+        "id": "L0012",
+        "tick": 51161,
+        "kind": "processing",
+        "delta": -5,
+        "ref": "J0002"
+      },
+      {
+        "id": "L0013",
+        "tick": 57481,
+        "kind": "processing",
+        "delta": -4,
+        "ref": "J0003"
+      },
+      {
+        "id": "L0014",
+        "tick": 70511,
+        "kind": "processing",
+        "delta": -3,
+        "ref": "J0004"
+      },
+      {
+        "id": "L0015",
+        "tick": 78169,
+        "kind": "processing",
+        "delta": -2,
+        "ref": "J0005"
+      },
+      {
+        "id": "L0016",
+        "tick": 82526,
+        "kind": "shipment",
+        "delta": 300,
+        "ref": "S0001"
+      }
+    ],
+    "events": [
+      {
+        "id": "E0001",
+        "tick": 118,
+        "type": "orderAccepted",
+        "orderId": "O0001"
+      },
+      {
+        "id": "E0002",
+        "tick": 5093,
+        "type": "placed",
+        "machineId": "M0001"
+      },
+      {
+        "id": "E0003",
+        "tick": 5152,
+        "type": "placed",
+        "machineId": "M0002"
+      },
+      {
+        "id": "E0004",
+        "tick": 5213,
+        "type": "placed",
+        "machineId": "M0003"
+      },
+      {
+        "id": "E0005",
+        "tick": 5272,
+        "type": "placed",
+        "machineId": "M0004"
+      },
+      {
+        "id": "E0006",
+        "tick": 5329,
+        "type": "placed",
+        "machineId": "M0005"
+      },
+      {
+        "id": "E0007",
+        "tick": 5449,
+        "type": "purchased",
+        "purchaseId": "P0001",
+        "itemId": "I0002"
+      },
+      {
+        "id": "E0008",
+        "tick": 5510,
+        "type": "purchased",
+        "purchaseId": "P0002",
+        "itemId": "I0003"
+      },
+      {
+        "id": "E0009",
+        "tick": 5571,
+        "type": "purchased",
+        "purchaseId": "P0003",
+        "itemId": "I0004"
+      },
+      {
+        "id": "E0010",
+        "tick": 5633,
+        "type": "purchased",
+        "purchaseId": "P0004",
+        "itemId": "I0005"
+      },
+      {
+        "id": "E0011",
+        "tick": 5693,
+        "type": "purchased",
+        "purchaseId": "P0005",
+        "itemId": "I0006"
+      },
+      {
+        "id": "E0012",
+        "tick": 6049,
+        "type": "arrived",
+        "purchaseId": "P0001",
+        "itemId": "I0002"
+      },
+      {
+        "id": "E0013",
+        "tick": 6110,
+        "type": "arrived",
+        "purchaseId": "P0002",
+        "itemId": "I0003"
+      },
+      {
+        "id": "E0014",
+        "tick": 6171,
+        "type": "arrived",
+        "purchaseId": "P0003",
+        "itemId": "I0004"
+      },
+      {
+        "id": "E0015",
+        "tick": 6233,
+        "type": "arrived",
+        "purchaseId": "P0004",
+        "itemId": "I0005"
+      },
+      {
+        "id": "E0016",
+        "tick": 6293,
+        "type": "arrived",
+        "purchaseId": "P0005",
+        "itemId": "I0006"
+      },
+      {
+        "id": "E0017",
+        "tick": 11980,
+        "type": "pickedUp",
+        "actorId": "player",
+        "itemId": "I0003"
+      },
+      {
+        "id": "E0018",
+        "tick": 12790,
+        "type": "refilled",
+        "itemId": "I0003",
+        "machineId": "M0001",
+        "amounts": {
+          "filmA": 5
+        }
+      },
+      {
+        "id": "E0019",
+        "tick": 15000,
+        "type": "pickedUp",
+        "actorId": "player",
+        "itemId": "I0004"
+      },
+      {
+        "id": "E0020",
+        "tick": 16114,
+        "type": "refilled",
+        "itemId": "I0004",
+        "machineId": "M0002",
+        "amounts": {
+          "resist": 5,
+          "developer": 5
+        }
+      },
+      {
+        "id": "E0021",
+        "tick": 19059,
+        "type": "pickedUp",
+        "actorId": "player",
+        "itemId": "I0005"
+      },
+      {
+        "id": "E0022",
+        "tick": 20380,
+        "type": "refilled",
+        "itemId": "I0005",
+        "machineId": "M0003",
+        "amounts": {
+          "etchA": 5
+        }
+      },
+      {
+        "id": "E0023",
+        "tick": 22679,
+        "type": "pickedUp",
+        "actorId": "player",
+        "itemId": "I0006"
+      },
+      {
+        "id": "E0024",
+        "tick": 24734,
+        "type": "refilled",
+        "itemId": "I0006",
+        "machineId": "M0004",
+        "amounts": {
+          "stripCleanA": 5
+        }
+      },
+      {
+        "id": "E0025",
+        "tick": 32012,
+        "type": "pickedUp",
+        "actorId": "player",
+        "itemId": "I0001"
+      },
+      {
+        "id": "E0026",
+        "tick": 33066,
+        "type": "installed",
+        "itemId": "I0001",
+        "machineId": "M0002"
+      },
+      {
+        "id": "E0027",
+        "tick": 36064,
+        "type": "pickedUp",
+        "actorId": "player",
+        "itemId": "I0002"
+      },
+      {
+        "id": "E0028",
+        "tick": 36186,
+        "type": "dropped",
+        "itemId": "I0002"
+      },
+      {
+        "id": "E0029",
+        "tick": 36369,
+        "type": "pickedUp",
+        "actorId": "player",
+        "itemId": "I0002"
+      },
+      {
+        "id": "E0030",
+        "tick": 37354,
+        "type": "loaded",
+        "actorId": "player",
+        "itemId": "I0002",
+        "machineId": "M0001"
+      },
+      {
+        "id": "E0031",
+        "tick": 37401,
+        "type": "started",
+        "jobId": "J0001",
+        "lotId": "B0001"
+      },
+      {
+        "id": "E0032",
+        "tick": 38901,
+        "type": "completed",
+        "jobId": "J0001",
+        "lotId": "B0001"
+      },
+      {
+        "id": "E0033",
+        "tick": 48653,
+        "type": "pickedUp",
+        "actorId": "player",
+        "itemId": "I0002"
+      },
+      {
+        "id": "E0034",
+        "tick": 51115,
+        "type": "loaded",
+        "actorId": "player",
+        "itemId": "I0002",
+        "machineId": "M0002"
+      },
+      {
+        "id": "E0035",
+        "tick": 51161,
+        "type": "started",
+        "jobId": "J0002",
+        "lotId": "B0001"
+      },
+      {
+        "id": "E0036",
+        "tick": 53861,
+        "type": "completed",
+        "jobId": "J0002",
+        "lotId": "B0001"
+      },
+      {
+        "id": "E0037",
+        "tick": 54293,
+        "type": "pickedUp",
+        "actorId": "player",
+        "itemId": "I0002"
+      },
+      {
+        "id": "E0038",
+        "tick": 57437,
+        "type": "loaded",
+        "actorId": "player",
+        "itemId": "I0002",
+        "machineId": "M0003"
+      },
+      {
+        "id": "E0039",
+        "tick": 57481,
+        "type": "started",
+        "jobId": "J0003",
+        "lotId": "B0001"
+      },
+      {
+        "id": "E0040",
+        "tick": 58981,
+        "type": "completed",
+        "jobId": "J0003",
+        "lotId": "B0001"
+      },
+      {
+        "id": "E0041",
+        "tick": 61778,
+        "type": "pickedUp",
+        "actorId": "player",
+        "itemId": "I0002"
+      },
+      {
+        "id": "E0042",
+        "tick": 66131,
+        "type": "loaded",
+        "actorId": "player",
+        "itemId": "I0002",
+        "machineId": "M0004"
+      },
+      {
+        "id": "E0043",
+        "tick": 70511,
+        "type": "started",
+        "jobId": "J0004",
+        "lotId": "B0001"
+      },
+      {
+        "id": "E0044",
+        "tick": 71411,
+        "type": "completed",
+        "jobId": "J0004",
+        "lotId": "B0001"
+      },
+      {
+        "id": "E0045",
+        "tick": 75230,
+        "type": "pickedUp",
+        "actorId": "player",
+        "itemId": "I0002"
+      },
+      {
+        "id": "E0046",
+        "tick": 76162,
+        "type": "loaded",
+        "actorId": "player",
+        "itemId": "I0002",
+        "machineId": "M0005"
+      },
+      {
+        "id": "E0047",
+        "tick": 78169,
+        "type": "started",
+        "jobId": "J0005",
+        "lotId": "B0001"
+      },
+      {
+        "id": "E0048",
+        "tick": 78769,
+        "type": "inspected",
+        "lotId": "B0001",
+        "good": 20,
+        "total": 20
+      },
+      {
+        "id": "E0049",
+        "tick": 78769,
+        "type": "completed",
+        "jobId": "J0005",
+        "lotId": "B0001"
+      },
+      {
+        "id": "E0050",
+        "tick": 81558,
+        "type": "pickedUp",
+        "actorId": "player",
+        "itemId": "I0002"
+      },
+      {
+        "id": "E0051",
+        "tick": 82526,
+        "type": "shipped",
+        "shipmentId": "S0001"
+      }
+    ],
+    "shipments": [
+      {
+        "id": "S0001",
+        "orderId": "O0001",
+        "lotId": "B0001",
+        "good": 20,
+        "tier": 10,
+        "income": 300,
+        "tick": 82526,
+        "cost": 100
+      }
+    ],
+    "storages": {
+      "warehouse": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "shipping": [
+        null,
+        null
+      ]
+    },
+    "shippedCount": 1,
+    "navRevision": 5,
+    "rules": {
+      "enabled": false,
+      "targets": {},
+      "groundItem": null
+    },
+    "purchased": {
+      "wafer": 1,
+      "dep": 5,
+      "litho": 5,
+      "etch": 5,
+      "clean": 5
+    },
+    "processed": {
+      "C0001": true,
+      "C0002": true,
+      "C0003": true,
+      "C0004": true,
+      "C0005": true,
+      "C0006": true,
+      "C0007": true,
+      "C0008": true,
+      "C0009": true,
+      "C0010": true,
+      "C0011": true,
+      "C0012": true,
+      "C0013": true,
+      "C0014": true,
+      "C0015": true,
+      "C0016": true,
+      "C0017": true,
+      "C0018": true,
+      "C0019": true,
+      "C0020": true,
+      "C0021": true,
+      "C0022": true,
+      "C0023": true,
+      "C0024": true,
+      "C0025": true,
+      "C0026": true,
+      "C0027": true,
+      "C0028": true,
+      "C0029": true,
+      "C0030": true,
+      "C0031": true,
+      "C0032": true,
+      "C0033": true,
+      "C0034": true,
+      "C0035": true,
+      "C0036": true,
+      "C0037": true,
+      "C0038": true,
+      "C0039": true,
+      "C0040": true
+    }
+  },
+  "pause": [],
+  "view": {
+    "width": 390,
+    "height": 754,
+    "scale": 15.25,
+    "camera": {
+      "x": 19.893364677990192,
+      "y": 4.726181574689186
+    }
+  }
+}

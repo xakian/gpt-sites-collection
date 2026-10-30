@@ -1,0 +1,3332 @@
+[
+  {
+    "id": "foundry",
+    "title": "晶圓代工 Foundry",
+    "type": "業務／服務",
+    "definition": "接受客戶的晶片設計，使用自己的製程與晶圓廠製造晶片。",
+    "detail": "客戶交來經過驗證的設計資料，代工廠提供可用製程、設計規則、產能與製造管理，交付完成晶片電路的晶圓或約定形式的產品。它的價值在於讓客戶不必自行建造整座晶圓廠。晶圓代工是一種業務與商業模式；邏輯、記憶體、功率則描述所製造的產品，兩類標籤可以同時成立。",
+    "tags": [
+      "業務／服務"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        }
+      ],
+      "models": [
+        "Foundry"
+      ],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "SIA：產業術語與商業模式",
+        "url": "https://www.semiconductors.org/industry-impact/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "力積電：公司簡介與 Open Foundry",
+        "url": "https://www.powerchip.com/en-global/staticpage/company-profile",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "manufacturing",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "pdk",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "fabless",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      3,
+      2,
+      5,
+      4,
+      5
+    ],
+    "scoreReasons": [
+      "晶圓代工 Foundry：可用來解釋多家企業的業務或商業模式。",
+      "晶圓代工 Foundry：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "晶圓代工 Foundry：是辨認產業分工與企業定位的核心知識。",
+      "晶圓代工 Foundry：可延伸到其他電子製造或工程情境。",
+      "晶圓代工 Foundry：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "design",
+    "title": "IC 設計",
+    "type": "業務／服務",
+    "definition": "把應用需求轉成可製造、可驗證的積體電路設計。",
+    "detail": "IC 設計從功能規格、架構與電路開始，再進行驗證與實體佈局，使產品在功耗、速度、面積與成本間取得取捨。設計階段的交付物是設計資料與驗證結果，最終商品則可能是晶片與搭配的軟體方案。從事設計不等於 Fabless；IDM 同樣進行設計，只是把更多製造活動納入公司內部。",
+    "tags": [
+      "業務／服務"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "SIA：產業術語與商業模式",
+        "url": "https://www.semiconductors.org/industry-impact/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "Synopsys：What is Physical Design",
+        "url": "https://www.synopsys.com/glossary/what-is-physical-design.html",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "pdk",
+        "type": "使用技術",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "tapeout",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "fabless",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "idm",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      3,
+      2,
+      5,
+      4,
+      5
+    ],
+    "scoreReasons": [
+      "IC 設計：可用來解釋多家企業的業務或商業模式。",
+      "IC 設計：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "IC 設計：是辨認產業分工與企業定位的核心知識。",
+      "IC 設計：可延伸到其他電子製造或工程情境。",
+      "IC 設計：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "fabless",
+    "title": "Fabless：無晶圓廠 IC 設計模式",
+    "type": "概念",
+    "definition": "以晶片設計與產品銷售為核心，把晶圓製造交由外部合作廠商。",
+    "detail": "Fabless 廠商負責產品規格、架構、電路設計、驗證與市場支援，製造通常委託晶圓代工廠，封裝與測試也可外包。它仍然需要管理製造良率、產品品質與供應交期，因此「無晶圓廠」不等於完全不懂製造。此模式的界線是是否自有主要晶圓製造能力，而非是否有辦公室、實驗室或測試設備。",
+    "tags": [
+      "概念"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        }
+      ],
+      "models": [
+        "Fabless"
+      ],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "SIA：產業術語與商業模式",
+        "url": "https://www.semiconductors.org/industry-impact/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "SIA：Beyond Borders 產業分工研究",
+        "url": "https://www.semiconductors.org/wp-content/uploads/2018/06/SIA-Beyond-Borders-Report-FINAL-May-6-1.pdf",
+        "publishedAt": "2016-05",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "design",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "foundry",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "osat",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      3,
+      2,
+      5,
+      5,
+      5
+    ],
+    "scoreReasons": [
+      "Fabless：無晶圓廠 IC 設計模式：可用來解釋多家企業的業務或商業模式。",
+      "Fabless：無晶圓廠 IC 設計模式：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "Fabless：無晶圓廠 IC 設計模式：是辨認產業分工與企業定位的核心知識。",
+      "Fabless：無晶圓廠 IC 設計模式：可用於不同產業的商業與營運情境。",
+      "Fabless：無晶圓廠 IC 設計模式：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "idm",
+    "title": "IDM：整合元件製造模式",
+    "type": "概念",
+    "definition": "同一企業結合晶片設計、製造與產品銷售，並可依需要外包部分工作。",
+    "detail": "IDM（Integrated Device Manufacturer）把產品設計與晶圓製造納入同一企業的主要活動，使產品與製程能共同調整。這不代表每一個製造、封裝或測試步驟必須全部自做；實務上仍可能購買外部產能。辨認 IDM 時要查公司的實際業務配置，不能只因它生產記憶體或擁有某種產品就直接推定其模式。",
+    "tags": [
+      "概念"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        },
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        }
+      ],
+      "models": [
+        "IDM"
+      ],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "SIA：產業術語與商業模式",
+        "url": "https://www.semiconductors.org/industry-impact/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "SIA：Beyond Borders 產業分工研究",
+        "url": "https://www.semiconductors.org/wp-content/uploads/2018/06/SIA-Beyond-Borders-Report-FINAL-May-6-1.pdf",
+        "publishedAt": "2016-05",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "design",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "manufacturing",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "fabless",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      3,
+      2,
+      5,
+      5,
+      5
+    ],
+    "scoreReasons": [
+      "IDM：整合元件製造模式：可用來解釋多家企業的業務或商業模式。",
+      "IDM：整合元件製造模式：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "IDM：整合元件製造模式：是辨認產業分工與企業定位的核心知識。",
+      "IDM：整合元件製造模式：可用於不同產業的商業與營運情境。",
+      "IDM：整合元件製造模式：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "osat",
+    "title": "OSAT：委外封裝與測試模式",
+    "type": "概念",
+    "definition": "為其他晶片公司提供封裝、測試及相關工程的專業服務。",
+    "detail": "OSAT（Outsourced Semiconductor Assembly and Test）接收客戶晶圓或裸晶，依約定完成封裝、電性測試與相關工程。不同公司可能偏重記憶體封測、邏輯封裝或測試服務，不能僅用一個標籤認為業務完全相同。這個模式描述第三方服務的角色，和產品使用邏輯、記憶體或射頻技術是不同分類面向。",
+    "tags": [
+      "概念"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "封裝",
+          "priority": "主要"
+        },
+        {
+          "label": "測試",
+          "priority": "主要"
+        }
+      ],
+      "models": [
+        "OSAT"
+      ],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "SIA：產業術語與商業模式",
+        "url": "https://www.semiconductors.org/industry-impact/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "ASE：公司與服務概況",
+        "url": "https://ase.aseglobal.com/about-ase/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "packaging",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "testing",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      3,
+      2,
+      5,
+      4,
+      5
+    ],
+    "scoreReasons": [
+      "OSAT：委外封裝與測試模式：可用來解釋多家企業的業務或商業模式。",
+      "OSAT：委外封裝與測試模式：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "OSAT：委外封裝與測試模式：是辨認產業分工與企業定位的核心知識。",
+      "OSAT：委外封裝與測試模式：可延伸到其他電子製造或工程情境。",
+      "OSAT：委外封裝與測試模式：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "manufacturing",
+    "title": "晶圓製造",
+    "type": "業務／服務",
+    "definition": "在晶圓上反覆形成材料、元件與導線，把電路設計變成實體晶片。",
+    "detail": "晶圓製造通常包含薄膜沉積、微影、蝕刻、摻雜、清洗與平坦化等反覆步驟，並在過程中量測和檢查。它需要設備、材料、潔淨環境與製程整合，並不等同單一曝光步驟。完成的晶圓上有許多晶粒，仍須經過相應測試、切割與封裝，才能以適合後續使用的形式交付。",
+    "tags": [
+      "業務／服務"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "ASML：How microchips are made",
+        "url": "https://www.asml.com/en/technology/all-about-microchips/how-microchips-are-made",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "SIA：Front-end Manufacturing",
+        "url": "https://www.semiconductors.org/semiconductors-101/how-are-semiconductors-made/stage-3-front-end-manufacturing/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "lithography",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "etch",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "deposition",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "cmp",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "wafer",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      3,
+      2,
+      5,
+      3,
+      5
+    ],
+    "scoreReasons": [
+      "晶圓製造：可用來解釋多家企業的業務或商業模式。",
+      "晶圓製造：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "晶圓製造：是辨認產業分工與企業定位的核心知識。",
+      "晶圓製造：可跨數個相關半導體環節使用。",
+      "晶圓製造：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "packaging",
+    "title": "封裝",
+    "type": "業務／服務",
+    "definition": "保護裸晶並建立電力、訊號及散熱路徑，讓晶片能接入系統。",
+    "detail": "裸晶完成電路後，還需要適合外部使用的連接介面、機械保護與熱管理。封裝可運用打線、覆晶、載板與重布線等方法，不只是替晶片包一層外殼。多晶粒封裝還能把不同功能整合在一起。其交付物可以是已封裝晶片、模組或其他約定形式，實際工作範圍依封裝方案及供應分工而定。",
+    "tags": [
+      "業務／服務"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "封裝",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "ASE：公司與服務概況",
+        "url": "https://ase.aseglobal.com/about-ase/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "ASE：System in Package",
+        "url": "https://ase.aseglobal.com/system-in-package/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "substrate",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "advanced-packaging",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "testing",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      3,
+      2,
+      5,
+      3,
+      5
+    ],
+    "scoreReasons": [
+      "封裝：可用來解釋多家企業的業務或商業模式。",
+      "封裝：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "封裝：是辨認產業分工與企業定位的核心知識。",
+      "封裝：可跨數個相關半導體環節使用。",
+      "封裝：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "testing",
+    "title": "半導體測試",
+    "type": "業務／服務",
+    "definition": "用定義好的條件量測與篩選晶片，確認功能與規格是否合格。",
+    "detail": "測試把規格轉成測試程式、治具與量測流程，找出不符合要求的產品，也提供良率與失效分析資料。晶圓測試、成品測試、系統級測試及可靠度驗證有不同目的，不能視為同一個動作。測試公司的價值除了設備產能，也包含工程開發、量測精準度、測試效率與資料回饋。",
+    "tags": [
+      "業務／服務"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "測試",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "ASE：Test Services",
+        "url": "https://ase.aseglobal.com/test-services/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "wafer-test",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "final-test",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "yield",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "qualification",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      3,
+      2,
+      5,
+      4,
+      5
+    ],
+    "scoreReasons": [
+      "半導體測試：可用來解釋多家企業的業務或商業模式。",
+      "半導體測試：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "半導體測試：是辨認產業分工與企業定位的核心知識。",
+      "半導體測試：可延伸到其他電子製造或工程情境。",
+      "半導體測試：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "advanced-node",
+    "title": "先進製程",
+    "type": "概念",
+    "definition": "在特定時點追求更高密度、效能或能源效率的前沿晶圓製造技術。",
+    "detail": "先進製程常透過電晶體結構、互連、材料與微影的協同改善，服務高密度運算等需求。節點名稱是技術世代標籤，不能直接當作每個結構的實際尺寸，也不能單靠數字比較不同供應商。是否適合某產品，還要看成本、功耗、性能、設計資源與量產成熟度；它不等同先進封裝。",
+    "tags": [
+      "概念"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "邏輯"
+      ],
+      "applications": [
+        "運算",
+        "通訊"
+      ]
+    },
+    "sources": [
+      {
+        "title": "台積電：製程技術總覽",
+        "url": "https://www.tsmc.com/english/dedicatedFoundry/technology",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "ASML：How microchips are made",
+        "url": "https://www.asml.com/en/technology/all-about-microchips/how-microchips-are-made",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "manufacturing",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "lithography",
+        "type": "使用技術",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "specialty-process",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "advanced-packaging",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      3,
+      3,
+      5,
+      2,
+      5
+    ],
+    "scoreReasons": [
+      "先進製程：可用來解釋多家企業的業務或商業模式。",
+      "先進製程：需要串連設計、製造或封測等數個基本概念。",
+      "先進製程：是辨認產業分工與企業定位的核心知識。",
+      "先進製程：可移用到同類產品或相近技術。",
+      "先進製程：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "specialty-process",
+    "title": "特色製程",
+    "type": "概念",
+    "definition": "針對高電壓、類比、射頻、感測或嵌入式記憶體等需求最佳化的製程。",
+    "detail": "特色製程重點是特定元件功能與應用條件，例如耐壓、低雜訊、類比精準度、非揮發儲存或影像感測。這些需求不一定由最小的邏輯節點滿足。比較晶圓廠時，應看可用元件、製程平台、可靠度與客戶設計支援；「特色」描述差異化功能，並不是一律等同落後或廉價製程。",
+    "tags": [
+      "概念"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "類比",
+        "功率元件",
+        "射頻",
+        "記憶體"
+      ],
+      "applications": [
+        "車用",
+        "工業",
+        "通訊"
+      ]
+    },
+    "sources": [
+      {
+        "title": "台積電：製程技術總覽",
+        "url": "https://www.tsmc.com/english/dedicatedFoundry/technology",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "力積電：公司簡介與 Open Foundry",
+        "url": "https://www.powerchip.com/en-global/staticpage/company-profile",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "analog",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "power",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "rf",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "advanced-node",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      3,
+      3,
+      5,
+      3,
+      5
+    ],
+    "scoreReasons": [
+      "特色製程：可用來解釋多家企業的業務或商業模式。",
+      "特色製程：需要串連設計、製造或封測等數個基本概念。",
+      "特色製程：是辨認產業分工與企業定位的核心知識。",
+      "特色製程：可跨數個相關半導體環節使用。",
+      "特色製程：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "advanced-packaging",
+    "title": "先進封裝",
+    "type": "概念",
+    "definition": "透過高密度互連與多晶粒整合，在封裝層次改善整體系統能力。",
+    "detail": "先進封裝涵蓋多種技術路徑，例如扇出、2.5D 與 3D 整合。它能縮短晶粒之間的訊號路徑，整合不同製程與功能，但同時引入散熱、良率、測試和材料整合的挑戰。它處理的是晶片之間與系統之間的連接問題，因此可與先進製程互相配合，也可能使用以不同製程製成的晶粒。",
+    "tags": [
+      "概念"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "封裝",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "邏輯",
+        "記憶體"
+      ],
+      "applications": [
+        "運算",
+        "通訊"
+      ]
+    },
+    "sources": [
+      {
+        "title": "台積電：先進封裝服務",
+        "url": "https://www.tsmc.com/english/dedicatedFoundry/services/advanced-packaging",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "ASE：System in Package",
+        "url": "https://ase.aseglobal.com/system-in-package/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "packaging",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "chiplet",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "cowos",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "sip",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      3,
+      4,
+      5,
+      3,
+      5
+    ],
+    "scoreReasons": [
+      "先進封裝：可用來解釋多家企業的業務或商業模式。",
+      "先進封裝：需整合多個技術步驟及其限制才能理解。",
+      "先進封裝：是辨認產業分工與企業定位的核心知識。",
+      "先進封裝：可跨數個相關半導體環節使用。",
+      "先進封裝：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "logic",
+    "title": "邏輯晶片",
+    "type": "產品／技術",
+    "definition": "執行運算、判斷與控制功能的數位晶片類別。",
+    "detail": "邏輯晶片把電晶體組成邏輯閘與更大的功能區塊，用於運算與控制。處理器與多種 SoC 含有邏輯功能，但一顆產品也可能整合記憶體、類比與射頻區塊。因此「邏輯」是產品與技術領域，不是企業商業模式；設計公司、晶圓代工廠與封測公司都可能在不同階段服務同一類邏輯產品。",
+    "tags": [
+      "產品／技術"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        },
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "邏輯"
+      ],
+      "applications": [
+        "運算",
+        "通訊"
+      ]
+    },
+    "sources": [
+      {
+        "title": "Synopsys：What is Physical Design",
+        "url": "https://www.synopsys.com/glossary/what-is-physical-design.html",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "台積電：製程技術總覽",
+        "url": "https://www.tsmc.com/english/dedicatedFoundry/technology",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "soc",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "design",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      2,
+      5,
+      3,
+      4
+    ],
+    "scoreReasons": [
+      "邏輯晶片：從具體操作歸納出單一技術或工作環節。",
+      "邏輯晶片：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "邏輯晶片：是辨認產業分工與企業定位的核心知識。",
+      "邏輯晶片：可跨數個相關半導體環節使用。",
+      "邏輯晶片：能說明主要服務如何產生價值與銜接客戶。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "dram",
+    "title": "DRAM：動態隨機存取記憶體",
+    "type": "產品／技術",
+    "definition": "提供運作中的資料暫存，需要持續供電並更新儲存狀態。",
+    "detail": "DRAM 常作為系統工作記憶體，容量、頻寬、功耗、介面與使用溫度是選擇重點。DDR 與低功耗 LPDDR 等產品家族服務不同系統需求。記憶體產品公司可以自行設計製造，也可採用代工模式；所以「生產 DRAM」與「晶圓代工」不衝突，必須再看誰定義產品、誰銷售以及誰負責製造。",
+    "tags": [
+      "產品／技術"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        },
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "記憶體"
+      ],
+      "applications": [
+        "運算",
+        "通訊",
+        "消費電子"
+      ]
+    },
+    "sources": [
+      {
+        "title": "南亞科技：DRAM 產品",
+        "url": "https://www.nanya.com/en/Product",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "力積電：DRAM 代工製程",
+        "url": "https://www.powerchip.com/en-global/services/foundry-services/dram-process",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "flash",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "foundry",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "idm",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      2,
+      5,
+      2,
+      5
+    ],
+    "scoreReasons": [
+      "DRAM：動態隨機存取記憶體：從具體操作歸納出單一技術或工作環節。",
+      "DRAM：動態隨機存取記憶體：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "DRAM：動態隨機存取記憶體：是辨認產業分工與企業定位的核心知識。",
+      "DRAM：動態隨機存取記憶體：可移用到同類產品或相近技術。",
+      "DRAM：動態隨機存取記憶體：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "flash",
+    "title": "Flash：快閃記憶體",
+    "type": "產品／技術",
+    "definition": "斷電後仍可保留資料、可電性寫入與抹除的記憶體。",
+    "detail": "Flash 屬於非揮發性記憶體。常見的 NOR 和 NAND 在讀取方式、容量與用途上有所差異，實際選擇還需看產品規格與系統需求。程式碼儲存、安全功能與資料儲存對可靠度、速度和成本的要求並不相同。企業即使同樣被分類為記憶體廠，也可能因產品組合和服務市場不同而具有不同定位。",
+    "tags": [
+      "產品／技術"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        },
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "記憶體"
+      ],
+      "applications": [
+        "通訊",
+        "工業",
+        "消費電子"
+      ]
+    },
+    "sources": [
+      {
+        "title": "華邦：產品選擇指南",
+        "url": "https://www.winbond.com.tw/export/sites/winbond/product-selection-guide/file/2021-Winbond-Product-Selection-Guide-EN.pdf",
+        "publishedAt": "2021（檔名所示版本）",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "dram",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "specialty-process",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      2,
+      5,
+      2,
+      5
+    ],
+    "scoreReasons": [
+      "Flash：快閃記憶體：從具體操作歸納出單一技術或工作環節。",
+      "Flash：快閃記憶體：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "Flash：快閃記憶體：是辨認產業分工與企業定位的核心知識。",
+      "Flash：快閃記憶體：可移用到同類產品或相近技術。",
+      "Flash：快閃記憶體：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "analog",
+    "title": "類比與混合訊號",
+    "type": "產品／技術",
+    "definition": "處理連續變化的電壓、電流與物理訊號，並連接數位系統。",
+    "detail": "感測器輸出、音訊、電源與射頻訊號都涉及連續變化的物理量。類比電路負責放大、濾波、調節或轉換，混合訊號電路則結合類比與數位功能。其性能常受雜訊、精準度、耐壓與元件匹配影響，因此理解相關企業時不能只看邏輯節點大小，還要看製程特性、電路設計與應用支援。",
+    "tags": [
+      "產品／技術"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        },
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "類比"
+      ],
+      "applications": [
+        "工業",
+        "車用",
+        "消費電子"
+      ]
+    },
+    "sources": [
+      {
+        "title": "TI：Analog semiconductors",
+        "url": "https://www.ti.com/about-ti/analog-semiconductors.html?familyId=2&templateId=1",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "specialty-process",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "power",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "rf",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      3,
+      5,
+      3,
+      4
+    ],
+    "scoreReasons": [
+      "類比與混合訊號：從具體操作歸納出單一技術或工作環節。",
+      "類比與混合訊號：需要串連設計、製造或封測等數個基本概念。",
+      "類比與混合訊號：是辨認產業分工與企業定位的核心知識。",
+      "類比與混合訊號：可跨數個相關半導體環節使用。",
+      "類比與混合訊號：能說明主要服務如何產生價值與銜接客戶。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "power",
+    "title": "功率元件與電源管理",
+    "type": "產品／技術",
+    "definition": "控制電能的轉換、開關與供應，讓系統在需要的電壓與電流下工作。",
+    "detail": "功率元件和電源管理 IC 服務供電、能量轉換與保護等任務。功率開關、控制器與驅動器分工不同，設計須考量效率、耐壓、散熱與可靠度。這個領域橫跨矽及其他半導體材料，也涉及製程、封裝與系統應用。將它列為產品領域，可幫助辨認特色製程廠與終端電源方案供應商的不同角色。",
+    "tags": [
+      "產品／技術"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        },
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "功率元件",
+        "類比"
+      ],
+      "applications": [
+        "車用",
+        "工業",
+        "運算"
+      ]
+    },
+    "sources": [
+      {
+        "title": "TI：Analog semiconductors",
+        "url": "https://www.ti.com/about-ti/analog-semiconductors.html?familyId=2&templateId=1",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "specialty-process",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "packaging",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      3,
+      5,
+      3,
+      4
+    ],
+    "scoreReasons": [
+      "功率元件與電源管理：從具體操作歸納出單一技術或工作環節。",
+      "功率元件與電源管理：需要串連設計、製造或封測等數個基本概念。",
+      "功率元件與電源管理：是辨認產業分工與企業定位的核心知識。",
+      "功率元件與電源管理：可跨數個相關半導體環節使用。",
+      "功率元件與電源管理：能說明主要服務如何產生價值與銜接客戶。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "soc",
+    "title": "SoC：系統單晶片",
+    "type": "產品／技術",
+    "definition": "把多個系統功能整合到單一晶片，例如處理、記憶體介面與通訊控制。",
+    "detail": "SoC（System on Chip）把多個功能區塊放入同一晶片，讓終端設備減少元件數量並協調功耗與效能。它通常仍需要外部記憶體、電源或射頻元件，並非整台設備的所有功能都在單晶片上。供應商除晶片外，可能提供軟體與參考設計；理解產品的功能整合層次，有助辨認 IC 設計公司的客戶價值。",
+    "tags": [
+      "產品／技術"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "邏輯",
+        "類比"
+      ],
+      "applications": [
+        "運算",
+        "通訊",
+        "消費電子"
+      ]
+    },
+    "sources": [
+      {
+        "title": "Synopsys：What is Physical Design",
+        "url": "https://www.synopsys.com/glossary/what-is-physical-design.html",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "ASE：System in Package",
+        "url": "https://ase.aseglobal.com/system-in-package/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "logic",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "sip",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "chiplet",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      3,
+      5,
+      2,
+      5
+    ],
+    "scoreReasons": [
+      "SoC：系統單晶片：從具體操作歸納出單一技術或工作環節。",
+      "SoC：系統單晶片：需要串連設計、製造或封測等數個基本概念。",
+      "SoC：系統單晶片：是辨認產業分工與企業定位的核心知識。",
+      "SoC：系統單晶片：可移用到同類產品或相近技術。",
+      "SoC：系統單晶片：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "rf",
+    "title": "RF：射頻技術",
+    "type": "產品／技術",
+    "definition": "處理無線通訊所使用的高頻訊號，包括放大、轉換、濾波與收發。",
+    "detail": "射頻電路需要在雜訊、頻寬、功率、線性度與阻抗之間取捨，封裝和板級連接也會影響訊號表現。通訊晶片產品可能結合數位運算、類比轉換與射頻前端，因此不能把所有通訊元件看成同一技術。射頻既是產品領域，也是特色製程、封裝與測試必須共同支援的技術條件。",
+    "tags": [
+      "產品／技術"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        },
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        },
+        {
+          "label": "測試",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "射頻",
+        "類比"
+      ],
+      "applications": [
+        "通訊"
+      ]
+    },
+    "sources": [
+      {
+        "title": "TI：RF & microwave 產品",
+        "url": "https://www.ti.com/product-category/rf-microwave/overview.html",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "ASE：System in Package",
+        "url": "https://ase.aseglobal.com/system-in-package/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "analog",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "specialty-process",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "testing",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      3,
+      4,
+      3,
+      4
+    ],
+    "scoreReasons": [
+      "RF：射頻技術：從具體操作歸納出單一技術或工作環節。",
+      "RF：射頻技術：需要串連設計、製造或封測等數個基本概念。",
+      "RF：射頻技術：直接影響一個主要產業環節的運作。",
+      "RF：射頻技術：可跨數個相關半導體環節使用。",
+      "RF：射頻技術：能說明主要服務如何產生價值與銜接客戶。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "wafer",
+    "title": "晶圓與晶粒",
+    "type": "概念",
+    "definition": "晶圓是製造用的薄片基材；晶粒是其上形成並可分離的個別晶片。",
+    "detail": "在一片晶圓上通常會重複製作許多晶粒。晶圓在不同製造階段可能是原始材料、已加工電路或待測試的半成品；切割後的裸晶還需要適當的連接和保護。這個區別有助避免混淆矽晶圓材料廠、晶圓製造廠與封裝廠：它們處理的物件可以有關聯，但完成的工作與交付物不同。",
+    "tags": [
+      "概念"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        },
+        {
+          "label": "材料",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "邏輯",
+        "記憶體"
+      ],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "ASML：How microchips are made",
+        "url": "https://www.asml.com/en/technology/all-about-microchips/how-microchips-are-made",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "GlobalWafers：矽晶圓產品",
+        "url": "https://www.gw-semi.com/products/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "silicon-wafer",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "manufacturing",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "packaging",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      1,
+      5,
+      2,
+      4
+    ],
+    "scoreReasons": [
+      "晶圓與晶粒：從具體操作歸納出單一技術或工作環節。",
+      "晶圓與晶粒：以日常語言即可掌握此單元的重點。",
+      "晶圓與晶粒：是辨認產業分工與企業定位的核心知識。",
+      "晶圓與晶粒：可移用到同類產品或相近技術。",
+      "晶圓與晶粒：能說明主要服務如何產生價值與銜接客戶。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "substrate",
+    "title": "IC 封裝載板",
+    "type": "產品／技術",
+    "definition": "在晶片與系統電路板之間承接晶片、分配訊號與電源的精密連接結構。",
+    "detail": "封裝載板利用內部導線與層間連接，將晶片密集的接點轉接到較大的封裝或電路板介面，也提供機械支撐。不同封裝對線路密度、尺寸、材料與翹曲控制的需求不同。它與製造電晶體所使用的矽晶圓基材是不同物件；製造載板亦不等同替晶片完成全部封裝作業。",
+    "tags": [
+      "產品／技術"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "材料",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "封裝互連"
+      ],
+      "applications": [
+        "運算",
+        "通訊"
+      ]
+    },
+    "sources": [
+      {
+        "title": "ASE：Packaging Substrate",
+        "url": "https://ase.aseglobal.com/packaging-substrate/",
+        "publishedAt": "未標示",
+        "period": "官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "證交所：欣興公司基本資料",
+        "url": "https://www.twse.com.tw/pdf/en/3037_en.pdf",
+        "publishedAt": "2026-10-28（證交所檔案產生日期）",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "ASE：System in Package",
+        "url": "https://ase.aseglobal.com/system-in-package/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "packaging",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "advanced-packaging",
+        "type": "應用",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "silicon-wafer",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      3,
+      5,
+      2,
+      5
+    ],
+    "scoreReasons": [
+      "IC 封裝載板：從具體操作歸納出單一技術或工作環節。",
+      "IC 封裝載板：需要串連設計、製造或封測等數個基本概念。",
+      "IC 封裝載板：是辨認產業分工與企業定位的核心知識。",
+      "IC 封裝載板：可移用到同類產品或相近技術。",
+      "IC 封裝載板：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "silicon-wafer",
+    "title": "半導體矽晶圓材料",
+    "type": "產品／技術",
+    "definition": "提供製造晶片所需的高純度、低缺陷且平坦的矽基材。",
+    "detail": "矽晶圓供應商製作與處理矽基材，產品可能包含拋光、磊晶等不同規格。客戶關心純度、晶體缺陷、厚度、平坦度及電性，因為這些會影響後續元件與製程表現。材料廠交付的是晶片製造起點的基材，而晶圓代工廠在其上製作客戶電路；兩者都使用「晶圓」一詞，業務卻不同。",
+    "tags": [
+      "產品／技術"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "材料",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "矽晶圓"
+      ],
+      "applications": [
+        "運算",
+        "工業",
+        "車用"
+      ]
+    },
+    "sources": [
+      {
+        "title": "GlobalWafers：矽晶圓產品",
+        "url": "https://www.gw-semi.com/products/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "wafer",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "manufacturing",
+        "type": "應用",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "cmp",
+        "type": "使用技術",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      2,
+      5,
+      2,
+      5
+    ],
+    "scoreReasons": [
+      "半導體矽晶圓材料：從具體操作歸納出單一技術或工作環節。",
+      "半導體矽晶圓材料：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "半導體矽晶圓材料：是辨認產業分工與企業定位的核心知識。",
+      "半導體矽晶圓材料：可移用到同類產品或相近技術。",
+      "半導體矽晶圓材料：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "carrier",
+    "title": "光罩與晶圓載具",
+    "type": "產品／技術",
+    "definition": "在運送與儲存期間保護光罩或晶圓，協助控制污染與操作風險。",
+    "detail": "半導體製造中的光罩和晶圓對微粒、化學污染及機械損傷敏感，因此需要適合製程與設備介面的載具。光罩載具和晶圓載具的形態與規格不同，不能當成同一產品。其價值來自保護、潔淨控制、材料與精密製造能力，而不是直接替晶片進行曝光或蝕刻；具體產品適用性仍須核對供應商規格。",
+    "tags": [
+      "產品／技術"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "設備",
+          "priority": "主要"
+        },
+        {
+          "label": "材料",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "潔淨傳載"
+      ],
+      "applications": [
+        "運算",
+        "工業"
+      ]
+    },
+    "sources": [
+      {
+        "title": "家登：產品與技術",
+        "url": "https://www.gudeng.com/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "家登：永續價值與載具解決方案",
+        "url": "https://esg.gudeng.com/Value",
+        "publishedAt": "未標示",
+        "period": "2024年度成果敘述；2026-10-28查核頁面",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "ASML：How microchips are made",
+        "url": "https://www.asml.com/en/technology/all-about-microchips/how-microchips-are-made",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "lithography",
+        "type": "應用",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "manufacturing",
+        "type": "應用",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "yield",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      2,
+      4,
+      3,
+      5
+    ],
+    "scoreReasons": [
+      "光罩與晶圓載具：從具體操作歸納出單一技術或工作環節。",
+      "光罩與晶圓載具：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "光罩與晶圓載具：直接影響一個主要產業環節的運作。",
+      "光罩與晶圓載具：可跨數個相關半導體環節使用。",
+      "光罩與晶圓載具：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "facilities",
+    "title": "廠務與無塵室工程",
+    "type": "業務／服務",
+    "definition": "建置和整合生產所需的潔淨環境、機電與供應系統。",
+    "detail": "晶圓廠需要穩定的電力、空調、製程用水、氣體與化學品等基礎環境。廠務工程把建築和機電系統整合到可支援生產的狀態，其工作可包含設計、採購、施工、試運轉與維護，依合約而定。工程商交付的是環境與系統能力，與晶片設計、晶圓加工或單台製程設備供應商的責任範圍不同。",
+    "tags": [
+      "業務／服務"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "廠務工程",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "廠務系統"
+      ],
+      "applications": [
+        "工業"
+      ]
+    },
+    "sources": [
+      {
+        "title": "漢唐：企業與工程服務",
+        "url": "https://www.uisco.com.tw/aboutus.html",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "漢唐：2023年法人說明會",
+        "url": "https://www.uisco.com.tw/UIS_introduction-2023.pdf",
+        "publishedAt": "2023-06-15",
+        "period": "工程服務範圍背景；非2026營運數據",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "ASML：How microchips are made",
+        "url": "https://www.asml.com/en/technology/all-about-microchips/how-microchips-are-made",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "manufacturing",
+        "type": "應用",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "equipment",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      3,
+      2,
+      4,
+      4,
+      5
+    ],
+    "scoreReasons": [
+      "廠務與無塵室工程：可用來解釋多家企業的業務或商業模式。",
+      "廠務與無塵室工程：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "廠務與無塵室工程：直接影響一個主要產業環節的運作。",
+      "廠務與無塵室工程：可延伸到其他電子製造或工程情境。",
+      "廠務與無塵室工程：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "yield",
+    "title": "良率",
+    "type": "概念",
+    "definition": "在明確定義的製程或測試階段，合格產出占投入或受測數量的比例。",
+    "detail": "良率必須連同計算階段、分母、合格標準與期間一起閱讀。晶圓製造、封裝與成品測試可以各有良率，數值不能直接混用。良率改善能降低每個合格產品承擔的資源成本，也能回饋設計與製程。但高良率並不單獨代表最先進的技術，因為產品難度、成熟度與篩選條件都會影響結果。",
+    "tags": [
+      "概念"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        },
+        {
+          "label": "封裝",
+          "priority": "主要"
+        },
+        {
+          "label": "測試",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "ASE：Test Services",
+        "url": "https://ase.aseglobal.com/test-services/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "SIA：Front-end Manufacturing",
+        "url": "https://www.semiconductors.org/semiconductors-101/how-are-semiconductors-made/stage-3-front-end-manufacturing/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "分析性解釋",
+    "related": [
+      {
+        "target": "yield-formula",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "testing",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "scale",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      4,
+      3,
+      5,
+      5,
+      4
+    ],
+    "scoreReasons": [
+      "良率：串連多個業務環節，抽取共通的產業機制。",
+      "良率：需要串連設計、製造或封測等數個基本概念。",
+      "良率：是辨認產業分工與企業定位的核心知識。",
+      "良率：可用於不同產業的商業與營運情境。",
+      "良率：能說明主要服務如何產生價值與銜接客戶。"
+    ],
+    "note": "編輯根據所列來源所作的分析與教學整理；並非公司對競爭關係或績效的聲明。分數可修訂。"
+  },
+  {
+    "id": "scale",
+    "title": "規模經濟與產能利用率",
+    "type": "概念",
+    "definition": "大量生產可分攤固定投入，但實際效益還受稼動、產品組合與良率影響。",
+    "detail": "晶圓廠與封測廠需要設備和工程投入，服務多個客戶可讓產能更容易被使用。當固定資源分攤到更多合格產出，平均成本可能下降；反之閒置產能可能增加負擔。這是理解專業代工的重要營運原理，但不能由產能大小直接推出獲利或品質，仍需核對期間、技術組合、價格與利用率等資料。",
+    "tags": [
+      "概念"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        },
+        {
+          "label": "封裝",
+          "priority": "主要"
+        },
+        {
+          "label": "測試",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "SIA：Beyond Borders 產業分工研究",
+        "url": "https://www.semiconductors.org/wp-content/uploads/2018/06/SIA-Beyond-Borders-Report-FINAL-May-6-1.pdf",
+        "publishedAt": "2016-05",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "分析性解釋",
+    "related": [
+      {
+        "target": "foundry",
+        "type": "應用",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "osat",
+        "type": "應用",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "yield",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      5,
+      3,
+      4,
+      5,
+      4
+    ],
+    "scoreReasons": [
+      "規模經濟與產能利用率：表達可跨情境使用的一般分工或經濟原理。",
+      "規模經濟與產能利用率：需要串連設計、製造或封測等數個基本概念。",
+      "規模經濟與產能利用率：直接影響一個主要產業環節的運作。",
+      "規模經濟與產能利用率：可用於不同產業的商業與營運情境。",
+      "規模經濟與產能利用率：能說明主要服務如何產生價值與銜接客戶。"
+    ],
+    "note": "編輯根據所列來源所作的分析與教學整理；並非公司對競爭關係或績效的聲明。分數可修訂。"
+  },
+  {
+    "id": "pdk",
+    "title": "PDK：製程設計套件",
+    "type": "產品／技術",
+    "definition": "把特定製程的元件模型與設計限制交給設計工具使用的資料集合。",
+    "detail": "PDK（Process Design Kit）連接設計與製造，讓工程師使用與目標製程相符的模型、規則和必要資料來設計及驗證電路。它通常與製程版本和工具流程相關，不能假設不同晶圓廠的套件可直接互換。它的存在說明晶圓代工並非只接收圖檔加工，還需要在設計階段提供可製造性的介面。",
+    "tags": [
+      "產品／技術"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        },
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "Synopsys：What is a Process Design Kit",
+        "url": "https://www.synopsys.com/glossary/what-is-a-process-design-kit.html",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "Synopsys：What is Physical Design",
+        "url": "https://www.synopsys.com/glossary/what-is-physical-design.html",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "foundry",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "design",
+        "type": "應用",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "tapeout",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      4,
+      5,
+      3,
+      4
+    ],
+    "scoreReasons": [
+      "PDK：製程設計套件：從具體操作歸納出單一技術或工作環節。",
+      "PDK：製程設計套件：需整合多個技術步驟及其限制才能理解。",
+      "PDK：製程設計套件：是辨認產業分工與企業定位的核心知識。",
+      "PDK：製程設計套件：可跨數個相關半導體環節使用。",
+      "PDK：製程設計套件：能說明主要服務如何產生價值與銜接客戶。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "tapeout",
+    "title": "Tape-out：設計定稿交付製造",
+    "type": "概念",
+    "definition": "完成必要設計驗證後，交付用於後續光罩與晶片製造的設計資料。",
+    "detail": "Tape-out 是設計流程的重要里程碑，表示特定版本已準備交付製造，並不表示晶片已量產或功能必然成功。製造後仍要進行樣品驗證、測試與必要修正。從業務角度看，它是 IC 設計與晶圓製造之間的關鍵交接，前面的規格和驗證品質會影響後續成本與時程。",
+    "tags": [
+      "概念"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        },
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "Synopsys：What is Physical Design",
+        "url": "https://www.synopsys.com/glossary/what-is-physical-design.html",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "design",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "pdk",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "manufacturing",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      3,
+      4,
+      3,
+      4
+    ],
+    "scoreReasons": [
+      "Tape-out：設計定稿交付製造：從具體操作歸納出單一技術或工作環節。",
+      "Tape-out：設計定稿交付製造：需要串連設計、製造或封測等數個基本概念。",
+      "Tape-out：設計定稿交付製造：直接影響一個主要產業環節的運作。",
+      "Tape-out：設計定稿交付製造：可跨數個相關半導體環節使用。",
+      "Tape-out：設計定稿交付製造：能說明主要服務如何產生價值與銜接客戶。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "lithography",
+    "title": "微影／光刻",
+    "type": "產品／技術",
+    "definition": "利用光與光阻把所需圖形轉印到晶圓上的製程步驟。",
+    "detail": "微影先使晶圓表面的光阻接受圖形化曝光，再透過顯影形成圖案，供後續蝕刻或其他步驟使用。它本身並非把所有電路一次做完，通常需與沉積、蝕刻和量測反覆配合。理解此步驟能分辨曝光設備、光罩與載具、材料供應和晶圓製造各自完成的工作。",
+    "tags": [
+      "產品／技術"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        },
+        {
+          "label": "設備",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "ASML：How microchips are made",
+        "url": "https://www.asml.com/en/technology/all-about-microchips/how-microchips-are-made",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "SIA：Front-end Manufacturing",
+        "url": "https://www.semiconductors.org/semiconductors-101/how-are-semiconductors-made/stage-3-front-end-manufacturing/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "manufacturing",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "etch",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "carrier",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      3,
+      4,
+      2,
+      3
+    ],
+    "scoreReasons": [
+      "微影／光刻：從具體操作歸納出單一技術或工作環節。",
+      "微影／光刻：需要串連設計、製造或封測等數個基本概念。",
+      "微影／光刻：直接影響一個主要產業環節的運作。",
+      "微影／光刻：可移用到同類產品或相近技術。",
+      "微影／光刻：可以解釋企業其中一部分產品或作業。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "etch",
+    "title": "蝕刻",
+    "type": "產品／技術",
+    "definition": "選擇性移除材料，把前一步形成的圖形轉換為實際結構。",
+    "detail": "蝕刻可使用液體或電漿等方式去除材料，製程需要控制移除速率、方向性、選擇比與均勻性。微影定義要處理的區域，蝕刻把這個圖形轉移到下方材料，兩者功能不同但相互配合。設備、氣體與化學品的品質都可能影響結果，這也說明晶圓廠需要完整供應鏈支持。",
+    "tags": [
+      "產品／技術"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        },
+        {
+          "label": "設備",
+          "priority": "主要"
+        },
+        {
+          "label": "材料",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "ASML：How microchips are made",
+        "url": "https://www.asml.com/en/technology/all-about-microchips/how-microchips-are-made",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "SIA：Front-end Manufacturing",
+        "url": "https://www.semiconductors.org/semiconductors-101/how-are-semiconductors-made/stage-3-front-end-manufacturing/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "lithography",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "manufacturing",
+        "type": "應用",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      3,
+      4,
+      2,
+      3
+    ],
+    "scoreReasons": [
+      "蝕刻：從具體操作歸納出單一技術或工作環節。",
+      "蝕刻：需要串連設計、製造或封測等數個基本概念。",
+      "蝕刻：直接影響一個主要產業環節的運作。",
+      "蝕刻：可移用到同類產品或相近技術。",
+      "蝕刻：可以解釋企業其中一部分產品或作業。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "deposition",
+    "title": "薄膜沉積",
+    "type": "產品／技術",
+    "definition": "在基材表面形成受控厚度與性質的薄膜，建立元件和導線所需材料。",
+    "detail": "薄膜可作為導體、絕緣體或半導體層，沉積方法需配合材料、溫度和結構需求。製造過程會反覆沉積、圖形化與移除材料，以形成不同功能層。沉積並非只追求越厚越好，膜厚均勻性、成分、界面與覆蓋性都重要；理解這些條件可連到設備與高純材料供應商的價值。",
+    "tags": [
+      "產品／技術"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        },
+        {
+          "label": "設備",
+          "priority": "主要"
+        },
+        {
+          "label": "材料",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "ASML：How microchips are made",
+        "url": "https://www.asml.com/en/technology/all-about-microchips/how-microchips-are-made",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "SIA：Front-end Manufacturing",
+        "url": "https://www.semiconductors.org/semiconductors-101/how-are-semiconductors-made/stage-3-front-end-manufacturing/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "manufacturing",
+        "type": "應用",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "etch",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "cmp",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      3,
+      4,
+      3,
+      3
+    ],
+    "scoreReasons": [
+      "薄膜沉積：從具體操作歸納出單一技術或工作環節。",
+      "薄膜沉積：需要串連設計、製造或封測等數個基本概念。",
+      "薄膜沉積：直接影響一個主要產業環節的運作。",
+      "薄膜沉積：可跨數個相關半導體環節使用。",
+      "薄膜沉積：可以解釋企業其中一部分產品或作業。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "cmp",
+    "title": "CMP：化學機械平坦化",
+    "type": "產品／技術",
+    "definition": "結合化學作用與機械研磨，移除多餘材料並讓表面平坦。",
+    "detail": "多層結構製造需要控制表面起伏，使後續圖形與薄膜能穩定形成。CMP 透過研磨墊、漿料與操作條件協同控制材料移除，並避免刮傷、污染或過度研磨。矽晶圓材料製作也會使用相關拋光技術，但其目的與加工中的平坦化不完全相同，需連同製程階段理解。",
+    "tags": [
+      "產品／技術"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        },
+        {
+          "label": "設備",
+          "priority": "主要"
+        },
+        {
+          "label": "材料",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "SIA：Front-end Manufacturing",
+        "url": "https://www.semiconductors.org/semiconductors-101/how-are-semiconductors-made/stage-3-front-end-manufacturing/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "GlobalWafers：矽晶圓產品",
+        "url": "https://www.gw-semi.com/products/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "manufacturing",
+        "type": "應用",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "silicon-wafer",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      3,
+      4,
+      3,
+      3
+    ],
+    "scoreReasons": [
+      "CMP：化學機械平坦化：從具體操作歸納出單一技術或工作環節。",
+      "CMP：化學機械平坦化：需要串連設計、製造或封測等數個基本概念。",
+      "CMP：化學機械平坦化：直接影響一個主要產業環節的運作。",
+      "CMP：化學機械平坦化：可跨數個相關半導體環節使用。",
+      "CMP：化學機械平坦化：可以解釋企業其中一部分產品或作業。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "wafer-test",
+    "title": "晶圓測試／Wafer probing",
+    "type": "業務／服務",
+    "definition": "在晶片仍位於晶圓上時，以探針和測試設備檢查電性與功能。",
+    "detail": "晶圓測試利用探針與晶粒接點連接，執行規定的測試程式並產生晶圓測試圖等資料。它有助於在後續封裝前辨認合格晶粒，減少將資源花在已知不合格產品上。測試條件與涵蓋範圍取決於產品和客戶規範；通過此階段也不代表之後可省略所有成品或可靠度測試。",
+    "tags": [
+      "業務／服務"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "測試",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "ASE：Test Services",
+        "url": "https://ase.aseglobal.com/test-services/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "testing",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "wafer",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "final-test",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      3,
+      5,
+      2,
+      5
+    ],
+    "scoreReasons": [
+      "晶圓測試／Wafer probing：從具體操作歸納出單一技術或工作環節。",
+      "晶圓測試／Wafer probing：需要串連設計、製造或封測等數個基本概念。",
+      "晶圓測試／Wafer probing：是辨認產業分工與企業定位的核心知識。",
+      "晶圓測試／Wafer probing：可移用到同類產品或相近技術。",
+      "晶圓測試／Wafer probing：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "final-test",
+    "title": "成品測試／Final test",
+    "type": "業務／服務",
+    "definition": "在封裝後檢查產品是否符合指定的電性、功能或性能要求。",
+    "detail": "封裝後的晶片透過測試介面與設備連接，依產品要求在特定電壓、溫度和訊號條件下受測。此步驟可偵測封裝與整體產品相關問題，也可能依性能分級。成品測試不等同所有長期可靠度驗證；測試公司交付的不只是合格品，也包括測試資料與可追溯紀錄。",
+    "tags": [
+      "業務／服務"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "測試",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "ASE：Test Services",
+        "url": "https://ase.aseglobal.com/test-services/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "testing",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "packaging",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "qualification",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      3,
+      5,
+      3,
+      5
+    ],
+    "scoreReasons": [
+      "成品測試／Final test：從具體操作歸納出單一技術或工作環節。",
+      "成品測試／Final test：需要串連設計、製造或封測等數個基本概念。",
+      "成品測試／Final test：是辨認產業分工與企業定位的核心知識。",
+      "成品測試／Final test：可跨數個相關半導體環節使用。",
+      "成品測試／Final test：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "sip",
+    "title": "SiP：系統級封裝",
+    "type": "產品／技術",
+    "definition": "把多種晶片與其他元件組成具有系統或子系統功能的封裝模組。",
+    "detail": "SiP（System in Package）可整合處理器、記憶體、感測器及被動元件，藉由封裝完成小型化與功能整合。與 SoC 把功能整合在單一晶片不同，SiP 可使用不同晶粒和製程。它需要共同考量互連、射頻、散熱、組裝與測試，因此封裝業者的服務可延伸到系統層次的設計支援。",
+    "tags": [
+      "產品／技術"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "封裝",
+          "priority": "主要"
+        },
+        {
+          "label": "測試",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "邏輯",
+        "記憶體",
+        "射頻"
+      ],
+      "applications": [
+        "通訊",
+        "消費電子",
+        "車用"
+      ]
+    },
+    "sources": [
+      {
+        "title": "ASE：System in Package",
+        "url": "https://ase.aseglobal.com/system-in-package/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "packaging",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "soc",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "testing",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      2,
+      4,
+      5,
+      3,
+      5
+    ],
+    "scoreReasons": [
+      "SiP：系統級封裝：從具體操作歸納出單一技術或工作環節。",
+      "SiP：系統級封裝：需整合多個技術步驟及其限制才能理解。",
+      "SiP：系統級封裝：是辨認產業分工與企業定位的核心知識。",
+      "SiP：系統級封裝：可跨數個相關半導體環節使用。",
+      "SiP：系統級封裝：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "cowos",
+    "title": "CoWoS：台積電 2.5D 封裝平台",
+    "type": "產品／技術",
+    "definition": "利用高密度互連整合邏輯晶粒與記憶體等元件的台積電封裝技術家族。",
+    "detail": "CoWoS 為台積電的具名技術平台，可整合運算晶片和高頻寬記憶體等元件，以支援高效能運算需求。不同變體採用不同的中介互連方式，不能把所有 CoWoS 都描述為完全相同的矽中介層結構。此案例說明晶圓代工業者的能力可以延伸到先進封裝，企業邊界不必對應單一產業環節。",
+    "tags": [
+      "產品／技術"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "封裝",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "邏輯",
+        "記憶體"
+      ],
+      "applications": [
+        "運算"
+      ]
+    },
+    "sources": [
+      {
+        "title": "台積電：CoWoS 技術",
+        "url": "https://3dfabric.tsmc.com/schinese/dedicatedFoundry/technology/cowos.htm",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "台積電：先進封裝服務",
+        "url": "https://www.tsmc.com/english/dedicatedFoundry/services/advanced-packaging",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "advanced-packaging",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "chiplet",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "tsmc",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      1,
+      4,
+      5,
+      1,
+      5
+    ],
+    "scoreReasons": [
+      "CoWoS：台積電 2.5D 封裝平台：指向具體產品、案例或可直接觀察的對象。",
+      "CoWoS：台積電 2.5D 封裝平台：需整合多個技術步驟及其限制才能理解。",
+      "CoWoS：台積電 2.5D 封裝平台：是辨認產業分工與企業定位的核心知識。",
+      "CoWoS：台積電 2.5D 封裝平台：主要針對此一具名案例或專用產品。",
+      "CoWoS：台積電 2.5D 封裝平台：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "chiplet",
+    "title": "Chiplet：小晶片分工與整合",
+    "type": "概念",
+    "definition": "把系統功能拆成多顆晶粒，再透過封裝與互連組合成完整產品。",
+    "detail": "Chiplet 思路讓不同功能可採用不同製程或重用部分設計，並在封裝層次整合。它不是把任意晶片放在一起就會運作，仍須協調介面、頻寬、功耗、散熱與測試。這會讓設計、晶圓製造與先進封裝的合作更緊密，也使判讀企業定位時需要看它在整合流程中的責任。",
+    "tags": [
+      "概念"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        },
+        {
+          "label": "封裝",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "邏輯",
+        "記憶體"
+      ],
+      "applications": [
+        "運算"
+      ]
+    },
+    "sources": [
+      {
+        "title": "台積電：先進封裝服務",
+        "url": "https://www.tsmc.com/english/dedicatedFoundry/services/advanced-packaging",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "ASE：System in Package",
+        "url": "https://ase.aseglobal.com/system-in-package/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "advanced-packaging",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "testing",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "soc",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      3,
+      4,
+      5,
+      3,
+      4
+    ],
+    "scoreReasons": [
+      "Chiplet：小晶片分工與整合：可用來解釋多家企業的業務或商業模式。",
+      "Chiplet：小晶片分工與整合：需整合多個技術步驟及其限制才能理解。",
+      "Chiplet：小晶片分工與整合：是辨認產業分工與企業定位的核心知識。",
+      "Chiplet：小晶片分工與整合：可跨數個相關半導體環節使用。",
+      "Chiplet：小晶片分工與整合：能說明主要服務如何產生價值與銜接客戶。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "ecosystem",
+    "title": "設計與製造生態系",
+    "type": "概念",
+    "definition": "讓製程、工具、IP、封裝與客戶設計能互相配合的合作網絡。",
+    "detail": "一家晶圓代工廠能否支援客戶，不只取決於製程設備，也取決於設計工具、驗證流程、矽智財、封裝與製造介面是否成熟。共同規則與經過驗證的組合可降低交接風險。生態系是理解專業分工如何運作的框架；除非有具名來源，不能把一般合作需求推定成兩家公司的實際交易關係。",
+    "tags": [
+      "概念"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        },
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        },
+        {
+          "label": "封裝",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "台積電：製程技術總覽",
+        "url": "https://www.tsmc.com/english/dedicatedFoundry/technology",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "台積電：先進封裝服務",
+        "url": "https://www.tsmc.com/english/dedicatedFoundry/services/advanced-packaging",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "分析性解釋",
+    "related": [
+      {
+        "target": "pdk",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "value-chain",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "foundry",
+        "type": "應用",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      4,
+      4,
+      5,
+      5,
+      5
+    ],
+    "scoreReasons": [
+      "設計與製造生態系：串連多個業務環節，抽取共通的產業機制。",
+      "設計與製造生態系：需整合多個技術步驟及其限制才能理解。",
+      "設計與製造生態系：是辨認產業分工與企業定位的核心知識。",
+      "設計與製造生態系：可用於不同產業的商業與營運情境。",
+      "設計與製造生態系：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "編輯根據所列來源所作的分析與教學整理；並非公司對競爭關係或績效的聲明。分數可修訂。"
+  },
+  {
+    "id": "value-chain",
+    "title": "產業價值鏈與專業分工",
+    "type": "敘述",
+    "definition": "企業可以專注不同活動，透過交付物與介面協作完成最終產品。",
+    "detail": "把半導體產業看成價值鏈，可以依「誰定義產品、誰製造、誰封裝測試、誰供應材料與環境」辨認角色。實際網絡會有回饋、重疊與垂直整合，不是一條所有公司都只占一格的直線。同一家企業可同時參與多個環節，而同一環節也可以服務不同產品；分類與關係應分開記錄。",
+    "tags": [
+      "敘述"
+    ],
+    "classification": {
+      "activities": [],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "SIA：產業術語與商業模式",
+        "url": "https://www.semiconductors.org/industry-impact/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "SIA：Beyond Borders 產業分工研究",
+        "url": "https://www.semiconductors.org/wp-content/uploads/2018/06/SIA-Beyond-Borders-Report-FINAL-May-6-1.pdf",
+        "publishedAt": "2016-05",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "分析性解釋",
+    "related": [
+      {
+        "target": "design",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "manufacturing",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "packaging",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "testing",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "flow-example",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      5,
+      2,
+      5,
+      5,
+      5
+    ],
+    "scoreReasons": [
+      "產業價值鏈與專業分工：表達可跨情境使用的一般分工或經濟原理。",
+      "產業價值鏈與專業分工：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "產業價值鏈與專業分工：是辨認產業分工與企業定位的核心知識。",
+      "產業價值鏈與專業分工：可用於不同產業的商業與營運情境。",
+      "產業價值鏈與專業分工：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "編輯根據所列來源所作的分析與教學整理；並非公司對競爭關係或績效的聲明。分數可修訂。"
+  },
+  {
+    "id": "comparison-foundries",
+    "title": "台積電 × 力積電：同為代工，組合不同",
+    "type": "實例",
+    "definition": "以製程與服務組合比較兩家代工廠，而非把企業排成單一高低順序。",
+    "detail": "台積電的官方技術組合涵蓋邏輯、特色製程與先進封裝；力積電官方則以 Open Foundry 說明記憶體、客製邏輯與分離式元件等代工服務。兩者都屬晶圓代工，但產品領域、製程平台與整合服務的重點不同。這是依官方服務頁整理的定位比較，不表示所有產品直接競爭，也不推定雙方存在供貨關係。",
+    "tags": [
+      "比較實例",
+      "可修訂解釋"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        }
+      ],
+      "models": [
+        "Foundry"
+      ],
+      "domains": [
+        "邏輯",
+        "記憶體"
+      ],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "台積電：製程技術總覽",
+        "url": "https://www.tsmc.com/english/dedicatedFoundry/technology",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "台積電：先進封裝服務",
+        "url": "https://www.tsmc.com/english/dedicatedFoundry/services/advanced-packaging",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "力積電：公司簡介與 Open Foundry",
+        "url": "https://www.powerchip.com/en-global/staticpage/company-profile",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "力積電：DRAM 代工製程",
+        "url": "https://www.powerchip.com/en-global/services/foundry-services/dram-process",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "分析性解釋",
+    "related": [
+      {
+        "target": "tsmc",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "psmc",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "foundry",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "specialty-process",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "advanced-packaging",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      1,
+      3,
+      5,
+      2,
+      5
+    ],
+    "scoreReasons": [
+      "台積電 × 力積電：同為代工，組合不同：指向具體產品、案例或可直接觀察的對象。",
+      "台積電 × 力積電：同為代工，組合不同：需要串連設計、製造或封測等數個基本概念。",
+      "台積電 × 力積電：同為代工，組合不同：是辨認產業分工與企業定位的核心知識。",
+      "台積電 × 力積電：同為代工，組合不同：可移用到同類產品或相近技術。",
+      "台積電 × 力積電：同為代工，組合不同：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "編輯根據所列來源所作的分析與教學整理；並非公司對競爭關係或績效的聲明。分數可修訂。"
+  },
+  {
+    "id": "flow-example",
+    "title": "一顆通訊晶片的旅程",
+    "type": "實例",
+    "definition": "典型流程示意：設計產品，再製造晶圓、測試與封裝，最後進入系統。",
+    "detail": "假設某設計團隊要推出通訊晶片：先定義需求並完成電路，使用製程套件驗證設計，再交晶圓廠製造。晶圓測試後由封裝業者建立可用介面，再依方案完成成品測試並供系統業者使用。這只說明典型角色如何銜接；順序與責任可因產品調整，並不指認本圖中任意具名企業的實際客戶或供應商。",
+    "tags": [
+      "典型流程示意"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "IC 設計",
+          "priority": "主要"
+        },
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        },
+        {
+          "label": "封裝",
+          "priority": "主要"
+        },
+        {
+          "label": "測試",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "邏輯",
+        "射頻"
+      ],
+      "applications": [
+        "通訊"
+      ]
+    },
+    "sources": [
+      {
+        "title": "SIA：產業術語與商業模式",
+        "url": "https://www.semiconductors.org/industry-impact/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "Synopsys：What is Physical Design",
+        "url": "https://www.synopsys.com/glossary/what-is-physical-design.html",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "ASE：Test Services",
+        "url": "https://ase.aseglobal.com/test-services/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "分析性解釋",
+    "related": [
+      {
+        "target": "design",
+        "type": "拆解／組成",
+        "note": "典型流程示意"
+      },
+      {
+        "target": "foundry",
+        "type": "拆解／組成",
+        "note": "典型流程示意"
+      },
+      {
+        "target": "wafer-test",
+        "type": "拆解／組成",
+        "note": "典型流程示意"
+      },
+      {
+        "target": "packaging",
+        "type": "拆解／組成",
+        "note": "典型流程示意"
+      },
+      {
+        "target": "final-test",
+        "type": "拆解／組成",
+        "note": "典型流程示意"
+      }
+    ],
+    "scoreValues": [
+      1,
+      2,
+      5,
+      3,
+      4
+    ],
+    "scoreReasons": [
+      "一顆通訊晶片的旅程：指向具體產品、案例或可直接觀察的對象。",
+      "一顆通訊晶片的旅程：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "一顆通訊晶片的旅程：是辨認產業分工與企業定位的核心知識。",
+      "一顆通訊晶片的旅程：可跨數個相關半導體環節使用。",
+      "一顆通訊晶片的旅程：能說明主要服務如何產生價值與銜接客戶。"
+    ],
+    "note": "編輯根據所列來源所作的分析與教學整理；並非公司對競爭關係或績效的聲明。分數可修訂。"
+  },
+  {
+    "id": "yield-formula",
+    "title": "良率公式：Y = G / N",
+    "type": "公式",
+    "definition": "同一計算範圍內，合格數 G 除以總數 N，得到良率 Y。",
+    "detail": "公式 Y = G / N，其中 G 為符合指定標準的數量，N 為同一批次及同一階段的總受測數量，N 必須大於零；Y 無單位，乘以 100% 即百分比。例如 100 顆受測晶片中 92 顆合格，該次良率為 92%。這是教學算例，並非企業實績；不同測試條件、重測規則或分母不可混在一起比較。",
+    "tags": [
+      "公式",
+      "教學算例"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "晶圓製造",
+          "priority": "主要"
+        },
+        {
+          "label": "封裝",
+          "priority": "主要"
+        },
+        {
+          "label": "測試",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "ASE：Test Services",
+        "url": "https://ase.aseglobal.com/test-services/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "分析性解釋",
+    "related": [
+      {
+        "target": "yield",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "testing",
+        "type": "應用",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      4,
+      2,
+      4,
+      5,
+      3
+    ],
+    "scoreReasons": [
+      "良率公式：Y = G / N：串連多個業務環節，抽取共通的產業機制。",
+      "良率公式：Y = G / N：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "良率公式：Y = G / N：直接影響一個主要產業環節的運作。",
+      "良率公式：Y = G / N：可用於不同產業的商業與營運情境。",
+      "良率公式：Y = G / N：可以解釋企業其中一部分產品或作業。"
+    ],
+    "note": "編輯根據所列來源所作的分析與教學整理；並非公司對競爭關係或績效的聲明。分數可修訂。"
+  },
+  {
+    "id": "equipment",
+    "title": "半導體設備",
+    "type": "概念",
+    "definition": "執行製程、量測、檢查或搬運等工作所需的機器與整合系統。",
+    "detail": "晶圓製造需要微影、沉積、蝕刻和量測等設備，封裝測試則使用另一組組裝與測試設備。設備商交付機台及相關服務，晶片製造商則把設備、材料與製程整合成可量產流程。擁有設備不代表已具備完整製程能力；性能、穩定度、維護與和其他步驟的匹配都會影響生產成果。",
+    "tags": [
+      "概念"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "設備",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [],
+      "applications": []
+    },
+    "sources": [
+      {
+        "title": "ASML：How microchips are made",
+        "url": "https://www.asml.com/en/technology/all-about-microchips/how-microchips-are-made",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "SIA：Front-end Manufacturing",
+        "url": "https://www.semiconductors.org/semiconductors-101/how-are-semiconductors-made/stage-3-front-end-manufacturing/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "lithography",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "etch",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "deposition",
+        "type": "拆解／組成",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "manufacturing",
+        "type": "應用",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      3,
+      2,
+      4,
+      4,
+      4
+    ],
+    "scoreReasons": [
+      "半導體設備：可用來解釋多家企業的業務或商業模式。",
+      "半導體設備：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "半導體設備：直接影響一個主要產業環節的運作。",
+      "半導體設備：可延伸到其他電子製造或工程情境。",
+      "半導體設備：能說明主要服務如何產生價值與銜接客戶。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "ems",
+    "title": "EMS：電子製造服務",
+    "type": "業務／服務",
+    "definition": "替客戶組裝電路板、模組或系統，並提供相應製造與測試服務。",
+    "detail": "EMS（Electronics Manufacturing Services）的工作可涵蓋物料管理、表面黏著、電路板組裝、整機整合與測試，實際範圍依委託內容而定。它通常比單顆晶片封裝更接近系統製造，但在 SiP 與模組業務上可能相互銜接。理解日月光投控的集團業務時，應把封裝測試和電子製造服務分開辨認。",
+    "tags": [
+      "業務／服務"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "電子製造服務",
+          "priority": "主要"
+        }
+      ],
+      "models": [
+        "EMS"
+      ],
+      "domains": [],
+      "applications": [
+        "通訊",
+        "工業",
+        "消費電子"
+      ]
+    },
+    "sources": [
+      {
+        "title": "華泰電子：EMS 服務與製造能力",
+        "url": "https://www.ose.com.tw/en/ems-service/production-abilities",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      },
+      {
+        "title": "ASE：公司與服務概況",
+        "url": "https://ase.aseglobal.com/about-ase/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "sip",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "osat",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "ase-holding",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      3,
+      2,
+      4,
+      5,
+      5
+    ],
+    "scoreReasons": [
+      "EMS：電子製造服務：可用來解釋多家企業的業務或商業模式。",
+      "EMS：電子製造服務：先認識晶片或企業分工中的一個基本詞即可理解。",
+      "EMS：電子製造服務：直接影響一個主要產業環節的運作。",
+      "EMS：電子製造服務：可用於不同產業的商業與營運情境。",
+      "EMS：電子製造服務：直接指出企業的交付物、分工或差異。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  },
+  {
+    "id": "qualification",
+    "title": "可靠度驗證與產品認證",
+    "type": "概念",
+    "definition": "透過規定條件的試驗與判定，確認產品適用性及長期使用風險。",
+    "detail": "可靠度驗證關心產品在時間、溫度或其他應力下能否維持預期表現，與每一顆產品的量產電性測試目的不同。不同應用需要的條件與合格標準可能不同，車用、工業及消費產品不能直接套用同一結論。企業是否符合某項認證必須查具體範圍和有效期間，不能由它服務某市場就自行推定。",
+    "tags": [
+      "概念"
+    ],
+    "classification": {
+      "activities": [
+        {
+          "label": "測試",
+          "priority": "主要"
+        }
+      ],
+      "models": [],
+      "domains": [
+        "可靠度"
+      ],
+      "applications": [
+        "車用",
+        "工業",
+        "消費電子"
+      ]
+    },
+    "sources": [
+      {
+        "title": "ASE：Test Services",
+        "url": "https://ase.aseglobal.com/test-services/",
+        "publishedAt": "未標示",
+        "period": "基礎定義／官方產品與服務頁；2026-10-28 查核版本",
+        "checkedAt": "2026-10-28"
+      }
+    ],
+    "status": "已查證事實",
+    "related": [
+      {
+        "target": "testing",
+        "type": "先備知識",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "final-test",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      },
+      {
+        "target": "yield",
+        "type": "類比／相關",
+        "note": "編輯整理的知識連結"
+      }
+    ],
+    "scoreValues": [
+      3,
+      3,
+      4,
+      5,
+      3
+    ],
+    "scoreReasons": [
+      "可靠度驗證與產品認證：可用來解釋多家企業的業務或商業模式。",
+      "可靠度驗證與產品認證：需要串連設計、製造或封測等數個基本概念。",
+      "可靠度驗證與產品認證：直接影響一個主要產業環節的運作。",
+      "可靠度驗證與產品認證：可用於不同產業的商業與營運情境。",
+      "可靠度驗證與產品認證：可以解釋企業其中一部分產品或作業。"
+    ],
+    "note": "分數為可修訂的編輯判斷；定義依所列來源整理，延伸說明與知識連結為教學性解釋。"
+  }
+]

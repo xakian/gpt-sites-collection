@@ -1,0 +1,42 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#fafafa"><title>晶圓電性測試</title><meta name="description" content="透過兩顆晶粒的 40 秒示範，觀察接觸、功能測試、靜態供電電流與結果紀錄。"><link rel="stylesheet" href="./style.css"></head>
+<body><main id="player" tabindex="-1">
+<header><h1>晶圓電性測試 <span>01</span></h1><button id="info" aria-controls="explanation" aria-expanded="false">說明 <span aria-hidden="true">↗</span></button></header>
+<div class="phasebar"><div><span id="die-badge" class="die-badge">A</span><span id="phase-name">接觸與供電</span></div><span id="phase-note">先建立連接，再施加已知條件</span></div>
+<div class="scene-wrap"><div id="reset-note" role="status" hidden>本輪結束・重新示範</div><div id="presentation" class="presentation">
+<section class="apparatus" aria-label="探針與晶圓接觸示意"><div class="section-label"><span>01 / 連接與施加</span><span id="contact-label">尚未接觸</span></div>
+<div class="channels"><div id="channel-power"><span>供電／量流</span><b id="vdd">停用</b><small>VDD · I<sub>DD</sub></small></div><div id="channel-input"><span>送入 X</span><b id="input">—</b><small>IN</small></div><div id="channel-output"><span>讀取 Y</span><b>高阻抗</b><small>OUT</small></div><div id="channel-ground"><span>共同參考</span><b>0 V</b><small>GND</small></div></div>
+<svg id="apparatus-svg" viewBox="0 0 720 385" role="img" aria-labelledby="svg-title svg-desc"><title id="svg-title">固定探針與移動承載台</title><desc id="svg-desc">四個通道分別連至 VDD、IN、OUT、GND。電流量測在 VDD 支路。承載台先下降解除接觸，才水平移動到下一顆晶粒。</desc>
+<defs><pattern id="silicon" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12L12 0" stroke="#d6dade" stroke-width=".5"/></pattern></defs>
+<path d="M70 0V65H126V147 M180 0V147 M290 0V65H239V147 M400 0V65H294V147" fill="none" stroke="#adb3b9" stroke-width="2"/>
+<path id="power-wire" d="M70 0V65H126V147" fill="none" stroke="#4c6876" stroke-width="3"/>
+<circle cx="70" cy="35" r="16" fill="#fafafa" stroke="#75818b" stroke-width="1.5"/><text x="70" y="41" text-anchor="middle" font-size="17">A</text>
+<path d="M400 20h16m-13 5h10m-7 5h4" stroke="#75818b" stroke-width="1.5"/>
+<rect x="86" y="104" width="248" height="18" rx="3" fill="#e0e4e6" stroke="#8d959c"/>
+<text class="desktop-svg" x="366" y="119" font-size="16" fill="#626b73">探針卡 · XY 固定</text>
+<g stroke="#59636c" stroke-width="3"><path d="M126 122V177 M180 122V177 M239 122V177 M294 122V177"/></g>
+<g font-size="17" text-anchor="middle" fill="#515a62"><text x="126" y="97">VDD</text><text x="180" y="97">IN</text><text x="239" y="97">OUT</text><text x="294" y="97">GND</text></g>
+<g id="contact-dots" fill="#4c6876"><circle cx="126" cy="177" r="4"/><circle cx="180" cy="177" r="4"/><circle cx="239" cy="177" r="4"/><circle cx="294" cy="177" r="4"/></g>
+<g id="stage"><rect x="-300" y="213" width="1330" height="68" fill="#e4e7ea"/><rect x="-300" y="213" width="1330" height="68" fill="url(#silicon)"/>
+<path d="M-300 213H1030M-300 281H1030" stroke="#7b858e" stroke-width="1.5"/>
+<g fill="none" stroke="#aab1b7"><rect x="90" y="213" width="240" height="54" rx="2"/><rect x="378" y="213" width="240" height="54" rx="2"/><path d="M354 213V267 M66 213V267 M642 213V267" stroke-dasharray="3 4"/></g>
+<g fill="#b5a58c" stroke="#8e806a"><rect x="116" y="207" width="20" height="6"/><rect x="170" y="207" width="20" height="6"/><rect x="229" y="207" width="20" height="6"/><rect x="284" y="207" width="20" height="6"/><rect x="404" y="207" width="20" height="6"/><rect x="458" y="207" width="20" height="6"/><rect x="517" y="207" width="20" height="6"/><rect x="572" y="207" width="20" height="6"/></g>
+<g text-anchor="middle"><text x="210" y="247" font-size="24" font-weight="600">A</text><text x="498" y="247" font-size="24" font-weight="600">B</text></g>
+<rect x="-300" y="287" width="1330" height="24" rx="4" fill="#d3d7da" stroke="#9da5ac"/><path d="M-300 296H1030" stroke="#bcc2c8"/>
+</g>
+<text class="desktop-svg" x="360" y="358" text-anchor="middle" font-size="16" fill="#626b73">晶圓承載台 · 整片移動，晶粒留在原位</text>
+</svg>
+<div class="apparatus-foot"><span id="condition">尚未施加</span><span>接觸示意，非等比例</span></div>
+<div class="buffer-note">緩衝器 <b>Y = X</b><span>輸入 0 → 預期 0　｜　輸入 1 → 預期 1</span></div>
+</section>
+<section class="readings" aria-label="量測與判定"><div class="function-block"><div class="section-label"><span>02 / 功能測試 <b id="table-die">A</b></span><span id="function-caption">尚未取樣</span></div><table class="logic-table"><thead><tr><th>輸入 X</th><th>預期 Y</th><th>量測 Y</th><th>比較</th></tr></thead><tbody id="logic-rows"></tbody></table></div>
+<div class="current-block"><div class="section-label"><span>03 / 靜態供電電流</span><span>教學數據／限值</span></div><div class="current-condition">X = 0 · VDD = 1.8 V · 無外接負載</div>
+<div class="current-chart"><div class="axis"><span>0</span><span>10</span><span>20 <small>μA</small></span></div><div class="current-body"><div class="limit-line"><span>上限</span></div><div class="current-row" id="current-A"><b>A</b><div class="track"><span class="point" hidden></span></div><strong class="current-value">—</strong></div><div class="current-row" id="current-B"><b>B</b><div class="track"><span class="point" hidden></span></div><strong class="current-value">—</strong></div></div></div>
+</div>
+<div class="records"><div class="result-block"><div class="section-label"><span>本例兩項</span><span id="record-caption">測試紀錄</span></div><table class="result-table"><thead><tr><th>晶粒</th><th>功能</th><th>電流</th><th>總結果</th></tr></thead><tbody id="summary-rows"></tbody></table></div>
+<div class="map-block"><div class="map-title">晶圓結果圖 <span>測試紀錄</span></div><div class="wafer-map" id="wafer-map" role="img" aria-label="九格結果圖，目前全部未測"></div><small>— 未測　… 測試中</small></div></div>
+</section></div></div>
+<footer class="controls"><div class="transport"><button id="play" class="primary" aria-label="暫停">Ⅱ <span>暫停</span></button><button id="replay" aria-label="重播">↺ <span>重播</span></button><label class="speed"><span class="sr-only">播放速度</span><select id="speed" aria-label="播放速度"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select></label><time id="time-display">00.0 / 40</time><span class="slow-note">步驟慢放示意</span></div><label class="timeline"><span class="sr-only">教學時間，秒</span><input id="timeline" type="range" min="0" max="40" step="0.01" value="0" aria-label="教學時間，秒"></label><div id="keyframes" class="keyframes" aria-label="定位此步"></div></footer>
+<p id="live-status" class="sr-only" role="status" aria-live="polite"></p><p class="sr-only">依序對 A、B 施加相同條件；兩者功能符合；A 電流 2 μA 低於 10 μA，B 電流 14 μA 高於上限；結果寫入對應晶粒位置。</p>
+</main>
+<aside id="explanation" class="explanation" aria-labelledby="explanation-title" hidden><div class="panel-head"><h2 id="explanation-title">關於本例</h2><button id="close-info" aria-label="關閉說明">×</button></div><nav id="info-tabs" aria-label="說明分類"></nav><div id="info-content"></div><button id="panel-play">▶ 繼續播放</button></aside>
+<script type="module" src="./app.mjs"></script></body></html>

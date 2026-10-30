@@ -1,0 +1,21 @@
+<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><title>晶圓測試 · 驗收工作台</title><style>body{font:14px sans-serif;background:#e8eaec;margin:12px;color:#25282d}button,select{font:inherit;padding:12px;margin-right:8px}iframe{border:0;background:#fafafa;display:block}#wrap{width:1440px;transform-origin:top left}pre{white-space:pre-wrap;padding:10px;background:white}h1{font-size:16px}</style><h1>驗收工作台（開發用）</h1><button id="desktop">桌面 1440×900</button><button id="mobile">手機 390×844</button><button id="checks">執行互動檢查</button><button id="cycles">連續十輪（2×，約 200 秒）</button><button id="final">兩顆對照</button><pre id="log">待驗證</pre><div id="wrap"><iframe id="app" src="./index.html" width="1440" height="900"></iframe></div><script type="module">
+const frame=document.querySelector('#app'),log=document.querySelector('#log'),wrap=document.querySelector('#wrap');
+const wait=ms=>new Promise(r=>setTimeout(r,ms));let serial=0;
+function mode(w,h){frame.width=w;frame.height=h;wrap.style.width=w+'px';wrap.style.transform=w>1000?'scale(.75)':'none';wrap.style.height=h*(w>1000?.75:1)+'px'}mode(1440,900);
+document.querySelector('#desktop').onclick=()=>mode(1440,900);document.querySelector('#mobile').onclick=()=>mode(390,844);
+document.querySelector('#final').onclick=()=>frame.contentWindow.__wafer.seek(35);
+function output(s){log.textContent+='\n'+s}
+function assert(v,msg){if(!v)throw Error(msg);output('通過：'+msg)}
+document.querySelector('#checks').onclick=async()=>{let run=++serial;log.textContent='執行瀏覽器互動檢查';const w=frame.contentWindow,p=w.__wafer.player,d=w.document;
+try{
+for(const time of[1.5,2.5,7.5,11,28.75,35,39.5,40]){w.__wafer.seek(time);assert(p.t===time&&!p.playing,'定位 '+time+' 秒並暫停')}
+w.__wafer.seek(35);assert(d.querySelector('#summary-rows').innerText.includes('未通過'),'B 總結果可見');assert(d.querySelectorAll('.map-cell').length===9,'九格紀錄');assert([...d.querySelectorAll('.map-cell')].filter(x=>x.textContent.trim()==='—').length===7,'其餘七格未測');
+for(const t of[1.5,10.6]){w.__wafer.seek(t);const before=d.querySelector('#presentation').innerHTML;await wait(5000);assert(before===d.querySelector('#presentation').innerHTML,'暫停五秒完全不變 @'+t)}
+for(const speed of[.5,1,1.5,2]){const t=p.t;d.querySelector('#speed').value=speed;d.querySelector('#speed').dispatchEvent(new Event('change'));assert(t===p.t&&!p.playing,'暫停中調速 '+speed+' 保留相位')}
+p.setSpeed(1);for(let i=0;i<10;i++)d.querySelector('#replay').click();await wait(5000);p.pause();assert(p.t>4.6&&p.t<5.4,'快速重播十次仍為單一時鐘');
+p.play();d.querySelector('#info').click();assert(!p.playing&&!d.querySelector('#explanation').hidden,'開說明先暫停');const held=p.t;[...d.querySelectorAll('#info-tabs button')].find(x=>x.textContent==='模型限制').click();assert(p.t===held,'換說明不改時間');d.querySelector('#close-info').click();assert(!p.playing&&d.activeElement.id==='info','關閉仍暫停並返回焦點');d.querySelector('#info').click();d.querySelector('#panel-play').click();assert(p.playing&&d.querySelector('#explanation').hidden,'播放收合面板');
+w.__wafer.seek(26.75);mode(390,844);await wait(100);assert(p.t===26.75&&!p.playing,'手機重排保留相位');assert(d.documentElement.scrollWidth===390,'手機無水平溢出');mode(1440,900);await wait(100);assert(d.documentElement.scrollWidth===1440,'桌面無水平溢出');
+w.__wafer.seek(40);await wait(1000);assert(p.t===40,'定位終點保持 40');d.querySelector('#play').click();await wait(300);assert(p.t>0&&p.t<1,'終點按播放才進下一輪');p.seek(35);output('互動檢查完成');
+}catch(e){output('未通過：'+e.message)}};
+document.querySelector('#cycles').onclick=async()=>{let run=++serial;const w=frame.contentWindow,p=w.__wafer.player,d=w.document;p.setSpeed(2);p.replay();const start=p.loops;const nodes=d.querySelectorAll('*').length;log.textContent='連續十輪開始；2×，約 200 秒';let last=-1;while(run===serial&&p.loops-start<10){await wait(500);let cycle=p.loops-start;if(last!==cycle){output('已完成 '+cycle+' 輪');last=cycle}if(p.t>=33&&p.t<37){const s=w.__wafer.getState();if(s.dies.A.current!==2||s.dies.B.current!==14)throw Error('資料改變')}}if(run!==serial)return;p.seek(35);assert(d.querySelectorAll('*').length===nodes,'十輪後 DOM 節點數不增加');assert(w.__wafer.getState().dies.B.current===14,'第十輪 B 仍為 14 μA');output('連續十輪完成');};
+</script></html>

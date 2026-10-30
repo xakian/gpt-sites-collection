@@ -1,0 +1,9 @@
+
+# Local-only QA fixtures
+dist/qa.html
+dist/qa-fixture/
+dist/qa-invalid/
+dist/qa-multi/
+dist/qa-reverse/
+
+dist/qa-import/

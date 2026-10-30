@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "appgprj_6ae415e3ac68819182a0fd488d8ad557",
+    "title": "晶圓電性測試",
+    "slug": "wafer-electrical-test-20261030",
+    "originalUrl": "https://wafer-electrical-test-20261030.fishddry.chatgpt.site",
+    "version": 2,
+    "commit": "1b86663d007d288ac2ff43b596a1d8a5a44ae920",
+    "deploymentId": "appgdep_6ae41978597c81919d631d3a346351b4",
+    "versionId": "appgprj_6ae415e3ac68819182a0fd488d8ad557~appgver_9b69a904eb2c81919059d4911d041dd4",
+    "directory": "sites/wafer-electrical-test-20261030",
+    "outputDirectory": "dist",
+    "files": [
+      {
+        "path": ".gitignore",
+        "bytes": 34,
+        "sha256": "6a1c4c9187930f9e0c6fb1aa17b9d465b43fbc3735a6e5a67c37bc590df6bdb4"
+      },
+      {
+        "path": "README.md",
+        "bytes": 2545,
+        "sha256": "86cb055274ced569fde69c931f2214de7e6936dd5c052ffa03b9c355c8885d94"
+      },
+      {
+        "path": "dist/app.mjs",
+        "bytes": 13148,
+        "sha256": "f8f645c241df349804f3de311e4f8766ee671f7346da22d435ac0e5a20c8fbf3"
+      },
+      {
+        "path": "dist/config.mjs",
+        "bytes": 1298,
+        "sha256": "02431e110d37c085dd3bf97205295e21d2162639456033ccf8a47ef65c220626"
+      },
+      {
+        "path": "dist/index.html",
+        "bytes": 7848,
+        "sha256": "fe16e6e0ff666a5935ddaf2bd06b99733e2dd1fea9855a7f226753d3405e0abd"
+      },
+      {
+        "path": "dist/model.mjs",
+        "bytes": 2672,
+        "sha256": "d8705023ad224b1ff6b37aa9d91737b0fb6a6bdd82efee0194be8bd13ecc4a66"
+      },
+      {
+        "path": "dist/player.mjs",
+        "bytes": 1417,
+        "sha256": "0f292dde58be30707aa7c8d19524cd342f6d68cac581badd2fa0d88b96327577"
+      },
+      {
+        "path": "dist/qa.html",
+        "bytes": 4596,
+        "sha256": "49fcd1fafef19a9f697d148e55065a948efa67543dbb705d6860716282e46e02"
+      },
+      {
+        "path": "dist/source-project.zip",
+        "bytes": 47808,
+        "sha256": "e076937f476c181f6bbf451045727bc35e6e03688ea316d455ecc617dd668e19"
+      },
+      {
+        "path": "dist/style.css",
+        "bytes": 11732,
+        "sha256": "c829a7dd47c6cbfb61950721991a94c135bfb6494970b699c33adf03901b0cb7"
+      },
+      {
+        "path": "docs/acceptance.md",
+        "bytes": 5917,
+        "sha256": "8e3358247e23a959c27d7286503a7a678ce1be6c07cc18445001b203cf387361"
+      },
+      {
+        "path": "docs/changes.md",
+        "bytes": 595,
+        "sha256": "80491f3f35ad85eaadc849067264d96c3a062588f75d98a83094113f09819fc1"
+      },
+      {
+        "path": "docs/task-v1.txt",
+        "bytes": 47847,
+        "sha256": "4d1aa6fedabbac12f52835a83a2ecd42f3ca4329149f7b769084902b1ef462e9"
+      },
+      {
+        "path": "package-lock.json",
+        "bytes": 256,
+        "sha256": "a170fd21205b525cc10a03d38317d98ef1c5d0602190b460a05aa5e7d5df5731"
+      },
+      {
+        "path": "package.json",
+        "bytes": 332,
+        "sha256": "84b478f129d6bb0eb653936948785e307ac30decd19d0d117745a20314cf05a1"
+      },
+      {
+        "path": "tests/model.test.mjs",
+        "bytes": 3236,
+        "sha256": "3c2ac7654b0ad80ff4448b6d418577aeb40cc5fbb7eafa26b8da6452c8e9ce18"
+      },
+      {
+        "path": "tests/player.test.mjs",
+        "bytes": 2304,
+        "sha256": "fad3caea6c82b8364516160a1ae7b0e66ccecc6dcd9e6ceb348382498825efa2"
+      }
+    ]
+  },
+  {
+    "id": "appgprj_6ae3680ab9cc8191af149708a0b7d8f7",
+    "title": "供應鏈：區分物料、服務與資訊",
+    "slug": "supply-chain-three-relations-20261029",
+    "originalUrl": "https://supply-chain-three-relations-20261029.fishddry.chatgpt.site",
+    "version": 5,
+    "commit": "8783501d7c2dec6a0acf208ca1572f9756a0f831",
+    "deploymentId": "appgdep_6ae3f1e9c83c8191947f23c995d04c05",
+    "versionId": "appgprj_6ae3680ab9cc8191af149708a0b7d8f7~appgver_3bb4d552627481919183c8d1f4bc291e",
+    "directory": "sites/supply-chain-three-relations-20261029",
+    "outputDirectory": "dist",
+    "files": [
+      {
+        "path": ".gitignore",
+        "bytes": 38,
+        "sha256": "e14efda5df44550c1001f415969e2be9baf8b0385979bf7cbc10123809657bc3"
+      },
+      {
+        "path": "ACCEPTANCE-v1.1.md",
+        "bytes": 3025,
+        "sha256": "5d88e612837f2c892ef4a75a131be904a1612588e77b5103bea7cce21936fbc0"
+      },
+      {
+        "path": "ACCEPTANCE.md",
+        "bytes": 3974,
+        "sha256": "606fbe201ecd58013ef6a4dde68e9ad3cb27c5a56938ac5673e7eafaf1edfc62"
+      },
+      {
+        "path": "README.md",
+        "bytes": 5475,
+        "sha256": "12de02f9d5e6b0a857e041da3e1d036e4e0f5a04913449ac52b12fbe43558443"
+      },
+      {
+        "path": "dist/app.js",
+        "bytes": 14000,
+        "sha256": "aa91e9c89da86da382a2d46ec775f069c488e2394f0b42a380a6d7cbf550256b"
+      },
+      {
+        "path": "dist/index.html",
+        "bytes": 8439,
+        "sha256": "8f13f3b6c616d65b94bdf85ce47512f9f3b8442972639ca37a9ac72bd5335782"
+      },
+      {
+        "path": "dist/model.js",
+        "bytes": 4116,
+        "sha256": "8c4d3f270c451c539f7325b4f8460530cd759fdb835cf2127e21a41fb65320ae"
+      },
+      {
+        "path": "dist/styles.css",
+        "bytes": 8130,
+        "sha256": "2b49274188300d754732c88e299b028bde6a3dd710597b117db50e02d8916c81"
+      },
+      {
+        "path": "evidence/browser-results.json",
+        "bytes": 3034,
+        "sha256": "fa7ddd6e377acb5ca6b099b7b15edce1f77df0c83e78f837f5a0ea96fca62d25"
+      },
+      {
+        "path": "evidence/desktop-cycle-half.jpg",
+        "bytes": 140046,
+        "sha256": "ca64d1471dad11b2daaba609616e58452229d3953f8905d166f390e6f7fad6db"
+      },
+      {
+        "path": "evidence/mobile-29.png",
+        "bytes": 64948,
+        "sha256": "5ae312bc9397f26d4506a2fa7c8bed417a695c65c62ed00748fc22117c0f53f0"
+      },
+      {
+        "path": "evidence/mobile-cycle-1x.jpg",
+        "bytes": 234375,
+        "sha256": "690af38481f39963d5bc6dce5ee81be73641ce8243b9d530eb1578cddce5b8d6"
+      },
+      {
+        "path": "evidence/v1.1/desktop-22.png",
+        "bytes": 82033,
+        "sha256": "9151ab7d23b2eed826d1d669dd7248283f1ec29cca1bd4ae7315b56587477ec7"
+      },
+      {
+        "path": "evidence/v1.1/desktop-29.png",
+        "bytes": 87284,
+        "sha256": "0db3800af9fcc120c87e94d5cb34de611d0c26a2afa1f5cd2c68c00ce574be76"
+      },
+      {
+        "path": "evidence/v1.1/mobile-29.png",
+        "bytes": 54005,
+        "sha256": "8e6118ba03e1c56813e61736756a55363b9fad345db7ceea439df8f6df312f46"
+      },
+      {
+        "path": "evidence/v1.1/mobile-packaging.png",
+        "bytes": 50621,
+        "sha256": "da3a4438ee8d5bf9feea5c898021e9be72a1295b67708dad3efe068a928ba697"
+      },
+      {
+        "path": "evidence/v1.1/results.json",
+        "bytes": 2465,
+        "sha256": "3d1ded901b780e0eaaec8b000e69b441e2c34caa5f68619a3032a6747d1370e4"
+      },
+      {
+        "path": "package.json",
+        "bytes": 246,
+        "sha256": "7175b3812d9b78900398ac434b479ac87f35dd6988c8a94666ba590d6adabaea"
+      },
+      {
+        "path": "server.cjs",
+        "bytes": 964,
+        "sha256": "df2d03bfef4d33fda2bf52c4dc24be09fe0003329d3e23ea5fd4a7dc399ffabb"
+      },
+      {
+        "path": "tests/browser.cjs",
+        "bytes": 10865,
+        "sha256": "d506bb0d63ff15fde5f4e6c576e0d60b189faf62efaa82f8f01f150f22f98461"
+      },
+      {
+        "path": "tests/fixtures/index-v1.html",
+        "bytes": 7724,
+        "sha256": "459c83d1c2e2a4fc84a83e5b2e3ae5eadcfc8f4d0696f412fde6135da675d4a6"
+      },
+      {
+        "path": "tests/model.test.cjs",
+        "bytes": 1610,
+        "sha256": "afbd510efbcdf1df760d9073f7fc162f1b098bee5d37d397dbd6146ed7f6323a"
+      },
+      {
+        "path": "tests/restyle.cjs",
+        "bytes": 6915,
+        "sha256": "8f688b9afb4034be6f14eb82a5830a907e1ebc4099a16a455dd6e49707c4e4cc"
+      },
+      {
+        "path": "供應鏈_物料服務資訊_動畫任務_v1.txt",
+        "bytes": 43991,
+        "sha256": "8240470545564985853fb088d5af09e4514f68f6e48f455382dc484c505ce209"
+      }
+    ]
+  },
+  {
+    "id": "appgprj_6ae338a8206c81919853bec80ed96977",
+    "title": "SOIC-8 封裝觀察",
+    "slug": "soic-eight-observer",
+    "originalUrl": "https://soic-eight-observer.fishddry.chatgpt.site",
+    "version": 1,
+    "commit": "d039b383bbc73425da58d9a94c65f30947f506d5",
+    "deploymentId": "appgdep_6ae340015d5c8191ab02312ec006a7c9",
+    "versionId": "appgprj_6ae338a8206c81919853bec80ed96977~appgver_5768ac764f8481918fdc96bb69bd3111",
+    "directory": "sites/soic-eight-observer",
+    "outputDirectory": "dist",
+    "files": [
+      {
+        "path": "README.md",
+        "bytes": 2643,
+        "sha256": "797d1df72ff5e1a3d041c196955a14408cd345a991b8251578399ab9a6e2a2ec"
+      },
+      {
+        "path": "dist/app.js",
+        "bytes": 5396,
+        "sha256": "ad7f9e08f33dc611d6e4aeb7d88f2f2edabdede3c874c40b23e2ae5d514e833b"
+      },
+      {
+        "path": "dist/clock.js",
+        "bytes": 2099,
+        "sha256": "6df480a491d60e1ec65111b21062484f500736eeb42c699ba6dba0747a5e07b3"
+      },
+      {
+        "path": "dist/index.html",
+        "bytes": 5137,
+        "sha256": "3b357283d7bb308ed39332716bd9df7fa2a5ec47308041e367ccd9b6f006a7e3"
+      },
+      {
+        "path": "dist/inspector.js",
+        "bytes": 2578,
+        "sha256": "723ad477182b1e80a973b0dc6bc38b0bd52c75c2af963f842282fa115aee96fe"
+      },
+      {
+        "path": "dist/layouts.js",
+        "bytes": 2211,
+        "sha256": "6b0c09e0e9dd4ed35b565d805bf5eb0b7a34419bbba2abd9a874b62aa8de6fab"
+      },
+      {
+        "path": "dist/primitives.js",
+        "bytes": 4451,
+        "sha256": "fff9c3ab10b03386932724618101c7ca20aeea5a41299bb09325450ff409c106"
+      },
+      {
+        "path": "dist/scene.js",
+        "bytes": 9177,
+        "sha256": "fd61c10de10f2793b8fe4f2fbc91bbadf65265aa7309efddd1fb1a26a60b3973"
+      },
+      {
+        "path": "dist/styles.css",
+        "bytes": 7480,
+        "sha256": "d29b32d1be1ef40518bf07cde5c24014b3227024b2a3f1f4567967832508ed16"
+      },
+      {
+        "path": "dist/topic.js",
+        "bytes": 6280,
+        "sha256": "25aeed82d8a48b1d56b2106fb3d14a42299e1ebbef25380b335f4edce64d4a02"
+      },
+      {
+        "path": "package.json",
+        "bytes": 132,
+        "sha256": "649d0998811253bb0315e0e4b0a792f3461681bd55a64333ed927fc39a406c87"
+      },
+      {
+        "path": "server.mjs",
+        "bytes": 784,
+        "sha256": "1053e96b3f31cb9fc48d541b49133eaae250809e4d9fc68f94f488348ed1dd31"
+      },
+      {
+        "path": "tests/acceptance.test.mjs",
+        "bytes": 4604,
+        "sha256": "b63d8183a3c1121856f66ace51e199a0357be4a417fa1812a1951023402d30ca"
+      }
+    ]
+  },
+  {
+    "id": "appgprj_6ae3177ebd1881918fa6b941e15861ba",
+    "title": "半導體知識座標圖",
+    "slug": "semiconductor-coordinate-atlas-1029",
+    "originalUrl": "https://semiconductor-coordinate-atlas-1029.fishddry.chatgpt.site",
+    "version": 9,
+    "commit": "bb7cb0728ef145e405e14c3657cc72289f040f5f",
+    "deploymentId": "appgdep_6ae366aac2888191a1d0574ac4974006",
+    "versionId": "appgprj_6ae3177ebd1881918fa6b941e15861ba~appgver_a895df9241f48191bf7f2e4f0ff1fff8",
+    "directory": "sites/semiconductor-coordinate-atlas-1029",
+    "outputDirectory": "dist",
+    "files": [
+      {
+        "path": ".gitignore",
+        "bytes": 122,
+        "sha256": "efdf3baa7cf7fd2c311c30f1e90ea8836625e07e62d5405973a0c424e9be12fa"
+      },
+      {
+        "path": "QA.md",
+        "bytes": 21932,
+        "sha256": "7322f96079309e98ecf9fd937c2d57258af91f97db33d2329f7792eafdfcbf53"
+      },
+      {
+        "path": "README.md",
+        "bytes": 16318,
+        "sha256": "c8a56fc54c18e789b87d140145fb2557ad28fda1c79ef7c606d5015adeb567de"
+      },
+      {
+        "path": "dist/app.mjs",
+        "bytes": 37604,
+        "sha256": "7d8886df3966c8fda7ef6021a09542f1ba5150ef9b5740114a137ae2fd3d339d"
+      },
+      {
+        "path": "dist/coordinate-motion.mjs",
+        "bytes": 1172,
+        "sha256": "1ed3e825986a458a1c83525e92ef0d99664bcab1befd1cc175dc0012c9bae740"
+      },
+      {
+        "path": "dist/core.mjs",
+        "bytes": 4351,
+        "sha256": "6200af64d0907074224ddbc8a567ebed84dfb1fa0563c5acab57783cbb9494d0"
+      },
+      {
+        "path": "dist/data-manager.mjs",
+        "bytes": 5336,
+        "sha256": "842dedb82cb80abaf8c3b7862cf6551d8c8efbab0edb9b628a0b44852261f072"
+      },
+      {
+        "path": "dist/data-transfer.mjs",
+        "bytes": 8204,
+        "sha256": "d994dd5585533a58af67cf00daa14ff2f30aebdcbad2b546777a0e184597674a"
+      },
+      {
+        "path": "dist/data.json",
+        "bytes": 79166,
+        "sha256": "3b9e7b352f8cc46e9e87f0c5f77812e0ba7243bfd80cc7f06aede7cf170c09ba"
+      },
+      {
+        "path": "dist/exploration-history.mjs",
+        "bytes": 3385,
+        "sha256": "266beaaafff3d057b3e67adc472815d67e38e626ed03e2172838a13dd0f6d08c"
+      },
+      {
+        "path": "dist/hierarchy.mjs",
+        "bytes": 2091,
+        "sha256": "a1b186020eb467124c19d9eb1473ed424b402f9b6ea919035cccbde2db5717d6"
+      },
+      {
+        "path": "dist/index.html",
+        "bytes": 14639,
+        "sha256": "e83804386719fe81df0ef374beab94c5e7db2c8446affd6abf80fd52f962e813"
+      },
+      {
+        "path": "dist/legend.mjs",
+        "bytes": 2598,
+        "sha256": "772e0f3323bf01076e6cd6be5018dd967c94cf84d828ac497cfbbc18925a06e9"
+      },
+      {
+        "path": "dist/map-layout.mjs",
+        "bytes": 4385,
+        "sha256": "0e37c4e150724ed94eb7a117881ff1c3f034b2f1bd73d51fa693ef91a17d5736"
+      },
+      {
+        "path": "dist/navigator.mjs",
+        "bytes": 8530,
+        "sha256": "0771dcdba983bbc40cb1c89d487794ca90e6a62589a736e6fada5f52a798eafe"
+      },
+      {
+        "path": "dist/relation-style.mjs",
+        "bytes": 4318,
+        "sha256": "2db93dd7ee5854cabfa7a0349090a5908f3b340628c5f0f1189ffde6c9655294"
+      },
+      {
+        "path": "dist/style.css",
+        "bytes": 25604,
+        "sha256": "cc1bbb8c4cba19741a7f93414768a075ccbf7ce1c4fc9241fe473eaa881eeed1"
+      },
+      {
+        "path": "docs/arrows-preview.jpg",
+        "bytes": 28873,
+        "sha256": "4be013eef30c411987ac002b18419ee542e87c8abbe931795145574df466421b"
+      },
+      {
+        "path": "docs/axis-controls-preview.jpg",
+        "bytes": 48834,
+        "sha256": "74538a0e167c37c6010033c82d0006f4e6433ebf2ccab478fa0a2e1737978004"
+      },
+      {
+        "path": "docs/data-preview.jpg",
+        "bytes": 52310,
+        "sha256": "15df93a997e210ee4d8c5e11f6173becba3664749e559278ad14ad31f0b149d2"
+      },
+      {
+        "path": "docs/dual-map-preview.jpg",
+        "bytes": 52321,
+        "sha256": "df5e525623d85debe1457f5c795427faeaac09c5ced413f6aefcb94cf8e97fc8"
+      },
+      {
+        "path": "docs/fixed-points-preview.jpg",
+        "bytes": 41011,
+        "sha256": "de5a19fdbe7081ba78de0e379a204cbfb17ba5467114630299858c7d89d9584d"
+      },
+      {
+        "path": "docs/history-preview.jpg",
+        "bytes": 49652,
+        "sha256": "a5db49109b4778e54116e54b4eef88e3aec3186432e2df4f4e4db615f6a6371a"
+      },
+      {
+        "path": "docs/names-default-preview.jpg",
+        "bytes": 48783,
+        "sha256": "c02066224b3bd817dfd2e8762b3cb361f5e31f42fed385866a64d1dc41eae4e8"
+      },
+      {
+        "path": "docs/overlay-preview.jpg",
+        "bytes": 32660,
+        "sha256": "f218b063d923ccba87ff29b3236e68fd71597240746d4b20914b8cf1eb2089ce"
+      },
+      {
+        "path": "docs/tree-preview.jpg",
+        "bytes": 32945,
+        "sha256": "dd0492a8b87099bd618ec1598ccb276d7143d6b2f4373cae8830cf491a99d998"
+      },
+      {
+        "path": "tests/coordinate-motion.test.mjs",
+        "bytes": 1879,
+        "sha256": "2d92628efd14bd4c01bcec739a25d5977ee0de5f8c5822c2e7d7963066a8beed"
+      },
+      {
+        "path": "tests/core.test.mjs",
+        "bytes": 4395,
+        "sha256": "cbd0244f20d15057b553fcc71539b0b5208e758b5e6b29d9f516d6dfff5fe0f1"
+      },
+      {
+        "path": "tests/hierarchy.test.mjs",
+        "bytes": 2181,
+        "sha256": "d251dce343c01506e5f3700b5f6fdf8e8ab42c1391df91dc247115c0550745ef"
+      },
+      {
+        "path": "tests/history.test.mjs",
+        "bytes": 2997,
+        "sha256": "061a6cf195c196b0be549af4cb045cb18c3648648ae212d9ef173a2aec9a0294"
+      },
+      {
+        "path": "tests/make-qa.py",
+        "bytes": 4494,
+        "sha256": "59b0e84e0341ddd2b8a044d2ed6893a24a423c7f689ac04dd3e10ab8f06e4c2b"
+      },
+      {
+        "path": "tests/map-layout.test.mjs",
+        "bytes": 2192,
+        "sha256": "4238d31428db84af75d0cea39b2b2de2fc595d101a1aaf76763c9216bdd7bc9d"
+      },
+      {
+        "path": "tests/relations.test.mjs",
+        "bytes": 2343,
+        "sha256": "02998d3b509d649e1b0c637cfe4416264352e9dc73183f8ac75b281f91212d1d"
+      },
+      {
+        "path": "tests/transfer.test.mjs",
+        "bytes": 4913,
+        "sha256": "60bee897f556441344bdd9d35cd86d072924f6cbf1bdde9ebc950e682ca6ac89"
+      }
+    ]
+  },
+  {
+    "id": "appgprj_6ae3168ba5888191a34da16b9e5ce60a",
+    "title": "半導體製程實驗基地",
+    "slug": "semiconductor-foundry-lab",
+    "originalUrl": "https://semiconductor-foundry-lab.fishddry.chatgpt.site",
+    "version": 1,
+    "commit": "b72e6783ab73781a16f3433f3d083084566eeb82",
+    "deploymentId": "appgdep_6ae31d6e60c48191a79d707dea4a3f02",
+    "versionId": "appgprj_6ae3168ba5888191a34da16b9e5ce60a~appgver_7a81d7511a0c8191a27cd9fe7025051d",
+    "directory": "sites/semiconductor-foundry-lab",
+    "outputDirectory": "dist",
+    "files": [
+      {
+        "path": ".gitignore",
+        "bytes": 63,
+        "sha256": "babef2bdcfd9eb05e140bc6e5474819a09c64b3778f0315e34836591c147186c"
+      },
+      {
+        "path": "README.md",
+        "bytes": 2798,
+        "sha256": "55b52433e6f0ea91dc3725848a646b3e15dbcd9755e77b1e969cbf91f4b734cc"
+      },
+      {
+        "path": "dist/content/index.js",
+        "bytes": 283,
+        "sha256": "40b7618b5c83e4c7611df418cce680b7eaaa4df6c00b7161829ba463927247b3"
+      },
+      {
+        "path": "dist/content/samples/foundry.js",
+        "bytes": 4904,
+        "sha256": "1e18838880c69891d6bc357095c49318a4409540c6352af4bae0de1f4d00a1c3"
+      },
+      {
+        "path": "dist/content/validate.js",
+        "bytes": 2594,
+        "sha256": "256392936501da86a21b46d1be3b26d298ba0003573b5bbfd8f0a19f6cc6b1ab"
+      },
+      {
+        "path": "dist/core/config.js",
+        "bytes": 1361,
+        "sha256": "7721d4bbd5737aea3afc616ac4623a157c50bf4e302a37d42bb3be1b45cbb727"
+      },
+      {
+        "path": "dist/core/fullscreen.js",
+        "bytes": 2177,
+        "sha256": "2a50ca1dfaef306f07b23018640a7478bd824f2142b0094f517dec0da1613a51"
+      },
+      {
+        "path": "dist/core/hex.js",
+        "bytes": 2501,
+        "sha256": "bff42224d648c9de5fcfa515a4bc114f034a35e68e7304f70c7dc12b17c6ba80"
+      },
+      {
+        "path": "dist/core/input.js",
+        "bytes": 1746,
+        "sha256": "8c2b61dcd45e939d23764d2bf74c0ef476e51eba6879b055f7f765e494b22f9d"
+      },
+      {
+        "path": "dist/core/movement.js",
+        "bytes": 2071,
+        "sha256": "ff296c7cd4875e16f4b2ef78287b5756cf2b4d428a08ca7db8fd845e814ecbe0"
+      },
+      {
+        "path": "dist/core/presentation.js",
+        "bytes": 1646,
+        "sha256": "994086ba5be95a1d26c087b333623442ca4a5da10af7f0b69a02cc2ebeb1e350"
+      },
+      {
+        "path": "dist/core/runtime.js",
+        "bytes": 787,
+        "sha256": "12b5f994c3c06e27ced9f1343dce87358c6926b40c8198fc3ffb68bdad806d59"
+      },
+      {
+        "path": "dist/core/storage.js",
+        "bytes": 308,
+        "sha256": "c822c28bf98ad36b86e4c8a499a5d8e02d2f29ef0913f481885f0bf57c1dac9a"
+      },
+      {
+        "path": "dist/core/terrain-renderer.js",
+        "bytes": 10548,
+        "sha256": "b41270cce2406a217a5f6ca7168738b08dfba8c2a26e9cad98929d8498d6059a"
+      },
+      {
+        "path": "dist/game/construction.js",
+        "bytes": 2244,
+        "sha256": "c2a9f7af716096901a0accc661d3362b41102b4e98b093ee671da59dc81438de"
+      },
+      {
+        "path": "dist/game/inventory.js",
+        "bytes": 1248,
+        "sha256": "f1da0df6221fcfd0de9368f02ab56bd98dfd8c90af8341e10381cbdbed1b8419"
+      },
+      {
+        "path": "dist/game/production.js",
+        "bytes": 2654,
+        "sha256": "c2b21be5f63d6e3b1ed52d541ce26ad2991df1ed121ad990583b29726f394192"
+      },
+      {
+        "path": "dist/game/renderer.js",
+        "bytes": 6766,
+        "sha256": "dc6d47b2a06152a91ca18c7355349e594f0868afdd7c0018a0c61fc15a5d4098"
+      },
+      {
+        "path": "dist/game/rules.js",
+        "bytes": 5982,
+        "sha256": "3dad22a184dc706110e1acbdcbdbda947424daff4dbd7f5eb8f7da83172d0117"
+      },
+      {
+        "path": "dist/game/save.js",
+        "bytes": 7001,
+        "sha256": "f31a2d3cb013d6abd905c134645411cb1865a6124267412d350aa421a4797257"
+      },
+      {
+        "path": "dist/game/state.js",
+        "bytes": 2326,
+        "sha256": "1c5c9efbdf10bf4eca0e9c6ca9eb0993b79cfc1a0560c547a8f988121bc98099"
+      },
+      {
+        "path": "dist/game/workers.js",
+        "bytes": 4339,
+        "sha256": "15964e4ab425bf2fc884bb1da740aa9b1acb29263baa7793985e9957fa8621cb"
+      },
+      {
+        "path": "dist/index.html",
+        "bytes": 3444,
+        "sha256": "2dc7aa74915cd3d73a903bcb195d28a59997f009e194c99ca564c6d3a0c38155"
+      },
+      {
+        "path": "dist/main.js",
+        "bytes": 20327,
+        "sha256": "2b350d7f627ef38186fcf1cf999841ddc38467545c91f3a1a899844a4daef50e"
+      },
+      {
+        "path": "dist/style.css",
+        "bytes": 9862,
+        "sha256": "f08b9d0a2bc7fa0974f4944bd2e130a0083b4088cfc519b91b87be8e7bab1dfd"
+      },
+      {
+        "path": "docs/ASSUMPTIONS.zh-TW.md",
+        "bytes": 1795,
+        "sha256": "ba893b451849bb60c3f2013cab7a418c652ecee6000de0138db546a17e3318ee"
+      },
+      {
+        "path": "docs/BASELINE.json",
+        "bytes": 1268,
+        "sha256": "20d4f2f0dee8121ddf901209ef87a62c33b95e8415bc708a347b00ef1657da3d"
+      },
+      {
+        "path": "docs/EXTENDING.zh-TW.md",
+        "bytes": 4766,
+        "sha256": "f84a914726c65827c24c35be86cf2c6f1483062fabb1d5db9acf18292ed90c16"
+      },
+      {
+        "path": "docs/REUSE.zh-TW.md",
+        "bytes": 2794,
+        "sha256": "a92e73703e24b788a76adc802e4ef193be505b563b8f1fbf4ec0b0a1cdd43c91"
+      },
+      {
+        "path": "docs/VALIDATION.zh-TW.md",
+        "bytes": 2875,
+        "sha256": "6341551005d76c03c942604cb71c595aa835b396a364c24c6066f9b80db79dbe"
+      },
+      {
+        "path": "docs/qa/desktop.jpg",
+        "bytes": 71045,
+        "sha256": "0cb65133c9b342628b3067be07c69475adf6e8fe3024b84449de9794c4cb57f4"
+      },
+      {
+        "path": "docs/qa/mobile.jpg",
+        "bytes": 36337,
+        "sha256": "724dd4690f5dfd813b38b933d5258db8db35eb195f7fe4ab4f8143a77be7f027"
+      },
+      {
+        "path": "package.json",
+        "bytes": 234,
+        "sha256": "c82be142c734c9b6b2e72a6959d392c1d7a34c10ce1d773f21aa570604b75e1d"
+      },
+      {
+        "path": "scripts/adopt-source.mjs",
+        "bytes": 3453,
+        "sha256": "ed92065f2cbf48f6ff0789eba7666806aeadab57f6d8c78d4c08cc88e85062b6"
+      },
+      {
+        "path": "scripts/validate.mjs",
+        "bytes": 972,
+        "sha256": "5127107f23bbcf41311ba09faecd088cd0a90da8b20190874c31746c00cdc9e6"
+      },
+      {
+        "path": "serve.mjs",
+        "bytes": 958,
+        "sha256": "1ace1e9eda86172bdda7bade6f8b559bf7bf0cf52bb4646930cd4063fa3189ac"
+      },
+      {
+        "path": "tests/game.test.mjs",
+        "bytes": 12143,
+        "sha256": "03df92259912539ab997aedfd32b4f879929d279aff66b66d64e99bcd17daedb"
+      }
+    ]
+  },
+  {
+    "id": "appgprj_6ae2cf100dfc8191bcddb0b59d42aea6",
+    "title": "半導體工廠 · Wafer Works",
+    "slug": "wafer-works-lab-20261029",
+    "originalUrl": "https://wafer-works-lab-20261029.fishddry.chatgpt.site",
+    "version": 2,
+    "commit": "6a6710f6ff7ba0dce2efd09602e6042643e7cbb6",
+    "deploymentId": "appgdep_6ae2dfd3e1d48191bbec1f7aa77106d4",
+    "versionId": "appgprj_6ae2cf100dfc8191bcddb0b59d42aea6~appgver_be52aec09ee88191b61fa5cb8e8753a1",
+    "directory": "sites/wafer-works-lab-20261029",
+    "outputDirectory": "dist",
+    "files": [
+      {
+        "path": "README.md",
+        "bytes": 2590,
+        "sha256": "b4d0c1378004553b1bffa4b2ab3d376b8d209689c331bb1da625d6ce1c3b7e6f"
+      },
+      {
+        "path": "dist/app.mjs",
+        "bytes": 38800,
+        "sha256": "82a95da6d3a52920e2878b06f73c0ad23c8554127c86ed3198a9a53137666a5a"
+      },
+      {
+        "path": "dist/content.mjs",
+        "bytes": 5376,
+        "sha256": "78524ab421695f055f4897c5c8baf53db88c82e0a45bc5e531cd77660b1375be"
+      },
+      {
+        "path": "dist/core.mjs",
+        "bytes": 34246,
+        "sha256": "239acdc55e98a3b49f5a3289060331b8cffed147c9a873efc433395f947ce044"
+      },
+      {
+        "path": "dist/index.html",
+        "bytes": 3568,
+        "sha256": "ffe0c77259a8865e7e50a040f5dbf46ae308dac598bf0916c2b6c71eee05a4c0"
+      },
+      {
+        "path": "dist/logistics.mjs",
+        "bytes": 6458,
+        "sha256": "53c751d9ba5573cdda3846503cc1d42d6a62414b1d02efa47d95acabc9846937"
+      },
+      {
+        "path": "dist/navigation.mjs",
+        "bytes": 4328,
+        "sha256": "520851836b3302ed6836fd0b6920c3b876ddd68d716bb9cb1dbfe6a928a821f1"
+      },
+      {
+        "path": "dist/persistence.mjs",
+        "bytes": 2020,
+        "sha256": "c1b51addccc177d12c6f655e117c583f04afa3dee9f4aa5463ac5760c149417d"
+      },
+      {
+        "path": "dist/qa-responsive.html",
+        "bytes": 874,
+        "sha256": "5ce726c73ea68fcb993fd273fbeca72d1ffa7dbada3a3bbfba5d7c1dc3300083"
+      },
+      {
+        "path": "dist/render.mjs",
+        "bytes": 7141,
+        "sha256": "43027093ca523bda228026165b2d997bbd44c07bd1a956a522c709e97a83be16"
+      },
+      {
+        "path": "dist/source.zip",
+        "bytes": 230743,
+        "sha256": "fbb0134b09a88ffa2034ad0e8ed6499ae44eeca1902e4cbda4907ffdde1de6d6"
+      },
+      {
+        "path": "dist/style.css",
+        "bytes": 12699,
+        "sha256": "1e354ba71557bddb23accc85bde89a98c5403795ab976f841e8687a23673169c"
+      },
+      {
+        "path": "dist/test-report.html",
+        "bytes": 10150,
+        "sha256": "b6ec787086767d99bf5afe47c771126a9ba5ee3b7168d9a3280a05d0216409be"
+      },
+      {
+        "path": "docs/DECISIONS.md",
+        "bytes": 2018,
+        "sha256": "c4225f60be951638bfcc35d29e8ea0e3a169fbc2741172e2effd7358557dbf8c"
+      },
+      {
+        "path": "docs/KNOWN_ISSUES.md",
+        "bytes": 1224,
+        "sha256": "fcd28652cfdf55a7aca302c1d422ea2747ca058098eec4d0c35b14e417d21e5b"
+      },
+      {
+        "path": "docs/PROGRESS.md",
+        "bytes": 708,
+        "sha256": "c3a84368784bbcaeb4b83139608e1f856e1a7f830ef8db79f7293e9fa26b4ec1"
+      },
+      {
+        "path": "docs/TEST_REPORT.md",
+        "bytes": 7420,
+        "sha256": "5da2c3843b83e82b6d196f5690f0c8e2c254353725bc91e17da5fd796e8005e3"
+      },
+      {
+        "path": "docs/evidence/pre-shipment-dialog.jpg",
+        "bytes": 56458,
+        "sha256": "be60d2deb2547cf321fa28912d8f018c97a546861fefeb78e7c9e0265ebc2389"
+      },
+      {
+        "path": "docs/evidence/wafer-background-evidence.json",
+        "bytes": 33688,
+        "sha256": "3fa6939da51309f535ac479034d9a5199dfd52d31a5278ab6fa278d7ddb509d0"
+      },
+      {
+        "path": "docs/evidence/wafer-desktop-evidence.json",
+        "bytes": 24168,
+        "sha256": "13a987dd0814309ae73c654b0e636128e8634f3b07fe0fc8acfbb976361f8af0"
+      },
+      {
+        "path": "docs/evidence/wafer-final.jpg",
+        "bytes": 63119,
+        "sha256": "49a55ee6364c8f7b1f1f06a235628d53d95654813a60479476f7fae986821ffa"
+      },
+      {
+        "path": "docs/evidence/wafer-mobile-evidence.json",
+        "bytes": 24502,
+        "sha256": "9605dbb846c8ed5dafcb92fd584253aad54e76c965bbaaa119f9500e65f49f89"
+      },
+      {
+        "path": "docs/evidence/wafer-worker-evidence.json",
+        "bytes": 27884,
+        "sha256": "f6eacdc99f5e2d075c0f99229e4fe520da93d52c60d9b932119e232ee08dc45c"
+      },
+      {
+        "path": "docs/evidence/wafer-worker.jpg",
+        "bytes": 84790,
+        "sha256": "923db04cdbe68c1141c3dec8f3db565b82e999db51b1fc0dd0bb1f0be4b431c2"
+      },
+      {
+        "path": "docs/test-output.txt",
+        "bytes": 2379,
+        "sha256": "d0b20d115f718894f6d31535cc4bbfd6b94209b1f4fa467049fd00f80945683e"
+      },
+      {
+        "path": "package-lock.json",
+        "bytes": 184,
+        "sha256": "190c44608227465e884cc0f614b22265788b0e0508b25a8abd9b08f791c8a800"
+      },
+      {
+        "path": "package.json",
+        "bytes": 224,
+        "sha256": "a3f2afa3523be18336de640e38b84db6914419c35b0aecdab353fe934649c385"
+      },
+      {
+        "path": "tests/helpers.mjs",
+        "bytes": 2152,
+        "sha256": "8519113b7cfb2eb2e2cbd16215b9ae98f68c92c5c901f4eb192a747ee6886472"
+      },
+      {
+        "path": "tests/logistics.test.mjs",
+        "bytes": 4782,
+        "sha256": "4e93b2eb6e6523c439e126c91ae8898258581066c06ceb7f0b2538a20678b88d"
+      },
+      {
+        "path": "tests/manual.test.mjs",
+        "bytes": 2898,
+        "sha256": "c80a4f9a5d143bf52121567ed209a1a13d4ca4745583013d55889b7ac13bffd6"
+      },
+      {
+        "path": "tests/reliability.test.mjs",
+        "bytes": 15709,
+        "sha256": "ca97b8b710afe1854e02ed858717f3b5fd31bb8ea1231bdf47cca06548737d25"
+      }
+    ]
+  },
+  {
+    "id": "appgprj_6ae2aa08fd98819187fd56a83b2aa864",
+    "title": "擴散 · 01",
+    "slug": "diffusion-points-20261029",
+    "originalUrl": "https://diffusion-points-20261029.fishddry.chatgpt.site",
+    "version": 26,
+    "commit": "1b65e4693ebb791ed51a5cf6899618ce7a02921a",
+    "deploymentId": "appgdep_6ae418ed9e048191975acd1b39758f0b",
+    "versionId": "appgprj_6ae2aa08fd98819187fd56a83b2aa864~appgver_5778491d8ad88191b390547a85e7bafd",
+    "directory": "sites/diffusion-points-20261029",
+    "outputDirectory": "dist",
+    "files": [
+      {
+        "path": "dist/index.html",
+        "bytes": 244177,
+        "sha256": "d46a5fe802296fa805159bd4ca920b1c72ef95d9f4c2be05c4365f384ac8e3b1"
+      },
+      {
+        "path": "qa/unit21-check.cjs",
+        "bytes": 3753,
+        "sha256": "0bbfd73e5d5d5df419fc912f1e41350f3c397a74d8e1985307410c06bd68d06b"
+      },
+      {
+        "path": "qa/unit21-desktop.jpg",
+        "bytes": 41732,
+        "sha256": "c14ed2346048b56b62be7b4602403e22e02a2a18f6280edfc148cbf4e886568d"
+      },
+      {
+        "path": "qa/unit22-check.cjs",
+        "bytes": 3380,
+        "sha256": "cbb08c210571cb3f8948f33b162267ef8497f4eaeec6e21143e5a9cd70e85e61"
+      },
+      {
+        "path": "qa/unit22-desktop.jpg",
+        "bytes": 43833,
+        "sha256": "966b493bb9a56381a4f29b359553004dc65c1304ca700991d983fbca3c2fe110"
+      },
+      {
+        "path": "qa/unit23-check.cjs",
+        "bytes": 3143,
+        "sha256": "5d637e29295b68f9d78f010db84b935c19a739867d34cdf5c97f31d67425ab85"
+      },
+      {
+        "path": "qa/unit23-desktop.jpg",
+        "bytes": 40925,
+        "sha256": "e10613fa618e8de73ecede8941fef2f14ae08a83240206c7f379eb182652f6b4"
+      },
+      {
+        "path": "qa/unit24-check.cjs",
+        "bytes": 4082,
+        "sha256": "dff4be86e57004f6aa708ff20a0bfb08c637831b6e48311be36a0be08f7eedb9"
+      },
+      {
+        "path": "qa/unit24-desktop.jpg",
+        "bytes": 45192,
+        "sha256": "c4a1374bcf5298f65e04d77462e34856eafa8c2423022df57c29302f44f2c6db"
+      }
+    ]
+  },
+  {
+    "id": "appgprj_6ae1d46981308191aeb355d8255bf9cc",
+    "title": "座標之間",
+    "slug": "coordinate-field-xjq-1028",
+    "originalUrl": "https://coordinate-field-xjq-1028.fishddry.chatgpt.site",
+    "version": 1,
+    "commit": "a934b7455c332258cf1c056e641bde3cda50fcc5",
+    "deploymentId": "appgdep_6ae1d7e22db88191b7a8ae6c8e73b656",
+    "versionId": "appgprj_6ae1d46981308191aeb355d8255bf9cc~appgver_bdaf39c5a6d0819193e0beb97821e813",
+    "directory": "sites/coordinate-field-xjq-1028",
+    "outputDirectory": "dist",
+    "files": [
+      {
+        "path": "dist/app.js",
+        "bytes": 10563,
+        "sha256": "c54a852dd2817d895cec34b319278aab3d984b1205e5a869a5076a38a68ed79c"
+      },
+      {
+        "path": "dist/index.html",
+        "bytes": 4222,
+        "sha256": "e00cb10957be7826533c2c2caeef92ff81c295020b85687b5b44c485d333fbfe"
+      },
+      {
+        "path": "dist/model.js",
+        "bytes": 9601,
+        "sha256": "8605b1f025f663227b1e45033da8d5c8b74ca1de222eb5ac92ca10e5c58b0e9e"
+      },
+      {
+        "path": "dist/style.css",
+        "bytes": 7932,
+        "sha256": "ac453d3e9d896fe7c1325f1c11c9c89edbb3411fa01970b13625ecb50232a972"
+      },
+      {
+        "path": "package.json",
+        "bytes": 112,
+        "sha256": "2b93e428a503258cd24bd369bd43ae682caca8705a626dda6cfdc16689490d65"
+      },
+      {
+        "path": "tests/model.test.js",
+        "bytes": 2381,
+        "sha256": "6b71393c8c10351423e27c059769cadca07fd0cc91e8b75f1b6dc4d66aad60a5"
+      }
+    ]
+  },
+  {
+    "id": "appgprj_6ae1c813a94481919bc52341edd5f0c7",
+    "title": "台灣半導體產業知識座標圖",
+    "slug": "taiwan-semiconductor-atlas",
+    "originalUrl": "https://taiwan-semiconductor-atlas.fishddry.chatgpt.site",
+    "version": 1,
+    "commit": "eeb5340997a8466363808d2a4d2ebe41988e3c93",
+    "deploymentId": "appgdep_6ae1cd5581f081918f5aa41f87b8e478",
+    "versionId": "appgprj_6ae1c813a94481919bc52341edd5f0c7~appgver_564f8c209f248191b34bc34cf9fcf132",
+    "directory": "sites/taiwan-semiconductor-atlas",
+    "outputDirectory": "dist",
+    "files": [
+      {
+        "path": "README.md",
+        "bytes": 1913,
+        "sha256": "7b170e8f3e137bb6ff2c3384ade569cad349a93fcb543a20a563c37e2f6962f0"
+      },
+      {
+        "path": "assemble.mjs",
+        "bytes": 4123,
+        "sha256": "4486d572d459934ea28ea15799d89da6272b5948f659714cb96c3106a033ef2c"
+      },
+      {
+        "path": "data/companies-a.json",
+        "bytes": 37504,
+        "sha256": "9e164c5c4d1a5bc46335823b60f18f07fd459bbda18568783777bd94ff71c142"
+      },
+      {
+        "path": "data/companies-b.json",
+        "bytes": 38035,
+        "sha256": "ce05cf2994bf76715cfdb4a74317546b54abe9a7191beb3a96e22540ce4b79f5"
+      },
+      {
+        "path": "data/concepts.json",
+        "bytes": 117019,
+        "sha256": "fd718d0ed24617039210f46ac4cb42798242da7ac83eca12988b7fdfa464648c"
+      },
+      {
+        "path": "dist/app.js",
+        "bytes": 42296,
+        "sha256": "33a4b0bef2cb033c0b5dbd39940e7a70c28ff7d8b0defff2db77f01555d83c89"
+      },
+      {
+        "path": "dist/core.js",
+        "bytes": 8386,
+        "sha256": "b553f841381727f56f3cb079f7afc8a5c35c5fd41710e1dabb83d36cfaadd642"
+      },
+      {
+        "path": "dist/index.html",
+        "bytes": 5451,
+        "sha256": "77d2c08744729e4a1d06835528da7ba66311dbba90598a2fcab30459a451831f"
+      },
+      {
+        "path": "dist/initial-data.json",
+        "bytes": 559479,
+        "sha256": "2deb1f299fa9caa327048f0628e171468895d96c9866de8ae5f2645273f804de"
+      },
+      {
+        "path": "dist/preview.jpg",
+        "bytes": 88765,
+        "sha256": "02c15d87a90af069802dec620d161f6aa8b39b103d512a392d49562fe6d1a78e"
+      },
+      {
+        "path": "dist/seed.js",
+        "bytes": 559501,
+        "sha256": "6ccb5daae94158385c5c0f447e53f3df03c50fbef1686d875f88b744afcea794"
+      },
+      {
+        "path": "dist/style.css",
+        "bytes": 20526,
+        "sha256": "3e4fe0e7057b6575ff4dad21876c4150f6f24620d1fa00d7f4c902492ca50aff"
+      },
+      {
+        "path": "package.json",
+        "bytes": 123,
+        "sha256": "c412b19bf4249c034050d543264990c8c8b8dc4da6a264842d1b9da0e51fe2c5"
+      },
+      {
+        "path": "tests.mjs",
+        "bytes": 4166,
+        "sha256": "4f515481eefe6f0e0525ee5462f7a735c7c20fbc2f12cf89ac5d76676879aee9"
+      },
+      {
+        "path": "verification.json",
+        "bytes": 1691,
+        "sha256": "a75115a359a8c0ddfc6af5a43869f8fd4ce897ab9287a668f6a4055aff5386fd"
+      }
+    ]
+  },
+  {
+    "id": "appgprj_6ae1bea28ee48191ac70a38c0fb89d0c",
+    "title": "知識座標圖",
+    "slug": "knowledge-atlas-20261028",
+    "originalUrl": "https://knowledge-atlas-20261028.fishddry.chatgpt.site",
+    "version": 2,
+    "commit": "e0ba1414393a18d16aa3bf0b05c2e1ec4129664c",
+    "deploymentId": "appgdep_6ae1cea8878081918e043bfe0eff3370",
+    "versionId": "appgprj_6ae1bea28ee48191ac70a38c0fb89d0c~appgver_55c4f2471b5481918c7910808a564728",
+    "directory": "sites/knowledge-atlas-20261028",
+    "outputDirectory": "dist",
+    "files": [
+      {
+        "path": "dist/app.js",
+        "bytes": 39477,
+        "sha256": "f1a9c6300c4f3d566411069c7cf80c5848ae222742b31402928aa55f6e32a373"
+      },
+      {
+        "path": "dist/core.js",
+        "bytes": 5285,
+        "sha256": "a3d318303561832a1be5873407ffbf7e6d497edc1e0e88e690c370d8d2d26836"
+      },
+      {
+        "path": "dist/data.js",
+        "bytes": 37035,
+        "sha256": "b1b85a1063e51a601ba008763d49bc9b109c8f4c77910b04efbcdca071d27bfa"
+      },
+      {
+        "path": "dist/index.html",
+        "bytes": 4251,
+        "sha256": "4c0d8517149ff9e318c191897efced9b1bc2932c336e90c1e7dbc340ab7b2bb6"
+      },
+      {
+        "path": "dist/style.css",
+        "bytes": 14088,
+        "sha256": "3ee2f2e97bbf963de4361733b845770cadb5f6a14c680de4ee2ce6d8286e22d3"
+      },
+      {
+        "path": "qa/minimal-preview.jpg",
+        "bytes": 13465,
+        "sha256": "a9307ff6523efe3f4e9285b33d72af01451c1d7d799fadf9f17689a0002381d4"
+      },
+      {
+        "path": "qa/minimal-redesign.json",
+        "bytes": 1327,
+        "sha256": "93f72dd3dae01a8379117941ab3bec93a9740ae20060a11d6a74944f86b63d59"
+      },
+      {
+        "path": "qa/preview.jpg",
+        "bytes": 98317,
+        "sha256": "1f9b104b2b8b5d4c9af0aafa11e92c8b5bd15f0c7520d246a4f88584c5d95082"
+      },
+      {
+        "path": "qa/results.json",
+        "bytes": 1292,
+        "sha256": "cbc624499fffe343b398a9dc0b1d6cdbe607588a3c17b526f436288592f48028"
+      },
+      {
+        "path": "verify.mjs",
+        "bytes": 4148,
+        "sha256": "52d2587589c27c6e56e3c8eb286398ff7c1de8051055c80a98419b4eb956bbee"
+      }
+    ]
+  }
+]

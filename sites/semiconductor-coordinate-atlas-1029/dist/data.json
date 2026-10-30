@@ -1,0 +1,2879 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-29",
+  "topics": [
+    {
+      "id": "K01",
+      "name": "半導體物理",
+      "english": "Semiconductor physics",
+      "aliases": [],
+      "types": [
+        "領域"
+      ],
+      "question": "材料中的載子與電性如何被解釋？",
+      "summary": "用載子、能量與輸運，解釋材料為何導電，以及電性如何受外界條件改變。",
+      "scope": "本單元是載子與電性的入門地圖。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 4,
+          "reason": "解釋載子與電性是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 1,
+          "reason": "製作與操作僅作背景。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "physics",
+        "transport"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K02",
+      "name": "半導體材料",
+      "english": "Semiconductor materials",
+      "aliases": [],
+      "types": [
+        "領域"
+      ],
+      "question": "材料性質如何影響元件與製程選擇？",
+      "summary": "不同材料具有不同的能隙、電性與加工條件，選材會影響元件能做什麼。",
+      "scope": "以矽、絕緣層與互連材料的角色作概述。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 3,
+          "reason": "材料性質與功能的連結為主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 2,
+          "reason": "材料選擇是次要內容。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "band",
+        "front"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K03",
+      "name": "晶圓製造",
+      "english": "Wafer fabrication",
+      "aliases": [
+        "Fab"
+      ],
+      "types": [
+        "領域"
+      ],
+      "question": "如何逐步在晶圓上形成元件與互連？",
+      "summary": "在晶圓上反覆形成薄層、定義圖案並移除或改變材料，逐步建立電路。",
+      "scope": "概述工序用途，不宣稱所有產品有唯一順序。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 2,
+          "reason": "個別工序機制只作簡介。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "形成元件與互連的工作是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "fab"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K04",
+      "name": "IC 設計",
+      "english": "Integrated Circuit Design",
+      "aliases": [
+        "積體電路設計"
+      ],
+      "types": [
+        "活動",
+        "領域"
+      ],
+      "question": "如何把所需功能轉成可實現的電路與布局？",
+      "summary": "先決定電路要完成的功能，再選擇元件、連接並安排布局，透過模擬與檢查確認可製造性。",
+      "scope": "聚焦功能到電路與實體設計。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 2,
+          "reason": "元件作用為必要但次要內容。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "選擇、布局與驗證是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "design"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K05",
+      "name": "封裝工程",
+      "english": "Packaging engineering",
+      "aliases": [],
+      "types": [
+        "領域"
+      ],
+      "question": "晶片如何與外界連接並獲得保護與散熱？",
+      "summary": "封裝把晶片接到外部電路，提供支撐與保護，並參與把熱送往環境的路徑。",
+      "scope": "先理解工程任務，再延伸各方法。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 1,
+          "reason": "電熱機制只作背景。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 3,
+          "reason": "連接、保護與散熱是主要任務。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "pack",
+        "thermal",
+        "wlp"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K06",
+      "name": "半導體測試",
+      "english": "Semiconductor testing",
+      "aliases": [],
+      "types": [
+        "活動",
+        "領域"
+      ],
+      "question": "如何確認不同階段的晶片符合要求？",
+      "summary": "對晶片施加測試條件並量測反應，與規格比較；晶圓與封裝後都能進行測試。",
+      "scope": "區分測試活動與實體製程。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 1,
+          "reason": "物理失效機制只作背景。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "量測與判定是否合格是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "test",
+        "ase"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K07",
+      "name": "可靠度",
+      "english": "Reliability",
+      "aliases": [],
+      "types": [
+        "領域"
+      ],
+      "question": "元件與封裝為何隨條件及時間失效？",
+      "summary": "可靠度關心產品在指定環境與時間內能否持續工作，需搭配失效機制與應力試驗判讀。",
+      "scope": "入門概述，不能用一次功能測試代表壽命。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 3,
+          "reason": "失效原因是主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 3,
+          "reason": "試驗條件與結果判讀也是主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "reliability",
+        "solder"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K08",
+      "name": "晶體結構",
+      "english": "Crystal structure",
+      "aliases": [
+        "晶格"
+      ],
+      "types": [
+        "結構概念"
+      ],
+      "question": "原子排列提供哪些材料結構資訊？",
+      "summary": "晶體中原子有重複的空間排列；以矽為例，可以用鍵結與晶格描述其結構。",
+      "scope": "只看原子排列與鍵結，不討論生長操作。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 4,
+          "reason": "結構與鍵結的理解是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 0,
+          "reason": "範圍明確，不討論實作方法。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "physics"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K09",
+      "name": "能帶",
+      "english": "Energy band",
+      "aliases": [
+        "Bandgap",
+        "能隙"
+      ],
+      "types": [
+        "模型",
+        "概念"
+      ],
+      "question": "電子可佔據的能量狀態如何描述？",
+      "summary": "能帶描述電子可具有的能量範圍，能隙是兩個帶之間缺少允許能態的區間。",
+      "scope": "能量圖不是原子之間的實體空隙。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 4,
+          "reason": "能態與材料電性是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 0,
+          "reason": "本單元沒有製作或操作目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "band"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K10",
+      "name": "載子",
+      "english": "Charge carrier",
+      "aliases": [
+        "Electron",
+        "Hole",
+        "電洞"
+      ],
+      "types": [
+        "概念"
+      ],
+      "question": "電子與電洞如何參與電性行為？",
+      "summary": "半導體的電流可由可移動電子與電洞描述；電洞是缺少電子的狀態所呈現的有效正電載子。",
+      "scope": "不把電洞當成材料中的實體孔洞。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 4,
+          "reason": "載子身分與電性是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 0,
+          "reason": "沒有直接討論操作方法。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "physics"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K11",
+      "name": "摻雜",
+      "english": "Doping",
+      "aliases": [
+        "Donor",
+        "Acceptor"
+      ],
+      "types": [
+        "概念",
+        "方法"
+      ],
+      "question": "加入特定雜質如何改變半導體性質？",
+      "summary": "在適當條件下引入施體或受體，可改變電子與電洞濃度，調整材料電性。",
+      "scope": "以矽中的電性摻雜為主；不同於單一摻雜製程。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 4,
+          "reason": "雜質如何改變載子是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 2,
+          "reason": "介紹引入雜質的方法但非操作詳解。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "physics",
+        "front"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K12",
+      "name": "漂移",
+      "english": "Drift",
+      "aliases": [],
+      "types": [
+        "物理機制"
+      ],
+      "question": "電場如何影響載子移動？",
+      "summary": "電場讓載子的隨機運動出現平均方向；電子與電洞的漂移方向相反。",
+      "scope": "電子移動方向與傳統電流方向要分開。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 4,
+          "reason": "電場與平均輸運的關係是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 1,
+          "reason": "外加電場只作操作背景。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "transport"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K13",
+      "name": "擴散機制",
+      "english": "Diffusion",
+      "aliases": [],
+      "types": [
+        "物理機制"
+      ],
+      "question": "濃度不均如何產生淨輸運？",
+      "summary": "在簡單擴散情境中，粒子的隨機移動會讓淨輸運從濃處朝稀處發生。",
+      "scope": "這是載子與原子輸運的共通入口；複雜材料需考慮化學勢等條件。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 4,
+          "reason": "輸運方向與機制是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 1,
+          "reason": "製程只作應用背景。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "transport",
+        "frontread"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K14",
+      "name": "Fick 擴散模型",
+      "english": "Fick laws",
+      "aliases": [
+        "菲克定律"
+      ],
+      "types": [
+        "模型"
+      ],
+      "question": "如何在適用條件下描述通量與分布變化？",
+      "summary": "第一定律把擴散通量連到濃度梯度；再配合守恆，可描述濃度如何隨時間改變。",
+      "scope": "簡單一維、常數 D、無源項：J = −D ∂c/∂x；∂c/∂t = D ∂²c/∂x²。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 4,
+          "reason": "通量、梯度與守恆是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 2,
+          "reason": "選擇模型條件與邊界是次要內容。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "frontread",
+        "transport"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K15",
+      "name": "PN 接面",
+      "english": "PN junction",
+      "aliases": [
+        "p-n"
+      ],
+      "types": [
+        "結構",
+        "元件"
+      ],
+      "question": "不同摻雜區域相接後形成什麼電性行為？",
+      "summary": "p 型與 n 型區域相接，載子重新分布並形成內建電場；熱平衡時漂移與擴散互相平衡。",
+      "scope": "以接面的電場、載子與平衡為主。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 4,
+          "reason": "電場與載子平衡是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 1,
+          "reason": "製作方式只作背景。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "pn"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K16",
+      "name": "MOSFET",
+      "english": "Metal-Oxide-Semiconductor Field-Effect Transistor",
+      "aliases": [
+        "場效電晶體"
+      ],
+      "types": [
+        "元件"
+      ],
+      "question": "閘極如何影響電流，以及如何用它控制開關？",
+      "summary": "閘極電壓改變通道的載子狀態，調節源極與汲極間的電流，因此可用於開關與放大。",
+      "scope": "以基本閘控作用與操作情境為主。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 3,
+          "reason": "閘極控制機制為主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 3,
+          "reason": "基本偏壓與開關操作也是主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "mos"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K17",
+      "name": "邏輯閘",
+      "english": "Logic gate",
+      "aliases": [
+        "NOT",
+        "AND",
+        "OR"
+      ],
+      "types": [
+        "電路單元"
+      ],
+      "question": "如何用電路實現基本邏輯關係？",
+      "summary": "把電壓範圍約定為 0 與 1，電路就能依輸入產生符合邏輯規則的輸出。",
+      "scope": "以反相器為最小例子；邏輯值不是任意瞬間電壓。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 3,
+          "reason": "電路與邏輯關係是主要內容。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 3,
+          "reason": "組合元件以實現功能也是主要內容。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "logic",
+        "design"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K18",
+      "name": "記憶體",
+      "english": "Memory",
+      "aliases": [
+        "DRAM",
+        "NAND"
+      ],
+      "types": [
+        "元件",
+        "產品"
+      ],
+      "question": "資訊如何被儲存並讀出？",
+      "summary": "記憶體把資訊對應到可辨識的物理狀態；DRAM 以電容儲存電荷，NAND 可在斷電後保留資料。",
+      "scope": "不同技術的寫入、讀取與資料保持方式不同。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 3,
+          "reason": "儲存狀態與讀取機制為主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 2,
+          "reason": "產品選擇與使用是次要內容。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "memory"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K19",
+      "name": "矽",
+      "english": "Silicon",
+      "aliases": [
+        "Si"
+      ],
+      "types": [
+        "材料"
+      ],
+      "question": "矽在半導體元件與製造中扮演什麼角色？",
+      "summary": "矽是可透過摻雜調整電性的半導體，也能作為製作積體電路的晶圓基底。",
+      "scope": "聚焦晶體矽與積體電路。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 3,
+          "reason": "鍵結與電性的理解為主。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 2,
+          "reason": "晶圓用途為次要內容。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "physics",
+        "fab"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K20",
+      "name": "二氧化矽",
+      "english": "Silicon dioxide",
+      "aliases": [
+        "SiO2",
+        "氧化矽"
+      ],
+      "types": [
+        "材料"
+      ],
+      "question": "它可在結構與製程中提供哪些功能？",
+      "summary": "二氧化矽可作為絕緣層；在矽製程中也可透過熱氧化形成。",
+      "scope": "不同結構需求可能改用其他介電材料，不能把所有閘極絕緣層等同 SiO₂。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 2,
+          "reason": "絕緣特性作必要解釋。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 3,
+          "reason": "功能選擇與形成方式為主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "front",
+        "frontread"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K21",
+      "name": "銅",
+      "english": "Copper",
+      "aliases": [
+        "Cu"
+      ],
+      "types": [
+        "材料"
+      ],
+      "question": "銅如何參與電性互連及相關可靠度問題？",
+      "summary": "銅可構成互連線與封裝接點；在錫基焊料接觸銅的情境，界面反應與擴散會改變接合層。",
+      "scope": "聚焦互連與 Sn/Cu 界面，不泛化為所有材料組合。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 2,
+          "reason": "界面行為為次要解釋。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 3,
+          "reason": "互連用途與可靠度考量是主要內容。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "rdl",
+        "bump",
+        "solder"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K22",
+      "name": "光阻",
+      "english": "Photoresist",
+      "aliases": [
+        "Resist"
+      ],
+      "types": [
+        "材料"
+      ],
+      "question": "感光材料如何協助形成圖案？",
+      "summary": "光阻受曝光與後續處理影響，部分區域可在顯影時移除，留下供後續加工使用的圖案。",
+      "scope": "不同光阻配方及正負光阻的保留區域不同。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 2,
+          "reason": "感光與顯影的作用為次要說明。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 3,
+          "reason": "形成可用圖案是主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "fab"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K23",
+      "name": "微影",
+      "english": "Lithography",
+      "aliases": [
+        "Photolithography"
+      ],
+      "types": [
+        "製程方法"
+      ],
+      "question": "如何把預定圖案形成在光阻上？",
+      "summary": "透過曝光與顯影，把預定圖案轉成光阻上的開口與保留區域，供後續步驟使用。",
+      "scope": "圖案先形成於光阻，蝕刻是另一個步驟。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 3,
+          "reason": "光學與材料作用是主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "圖案形成流程是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "fab"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K24",
+      "name": "蝕刻",
+      "english": "Etching",
+      "aliases": [
+        "Wet etch",
+        "Dry etch"
+      ],
+      "types": [
+        "製程方法"
+      ],
+      "question": "如何選擇性移除材料？",
+      "summary": "用化學反應及／或物理作用移除目標材料，並控制保留區域與形狀。",
+      "scope": "方法取決於材料、形狀與選擇性要求。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 3,
+          "reason": "移除機制為主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "選擇方法與控制形狀是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "fab",
+        "frontread"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K25",
+      "name": "薄膜沉積",
+      "english": "Thin film deposition",
+      "aliases": [
+        "PVD"
+      ],
+      "types": [
+        "製程方法族"
+      ],
+      "question": "如何在表面形成所需材料薄層？",
+      "summary": "把所需材料添加到表面形成薄層；不同方法影響厚度控制、材料品質與覆蓋能力。",
+      "scope": "此單元收錄 CVD 與 ALD，也保留其他沉積法的位置。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 2,
+          "reason": "成膜機制只作方法比較。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "選擇與形成薄膜是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "ald",
+        "fab"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K26",
+      "name": "CVD",
+      "english": "Chemical Vapor Deposition",
+      "aliases": [
+        "化學氣相沉積"
+      ],
+      "types": [
+        "沉積方法"
+      ],
+      "question": "如何利用前驅物反應形成薄膜？",
+      "summary": "氣相前驅物經化學反應在基板上成膜，製程條件會影響成長速率與覆蓋情形。",
+      "scope": "不像 ALD 必然以循序自限反應控制每個循環。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 3,
+          "reason": "化學反應與成膜關係是主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "控制成膜條件是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "ald"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K27",
+      "name": "ALD",
+      "english": "Atomic Layer Deposition",
+      "aliases": [
+        "原子層沉積"
+      ],
+      "types": [
+        "沉積方法"
+      ],
+      "question": "循序自限表面反應如何控制成膜？",
+      "summary": "交替供應反應物並分隔反應，利用表面反應的自限特性，逐循環控制薄膜成長。",
+      "scope": "每循環不保證恰好一整個原子層；需處於合適反應條件。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 3,
+          "reason": "自限表面反應是主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "循環與厚度控制是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "ald"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K28",
+      "name": "熱氧化",
+      "english": "Thermal oxidation",
+      "aliases": [],
+      "types": [
+        "製程方法"
+      ],
+      "question": "如何在指定材料與條件下形成氧化層？",
+      "summary": "在適當高溫與氧化氣氛下，使矽表面反應生成氧化層，同時消耗部分矽。",
+      "scope": "這裡限定矽的熱氧化；不等同所有氧化物沉積。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 3,
+          "reason": "氧化反應與成長是主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "控制氧化條件與膜層是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "front",
+        "frontread"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K29",
+      "name": "熱擴散摻雜",
+      "english": "Thermal diffusion doping",
+      "aliases": [
+        "Drive-in"
+      ],
+      "types": [
+        "製程方法"
+      ],
+      "question": "如何利用原子擴散調整摻雜分布？",
+      "summary": "藉熱處理讓摻雜原子重新分布，時間、溫度與邊界條件會影響深度及濃度。",
+      "scope": "此處移動的是摻雜原子，不是把載子擴散直接當作製程。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 3,
+          "reason": "擴散機制為主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "控制摻雜分布是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "front",
+        "frontread"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K30",
+      "name": "離子佈植",
+      "english": "Ion implantation",
+      "aliases": [
+        "離子植入"
+      ],
+      "types": [
+        "製程方法"
+      ],
+      "question": "如何把離子引入材料並控制初始分布？",
+      "summary": "加速離子進入材料，利用能量與劑量等條件控制初始分布；也可能造成晶格損傷。",
+      "scope": "植入後通常需要適當熱處理，初始分布不等於最終有效摻雜分布。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 3,
+          "reason": "離子與材料作用為主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "引入離子與控制分布是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "fab",
+        "frontread"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K31",
+      "name": "退火",
+      "english": "Annealing",
+      "aliases": [],
+      "types": [
+        "製程方法"
+      ],
+      "question": "熱處理如何改變材料與元件狀態？",
+      "summary": "控制加熱與時間，可修復部分植入損傷、促進摻雜活化，也可能讓原子進一步擴散。",
+      "scope": "以佈植後退火為例，效果取決於材料與熱歷程。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 3,
+          "reason": "損傷修復與原子移動為主要內容。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "熱處理條件選擇是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "frontread"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K32",
+      "name": "CMP",
+      "english": "Chemical Mechanical Planarization",
+      "aliases": [
+        "化學機械平坦化"
+      ],
+      "types": [
+        "製程方法"
+      ],
+      "question": "如何結合化學與機械作用平坦化表面？",
+      "summary": "用研磨液、拋光墊與受控壓力共同移除材料，讓表面更平坦，支援後續疊層。",
+      "scope": "需要控制終點，避免過度移除底層結構。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 2,
+          "reason": "化學與機械機制簡要交代。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "材料移除與平坦度控制是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "cmp"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K33",
+      "name": "打線接合",
+      "english": "Wire bonding",
+      "aliases": [
+        "焊線"
+      ],
+      "types": [
+        "封裝方法"
+      ],
+      "question": "如何用導線連接晶片接點與外部端點？",
+      "summary": "細導線把晶片接點接到導線架或基板上的端點，形成電性通路。",
+      "scope": "以常見打線封裝作示意，材料與接合方法依需求而異。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 2,
+          "reason": "電性通路機制為次要說明。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "導線接合方法是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "pack"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K34",
+      "name": "覆晶接合",
+      "english": "Flip-chip bonding",
+      "aliases": [
+        "Flip chip"
+      ],
+      "types": [
+        "封裝方法"
+      ],
+      "question": "如何藉由凸塊等互連直接連接晶片？",
+      "summary": "把晶片接點面朝向載體，透過凸塊等接點連接，形成較直接的電性通路。",
+      "scope": "覆晶是接合方式，不能與所有先進封裝互換稱呼。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 2,
+          "reason": "互連結構作用為次要說明。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "接合與整合方式是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "pack",
+        "bump"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K35",
+      "name": "晶圓級封裝",
+      "english": "Wafer-Level Packaging",
+      "aliases": [
+        "WLP",
+        "WLCSP"
+      ],
+      "types": [
+        "封裝方法族"
+      ],
+      "question": "哪些封裝工作可以在晶圓層級進行？",
+      "summary": "在分割前，以晶圓或重組晶圓等形式完成部分封裝工序，例如重佈線與凸塊。",
+      "scope": "各種 fan-in、fan-out 方案的載體與流程不同。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 1,
+          "reason": "作用機制只作背景。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "封裝工序所處層級與方法是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "wlp",
+        "bump",
+        "rdl"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K36",
+      "name": "先進封裝",
+      "english": "Advanced packaging",
+      "aliases": [
+        "2.5D",
+        "3D"
+      ],
+      "types": [
+        "領域",
+        "技術族"
+      ],
+      "question": "如何透過整合方式擴充系統功能與互連？",
+      "summary": "用高密度互連、晶片並排或堆疊等方式整合不同功能，改善系統連接與整合彈性。",
+      "scope": "技術族名稱不是單一固定製程，也不是難度或知識量的數值。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 2,
+          "reason": "系統整合效應為次要說明。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 3,
+          "reason": "整合方案與互連選擇是主要內容。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "advanced"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K37",
+      "name": "RDL 重佈線層",
+      "english": "Redistribution Layer",
+      "aliases": [
+        "重分布層"
+      ],
+      "types": [
+        "互連結構"
+      ],
+      "question": "如何把原有接點重新連接至需要的位置？",
+      "summary": "用導線與絕緣層組成重新布線的結構，把既有接點引到所需位置。",
+      "scope": "RDL 是結構，不是一家公司或完整封裝平台。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 2,
+          "reason": "電性連接原理為次要說明。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 3,
+          "reason": "接點重新安排是主要內容。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "rdl"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K38",
+      "name": "中介層",
+      "english": "Interposer",
+      "aliases": [],
+      "types": [
+        "結構"
+      ],
+      "question": "如何在晶片與其他結構間提供互連？",
+      "summary": "中介層在多個晶片與載體間提供布線與連接；可依技術方案採不同材料與結構。",
+      "scope": "不把所有中介層都視為整片矽。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 2,
+          "reason": "互連作用為次要說明。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 3,
+          "reason": "結構與方案選擇為主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "cowos"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K39",
+      "name": "CoWoS",
+      "english": "Chip-on-Wafer-on-Substrate",
+      "aliases": [],
+      "types": [
+        "技術平台"
+      ],
+      "question": "此平台如何整合晶片與互連結構？",
+      "summary": "台積電的 CoWoS 平台透過中介互連整合邏輯晶片與記憶體等元件。",
+      "scope": "S 採矽中介層；R 採 RDL；L 結合 RDL 與局部矽互連，不能一概而論。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 2,
+          "reason": "互連機制為次要說明。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 3,
+          "reason": "具體整合方案為主要內容。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "cowos"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K40",
+      "name": "封裝散熱",
+      "english": "Thermal management",
+      "aliases": [],
+      "types": [
+        "工程主題"
+      ],
+      "question": "熱如何離開晶片與封裝？",
+      "summary": "熱從晶片經封裝、電路板或散熱器傳出，再與周圍環境交換；不同路徑共同影響溫度。",
+      "scope": "熱阻需搭配量測與系統條件，不能視為所有環境通用的常數。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 3,
+          "reason": "熱傳路徑是主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 3,
+          "reason": "散熱設計與條件判斷也是主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "thermal"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K41",
+      "name": "微影設備",
+      "english": "Lithography systems",
+      "aliases": [
+        "Scanner",
+        "曝光機"
+      ],
+      "types": [
+        "設備"
+      ],
+      "question": "哪些設備功能支援曝光與對準？",
+      "summary": "微影設備把圖案精確成像到光阻上，並控制晶圓位置，使新一層與已有結構對齊。",
+      "scope": "設備是支援製程的工具，不等於晶片製造公司。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 2,
+          "reason": "成像原理為次要內容。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 3,
+          "reason": "曝光與位置控制功能為主要目標。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "fab"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K42",
+      "name": "晶圓探測",
+      "english": "Wafer probing",
+      "aliases": [
+        "Wafer sort",
+        "CP"
+      ],
+      "types": [
+        "測試活動"
+      ],
+      "question": "如何在晶圓狀態檢查晶片電性？",
+      "summary": "在晶片仍位於晶圓上時，透過探針與測試系統施加訊號、量測電性並分類結果。",
+      "scope": "測試條件與覆蓋範圍依產品規格而定。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 1,
+          "reason": "電性機制只作背景。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "晶圓測試的執行與判定是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "test",
+        "ase"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K43",
+      "name": "成品測試",
+      "english": "Final test",
+      "aliases": [
+        "FT"
+      ],
+      "types": [
+        "測試活動"
+      ],
+      "question": "如何確認特定封裝或出貨狀態的產品要求？",
+      "summary": "對封裝後等特定狀態的產品進行電性測試，依規格判定功能與性能。",
+      "scope": "不能由一次測試推論所有使用條件下都不會失效。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 1,
+          "reason": "物理機制只作背景。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 4,
+          "reason": "產品狀態與規格判定是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "test",
+        "ase"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K44",
+      "name": "焊點界面互擴散",
+      "english": "Solder interdiffusion",
+      "aliases": [
+        "IMC",
+        "介金屬化合物"
+      ],
+      "types": [
+        "可靠度情境"
+      ],
+      "question": "材料間的原子輸運如何影響界面演變？",
+      "summary": "錫基焊料與銅接觸並經熱歷程後，互擴散與反應可使介金屬層成長，改變接合界面。",
+      "scope": "空洞也受雜質與微結構影響，不能只由擴散快慢判定失效。",
+      "scores": {
+        "P": {
+          "status": "known",
+          "value": 4,
+          "reason": "界面輸運與反應機制是核心。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "known",
+          "value": 2,
+          "reason": "可靠度條件判斷為次要內容。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "solder",
+        "void"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K45",
+      "name": "台積電",
+      "english": "TSMC",
+      "aliases": [
+        "Taiwan Semiconductor Manufacturing Company"
+      ],
+      "types": [
+        "企業"
+      ],
+      "question": "這家公司提供哪些可查核的技術與服務？",
+      "summary": "台積電以專業晶圓代工為核心，也提供包括 CoWoS 在內的先進封裝與整合技術。",
+      "scope": "此單元介紹服務角色，不以公司規模或重要性評分。",
+      "scores": {
+        "P": {
+          "status": "not_applicable",
+          "value": null,
+          "reason": "企業角色不適用原理側重評分。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "not_applicable",
+          "value": null,
+          "reason": "企業角色不適用實作側重評分。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "tsmc",
+        "cowos"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K46",
+      "name": "日月光",
+      "english": "ASE",
+      "aliases": [
+        "Advanced Semiconductor Engineering"
+      ],
+      "types": [
+        "企業"
+      ],
+      "question": "這家公司在封裝與測試中提供哪些服務？",
+      "summary": "日月光提供封裝與測試服務，測試範圍包括晶圓探測、封裝後測試等。",
+      "scope": "以官方服務範圍為準，不推測特定客戶或訂單。",
+      "scores": {
+        "P": {
+          "status": "not_applicable",
+          "value": null,
+          "reason": "企業介紹不適用原理側重評分。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "not_applicable",
+          "value": null,
+          "reason": "企業介紹不適用實作側重評分。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "test",
+        "ase",
+        "asepack"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K47",
+      "name": "ASML",
+      "english": "艾司摩爾",
+      "aliases": [],
+      "types": [
+        "企業"
+      ],
+      "question": "這家公司提供什麼設備與相關能力？",
+      "summary": "ASML 提供微影設備及相關計算、量測與檢查能力，支援晶片製造中的圖案形成。",
+      "scope": "設備供應商的身分與晶圓代工廠分開。",
+      "scores": {
+        "P": {
+          "status": "not_applicable",
+          "value": null,
+          "reason": "企業介紹不適用原理側重評分。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "not_applicable",
+          "value": null,
+          "reason": "企業介紹不適用實作側重評分。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "fab"
+      ],
+      "resources": []
+    },
+    {
+      "id": "K48",
+      "name": "半導體供應鏈",
+      "english": "Semiconductor supply chain",
+      "aliases": [
+        "產業分工"
+      ],
+      "types": [
+        "產業"
+      ],
+      "question": "不同角色如何藉產品與服務互相連接？",
+      "summary": "設計、晶圓製造、材料設備、封裝與測試透過產品與服務互相配合；同一家公司可跨多種角色。",
+      "scope": "這是角色關係概述，不把企業排成唯一線性流程。",
+      "scores": {
+        "P": {
+          "status": "not_applicable",
+          "value": null,
+          "reason": "產業分工不適用本單元原理評分。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        },
+        "M": {
+          "status": "not_applicable",
+          "value": null,
+          "reason": "交易與服務角色不直接代表實作側重。",
+          "updatedAt": "2026-10-29",
+          "method": "編輯評分，可修訂"
+        }
+      },
+      "sources": [
+        "design",
+        "tsmc",
+        "fab",
+        "test"
+      ],
+      "resources": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "E001",
+      "from": "K08",
+      "to": "K01",
+      "kind": "收錄於",
+      "condition": "收錄載子與電性入門主題",
+      "sources": [
+        "physics",
+        "transport",
+        "pn",
+        "mos"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E002",
+      "from": "K09",
+      "to": "K01",
+      "kind": "收錄於",
+      "condition": "收錄載子與電性入門主題",
+      "sources": [
+        "physics",
+        "transport",
+        "pn",
+        "mos"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E003",
+      "from": "K10",
+      "to": "K01",
+      "kind": "收錄於",
+      "condition": "收錄載子與電性入門主題",
+      "sources": [
+        "physics",
+        "transport",
+        "pn",
+        "mos"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E004",
+      "from": "K11",
+      "to": "K01",
+      "kind": "收錄於",
+      "condition": "收錄載子與電性入門主題",
+      "sources": [
+        "physics",
+        "transport",
+        "pn",
+        "mos"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E005",
+      "from": "K12",
+      "to": "K01",
+      "kind": "收錄於",
+      "condition": "收錄載子與電性入門主題",
+      "sources": [
+        "physics",
+        "transport",
+        "pn",
+        "mos"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E006",
+      "from": "K13",
+      "to": "K01",
+      "kind": "收錄於",
+      "condition": "收錄載子與電性入門主題",
+      "sources": [
+        "physics",
+        "transport",
+        "pn",
+        "mos"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E007",
+      "from": "K15",
+      "to": "K01",
+      "kind": "收錄於",
+      "condition": "收錄載子與電性入門主題",
+      "sources": [
+        "physics",
+        "transport",
+        "pn",
+        "mos"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E008",
+      "from": "K16",
+      "to": "K01",
+      "kind": "收錄於",
+      "condition": "收錄載子與電性入門主題",
+      "sources": [
+        "physics",
+        "transport",
+        "pn",
+        "mos"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E009",
+      "from": "K19",
+      "to": "K02",
+      "kind": "收錄於",
+      "condition": "以材料角色組織閱讀入口",
+      "sources": [
+        "physics",
+        "front",
+        "rdl",
+        "fab"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E010",
+      "from": "K20",
+      "to": "K02",
+      "kind": "收錄於",
+      "condition": "以材料角色組織閱讀入口",
+      "sources": [
+        "physics",
+        "front",
+        "rdl",
+        "fab"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E011",
+      "from": "K21",
+      "to": "K02",
+      "kind": "收錄於",
+      "condition": "以材料角色組織閱讀入口",
+      "sources": [
+        "physics",
+        "front",
+        "rdl",
+        "fab"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E012",
+      "from": "K22",
+      "to": "K02",
+      "kind": "收錄於",
+      "condition": "以材料角色組織閱讀入口",
+      "sources": [
+        "physics",
+        "front",
+        "rdl",
+        "fab"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E013",
+      "from": "K23",
+      "to": "K03",
+      "kind": "收錄於",
+      "condition": "依晶圓加工用途收錄，不表示固定先後",
+      "sources": [
+        "fab",
+        "frontread",
+        "cmp"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E014",
+      "from": "K24",
+      "to": "K03",
+      "kind": "收錄於",
+      "condition": "依晶圓加工用途收錄，不表示固定先後",
+      "sources": [
+        "fab",
+        "frontread",
+        "cmp"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E015",
+      "from": "K25",
+      "to": "K03",
+      "kind": "收錄於",
+      "condition": "依晶圓加工用途收錄，不表示固定先後",
+      "sources": [
+        "fab",
+        "frontread",
+        "cmp"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E016",
+      "from": "K28",
+      "to": "K03",
+      "kind": "收錄於",
+      "condition": "依晶圓加工用途收錄，不表示固定先後",
+      "sources": [
+        "fab",
+        "frontread",
+        "cmp"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E017",
+      "from": "K29",
+      "to": "K03",
+      "kind": "收錄於",
+      "condition": "依晶圓加工用途收錄，不表示固定先後",
+      "sources": [
+        "fab",
+        "frontread",
+        "cmp"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E018",
+      "from": "K30",
+      "to": "K03",
+      "kind": "收錄於",
+      "condition": "依晶圓加工用途收錄，不表示固定先後",
+      "sources": [
+        "fab",
+        "frontread",
+        "cmp"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E019",
+      "from": "K31",
+      "to": "K03",
+      "kind": "收錄於",
+      "condition": "依晶圓加工用途收錄，不表示固定先後",
+      "sources": [
+        "fab",
+        "frontread",
+        "cmp"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E020",
+      "from": "K32",
+      "to": "K03",
+      "kind": "收錄於",
+      "condition": "依晶圓加工用途收錄，不表示固定先後",
+      "sources": [
+        "fab",
+        "frontread",
+        "cmp"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E021",
+      "from": "K33",
+      "to": "K05",
+      "kind": "收錄於",
+      "condition": "按封裝連接與整合任務收錄",
+      "sources": [
+        "pack",
+        "wlp",
+        "rdl",
+        "advanced",
+        "thermal"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E022",
+      "from": "K34",
+      "to": "K05",
+      "kind": "收錄於",
+      "condition": "按封裝連接與整合任務收錄",
+      "sources": [
+        "pack",
+        "wlp",
+        "rdl",
+        "advanced",
+        "thermal"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E023",
+      "from": "K35",
+      "to": "K05",
+      "kind": "收錄於",
+      "condition": "按封裝連接與整合任務收錄",
+      "sources": [
+        "pack",
+        "wlp",
+        "rdl",
+        "advanced",
+        "thermal"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E024",
+      "from": "K36",
+      "to": "K05",
+      "kind": "收錄於",
+      "condition": "按封裝連接與整合任務收錄",
+      "sources": [
+        "pack",
+        "wlp",
+        "rdl",
+        "advanced",
+        "thermal"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E025",
+      "from": "K37",
+      "to": "K05",
+      "kind": "收錄於",
+      "condition": "按封裝連接與整合任務收錄",
+      "sources": [
+        "pack",
+        "wlp",
+        "rdl",
+        "advanced",
+        "thermal"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E026",
+      "from": "K38",
+      "to": "K05",
+      "kind": "收錄於",
+      "condition": "按封裝連接與整合任務收錄",
+      "sources": [
+        "pack",
+        "wlp",
+        "rdl",
+        "advanced",
+        "thermal"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E027",
+      "from": "K40",
+      "to": "K05",
+      "kind": "收錄於",
+      "condition": "按封裝連接與整合任務收錄",
+      "sources": [
+        "pack",
+        "wlp",
+        "rdl",
+        "advanced",
+        "thermal"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E028",
+      "from": "K42",
+      "to": "K06",
+      "kind": "收錄於",
+      "condition": "依被測物狀態收錄兩類活動",
+      "sources": [
+        "test"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E029",
+      "from": "K43",
+      "to": "K06",
+      "kind": "收錄於",
+      "condition": "依被測物狀態收錄兩類活動",
+      "sources": [
+        "test"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E030",
+      "from": "K44",
+      "to": "K07",
+      "kind": "收錄於",
+      "condition": "以界面演變作可靠度案例",
+      "sources": [
+        "solder",
+        "void"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E031",
+      "from": "K17",
+      "to": "K04",
+      "kind": "收錄於",
+      "condition": "收錄功能電路與儲存單元",
+      "sources": [
+        "design",
+        "memory"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E032",
+      "from": "K18",
+      "to": "K04",
+      "kind": "收錄於",
+      "condition": "收錄功能電路與儲存單元",
+      "sources": [
+        "design",
+        "memory"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E033",
+      "from": "K26",
+      "to": "K25",
+      "kind": "收錄於",
+      "condition": "本系統分別收錄兩種成膜方法",
+      "sources": [
+        "ald"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E034",
+      "from": "K27",
+      "to": "K25",
+      "kind": "收錄於",
+      "condition": "本系統分別收錄兩種成膜方法",
+      "sources": [
+        "ald"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E035",
+      "from": "K39",
+      "to": "K36",
+      "kind": "收錄於",
+      "condition": "收錄一項具官方定義的技術平台",
+      "sources": [
+        "cowos"
+      ],
+      "status": "confirmed",
+      "basis": "editorial",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E036",
+      "from": "K29",
+      "to": "K13",
+      "kind": "使用機制",
+      "condition": "摻雜原子的擴散，與載子情境區分。",
+      "sources": [
+        "frontread"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E037",
+      "from": "K13",
+      "to": "K14",
+      "kind": "由模型描述",
+      "condition": "簡單連續介質情境；常數 D 的第二定律另需無源項等假設。",
+      "sources": [
+        "frontread",
+        "transport"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E038",
+      "from": "K44",
+      "to": "K13",
+      "kind": "使用或涉及",
+      "condition": "限定錫基焊料／銅界面與熱歷程。",
+      "sources": [
+        "solder"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E039",
+      "from": "K27",
+      "to": "K25",
+      "kind": "是一種",
+      "condition": "循序自限反應的成膜方法。",
+      "sources": [
+        "ald"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E040",
+      "from": "K26",
+      "to": "K25",
+      "kind": "是一種",
+      "condition": "氣相前驅物化學反應成膜。",
+      "sources": [
+        "ald"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E041",
+      "from": "K23",
+      "to": "K22",
+      "kind": "使用材料",
+      "condition": "本單元的光學微影使用感光光阻。",
+      "sources": [
+        "fab"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E042",
+      "from": "K41",
+      "to": "K23",
+      "kind": "執行或支援",
+      "condition": "設備負責曝光與對準。",
+      "sources": [
+        "fab"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E043",
+      "from": "K42",
+      "to": "K06",
+      "kind": "是一種",
+      "condition": "晶圓狀態的電性測試。",
+      "sources": [
+        "test"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E044",
+      "from": "K43",
+      "to": "K06",
+      "kind": "是一種",
+      "condition": "針對封裝後等特定產品狀態。",
+      "sources": [
+        "test"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E045",
+      "from": "K45",
+      "to": "K39",
+      "kind": "提供服務或技術",
+      "condition": "官方 CoWoS 平台；不推測產能與客戶。",
+      "sources": [
+        "cowos"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E046",
+      "from": "K46",
+      "to": "K06",
+      "kind": "提供服務或技術",
+      "condition": "官方晶圓探測與封裝成品測試服務。",
+      "sources": [
+        "ase"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E047",
+      "from": "K47",
+      "to": "K41",
+      "kind": "提供設備",
+      "condition": "ASML 提供微影與相關設備能力。",
+      "sources": [
+        "fab"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E048",
+      "from": "K45",
+      "to": "K03",
+      "kind": "提供服務或技術",
+      "condition": "專業晶圓代工服務。",
+      "sources": [
+        "tsmc"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E049",
+      "from": "K46",
+      "to": "K05",
+      "kind": "提供服務或技術",
+      "condition": "封裝與測試服務角色。",
+      "sources": [
+        "asepack"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E050",
+      "from": "K15",
+      "to": "K12",
+      "kind": "使用或涉及",
+      "condition": "熱平衡接面中漂移與擴散互相平衡。",
+      "sources": [
+        "pn"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E051",
+      "from": "K15",
+      "to": "K13",
+      "kind": "使用或涉及",
+      "condition": "本例涉及電子與電洞輸運。",
+      "sources": [
+        "pn"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E052",
+      "from": "K12",
+      "to": "K10",
+      "kind": "作用於",
+      "condition": "電場驅動載子的平均運動。",
+      "sources": [
+        "transport"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E053",
+      "from": "K13",
+      "to": "K10",
+      "kind": "作用於",
+      "condition": "在載子擴散的情境中。",
+      "sources": [
+        "transport"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E054",
+      "from": "K11",
+      "to": "K10",
+      "kind": "調整",
+      "condition": "電性摻雜會改變載子濃度。",
+      "sources": [
+        "physics"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E055",
+      "from": "K19",
+      "to": "K08",
+      "kind": "具有結構",
+      "condition": "本單元指晶體矽的晶格排列。",
+      "sources": [
+        "physics"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E056",
+      "from": "K19",
+      "to": "K09",
+      "kind": "由模型描述",
+      "condition": "以能帶與能隙理解材料電性。",
+      "sources": [
+        "band"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E057",
+      "from": "K28",
+      "to": "K20",
+      "kind": "形成",
+      "condition": "限定矽的熱氧化層。",
+      "sources": [
+        "frontread"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E058",
+      "from": "K28",
+      "to": "K19",
+      "kind": "使用材料",
+      "condition": "熱氧化會消耗部分矽。",
+      "sources": [
+        "frontread"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E059",
+      "from": "K29",
+      "to": "K11",
+      "kind": "執行或支援",
+      "condition": "熱擴散是調整摻雜分布的方法。",
+      "sources": [
+        "frontread"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E060",
+      "from": "K30",
+      "to": "K11",
+      "kind": "執行或支援",
+      "condition": "離子引入材料後還需考慮活化。",
+      "sources": [
+        "frontread"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E061",
+      "from": "K31",
+      "to": "K30",
+      "kind": "執行或支援",
+      "condition": "佈植後退火是此單元的情境，不代表所有退火。",
+      "sources": [
+        "frontread"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E062",
+      "from": "K17",
+      "to": "K16",
+      "kind": "使用元件",
+      "condition": "MOS 邏輯電路以電晶體實現功能。",
+      "sources": [
+        "logic",
+        "mos"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E063",
+      "from": "K39",
+      "to": "K38",
+      "kind": "使用結構",
+      "condition": "不同 CoWoS 方案採不同中介互連。",
+      "sources": [
+        "cowos"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E064",
+      "from": "K39",
+      "to": "K37",
+      "kind": "使用結構",
+      "condition": "CoWoS-R 與 L 的 RDL 方案。",
+      "sources": [
+        "cowos"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E065",
+      "from": "K39",
+      "to": "K18",
+      "kind": "整合",
+      "condition": "例如與高頻寬記憶體整合。",
+      "sources": [
+        "cowos"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E066",
+      "from": "K35",
+      "to": "K37",
+      "kind": "使用結構",
+      "condition": "採重佈線的 WLP 方案；不代表每種方案都有。",
+      "sources": [
+        "rdl"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E067",
+      "from": "K37",
+      "to": "K21",
+      "kind": "使用材料",
+      "condition": "官方 WLCSP 的銅重佈線情境。",
+      "sources": [
+        "rdl"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E068",
+      "from": "K44",
+      "to": "K21",
+      "kind": "使用材料",
+      "condition": "錫基焊料／銅基板研究情境。",
+      "sources": [
+        "solder"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E069",
+      "from": "K40",
+      "to": "K07",
+      "kind": "執行或支援",
+      "condition": "控制熱條件可支援可靠度設計，不能取代驗證。",
+      "sources": [
+        "thermal"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E070",
+      "from": "K48",
+      "to": "K45",
+      "kind": "包含角色",
+      "condition": "以晶圓代工與整合服務說明角色。",
+      "sources": [
+        "tsmc",
+        "cowos"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E071",
+      "from": "K48",
+      "to": "K46",
+      "kind": "包含角色",
+      "condition": "以封裝測試服務說明角色。",
+      "sources": [
+        "test"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "E072",
+      "from": "K48",
+      "to": "K47",
+      "kind": "包含角色",
+      "condition": "以設備供應商說明角色。",
+      "sources": [
+        "fab"
+      ],
+      "status": "confirmed",
+      "basis": "source",
+      "checkedAt": "2026-10-29"
+    }
+  ],
+  "sources": [
+    {
+      "id": "physics",
+      "title": "MIT 6.012 · Semiconductor physics",
+      "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-fall-2005/e1a94598c1fd641fc15636a9ad14de1a_lec2.pdf",
+      "supports": "矽晶體、電子與電洞、摻雜；教材用於穩定原理。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "transport",
+      "title": "MIT 6.012 · Carrier transport",
+      "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-fall-2005/9bb1515169363c8c2835891d9a5a8814_lec3.pdf",
+      "supports": "熱運動、漂移與載子擴散。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "pn",
+      "title": "MIT 6.012 · PN junction",
+      "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-fall-2005/188f6340d4d10b0e923d1c0166c8fba1_lec5.pdf",
+      "supports": "熱平衡下的接面、空乏區與電場。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "mos",
+      "title": "MIT 6.012 · MOSFET",
+      "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-fall-2005/5c5960f14ae37d0a65478c4f3f628d98_lec9.pdf",
+      "supports": "閘極控制通道與電流；長通道入門模型。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "logic",
+      "title": "MIT 6.012 · Logic concepts",
+      "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-fall-2005/resources/lec12/",
+      "supports": "反相器與邏輯電路概念。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "band",
+      "title": "MIT · Explained: Bandgap",
+      "url": "https://news.mit.edu/index.php/2010/explained-bandgap-0723",
+      "supports": "能帶、能隙與材料電性、光電用途。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "fab",
+      "title": "ASML · How microchips are made",
+      "url": "https://www.asml.com/en/technology/all-about-microchips/how-microchips-are-made",
+      "supports": "微影、光阻、蝕刻、沉積、佈植、反覆疊層與設備角色。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "front",
+      "title": "MIT 6.774 · Front-end processing",
+      "url": "https://ocw.mit.edu/courses/6-774-physics-of-microfabrication-front-end-processing-fall-2004/",
+      "supports": "氧化、摻雜擴散、佈植與材料製程。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "frontread",
+      "title": "MIT 6.774 · Readings",
+      "url": "https://live.ocw.mit.edu/courses/6-774-physics-of-microfabrication-front-end-processing-fall-2004/pages/readings/",
+      "supports": "氧化層、Fick 模型、植入損傷與退火主題範圍。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "ald",
+      "title": "KU Leuven · Nano-engineered Thin Films",
+      "url": "https://chem.kuleuven.be/en/research/qcpc/netf/research",
+      "supports": "ALD 的循序自限反應、CVD 的氣相前驅物化學反應。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "wlp",
+      "title": "Amkor · Wafer Level Packaging",
+      "url": "https://amkor.com/packaging/wafer-level-packaging/",
+      "supports": "晶圓級封裝方法族與整合。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "rdl",
+      "title": "Amkor · WLCSP",
+      "url": "https://amkor.com/packaging/wafer-level-packaging/wlcsp/",
+      "supports": "重佈線層將接點連到所需位置。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "bump",
+      "title": "Amkor · Wafer Bumping",
+      "url": "https://amkor.com/services/wafer-bumping/",
+      "supports": "凸塊、覆晶、重佈線與測試整合服務。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "pack",
+      "title": "TI · Wire-bond and flip-chip packages",
+      "url": "https://www.ti.com.cn/document-viewer/cn/lit/html/SSZT361",
+      "supports": "打線與覆晶的連接差異；散熱路徑依封裝而異。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "thermal",
+      "title": "TI · Package Thermal Characterization",
+      "url": "https://www.ti.com/lit/an/snoa296/snoa296.pdf",
+      "supports": "封裝至板級、環境的導熱與對流；熱阻受系統條件影響。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "reliability",
+      "title": "TI · Quality and reliability FAQs",
+      "url": "https://www.ti.com/quality-reliability/faqs.html",
+      "supports": "可靠度、產品與製程認證、封裝測試與熱議題。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "cowos",
+      "title": "TSMC · CoWoS",
+      "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm",
+      "supports": "CoWoS-S、R、L 的互連與中介層方案。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "advanced",
+      "title": "TSMC · 3DFabric",
+      "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/3DFabric.htm",
+      "supports": "先進封裝與 3D 堆疊、異質整合。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "tsmc",
+      "title": "TSMC · About TSMC",
+      "url": "https://www.tsmc.com/english/aboutTSMC",
+      "supports": "專業晶圓代工的企業定位。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "test",
+      "title": "ASE Kaohsiung · Test Service",
+      "url": "https://asekh.aseglobal.com/products-services/test.html",
+      "supports": "晶圓探測、封裝成品測試與測試工程。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "ase",
+      "title": "ASE · Test Services",
+      "url": "https://ase.aseglobal.com/ch/test-services/",
+      "supports": "不同產品階段的測試服務。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "solder",
+      "title": "NIST · Intermetallics Formation and Growth",
+      "url": "https://www.nist.gov/publications/intermetallics-formation-and-growth-interface-tin-based-solder-alloys-and-copper",
+      "supports": "特定錫基焊料／銅接點的熱老化與擴散控制介金屬層生長。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "void",
+      "title": "Zhang et al. · Interface Growth and Void Formation (2018)",
+      "url": "https://www.mdpi.com/2076-3417/8/12/2703",
+      "supports": "Sn/Cu 與 Sn0.7Cu/Cu 的界面、雜質與空洞；不泛化為所有焊點。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "cmp",
+      "title": "Applied Materials · CMP",
+      "url": "https://www.appliedmaterials.com/tw/zh_tw/semiconductor/products/processes/cmp.html",
+      "supports": "化學、研磨劑與拋光墊協同平坦化。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "design",
+      "title": "Synopsys · What is IC Design",
+      "url": "https://www.synopsys.com/glossary/what-is-ic-design.html",
+      "supports": "功能、電路、實體布局與驗證的分工。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "memory",
+      "title": "Micron · Introduction to Memory",
+      "url": "https://www.micron.com/content/dam/micron/educatorhub/intro-to-memory/micron-intro-to-memory-presentation.pdf",
+      "supports": "DRAM 與 NAND 的儲存機制、揮發性差異。",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "asepack",
+      "title": "ASE Kaohsiung · Package",
+      "url": "https://asekh.aseglobal.com/products-services/package.html",
+      "supports": "日月光的打線、覆晶、晶圓級封裝與組裝測試服務。",
+      "checkedAt": "2026-10-29"
+    }
+  ]
+}
