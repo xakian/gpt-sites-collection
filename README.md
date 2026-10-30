@@ -1,5 +1,8 @@
 # GPT Sites Collection
 
+2026-10-30 後續決定：使用者要求最後一次遷移後手動刪除原 GPT Sites。本次僅將正式內容仍停留在 v26 的「擴散 · 01」更新至 v27，依據見 migration/retirement-2026-10-30.json。這段取代下方「原 GPT Sites 保留」的歷史描述；之後仍以本 GitHub 儲存庫為唯一修改來源，不再同步 GPT Sites。
+
+
 10 個獨立網站，最初從 2026-10-28 至 2026-10-30 建立的 GPT Sites 已發佈版本複製。
 
 **自 2026-10-30 起，本 GitHub 儲存庫是唯一修改來源，以下 Vercel 網址是正式公開版本。** 原 GPT Sites 保留作舊版參考，不再同步；這 10 站尚未接入 xakian 主站。
