@@ -1,0 +1,685 @@
+{
+  "checkedAt": "2026-10-30T05:11:25.781Z",
+  "authenticated": false,
+  "results": [
+    {
+      "slug": "wafer-electrical-test-20261030",
+      "url": "https://xakian-wafer-electrical-test.vercel.app",
+      "pass": true,
+      "checks": [
+        {
+          "path": "dist/app.mjs",
+          "status": 200,
+          "bytes": 13148,
+          "sha256": "f8f645c241df349804f3de311e4f8766ee671f7346da22d435ac0e5a20c8fbf3",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/config.mjs",
+          "status": 200,
+          "bytes": 1298,
+          "sha256": "02431e110d37c085dd3bf97205295e21d2162639456033ccf8a47ef65c220626",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/index.html",
+          "status": 200,
+          "bytes": 7848,
+          "sha256": "fe16e6e0ff666a5935ddaf2bd06b99733e2dd1fea9855a7f226753d3405e0abd",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/model.mjs",
+          "status": 200,
+          "bytes": 2672,
+          "sha256": "d8705023ad224b1ff6b37aa9d91737b0fb6a6bdd82efee0194be8bd13ecc4a66",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/player.mjs",
+          "status": 200,
+          "bytes": 1417,
+          "sha256": "0f292dde58be30707aa7c8d19524cd342f6d68cac581badd2fa0d88b96327577",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/qa.html",
+          "status": 200,
+          "bytes": 4596,
+          "sha256": "49fcd1fafef19a9f697d148e55065a948efa67543dbb705d6860716282e46e02",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/source-project.zip",
+          "status": 200,
+          "bytes": 47808,
+          "sha256": "e076937f476c181f6bbf451045727bc35e6e03688ea316d455ecc617dd668e19",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/style.css",
+          "status": 200,
+          "bytes": 11732,
+          "sha256": "c829a7dd47c6cbfb61950721991a94c135bfb6494970b699c33adf03901b0cb7",
+          "matchesSource": true
+        }
+      ]
+    },
+    {
+      "slug": "supply-chain-three-relations-20261029",
+      "url": "https://xakian-supply-chain-relations.vercel.app",
+      "pass": true,
+      "checks": [
+        {
+          "path": "dist/app.js",
+          "status": 200,
+          "bytes": 14000,
+          "sha256": "aa91e9c89da86da382a2d46ec775f069c488e2394f0b42a380a6d7cbf550256b",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/index.html",
+          "status": 200,
+          "bytes": 8439,
+          "sha256": "8f13f3b6c616d65b94bdf85ce47512f9f3b8442972639ca37a9ac72bd5335782",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/model.js",
+          "status": 200,
+          "bytes": 4116,
+          "sha256": "8c4d3f270c451c539f7325b4f8460530cd759fdb835cf2127e21a41fb65320ae",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/styles.css",
+          "status": 200,
+          "bytes": 8130,
+          "sha256": "2b49274188300d754732c88e299b028bde6a3dd710597b117db50e02d8916c81",
+          "matchesSource": true
+        }
+      ]
+    },
+    {
+      "slug": "soic-eight-observer",
+      "url": "https://xakian-soic-eight-observer.vercel.app",
+      "pass": true,
+      "checks": [
+        {
+          "path": "dist/app.js",
+          "status": 200,
+          "bytes": 5396,
+          "sha256": "ad7f9e08f33dc611d6e4aeb7d88f2f2edabdede3c874c40b23e2ae5d514e833b",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/clock.js",
+          "status": 200,
+          "bytes": 2099,
+          "sha256": "6df480a491d60e1ec65111b21062484f500736eeb42c699ba6dba0747a5e07b3",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/index.html",
+          "status": 200,
+          "bytes": 5137,
+          "sha256": "3b357283d7bb308ed39332716bd9df7fa2a5ec47308041e367ccd9b6f006a7e3",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/inspector.js",
+          "status": 200,
+          "bytes": 2578,
+          "sha256": "723ad477182b1e80a973b0dc6bc38b0bd52c75c2af963f842282fa115aee96fe",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/layouts.js",
+          "status": 200,
+          "bytes": 2211,
+          "sha256": "6b0c09e0e9dd4ed35b565d805bf5eb0b7a34419bbba2abd9a874b62aa8de6fab",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/primitives.js",
+          "status": 200,
+          "bytes": 4451,
+          "sha256": "fff9c3ab10b03386932724618101c7ca20aeea5a41299bb09325450ff409c106",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/scene.js",
+          "status": 200,
+          "bytes": 9177,
+          "sha256": "fd61c10de10f2793b8fe4f2fbc91bbadf65265aa7309efddd1fb1a26a60b3973",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/styles.css",
+          "status": 200,
+          "bytes": 7480,
+          "sha256": "d29b32d1be1ef40518bf07cde5c24014b3227024b2a3f1f4567967832508ed16",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/topic.js",
+          "status": 200,
+          "bytes": 6280,
+          "sha256": "25aeed82d8a48b1d56b2106fb3d14a42299e1ebbef25380b335f4edce64d4a02",
+          "matchesSource": true
+        }
+      ]
+    },
+    {
+      "slug": "semiconductor-coordinate-atlas-1029",
+      "url": "https://xakian-semiconductor-coordinate-atl.vercel.app",
+      "pass": true,
+      "checks": [
+        {
+          "path": "dist/app.mjs",
+          "status": 200,
+          "bytes": 37604,
+          "sha256": "7d8886df3966c8fda7ef6021a09542f1ba5150ef9b5740114a137ae2fd3d339d",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/coordinate-motion.mjs",
+          "status": 200,
+          "bytes": 1172,
+          "sha256": "1ed3e825986a458a1c83525e92ef0d99664bcab1befd1cc175dc0012c9bae740",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/core.mjs",
+          "status": 200,
+          "bytes": 4351,
+          "sha256": "6200af64d0907074224ddbc8a567ebed84dfb1fa0563c5acab57783cbb9494d0",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/data-manager.mjs",
+          "status": 200,
+          "bytes": 5336,
+          "sha256": "842dedb82cb80abaf8c3b7862cf6551d8c8efbab0edb9b628a0b44852261f072",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/data-transfer.mjs",
+          "status": 200,
+          "bytes": 8204,
+          "sha256": "d994dd5585533a58af67cf00daa14ff2f30aebdcbad2b546777a0e184597674a",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/data.json",
+          "status": 200,
+          "bytes": 79166,
+          "sha256": "3b9e7b352f8cc46e9e87f0c5f77812e0ba7243bfd80cc7f06aede7cf170c09ba",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/exploration-history.mjs",
+          "status": 200,
+          "bytes": 3385,
+          "sha256": "266beaaafff3d057b3e67adc472815d67e38e626ed03e2172838a13dd0f6d08c",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/hierarchy.mjs",
+          "status": 200,
+          "bytes": 2091,
+          "sha256": "a1b186020eb467124c19d9eb1473ed424b402f9b6ea919035cccbde2db5717d6",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/index.html",
+          "status": 200,
+          "bytes": 14639,
+          "sha256": "e83804386719fe81df0ef374beab94c5e7db2c8446affd6abf80fd52f962e813",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/legend.mjs",
+          "status": 200,
+          "bytes": 2598,
+          "sha256": "772e0f3323bf01076e6cd6be5018dd967c94cf84d828ac497cfbbc18925a06e9",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/map-layout.mjs",
+          "status": 200,
+          "bytes": 4385,
+          "sha256": "0e37c4e150724ed94eb7a117881ff1c3f034b2f1bd73d51fa693ef91a17d5736",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/navigator.mjs",
+          "status": 200,
+          "bytes": 8530,
+          "sha256": "0771dcdba983bbc40cb1c89d487794ca90e6a62589a736e6fada5f52a798eafe",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/relation-style.mjs",
+          "status": 200,
+          "bytes": 4318,
+          "sha256": "2db93dd7ee5854cabfa7a0349090a5908f3b340628c5f0f1189ffde6c9655294",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/style.css",
+          "status": 200,
+          "bytes": 25604,
+          "sha256": "cc1bbb8c4cba19741a7f93414768a075ccbf7ce1c4fc9241fe473eaa881eeed1",
+          "matchesSource": true
+        }
+      ]
+    },
+    {
+      "slug": "semiconductor-foundry-lab",
+      "url": "https://xakian-semiconductor-foundry-lab.vercel.app",
+      "pass": true,
+      "checks": [
+        {
+          "path": "dist/content/index.js",
+          "status": 200,
+          "bytes": 283,
+          "sha256": "40b7618b5c83e4c7611df418cce680b7eaaa4df6c00b7161829ba463927247b3",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/content/samples/foundry.js",
+          "status": 200,
+          "bytes": 4904,
+          "sha256": "1e18838880c69891d6bc357095c49318a4409540c6352af4bae0de1f4d00a1c3",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/content/validate.js",
+          "status": 200,
+          "bytes": 2594,
+          "sha256": "256392936501da86a21b46d1be3b26d298ba0003573b5bbfd8f0a19f6cc6b1ab",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/core/config.js",
+          "status": 200,
+          "bytes": 1361,
+          "sha256": "7721d4bbd5737aea3afc616ac4623a157c50bf4e302a37d42bb3be1b45cbb727",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/core/fullscreen.js",
+          "status": 200,
+          "bytes": 2177,
+          "sha256": "2a50ca1dfaef306f07b23018640a7478bd824f2142b0094f517dec0da1613a51",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/core/hex.js",
+          "status": 200,
+          "bytes": 2501,
+          "sha256": "bff42224d648c9de5fcfa515a4bc114f034a35e68e7304f70c7dc12b17c6ba80",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/core/input.js",
+          "status": 200,
+          "bytes": 1746,
+          "sha256": "8c2b61dcd45e939d23764d2bf74c0ef476e51eba6879b055f7f765e494b22f9d",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/core/movement.js",
+          "status": 200,
+          "bytes": 2071,
+          "sha256": "ff296c7cd4875e16f4b2ef78287b5756cf2b4d428a08ca7db8fd845e814ecbe0",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/core/presentation.js",
+          "status": 200,
+          "bytes": 1646,
+          "sha256": "994086ba5be95a1d26c087b333623442ca4a5da10af7f0b69a02cc2ebeb1e350",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/core/runtime.js",
+          "status": 200,
+          "bytes": 787,
+          "sha256": "12b5f994c3c06e27ced9f1343dce87358c6926b40c8198fc3ffb68bdad806d59",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/core/storage.js",
+          "status": 200,
+          "bytes": 308,
+          "sha256": "c822c28bf98ad36b86e4c8a499a5d8e02d2f29ef0913f481885f0bf57c1dac9a",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/core/terrain-renderer.js",
+          "status": 200,
+          "bytes": 10548,
+          "sha256": "b41270cce2406a217a5f6ca7168738b08dfba8c2a26e9cad98929d8498d6059a",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/game/construction.js",
+          "status": 200,
+          "bytes": 2244,
+          "sha256": "c2a9f7af716096901a0accc661d3362b41102b4e98b093ee671da59dc81438de",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/game/inventory.js",
+          "status": 200,
+          "bytes": 1248,
+          "sha256": "f1da0df6221fcfd0de9368f02ab56bd98dfd8c90af8341e10381cbdbed1b8419",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/game/production.js",
+          "status": 200,
+          "bytes": 2654,
+          "sha256": "c2b21be5f63d6e3b1ed52d541ce26ad2991df1ed121ad990583b29726f394192",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/game/renderer.js",
+          "status": 200,
+          "bytes": 6766,
+          "sha256": "dc6d47b2a06152a91ca18c7355349e594f0868afdd7c0018a0c61fc15a5d4098",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/game/rules.js",
+          "status": 200,
+          "bytes": 5982,
+          "sha256": "3dad22a184dc706110e1acbdcbdbda947424daff4dbd7f5eb8f7da83172d0117",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/game/save.js",
+          "status": 200,
+          "bytes": 7001,
+          "sha256": "f31a2d3cb013d6abd905c134645411cb1865a6124267412d350aa421a4797257",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/game/state.js",
+          "status": 200,
+          "bytes": 2326,
+          "sha256": "1c5c9efbdf10bf4eca0e9c6ca9eb0993b79cfc1a0560c547a8f988121bc98099",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/game/workers.js",
+          "status": 200,
+          "bytes": 4339,
+          "sha256": "15964e4ab425bf2fc884bb1da740aa9b1acb29263baa7793985e9957fa8621cb",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/index.html",
+          "status": 200,
+          "bytes": 3444,
+          "sha256": "2dc7aa74915cd3d73a903bcb195d28a59997f009e194c99ca564c6d3a0c38155",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/main.js",
+          "status": 200,
+          "bytes": 20327,
+          "sha256": "2b350d7f627ef38186fcf1cf999841ddc38467545c91f3a1a899844a4daef50e",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/style.css",
+          "status": 200,
+          "bytes": 9862,
+          "sha256": "f08b9d0a2bc7fa0974f4944bd2e130a0083b4088cfc519b91b87be8e7bab1dfd",
+          "matchesSource": true
+        }
+      ]
+    },
+    {
+      "slug": "wafer-works-lab-20261029",
+      "url": "https://xakian-wafer-works.vercel.app",
+      "pass": true,
+      "checks": [
+        {
+          "path": "dist/app.mjs",
+          "status": 200,
+          "bytes": 38800,
+          "sha256": "82a95da6d3a52920e2878b06f73c0ad23c8554127c86ed3198a9a53137666a5a",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/content.mjs",
+          "status": 200,
+          "bytes": 5376,
+          "sha256": "78524ab421695f055f4897c5c8baf53db88c82e0a45bc5e531cd77660b1375be",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/core.mjs",
+          "status": 200,
+          "bytes": 34246,
+          "sha256": "239acdc55e98a3b49f5a3289060331b8cffed147c9a873efc433395f947ce044",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/index.html",
+          "status": 200,
+          "bytes": 3568,
+          "sha256": "ffe0c77259a8865e7e50a040f5dbf46ae308dac598bf0916c2b6c71eee05a4c0",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/logistics.mjs",
+          "status": 200,
+          "bytes": 6458,
+          "sha256": "53c751d9ba5573cdda3846503cc1d42d6a62414b1d02efa47d95acabc9846937",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/navigation.mjs",
+          "status": 200,
+          "bytes": 4328,
+          "sha256": "520851836b3302ed6836fd0b6920c3b876ddd68d716bb9cb1dbfe6a928a821f1",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/persistence.mjs",
+          "status": 200,
+          "bytes": 2020,
+          "sha256": "c1b51addccc177d12c6f655e117c583f04afa3dee9f4aa5463ac5760c149417d",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/qa-responsive.html",
+          "status": 200,
+          "bytes": 874,
+          "sha256": "5ce726c73ea68fcb993fd273fbeca72d1ffa7dbada3a3bbfba5d7c1dc3300083",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/render.mjs",
+          "status": 200,
+          "bytes": 7141,
+          "sha256": "43027093ca523bda228026165b2d997bbd44c07bd1a956a522c709e97a83be16",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/source.zip",
+          "status": 200,
+          "bytes": 230743,
+          "sha256": "fbb0134b09a88ffa2034ad0e8ed6499ae44eeca1902e4cbda4907ffdde1de6d6",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/style.css",
+          "status": 200,
+          "bytes": 12699,
+          "sha256": "1e354ba71557bddb23accc85bde89a98c5403795ab976f841e8687a23673169c",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/test-report.html",
+          "status": 200,
+          "bytes": 10150,
+          "sha256": "b6ec787086767d99bf5afe47c771126a9ba5ee3b7168d9a3280a05d0216409be",
+          "matchesSource": true
+        }
+      ]
+    },
+    {
+      "slug": "diffusion-points-20261029",
+      "url": "https://xakian-diffusion.vercel.app",
+      "pass": true,
+      "checks": [
+        {
+          "path": "dist/index.html",
+          "status": 200,
+          "bytes": 244177,
+          "sha256": "d46a5fe802296fa805159bd4ca920b1c72ef95d9f4c2be05c4365f384ac8e3b1",
+          "matchesSource": true
+        }
+      ]
+    },
+    {
+      "slug": "coordinate-field-xjq-1028",
+      "url": "https://xakian-coordinate-field.vercel.app",
+      "pass": true,
+      "checks": [
+        {
+          "path": "dist/app.js",
+          "status": 200,
+          "bytes": 10563,
+          "sha256": "c54a852dd2817d895cec34b319278aab3d984b1205e5a869a5076a38a68ed79c",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/index.html",
+          "status": 200,
+          "bytes": 4222,
+          "sha256": "e00cb10957be7826533c2c2caeef92ff81c295020b85687b5b44c485d333fbfe",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/model.js",
+          "status": 200,
+          "bytes": 9601,
+          "sha256": "8605b1f025f663227b1e45033da8d5c8b74ca1de222eb5ac92ca10e5c58b0e9e",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/style.css",
+          "status": 200,
+          "bytes": 7932,
+          "sha256": "ac453d3e9d896fe7c1325f1c11c9c89edbb3411fa01970b13625ecb50232a972",
+          "matchesSource": true
+        }
+      ]
+    },
+    {
+      "slug": "taiwan-semiconductor-atlas",
+      "url": "https://xakian-taiwan-semiconductor-atlas.vercel.app",
+      "pass": true,
+      "checks": [
+        {
+          "path": "dist/app.js",
+          "status": 200,
+          "bytes": 42296,
+          "sha256": "33a4b0bef2cb033c0b5dbd39940e7a70c28ff7d8b0defff2db77f01555d83c89",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/core.js",
+          "status": 200,
+          "bytes": 8386,
+          "sha256": "b553f841381727f56f3cb079f7afc8a5c35c5fd41710e1dabb83d36cfaadd642",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/index.html",
+          "status": 200,
+          "bytes": 5451,
+          "sha256": "77d2c08744729e4a1d06835528da7ba66311dbba90598a2fcab30459a451831f",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/initial-data.json",
+          "status": 200,
+          "bytes": 559479,
+          "sha256": "2deb1f299fa9caa327048f0628e171468895d96c9866de8ae5f2645273f804de",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/preview.jpg",
+          "status": 200,
+          "bytes": 88765,
+          "sha256": "02c15d87a90af069802dec620d161f6aa8b39b103d512a392d49562fe6d1a78e",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/seed.js",
+          "status": 200,
+          "bytes": 559501,
+          "sha256": "6ccb5daae94158385c5c0f447e53f3df03c50fbef1686d875f88b744afcea794",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/style.css",
+          "status": 200,
+          "bytes": 20526,
+          "sha256": "3e4fe0e7057b6575ff4dad21876c4150f6f24620d1fa00d7f4c902492ca50aff",
+          "matchesSource": true
+        }
+      ]
+    },
+    {
+      "slug": "knowledge-atlas-20261028",
+      "url": "https://xakian-knowledge-atlas.vercel.app",
+      "pass": true,
+      "checks": [
+        {
+          "path": "dist/app.js",
+          "status": 200,
+          "bytes": 39477,
+          "sha256": "f1a9c6300c4f3d566411069c7cf80c5848ae222742b31402928aa55f6e32a373",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/core.js",
+          "status": 200,
+          "bytes": 5285,
+          "sha256": "a3d318303561832a1be5873407ffbf7e6d497edc1e0e88e690c370d8d2d26836",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/data.js",
+          "status": 200,
+          "bytes": 37035,
+          "sha256": "b1b85a1063e51a601ba008763d49bc9b109c8f4c77910b04efbcdca071d27bfa",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/index.html",
+          "status": 200,
+          "bytes": 4251,
+          "sha256": "4c0d8517149ff9e318c191897efced9b1bc2932c336e90c1e7dbc340ab7b2bb6",
+          "matchesSource": true
+        },
+        {
+          "path": "dist/style.css",
+          "status": 200,
+          "bytes": 14088,
+          "sha256": "3ee2f2e97bbf963de4361733b845770cadb5f6a14c680de4ee2ce6d8286e22d3",
+          "matchesSource": true
+        }
+      ]
+    }
+  ]
+}

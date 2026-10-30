@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "wafer-electrical-test-20261030",
+    "name": "xakian-wafer-electrical-test",
+    "url": "https://xakian-wafer-electrical-test.vercel.app"
+  },
+  {
+    "slug": "supply-chain-three-relations-20261029",
+    "name": "xakian-supply-chain-relations",
+    "url": "https://xakian-supply-chain-relations.vercel.app"
+  },
+  {
+    "slug": "soic-eight-observer",
+    "name": "xakian-soic-eight-observer",
+    "url": "https://xakian-soic-eight-observer.vercel.app"
+  },
+  {
+    "slug": "semiconductor-coordinate-atlas-1029",
+    "name": "xakian-semiconductor-coordinate-atlas",
+    "url": "https://xakian-semiconductor-coordinate-atl.vercel.app"
+  },
+  {
+    "slug": "semiconductor-foundry-lab",
+    "name": "xakian-semiconductor-foundry-lab",
+    "url": "https://xakian-semiconductor-foundry-lab.vercel.app"
+  },
+  {
+    "slug": "wafer-works-lab-20261029",
+    "name": "xakian-wafer-works",
+    "url": "https://xakian-wafer-works.vercel.app"
+  },
+  {
+    "slug": "diffusion-points-20261029",
+    "name": "xakian-diffusion",
+    "url": "https://xakian-diffusion.vercel.app"
+  },
+  {
+    "slug": "coordinate-field-xjq-1028",
+    "name": "xakian-coordinate-field",
+    "url": "https://xakian-coordinate-field.vercel.app"
+  },
+  {
+    "slug": "taiwan-semiconductor-atlas",
+    "name": "xakian-taiwan-semiconductor-atlas",
+    "url": "https://xakian-taiwan-semiconductor-atlas.vercel.app"
+  },
+  {
+    "slug": "knowledge-atlas-20261028",
+    "name": "xakian-knowledge-atlas",
+    "url": "https://xakian-knowledge-atlas.vercel.app"
+  }
+]

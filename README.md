@@ -4,18 +4,18 @@
 
 ## 網站
 
-| 網站 | 目錄 |
+| 網站（公開網址） | 目錄 |
 | --- | --- |
-| 晶圓電性測試 | `sites/wafer-electrical-test-20261030` |
-| 供應鏈：區分物料、服務與資訊 | `sites/supply-chain-three-relations-20261029` |
-| SOIC-8 封裝觀察 | `sites/soic-eight-observer` |
-| 半導體知識座標圖 | `sites/semiconductor-coordinate-atlas-1029` |
-| 半導體製程實驗基地 | `sites/semiconductor-foundry-lab` |
-| 半導體工廠 · Wafer Works | `sites/wafer-works-lab-20261029` |
-| 擴散 · 01 | `sites/diffusion-points-20261029` |
-| 座標之間 | `sites/coordinate-field-xjq-1028` |
-| 台灣半導體產業知識座標圖 | `sites/taiwan-semiconductor-atlas` |
-| 知識座標圖 | `sites/knowledge-atlas-20261028` |
+| [晶圓電性測試](https://xakian-wafer-electrical-test.vercel.app) | `sites/wafer-electrical-test-20261030` |
+| [供應鏈：區分物料、服務與資訊](https://xakian-supply-chain-relations.vercel.app) | `sites/supply-chain-three-relations-20261029` |
+| [SOIC-8 封裝觀察](https://xakian-soic-eight-observer.vercel.app) | `sites/soic-eight-observer` |
+| [半導體知識座標圖](https://xakian-semiconductor-coordinate-atl.vercel.app) | `sites/semiconductor-coordinate-atlas-1029` |
+| [半導體製程實驗基地](https://xakian-semiconductor-foundry-lab.vercel.app) | `sites/semiconductor-foundry-lab` |
+| [半導體工廠 · Wafer Works](https://xakian-wafer-works.vercel.app) | `sites/wafer-works-lab-20261029` |
+| [擴散 · 01](https://xakian-diffusion.vercel.app) | `sites/diffusion-points-20261029` |
+| [座標之間](https://xakian-coordinate-field.vercel.app) | `sites/coordinate-field-xjq-1028` |
+| [台灣半導體產業知識座標圖](https://xakian-taiwan-semiconductor-atlas.vercel.app) | `sites/taiwan-semiconductor-atlas` |
+| [知識座標圖](https://xakian-knowledge-atlas.vercel.app) | `sites/knowledge-atlas-20261028` |
 
 ## 部署與維護
 
@@ -29,5 +29,14 @@ GPT Sites 的日後修改不會自動同步到本儲存庫；本次是固定版�
 
 ## 驗證
 
-執行 `node scripts/verify-source.mjs` 比對複製檔案。原始測試保留在各網站目錄。部署與驗證結果記錄於 `migration/`。
+2026-10-30 完成部署與檢查：
+
+- 196 個複製檔案與原站已發佈 commit 的 SHA-256 相同。
+- 87 個正式網站檔案均可在未登入狀態取得 HTTP 200，且 SHA-256 與來源相同，包含 HTML、樣式、腳本、資料、圖片與下載附件。
+- 14 組原有測試指令通過，涵蓋全部 10 站；詳見 [測試紀錄](migration/tests.json)。
+- 每站完成代表性互動檢查，以及 390 × 844 手機視窗的畫面檢查；沒有頁面水平溢出。這是部署煙霧測試，不是所有操作的完整回歸測試。
+
+執行 `node scripts/verify-source.mjs` 比對本機複製檔案，執行 `node scripts/verify-deployments.mjs` 重新比對公開部署。原始測試保留在各網站目錄。
+
+[部署清單](migration/deployments.json) · [HTTP 逐檔檢查](migration/http-verification.json) · [瀏覽器檢查](migration/browser-verification.json)
 

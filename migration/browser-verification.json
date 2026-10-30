@@ -1,0 +1,122 @@
+{
+  "checkedAt": "2026-10-30T05:14:27.586Z",
+  "desktopInteractionChecks": [
+    {
+      "slug": "wafer-electrical-test-20261030",
+      "interaction": "定位兩顆對照：A 電流 2 μA 通過；B 電流 14 μA 未通過",
+      "pass": true
+    },
+    {
+      "slug": "supply-chain-three-relations-20261029",
+      "interaction": "暫停、2 倍速度與說明抽屜正常",
+      "pass": true
+    },
+    {
+      "slug": "soic-eight-observer",
+      "interaction": "選取打線站，開啟對應說明並暫停動畫",
+      "pass": true
+    },
+    {
+      "slug": "semiconductor-coordinate-atlas-1029",
+      "interaction": "MOSFET 主題詳情、關係視角及連線顯示正常",
+      "pass": true
+    },
+    {
+      "slug": "semiconductor-foundry-lab",
+      "interaction": "啟動模擬、領取晶圓後庫存 24→23，攜帶 0→1",
+      "pass": true
+    },
+    {
+      "slug": "wafer-works-lab-20261029",
+      "interaction": "開啟並接受遊戲教學訂單，目標前進至配置五種設備",
+      "pass": true
+    },
+    {
+      "slug": "diffusion-points-20261029",
+      "interaction": "下一畫面切至單一原子，24 單元目錄正常",
+      "pass": true
+    },
+    {
+      "slug": "coordinate-field-xjq-1028",
+      "interaction": "點選陶製杯後顯示價格 560 NT$ 與重量 340 g",
+      "pass": true
+    },
+    {
+      "slug": "taiwan-semiconductor-atlas",
+      "interaction": "搜尋 CoWoS 收斂至 1 個單元，詳情及關係來源正常",
+      "pass": true
+    },
+    {
+      "slug": "knowledge-atlas-20261028",
+      "interaction": "搜尋 Fick 後篩選為 4 個單元與 4 個座標",
+      "pass": true
+    }
+  ],
+  "mobileViewport": {
+    "width": 390,
+    "height": 844
+  },
+  "mobileLayoutChecks": [
+    {
+      "slug": "wafer-electrical-test-20261030",
+      "scrollWidth": 375,
+      "title": "晶圓電性測試",
+      "width": 375
+    },
+    {
+      "slug": "supply-chain-three-relations-20261029",
+      "scrollWidth": 390,
+      "title": "供應鏈：區分物料、服務與資訊",
+      "width": 390
+    },
+    {
+      "slug": "soic-eight-observer",
+      "scrollWidth": 390,
+      "title": "SOIC-8 封裝觀察",
+      "width": 390
+    },
+    {
+      "slug": "semiconductor-coordinate-atlas-1029",
+      "scrollWidth": 390,
+      "title": "半導體知識座標圖",
+      "width": 390
+    },
+    {
+      "slug": "semiconductor-foundry-lab",
+      "scrollWidth": 390,
+      "title": "半導體製程實驗基地",
+      "width": 390
+    },
+    {
+      "slug": "wafer-works-lab-20261029",
+      "scrollWidth": 390,
+      "title": "半導體工廠 · Wafer Works",
+      "width": 390
+    },
+    {
+      "slug": "diffusion-points-20261029",
+      "scrollWidth": 390,
+      "title": "擴散 · 視覺筆記",
+      "width": 390
+    },
+    {
+      "slug": "coordinate-field-xjq-1028",
+      "scrollWidth": 390,
+      "title": "座標之間 — 資訊視野實驗",
+      "width": 390
+    },
+    {
+      "slug": "taiwan-semiconductor-atlas",
+      "scrollWidth": 375,
+      "title": "台灣半導體產業知識座標圖",
+      "width": 375
+    },
+    {
+      "slug": "knowledge-atlas-20261028",
+      "scrollWidth": 390,
+      "title": "知識座標圖",
+      "width": 390
+    }
+  ],
+  "scope": "Representative interaction smoke checks and visual rendering; not exhaustive behavior testing."
+}
