@@ -1,0 +1,104 @@
+/* The graph is the page. Other surfaces open only when requested. */
+[hidden] { display: none !important; }
+html, body { width: 100%; height: 100%; overflow: hidden; }
+body { background: #f4f5f0; }
+.atlas { position: relative; width: 100%; height: 100dvh; padding: 0; max-width: none; margin: 0; isolation: isolate; }
+.atlas .graph-wrap { position: absolute; inset: 0; height: auto; margin: 0; background: radial-gradient(#7b8c721f .7px, transparent .8px); background-size: 20px 20px; }
+#graph { display: block; }
+.graph-cluster .cluster-main { transition: fill .15s, stroke-width .15s; }
+.graph-cluster:hover .cluster-main, .graph-cluster:focus-visible .cluster-main { fill: #e3ecd6; stroke-width: 2.5; }
+.graph-cluster .node-label { paint-order: stroke; stroke: #f4f5f0; stroke-width: 5px; stroke-linejoin: round; pointer-events: auto; cursor: pointer; }
+.canvas-button { width: 44px; height: 44px; display: grid; place-items: center; background: #fafbf7e8; border: 1px solid #d8dfd1; border-radius: 50%; color: #53664d; box-shadow: 0 3px 12px #213b3805; }
+.canvas-button:hover { background: #fff; }
+.canvas-button svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+.search-toggle { position: absolute; top: 22px; left: 24px; z-index: 6; }
+.filter-reset { position: absolute; top: 28px; left: 80px; z-index: 4; font-size: 12px; background: #edf2e5; border: 1px solid #d7dfcd; padding: 7px 12px; border-radius: 18px; }
+.floating-panel { background: #fdfefa; border: 1px solid #d7dfce; border-radius: 14px; box-shadow: 0 12px 45px #24372b18; }
+.canvas-menu { position: absolute; top: 22px; right: 24px; z-index: 8; }
+.canvas-menu > summary { list-style: none; font-size: 24px; line-height: 1; cursor: pointer; }
+.canvas-menu > summary::-webkit-details-marker { display: none; }
+.menu-panel { position: absolute; top: 54px; right: 0; width: 246px; padding: 12px; max-height: calc(100dvh - 115px); overflow: auto; }
+.menu-panel > button, .menu-panel > label, .advanced-tools > button, .advanced-tools > summary { display: block; text-align: left; width: 100%; padding: 9px 8px; font-size: 12px; border-radius: 5px; }
+.menu-panel button:hover { background: #edf2e6; }
+.menu-panel > label { display: flex; align-items: center; gap: 7px; }
+.menu-panel input { accent-color: var(--green); }
+.advanced-tools { border-top: 1px solid var(--line); margin-top: 6px; padding-top: 4px; }
+.advanced-tools summary { cursor: pointer; color: var(--muted); }
+.menu-panel .save-state { display: flex; margin: 8px; font-size: 10px; color: var(--muted); }
+.canvas-axis { position: absolute; display: flex; align-items: center; gap: 5px; color: #64775c; background: #f4f5f0ed; border-radius: 5px; z-index: 2; font-size: 12px; }
+.canvas-axis select { border: 0; padding: 7px 3px; background: transparent; color: inherit; font-size: inherit; max-width: 185px; cursor: pointer; outline-offset: 0; }
+.canvas-axis:hover { background: #e6ecdf; }
+.axis-x { bottom: 24px; left: 50%; transform: translateX(-50%); }
+.axis-y { left: 23px; top: 50%; transform: translate(-50%,-50%) rotate(-90deg); }
+.atlas .zoom-controls { position: absolute; right: 24px; bottom: 24px; height: 36px; z-index: 3; border-radius: 20px; background: #fafbf7ed; box-shadow: none; }
+.zoom-controls button { width: 35px; height: 35px; padding: 0; }
+.zoom-controls span { border: 0; min-width: 40px; text-align: center; color: #7f8b78; }
+.atlas .sidebar { position: absolute; top: 78px; left: 24px; width: 310px; height: auto; max-height: min(680px, calc(100dvh - 110px)); z-index: 7; display: flex; flex-direction: column; padding: 15px; }
+.panel-heading { display: flex; gap: 6px; align-items: center; }
+.panel-heading .search { margin: 0; flex: 1; width: auto; }
+.panel-heading .search input { width: 100%; font-size: 13px; }
+.close-button { font-size: 23px; width: 36px; height: 36px; flex-shrink: 0; border-radius: 50%; line-height: 1; }
+.close-button:hover { background: #edf2e7; }
+.extra-filters { margin-top: 12px; font-size: 12px; }
+.extra-filters summary { cursor: pointer; color: var(--muted); padding: 5px 1px; }
+.extra-filters .filter-fields { display: grid; grid-template-columns: 1fr; padding-top: 8px; gap: 10px; }
+.atlas .node-list { min-height: 70px; display: block; max-height: 420px; margin-bottom: 0; }
+.atlas .node-item { min-height: 44px; }
+.atlas .node-item span:nth-child(2) { font-size: 13px; }
+.atlas .node-item small { font-size: 10px; }
+.atlas .cluster-panel { position: absolute; z-index: 5; width: 322px; max-height: min(420px, calc(100dvh - 100px)); margin: 0; padding: 14px; overflow: auto; }
+.cluster-heading { margin-bottom: 8px; font-size: 12px; color: var(--muted); }
+.cluster-heading b { font-weight: 500; }
+.atlas .cluster-grid { grid-template-columns: 1fr; max-height: 310px; gap: 3px; }
+.atlas .cluster-grid button { min-height: 42px; border: 0; background: transparent; font-size: 13px; padding: 8px; }
+.cluster-grid button:hover { background: #eaf0e1; }
+.cluster-grid small { font-size: 10px; }
+.atlas .detail { position: absolute; top: 86px; right: 24px; z-index: 5; width: 350px; height: auto; max-height: calc(100dvh - 170px); overflow: auto; border: 1px solid #d7dfce; }
+.atlas .detail.on-left { left: 24px; right: auto; }
+.atlas .detail-header { padding: 19px 20px 4px; background: transparent; border: 0; position: relative; }
+.detail-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.detail-top .pill { background: transparent; border-color: #d8e0d0; font-size: 10px; }
+.detail-top .close-button { margin: -7px -9px -4px 0; }
+.atlas .detail h2 { margin: 9px 0 4px; font-size: 22px; letter-spacing: 0; }
+.atlas .detail .definition { font-size: 13px; line-height: 1.85; margin: 10px 0; max-width: none; }
+.atlas .detail-body { padding: 0 20px 19px; columns: auto; }
+.related-heading { margin: 14px 0 7px; color: var(--muted); font-size: 10px; font-weight: 400; }
+.related-links { display: flex; flex-wrap: wrap; gap: 5px; padding-bottom: 15px; }
+.related-links .ref-chip { font-size: 12px; padding: 6px 9px; margin: 0; border: 0; border-radius: 6px; }
+.detail-disclosure { border-top: 1px solid var(--line); padding: 0; }
+.detail-disclosure > summary { cursor: pointer; padding: 13px 0; font-size: 12px; color: #66765d; }
+.detail-disclosure > summary:hover { color: var(--green); }
+.detail-disclosure .question summary { cursor: pointer; font-size: 12px; }
+.detail-disclosure .question p { margin-top: 10px; }
+.detail .question { padding: 12px 0; }
+.detail .body-copy { overflow-wrap: anywhere; }
+.detail .detail-actions { position: static; flex-wrap: wrap; padding-bottom: 10px; }
+.detail .score-row:first-of-type { margin-top: 4px; }
+.detail .source-card { background: #fff; }
+.detail summary:focus-visible, .canvas-menu summary:focus-visible, .extra-filters summary:focus-visible { outline: 2px solid #71916a; outline-offset: 3px; }
+.atlas-empty { fill: #75866c; font-size: 13px; }
+@media (max-width: 700px) {
+  .search-toggle { top: 16px; left: 16px; }
+  .canvas-menu { top: 16px; right: 16px; }
+  .filter-reset { top: 22px; left: 70px; font-size: 11px; }
+  .atlas .sidebar { top: 70px; left: 16px; width: min(330px, calc(100vw - 32px)); max-height: calc(100dvh - 100px); }
+  .atlas .detail { top: auto; bottom: 74px; right: 12px; width: calc(100vw - 24px); max-height: 49dvh; }
+  .atlas .detail.on-left { left: 12px; right: 12px; }
+  .atlas .detail-header { padding: 14px 17px 0; }
+  .atlas .detail-body { padding: 0 17px 14px; }
+  .atlas .detail h2 { font-size: 19px; margin: 4px 0; }
+  .atlas .detail .definition { margin: 7px 0; }
+  .related-heading { margin-top: 8px; }
+  .related-links .ref-chip { font-size: 11px; min-height: 36px; }
+  .atlas .cluster-panel { width: min(310px, calc(100vw - 32px)); max-height: 46dvh; }
+  .atlas .cluster-grid { max-height: 34dvh; }
+  .axis-y { left: 20px; }
+  .axis-x { left: 25%; bottom: 19px; max-width: 46vw; }
+  .canvas-axis { font-size: 10px; }
+  .canvas-axis select { max-width: 40vw; min-height: 36px; }
+  .atlas .zoom-controls { right: 12px; bottom: 19px; }
+  .zoom-controls button { width: 32px; min-width: 32px; }
+  .zoom-controls span { min-width: 35px; }
+  .menu-panel { width: 236px; }
+}
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; } }
