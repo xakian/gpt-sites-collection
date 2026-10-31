@@ -1,6 +1,6 @@
 export const layouts={
- wide:{id:'wide',width:1200,height:720,anchors:[[200,210],[600,210],[1000,210],[1000,510],[600,510],[200,510]]},
- tall:{id:'tall',width:600,height:1000,anchors:[[150,170],[450,170],[450,500],[150,500],[150,830],[450,830]]}
+ wide:{id:'wide',width:1120,height:580,view:{x:30,y:30,width:1090,height:550},anchors:[[170,170],[540,170],[910,170],[910,420],[540,420],[170,420]]},
+ tall:{id:'tall',width:520,height:880,view:{x:0,y:20,width:520,height:860},anchors:[[130,160],[390,160],[390,440],[130,440],[130,720],[390,720]]}
 };
 export const add=(p,q)=>[p[0]+q[0],p[1]+q[1]];
 export const lerp=(a,b,p)=>[a[0]+(b[0]-a[0])*p,a[1]+(b[1]-a[1])*p];

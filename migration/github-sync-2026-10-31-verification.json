@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-31",
+  "checkedFiles": 297,
+  "runtimeFiles": 151,
+  "syntaxFiles": 91,
+  "localReferences": 102,
+  "guardedConfigurations": 22,
+  "tests": [
+    {
+      "site": "cmos-inverter-observer-b01",
+      "command": [
+        "node",
+        "--test",
+        "tests/model.test.js"
+      ],
+      "status": "passed",
+      "summary": "✔ complementary stable paths and correct output (1.8737ms)\n✔ output lags input and stable state has no charging current (1.8552ms)\nℹ tests 2\nℹ suites 0\nℹ pass 2\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 278.557"
+    },
+    {
+      "site": "pn-junction-observer-b01",
+      "command": [
+        "node",
+        "--test",
+        "tests/model.test.js"
+      ],
+      "status": "passed",
+      "summary": "✔ bias polarity, barrier and depletion respond consistently (1.7478ms)\n✔ same junction returns continuously to zero bias (6.601ms)\nℹ tests 2\nℹ suites 0\nℹ pass 2\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 286.9377"
+    },
+    {
+      "site": "thermal-oxidation-observer-b01",
+      "command": [
+        "node",
+        "--test",
+        "tests/model.test.js"
+      ],
+      "status": "passed",
+      "summary": "✔ oxidation consumes silicon and expands outward without reversing (6.5094ms)\n✔ thick oxide grows more slowly over equal viewing intervals (1.2599ms)\nℹ tests 2\nℹ suites 0\nℹ pass 2\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 316.1348"
+    },
+    {
+      "site": "mosfet-gate-current-observer",
+      "kind": "no-existing-tests",
+      "status": "syntax-and-integrity-only"
+    },
+    {
+      "site": "cz-silicon-observer",
+      "command": [
+        "node",
+        "--test",
+        "tests/model.test.js",
+        "tests/player-clock.test.js"
+      ],
+      "status": "passed",
+      "summary": "✔ growth is continuous at each process boundary (2.6681ms)\n✔ new material is at the interface; old solid translates upward without widening (9.8398ms)\n✔ tail is formed last; detached crystal keeps geometry and residual melt (0.5871ms)\n✔ direct seeking is independent of prior play order (0.9673ms)\n✔ new batch completes its entrance before the loop restarts (1.4145ms)\n✔ seeking the end stays paused at 100 percent; play starts a fresh loop (5.7214ms)\n✔ seek clamps range and always cancels playback (1.5608ms)\n✔ rate changes preserve phase and never add another RAF (0.7835ms)\n✔ repeated replay and panel actions retain one schedule (1.1303ms)\n✔ background return freezes elapsed time and preserves paused intent (2.1623ms)\n✔ each topic can choose its own reduced-motion keyframe (0.6006ms)\n✔ destroy freezes the clock and cannot restart a schedule (0.5419ms)\nℹ tests 12\nℹ suites 0\nℹ pass 12\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 330.2405"
+    },
+    {
+      "site": "ald-trench-observer",
+      "command": [
+        "node",
+        "--test",
+        "tests/player-clock.test.js",
+        "tests/science-state.test.js"
+      ],
+      "status": "passed",
+      "summary": "✔ seeking the end stays paused at 100 percent; play starts a fresh loop (6.1918ms)\n✔ seek clamps range and always cancels playback (0.5874ms)\n✔ rate changes preserve phase and never add another RAF (1.966ms)\n✔ repeated replay and panel actions retain one schedule (0.672ms)\n✔ background return freezes elapsed time and preserves paused intent (0.5073ms)\n✔ each topic can choose its own reduced-motion keyframe (0.3402ms)\n✔ destroy freezes the clock and cannot restart a schedule (0.4425ms)\n✔ all sites retain chemically bound material through first purge; oxide through second purge (18.3337ms)\n✔ surface depth delays reaction; saturation stops further growth (2.8805ms)\n✔ film never thins during processing; direct seek gives same states as sequential sampling (46.1272ms)\n✔ each boundary preserves surface state except invisible substrate replacement (5.9559ms)\n✔ bottom reactive sites remain on the exposed surface, not buried in the sidewall (2.1515ms)\nℹ tests 12\nℹ suites 0\nℹ pass 12\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 391.688"
+    },
+    {
+      "site": "ion-implant-anneal-observer",
+      "command": [
+        "node",
+        "--test",
+        "tests/player-clock.test.js",
+        "tests/topic.test.js"
+      ],
+      "status": "passed",
+      "summary": "✔ seeking the end stays paused at 100 percent; play starts a fresh loop (9.7123ms)\n✔ seek clamps range and always cancels playback (1.5208ms)\n✔ rate changes preserve phase and never add another RAF (3.6936ms)\n✔ repeated replay and panel actions retain one schedule (1.6011ms)\n✔ background return freezes elapsed time and preserves paused intent (0.8576ms)\n✔ each topic can choose its own reduced-motion keyframe (1.9308ms)\n✔ destroy freezes the clock and cannot restart a schedule (1.5797ms)\n✔ implant, mask removal and heat follow the chosen process order (25.7934ms)\n✔ three retained dopants and every representative silicon atom survive strip and anneal (849.3328ms)\n✔ new material is pristine and the material geometry is continuous at loop seam (6.1904ms)\n✔ all baseline sizes render finite geometry throughout the cycle (1673.8672ms)\n✔ the shared shell is unchanged from the 1.0.0 manifest (4.6486ms)\nℹ tests 12\nℹ suites 0\nℹ pass 12\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 3406.8597"
+    },
+    {
+      "site": "wafer-probe-observer-20261031",
+      "command": [
+        "node",
+        "--test",
+        "tests/player-clock.test.js",
+        "tests/topic-model.test.js"
+      ],
+      "status": "passed",
+      "summary": "✔ seeking the end stays paused at 100 percent; play starts a fresh loop (5.352ms)\n✔ seek clamps range and always cancels playback (0.9757ms)\n✔ rate changes preserve phase and never add another RAF (0.5465ms)\n✔ repeated replay and panel actions retain one schedule (0.9154ms)\n✔ background return freezes elapsed time and preserves paused intent (1.4942ms)\n✔ each topic can choose its own reduced-motion keyframe (0.5054ms)\n✔ destroy freezes the clock and cannot restart a schedule (0.4881ms)\n✔ 37 distinct physical positions map one-to-one to a serpentine visit order (7.0652ms)\n✔ every physical XY movement occurs with the stage fully lowered (341.6404ms)\n✔ every result is recorded only after an actual contact, stimulus, response and comparison (9.3369ms)\n✔ all map records persist, preserve coordinates and finish at 31 passes plus 6 failures (31.4475ms)\n✔ signals only exist while electrical contact is established; compare limits agree with results (56.1559ms)\n✔ all transition boundaries are position and height continuous (24.2037ms)\n✔ seek results do not depend on call order or mutated previous records (57.6779ms)\n✔ loop reset happens behind a fully opaque seam, without undoing visible test results (1.1079ms)\n✔ invalid input is bounded and every sampled state is finite (12.739ms)\nℹ tests 16\nℹ suites 0\nℹ pass 16\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 842.0016"
+    },
+    {
+      "site": "flip-chip-bonding-observer",
+      "command": [
+        "node",
+        "--test",
+        "tests/model.test.js",
+        "tests/player-clock.test.js"
+      ],
+      "status": "passed",
+      "summary": "✔ every solder contact remains aligned and spans the same two surfaces after placement (19.9652ms)\n✔ material transformation is monotonic until the completed assembly exits (15.5435ms)\n✔ all stage boundaries are continuous for geometry and material amounts (0.6682ms)\n✔ flip keeps ordered contact identities and settles before descent (9.0162ms)\n✔ seeking the end stays paused at 100 percent; play starts a fresh loop (6.4186ms)\n✔ seek clamps range and always cancels playback (0.3091ms)\n✔ rate changes preserve phase and never add another RAF (0.5479ms)\n✔ repeated replay and panel actions retain one schedule (0.594ms)\n✔ background return freezes elapsed time and preserves paused intent (0.8835ms)\n✔ each topic can choose its own reduced-motion keyframe (0.4644ms)\n✔ destroy freezes the clock and cannot restart a schedule (0.6137ms)\nℹ tests 11\nℹ suites 0\nℹ pass 11\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 302.8683"
+    },
+    {
+      "site": "copper-interconnect-cmp-observer",
+      "command": [
+        "node",
+        "--test",
+        "tests/model.test.js",
+        "tests/player-clock.test.js"
+      ],
+      "status": "passed",
+      "summary": "✔ material dependency and preservation throughout every 10ms of a cycle (20.4997ms)\n✔ stage keyframes are valid and cover all stages, including the end slider (1.0905ms)\n✔ scrubbing is deterministic; material transformations never reverse within a sample (21.454ms)\n✔ seeking the end stays paused at 100 percent; play starts a fresh loop (10.6475ms)\n✔ seek clamps range and always cancels playback (0.8956ms)\n✔ rate changes preserve phase and never add another RAF (1.9161ms)\n✔ repeated replay and panel actions retain one schedule (0.9733ms)\n✔ background return freezes elapsed time and preserves paused intent (0.7238ms)\n✔ each topic can choose its own reduced-motion keyframe (0.7702ms)\n✔ destroy freezes the clock and cannot restart a schedule (2.0811ms)\nℹ tests 10\nℹ suites 0\nℹ pass 10\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 325.6047"
+    },
+    {
+      "site": "lithography-etch-observer",
+      "command": [
+        "node",
+        "--test",
+        "tests/topic.test.mjs"
+      ],
+      "status": "passed",
+      "summary": "✔ seven scientific keyframes preserve exposure, development, etch and strip order (9.7811ms)\n✔ every millisecond keeps bounded materials and mutually separate processing tools (216.2611ms)\n✔ removal is monotonic and finished film never returns while the sample exits (35.7458ms)\n✔ seek calculations are deterministic and material geometry joins continuously (2.7434ms)\n✔ old sample leaves before the fresh starting geometry can be visible (0.3103ms)\n✔ five required sizes retain optical separation and visible material dimensions (1.0642ms)\nℹ tests 6\nℹ suites 0\nℹ pass 6\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 596.1813"
+    },
+    {
+      "site": "supply-chain-three-relations-20261029",
+      "command": [
+        "node",
+        "tests/model.test.cjs"
+      ],
+      "status": "passed",
+      "summary": "192057 assertions passed; all 32,001 time samples plus required boundaries."
+    },
+    {
+      "site": "soic-eight-observer",
+      "command": [
+        "node",
+        "--test",
+        "tests/acceptance.test.mjs"
+      ],
+      "status": "passed",
+      "summary": "✔ wide: six scientific keyframes and retained identity (8.8289ms)\n✔ wide: direct seeking equals sequential evaluation; +/-1ms joins are continuous (147.8587ms)\n✔ wide: transfer bounds and permanent bonds (5.3388ms)\n✔ tall: six scientific keyframes and retained identity (0.7807ms)\n✔ tall: direct seeking equals sequential evaluation; +/-1ms joins are continuous (91.3084ms)\n✔ tall: transfer bounds and permanent bonds (4.4602ms)\n✔ pause freezes all state, speeds preserve phase, replay keeps one schedule (3.6665ms)\n✔ 30 second background freeze preserves both playing and paused intentions (0.6709ms)\n✔ reduced motion starts at 1.70s and requires explicit play; seek is paused (1.0034ms)\nℹ tests 9\nℹ suites 0\nℹ pass 9\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 515.8498"
+    }
+  ],
+  "failures": [],
+  "limits": [
+    "No new browser QA or Vercel deployment; published files copied byte-for-byte.",
+    "MOSFET source has no automated test suite; integrity, syntax and local references verified."
+  ]
+}

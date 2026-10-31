@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="觀看同一顆平面增強型 nMOS：閘極電場如何讓矽表面形成反轉通道，並控制源汲電流。">
+  <title>MOSFET：閘極怎麼控制電流？</title>
+  <link rel="stylesheet" href="shared/observer.css">
+  <link rel="stylesheet" href="topic.css">
+</head>
+<body>
+  <div id="observer"></div>
+  <template id="topic-notes">
+    <p class="eyebrow">單顆平面增強型 nMOS · 定性剖面</p>
+    <h2>正在看什麼</h2>
+    <p>源極 S 與 p 型基體 B 接 0 V，汲極 D 固定在較高的 +0.10 V。閘極 G 與矽之間始終隔著絕緣層；提高閘極相對源極的電壓，電場穿過絕緣層，使閘下表面的電洞退開、電子增多，形成連接源汲的反轉通道。</p>
+    <p>通道存在時，電子沿矽表面由源極往汲極移動。傳統電流的方向相反，由汲極往源極。降低閘極電壓，反轉通道逐漸消失，導電也減弱。</p>
+    <h2>值得注意的細節</h2>
+    <ul>
+      <li>透明的藍色帶表示表面電子較多的區域；這是矽內的反轉層，並非新增材料。</li>
+      <li>閘極和通道之間沒有電子穿越絕緣層。閘極改變的是電場與表面電荷分布。</li>
+      <li>圖中的「臨界」是選定示意模型的反轉開始變得明顯之處，不是電流突然從零跳出的硬開關。</li>
+    </ul>
+    <h2>定位此步</h2>
+    <div class="note-steps">
+      <button class="primary" data-time="1200">低閘壓 · 1.2 秒</button>
+      <button class="primary" data-time="7000">表面耗盡 · 7.0 秒</button>
+      <button class="primary" data-time="11500">反轉通道 · 11.5 秒</button>
+      <button class="primary" data-time="15500">載子流動 · 15.5 秒</button>
+      <button class="primary" data-time="21500">關閉回復 · 21.5 秒</button>
+    </div>
+    <details>
+      <summary>偏壓、臨界與操作區域</summary>
+      <p>本圖選 V<sub>S</sub> = V<sub>B</sub> = 0 V、V<sub>D</sub> = +0.10 V，V<sub>GS</sub> 示意地從 0 升至 1.0 V 再降回 0。以示意 V<sub>T</sub> ≈ 0.45 V 提示強反轉的轉折；它不是指定元件的測量值。通道形成與電流在畫面上連續過渡。</p>
+      <p>小 V<sub>DS</sub> 且 V<sub>GS</sub> 足夠高時，以長通道、低汲源偏壓的線性區直覺呈現。當 V<sub>GS</sub> 接近臨界，真實元件仍有弱反轉電流；動畫的亮度和粒子數只作定性比較。未呈現汲端夾止、飽和區或電位沿通道的詳細分布。</p>
+    </details>
+    <details>
+      <summary>簡化與省略</summary>
+      <p>剖面比例、絕緣層厚度、粒子數、電場線、電壓與 24 秒播放速度皆為教學示意，沒有解 Poisson 方程或載子輸運方程。少量圓點代表電子或電洞群的分布，不是逐顆電子軌跡；源極持續提供、汲極持續收集載子。</p>
+      <p>「關閉」代表強反轉通道不再連續，非完全零電流。省略次臨界漏電、接面漏電、閘極漏電、寄生電容、體效應、溫度、短通道效應及實際接觸結構。閘極升降壓時需要短暫充放電；絕緣層阻擋理想直流閘極導通，但真實薄膜可能漏電。元件保持同一顆，幾何與材料不隨循環更換。</p>
+    </details>
+    <details>
+      <summary>科學來源</summary>
+      <p class="source-intro">下列 MIT 原始教學資料支持四端結構、氧化層隔離、表面反轉、偏壓與電流方向。本站圖像與文字為重新繪製與整理。</p>
+      <ul>
+        <li><a href="https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-fall-2005/pages/lecture-notes/" target="_blank" rel="noopener">MIT 6.012（2005）講義 L8、L9：MOS 靜電與 MOSFET 線性區</a></li>
+        <li><a href="https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-fall-2009/resources/mit6_012f09_lec10/" target="_blank" rel="noopener">MIT 6.012（2009）Lecture 10：MOS 電容與 MOSFET</a></li>
+        <li><a href="https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c3/c3s1/" target="_blank" rel="noopener">MIT 6.004（2017）3.1：nMOS 四端、閘極、反轉通道與電流</a></li>
+      </ul>
+    </details>
+  </template>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

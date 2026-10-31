@@ -1,0 +1,15 @@
+#scene-wrap{width:100%;height:100%}
+#scene{overflow:hidden}
+.note-steps{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 20px}
+.note-steps .primary{flex:1 1 175px;text-align:left}
+.device-outline{stroke:#647983;stroke-width:1.5}
+.scene-label{fill:#253039;font-size:20px;font-weight:500}
+.scene-small{fill:#5B6B75;font-size:16px}
+.scene-tiny{fill:#5B6B75;font-size:14px}
+.terminal{fill:#253039;font-size:20px;font-weight:600}
+.bias{fill:#50626d;font-size:16px;font-variant-numeric:tabular-nums}
+.electron{fill:#397fa0;stroke:#f7f9fa;stroke-width:1.5}
+.hole{fill:#ba7b6b;stroke:#f7f9fa;stroke-width:1.2}
+.current-line{stroke:#b98464;stroke-width:3;stroke-linecap:round;fill:none}
+.electron-line{stroke:#397fa0;stroke-width:3;stroke-linecap:round;fill:none}
+@media(max-width:650px){.note-steps .primary{flex-basis:100%}}

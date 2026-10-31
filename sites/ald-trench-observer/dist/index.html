@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="觀察三甲基鋁與水蒸氣如何透過自限表面反應，讓氧化鋁薄膜沿凹槽生長。"><title>原子層沉積（ALD）：薄膜怎麼沿著凹槽長出來？</title><link rel="stylesheet" href="shared/observer.css"><link rel="stylesheet" href="topic.css"></head>
+<body><div id="observer"></div><template id="topic-notes">
+<div class="eyebrow">ALD ／ 氧化鋁 ／ 凹槽剖面</div>
+<h2>沿著表面，一次次長出來</h2>
+<div class="keyframe"><select id="step-select" aria-label="選擇觀察步驟"></select><button id="seek-step" class="primary">定位此步</button></div>
+<p class="pause-note">選擇步驟只更換筆記；按「定位此步」才移動畫面，並保持暫停。</p>
+<h3>正在看什麼</h3><p id="step-what"></p><h3>值得注意的細節</h3><p id="step-detail"></p>
+<div class="legend"><span><i class="swatch" style="background:#dbe4e9"></i>基板</span><span><i class="swatch" style="background:#af85b3"></i>含鋁物種</span><span><i class="swatch" style="background:#c4afd6"></i>氧化鋁膜</span><span><i class="swatch" style="background:#a8ced6"></i>水／–OH</span></div>
+<p>粉色小端點代表甲基配體；灰色十字小分子代表揮發性甲烷。分子採形狀加顏色區分，不是原子尺寸或數量的寫實比例。</p>
+<details><summary>化學、自限性與每循環增厚</summary>
+<p>代表製程是 300°C 的時間分隔式熱 ALD：TMA 與水蒸氣交替進入，中間以惰性 N₂ 及抽氣清除。沒有使用電漿。</p>
+<p class="chem">表面 –OH ＋ Al(CH₃)₃ → 表面 –O–Al(CH₃)₂ ＋ CH₄<br><br>表面 –Al–CH₃ ＋ H₂O → 表面 –Al–OH ＋ CH₄</p>
+<p>以上是示意局部配體交換，不是完整表面網絡的配平式。實際可能涉及多個羥基、不同配位、位阻及脫羥基。TMA 半反應保留含鋁與甲基的表面物種；水半反應移除甲基，形成 Al–O 網絡並提供新的羥基。</p>
+<p>可用反應位點逐漸消耗後，該半反應趨於飽和，因此延長同一反應物的曝露不會無限增厚。這需要合適溫度、足夠清除與沒有前驅物分解等條件。</p>
+<p>Yim 等人（2020）在 300°C 的實驗，代表平面平均增厚約 <strong>0.10 nm／循環</strong>（表 1 樣品 12：500 循環、47.5 nm，約 0.0951 nm／循環；通道入口附近約 0.100 nm／循環）。這是多循環平均，不能當成所有基板、溫度或最初三循環的固定增厚量。<strong>一循環不等於普遍完整的一個原子層。</strong></p>
+</details>
+<details><summary>凹槽覆蓋、比例與簡化</summary>
+<p>畫面假設表面均可反應，兩種反應物都有足夠時間到達本示意凹槽的底部並使其飽和。氣體從開口到深處的先後被刻意拉開，以便看懂傳輸先於表面反應。</p>
+<p>實際分子隨機運動、反覆碰撞；此處路線只是追蹤提示。深窄結構可能需要更長曝露及清除；供應不足、較大深寬比或不同黏附機率都可能使深處未飽和，不能把本圖視為任意凹槽都等厚的保證。</p>
+<p>全片 50 秒、三個示意循環，每循環觀看時間 14 秒。時間不是配方；原文部分實驗為 TMA／清除／水／清除 = 0.1／4／0.1／4 秒。氮氣分子省略，只用入口文字表示清除。</p>
+<p>膜厚每循環畫成 6–8 個畫面單位，遠大於約 0.10 nm 的實際增厚；分子同樣放大。凹槽比例隨螢幕重排，沒有幾何尺寸刻度。淡紫色連續帶表示平均薄膜，並非每個位點生成相同晶格厚度。最初成核、粗糙度、密度、雜質與原生氧化層厚度均未模擬。</p>
+<p>材料始終留在同一塊基板。三循環後以換片接回開頭，無任何薄膜逆向消失。</p>
+</details>
+<details><summary>一手研究與來源</summary>
+<p><a href="https://pubs.rsc.org/en/content/articlehtml/2020/cp/d0cp03358h" target="_blank" rel="noreferrer">Yim et al.（2020）PCCP：Al₂O₃ ALD 在高深寬比結構的飽和剖面</a>。DOI：10.1039/D0CP03358H。支持 300°C TMA／H₂O、表 1 的平均增厚與曝光、通道幾何影響覆蓋的條件。</p>
+<p><a href="https://doi.org/10.1016/0039-6028(95)90033-0" target="_blank" rel="noreferrer">Dillon et al.（1995）Surface chemistry of Al₂O₃ deposition using Al(CH₃)₃ and H₂O</a>。以原位紅外光譜研究交替表面反應，支持羥基與甲基端基的轉換、自限性及甲烷副產物。</p>
+<p><a href="https://doi.org/10.1016/j.apsusc.2004.10.003" target="_blank" rel="noreferrer">Puurunen（2005）每循環增厚與表面羥基的關係</a>。支持羥基濃度、甲基位阻與非逐原子計量的限制。</p>
+<p><a href="https://research.tue.nl/files/133918546/acs.langmuir.9b01600.pdf" target="_blank" rel="noreferrer">Vandalon &amp; Kessels（2019）初始 ALD 生長的原位研究</a>。支持起始表面與初期成核可能不同於穩態的限制。</p>
+<p class="source-intro">讀取日期：2026-10-31。數值是特定研究條件的代表值，非通用製程規格。版本：主題 1.0.0／共用規格 v1.0／共用程式範本 1.0.0。</p>
+</details>
+<details><summary>操作與鍵盤</summary><p>拖曳或點按底部時間拉桿即可定位，定位後暫停。播放鍵接續，重播鍵回到新一輪起點；速度可選 0.5、1、1.5、2 倍。聚焦畫面時按空白鍵播放／暫停；拉桿可用方向鍵、Home、End。說明關閉後維持暫停，選「播放接續」才繼續。</p><p>背景時凍結；返回時只恢復原本正在播放的狀態。減少動態偏好開啟時先顯示完成態，需明確按播放；執行中開啟偏好會暫停。</p></details>
+</template><script type="module" src="app.js"></script></body></html>

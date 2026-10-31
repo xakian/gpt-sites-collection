@@ -1,0 +1,2009 @@
+{
+  "date": "2026-10-31",
+  "scope": "GitHub-only published-source snapshot; no Vercel deployment",
+  "branch": "codex/sites-sync-20261031",
+  "baseCommit": "d7986d81cbe626c4fab3d260a3dcc5210878faa0",
+  "inventory": {
+    "total": 16,
+    "published": 15,
+    "unpublished": 1
+  },
+  "excluded": [
+    {
+      "id": "appgprj_6ae58a3244b08191913ed2a48a888afb",
+      "slug": "sram-six-transistor-observer-b01",
+      "reason": "Unpublished when inventory was captured"
+    }
+  ],
+  "items": [
+    {
+      "id": "appgprj_6ae5884d14988191b0aec89a73a417ae",
+      "slug": "cmos-inverter-observer-b01",
+      "title": "CMOS 反相器：兩顆電晶體如何把 0 變成 1？",
+      "originalUrl": "https://cmos-inverter-observer-b01.fishddry.chatgpt.site",
+      "version": 1,
+      "commit": "94d63e62d9c8d18d507043f76f08e177e488702e",
+      "versionId": "appgprj_6ae5884d14988191b0aec89a73a417ae~appgver_b06e4af0fa08819194f7c2e9fd5b2a46",
+      "deploymentId": "appgdep_6ae589bb49f0819190bb435cc94f5629",
+      "sourceDeployment": "succeeded",
+      "directory": "sites/cmos-inverter-observer-b01",
+      "outputDirectory": "dist",
+      "action": "add",
+      "previousVersion": null,
+      "changes": [
+        ".gitignore",
+        "README.md",
+        "dist/app.js",
+        "dist/drawing.js",
+        "dist/index.html",
+        "dist/model.js",
+        "dist/shared/observer.css",
+        "dist/shared/observer.js",
+        "dist/shared/player-clock.js",
+        "dist/shared/template-manifest.json",
+        "dist/svg.js",
+        "dist/topic.css",
+        "dist/topic.js",
+        "package.json",
+        "server.mjs",
+        "tests/model.test.js"
+      ],
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 39,
+          "sha256": "ec76c8840b83c613df2399010ab3ff8dba47f788ff542992b014f9278e1aad39"
+        },
+        {
+          "path": "README.md",
+          "bytes": 545,
+          "sha256": "26690f3d801b68dd5b1ae40e8274eaa8231b28ecda4adec16c023ae6fdd0f308"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2200,
+          "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 2365,
+          "sha256": "7cee720c168f7345b6fb09ed0efc48199c3593383551a9a5e5e81019f1a791c4"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 451,
+          "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 320,
+          "sha256": "cc2e1c9f85f88e495abf9280a2465082298fdd57076424300d4b951625b67d34"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1610,
+          "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 570,
+          "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+        },
+        {
+          "path": "dist/topic.js",
+          "bytes": 2867,
+          "sha256": "10d0a5e1d787b052a85b34e7afee38a6fee6bb4c894d40e23a04682717218ea9"
+        },
+        {
+          "path": "package.json",
+          "bytes": 166,
+          "sha256": "eb75867dfa744a73307c5ace023f9fa2d135fc0d93a847b13a1ad418fc4ebcbd"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 851,
+          "sha256": "75f27668f3c5c8c1d1ae966844bbfeadbd747075b0e39a5aef339469f3b61fb1"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 589,
+          "sha256": "286633f2bef1db8fefdaffd4f847a4576d83ba715a15cbd31e5fedde237d6dca"
+        }
+      ]
+    },
+    {
+      "id": "appgprj_6ae5868dd4688191bfed5e9bb0c34a00",
+      "slug": "pn-junction-observer-b01",
+      "title": "PN 接面二極體：電流為什麼偏好一個方向？",
+      "originalUrl": "https://pn-junction-observer-b01.fishddry.chatgpt.site",
+      "version": 1,
+      "commit": "2870f8e39ea26a0b26f2b4555458343b06402161",
+      "versionId": "appgprj_6ae5868dd4688191bfed5e9bb0c34a00~appgver_fff524ffdfec81918d92ca89f6176d98",
+      "deploymentId": "appgdep_6ae5880030e48191bf09daf1a7a0b22e",
+      "sourceDeployment": "succeeded",
+      "directory": "sites/pn-junction-observer-b01",
+      "outputDirectory": "dist",
+      "action": "add",
+      "previousVersion": null,
+      "changes": [
+        ".gitignore",
+        "README.md",
+        "dist/app.js",
+        "dist/drawing.js",
+        "dist/index.html",
+        "dist/model.js",
+        "dist/shared/observer.css",
+        "dist/shared/observer.js",
+        "dist/shared/player-clock.js",
+        "dist/shared/template-manifest.json",
+        "dist/svg.js",
+        "dist/topic.css",
+        "dist/topic.js",
+        "package.json",
+        "server.mjs",
+        "tests/model.test.js"
+      ],
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 39,
+          "sha256": "ec76c8840b83c613df2399010ab3ff8dba47f788ff542992b014f9278e1aad39"
+        },
+        {
+          "path": "README.md",
+          "bytes": 547,
+          "sha256": "6a278a8a66819405f6410f29e9b935831fc1cd28a74cacf1b141100fe14198a5"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2200,
+          "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 2571,
+          "sha256": "cfc0a51baa976a1b4e655a22c0d590b8c06c71e148a52b3b7828aee783373cc4"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 451,
+          "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 314,
+          "sha256": "43cf51e2028ad7fb87b4f8d6847bd971705d2350ba1e6cd4ee5cdd12b04024c1"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1610,
+          "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 570,
+          "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+        },
+        {
+          "path": "dist/topic.js",
+          "bytes": 3331,
+          "sha256": "3b22de257240051b85084f5874c618b23774fbdf095b907cd12d0ceef705325b"
+        },
+        {
+          "path": "package.json",
+          "bytes": 164,
+          "sha256": "d048cf1fbe8bcc220c463e452f1db1c78b09b49c0041663292bc6c7236a9cf21"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 851,
+          "sha256": "4576bbe079999479c3de145f12c95adbc853747af40774161cacfa8086e233b3"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 594,
+          "sha256": "70fa6a6c6707e7b172c29defa6f74c22eb5276c0325ac503f3c046279ae736ff"
+        }
+      ]
+    },
+    {
+      "id": "appgprj_6ae58486f0248191959b1a32b3fbc098",
+      "slug": "thermal-oxidation-observer-b01",
+      "title": "熱氧化：矽表面的氧化層",
+      "originalUrl": "https://thermal-oxidation-observer-b01.fishddry.chatgpt.site",
+      "version": 1,
+      "commit": "1b90c58b889e1450fbf60684a3721713b8dfa3f1",
+      "versionId": "appgprj_6ae58486f0248191959b1a32b3fbc098~appgver_a56754729c208191a17d5b6584456136",
+      "deploymentId": "appgdep_6ae5862251548191bca92f5a191a6d41",
+      "sourceDeployment": "succeeded",
+      "directory": "sites/thermal-oxidation-observer-b01",
+      "outputDirectory": "dist",
+      "action": "add",
+      "previousVersion": null,
+      "changes": [
+        ".gitignore",
+        "README.md",
+        "dist/app.js",
+        "dist/drawing.js",
+        "dist/index.html",
+        "dist/model.js",
+        "dist/shared/observer.css",
+        "dist/shared/observer.js",
+        "dist/shared/player-clock.js",
+        "dist/shared/template-manifest.json",
+        "dist/svg.js",
+        "dist/topic.css",
+        "dist/topic.js",
+        "package.json",
+        "server.mjs",
+        "tests/model.test.js"
+      ],
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 39,
+          "sha256": "ec76c8840b83c613df2399010ab3ff8dba47f788ff542992b014f9278e1aad39"
+        },
+        {
+          "path": "README.md",
+          "bytes": 544,
+          "sha256": "bf55c810eab52771bbc1a1e576b04c3ac9a3426216b4dcaefede0127c59dc0d1"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2200,
+          "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 1882,
+          "sha256": "54af1b894a980a3c314c8a57adc0ed6cb487fb66ca1562a618c10322df4a3cec"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 451,
+          "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 447,
+          "sha256": "2ed5d3bfd4ab10c4088fc551f85f077ef7054f552093a859e6789e2345f2eb1d"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1610,
+          "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 570,
+          "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+        },
+        {
+          "path": "dist/topic.js",
+          "bytes": 2793,
+          "sha256": "714daf61a3f76e75c63560252d3fb5f106002d0fc1aa07fd8bd575954c716f5f"
+        },
+        {
+          "path": "package.json",
+          "bytes": 170,
+          "sha256": "1bfa3ebe7b06ff7e6bfe608fc9fecd635af7040509b007cda7d677bdd7b383ba"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 851,
+          "sha256": "56534500ba094b352fd4178def2a4e909b3d47f740d307dda899bbdaf33e2185"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 647,
+          "sha256": "3b79017fe0f3600513d25ca4ab06a3d83ddc100926dbb954a9c69f5bc8003dc7"
+        }
+      ]
+    },
+    {
+      "id": "appgprj_6ae57954a1ec819199d0acd4a5be0305",
+      "slug": "mosfet-gate-current-observer",
+      "title": "MOSFET：閘極怎麼控制電流？",
+      "originalUrl": "https://mosfet-gate-current-observer.fishddry.chatgpt.site",
+      "version": 1,
+      "commit": "9dd30905de3a2eb215b3a807e31b80a198f36aa7",
+      "versionId": "appgprj_6ae57954a1ec819199d0acd4a5be0305~appgver_5c4bbe54dcac819185928b48fc05fe05",
+      "deploymentId": "appgdep_6ae57c0838c88191b9ccf194e5c7a549",
+      "sourceDeployment": "succeeded",
+      "directory": "sites/mosfet-gate-current-observer",
+      "outputDirectory": "dist",
+      "action": "add",
+      "previousVersion": null,
+      "changes": [
+        "README.md",
+        "dist/app.js",
+        "dist/index.html",
+        "dist/shared/observer.css",
+        "dist/shared/observer.js",
+        "dist/shared/player-clock.js",
+        "dist/shared/template-manifest.json",
+        "dist/topic.css",
+        "來源與簡化.md",
+        "內容單.md"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 1648,
+          "sha256": "7e27425c4b269ed3cad1f27abf992713a86d9197d00cdb5e37515c0a80f865ff"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 8752,
+          "sha256": "eaa5f03959c6957fdc26fa1402e1ba0329148b9252810531fa953af13db3e63a"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 4459,
+          "sha256": "bbd5991405ad2e7fcfad3fb8f0678b7ce5abbccc7a1c5a186a7db8f23b7bbf62"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 819,
+          "sha256": "189adb98235513d86000b4e8c456d9c4383ba65f7ff18321e68a636dbe21a911"
+        },
+        {
+          "path": "來源與簡化.md",
+          "bytes": 1987,
+          "sha256": "7141ae855eb6231d6d5a437ad4bcce7dcd3bc9fcc9b9befa5fad2922ee9dea4b"
+        },
+        {
+          "path": "內容單.md",
+          "bytes": 1800,
+          "sha256": "25d26064e2ac1a0c9bed463590640735167bb21891d4f530b42b8ee14064e22b"
+        }
+      ]
+    },
+    {
+      "id": "appgprj_6ae5792e0e708191b3205081b3e23be3",
+      "slug": "cz-silicon-observer",
+      "title": "單晶矽拉晶：一顆晶種怎麼長成整根晶棒？",
+      "originalUrl": "https://cz-silicon-observer.fishddry.chatgpt.site",
+      "version": 1,
+      "commit": "a74150bcea6997af27ea6b1117d7c6f259094aff",
+      "versionId": "appgprj_6ae5792e0e708191b3205081b3e23be3~appgver_4a1f13901c748191972f2b4ee6cf50e3",
+      "deploymentId": "appgdep_6ae57ce114648191af2b8acdd8f7834c",
+      "sourceDeployment": "succeeded",
+      "directory": "sites/cz-silicon-observer",
+      "outputDirectory": "dist",
+      "action": "add",
+      "previousVersion": null,
+      "changes": [
+        ".gitignore",
+        "README.md",
+        "dist/app.js",
+        "dist/index.html",
+        "dist/layout.js",
+        "dist/materials.css",
+        "dist/model.js",
+        "dist/scene.js",
+        "dist/shared/observer.css",
+        "dist/shared/observer.js",
+        "dist/shared/player-clock.js",
+        "dist/shared/template-manifest.json",
+        "docs/來源與簡化.md",
+        "docs/內容單.md",
+        "docs/驗收紀錄.md",
+        "package.json",
+        "server.mjs",
+        "tests/model.test.js",
+        "tests/player-clock.test.js"
+      ],
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 35,
+          "sha256": "11bde0ec540b2dc45abcf4c8a3ddc01b8975646a993fa05e26ebf7eac09791eb"
+        },
+        {
+          "path": "README.md",
+          "bytes": 2389,
+          "sha256": "537d88acb1934a98963163d98ccdde3382405c43deffb2b55fcacccff9d0dcce"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1723,
+          "sha256": "2f0230e279892482a349de14bbfe22ef44a06b442b282bf2408be7555a2037c6"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 6406,
+          "sha256": "5ae4dfe6613b0fc2899044ee4225de8cef19dcfeec596c90007d255a102601b0"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 526,
+          "sha256": "4de2e5fec38a005ce4568442968c8e9b12f24f211cbbf112ab92e01634395eb6"
+        },
+        {
+          "path": "dist/materials.css",
+          "bytes": 1163,
+          "sha256": "3311f00b1ef097c6b252bca6e93a8763156385f33195113aa0779fae79423ed4"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 4096,
+          "sha256": "f1b2389204eccdddba484535dddc6c03936d09fe07a4f4b4b8189592ef9c841e"
+        },
+        {
+          "path": "dist/scene.js",
+          "bytes": 7935,
+          "sha256": "d4c6488690ae69e308495cbadf4af2fb7956ccb44d9073fbcaa590e32a7b97c5"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "docs/來源與簡化.md",
+          "bytes": 3108,
+          "sha256": "f53174c5abfd3b17009ae71d74eba45be06f3e27f3d225e27dcd0df6538e5977"
+        },
+        {
+          "path": "docs/內容單.md",
+          "bytes": 2114,
+          "sha256": "53738bf16b669098f96c0c4a448844944e6e6b10ad15eff1f381d187444be8cf"
+        },
+        {
+          "path": "docs/驗收紀錄.md",
+          "bytes": 5504,
+          "sha256": "ca94dcbb7ef1b90d5d206613d554ec05ec4a4665dd9811e7f12e993af2cf80d9"
+        },
+        {
+          "path": "package.json",
+          "bytes": 155,
+          "sha256": "8c87c199f6fce5d80172ef4ca1410c05042e0727e9def815b7eab1cfe749add7"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 916,
+          "sha256": "14211dfb2290074c97fb0aac1f8db9627a7932fb7be768acb6bebf48a5020718"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 1925,
+          "sha256": "c27a1fcd33ee2afe6c6b9b5959d3eee6c6c3fb3abb018433d741163c62ab0e96"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2723,
+          "sha256": "c9e28b256617826fab3f372c8eae25122f05645c893958a2cc2208e8837b8c78"
+        }
+      ]
+    },
+    {
+      "id": "appgprj_6ae57854283c819191d160872fda2e0c",
+      "slug": "ald-trench-observer",
+      "title": "原子層沉積（ALD）：薄膜怎麼沿著凹槽長出來？",
+      "originalUrl": "https://ald-trench-observer.fishddry.chatgpt.site",
+      "version": 1,
+      "commit": "b30b5e9cb12e3213d45faa3c01da1118a4ea23c4",
+      "versionId": "appgprj_6ae57854283c819191d160872fda2e0c~appgver_4eb31939fdf881919532a8b3d962380d",
+      "deploymentId": "appgdep_6ae57c1066f8819180465d9fda03b0bf",
+      "sourceDeployment": "succeeded",
+      "directory": "sites/ald-trench-observer",
+      "outputDirectory": "dist",
+      "action": "add",
+      "previousVersion": null,
+      "changes": [
+        ".gitignore",
+        "README.md",
+        "dist/app.js",
+        "dist/index.html",
+        "dist/layout.js",
+        "dist/model.js",
+        "dist/shared/observer.css",
+        "dist/shared/observer.js",
+        "dist/shared/player-clock.js",
+        "dist/shared/template-manifest.json",
+        "dist/topic.css",
+        "package.json",
+        "records/SOURCES.md",
+        "records/VALIDATION.md",
+        "records/內容單_v1.0.txt",
+        "server.mjs",
+        "tests/player-clock.test.js",
+        "tests/science-state.test.js"
+      ],
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 39,
+          "sha256": "ac3bfe1fb6af0c2c9b0c77934d60319502a689841deddce6850976006e3e5c09"
+        },
+        {
+          "path": "README.md",
+          "bytes": 2749,
+          "sha256": "c2fdb3df5ff2b573cc29e783e5db75761b43776398c3cc297ce66e83857c5839"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 8910,
+          "sha256": "a25fcc8c4d8cda115de2cfc5b44860d45e67493294c173165eff1b571ab2d018"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 5926,
+          "sha256": "2a8565cde984ed078704f0ec0b5abefb5ce37f17085adb9040ba5a055cf9cacc"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 1700,
+          "sha256": "671c61001dd635d39328a7d01f5662d80e36790019d7857bcafe042c2aa4e49b"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3664,
+          "sha256": "2469b29607335628828c211567a1f9efbb3e069b1974827000d772edc3bbe389"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 940,
+          "sha256": "95e6c6f04f40f0bf55f2184b172681361a3a9baed7e173a1c684020eadff9f4b"
+        },
+        {
+          "path": "package.json",
+          "bytes": 155,
+          "sha256": "152edbf2bfd3d22d3168076a7584495b068871811ed282494b2b89d74bdc6859"
+        },
+        {
+          "path": "records/SOURCES.md",
+          "bytes": 3305,
+          "sha256": "ba8c645cbc04ff58b898c773617529e69345e266027a933348ee3db7a60ba0bd"
+        },
+        {
+          "path": "records/VALIDATION.md",
+          "bytes": 4827,
+          "sha256": "e67c602a56ceee8c6eb6ec81dd35e453950de514bd3e28030174087f186a89cf"
+        },
+        {
+          "path": "records/內容單_v1.0.txt",
+          "bytes": 3329,
+          "sha256": "a6c2d9271349d43615a4f2fbe31c9db31d15201540c563f5ea00bad974ccb617"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 921,
+          "sha256": "9d9e8d9002e2b0d5578cada0f414b1b71cdb7c1d6c3bd2d9641eeca36b732f60"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2723,
+          "sha256": "c9e28b256617826fab3f372c8eae25122f05645c893958a2cc2208e8837b8c78"
+        },
+        {
+          "path": "tests/science-state.test.js",
+          "bytes": 2413,
+          "sha256": "3481dee30a52ece9e9e98f3e7b5d3adc0fa2be7d5dad4c3ed80713d5bf2c0893"
+        }
+      ]
+    },
+    {
+      "id": "appgprj_6ae577c4324481919837bade627c6c99",
+      "slug": "ion-implant-anneal-observer",
+      "title": "離子佈植與退火：怎麼改變矽的導電特性？",
+      "originalUrl": "https://ion-implant-anneal-observer.fishddry.chatgpt.site",
+      "version": 1,
+      "commit": "8c8f0be6ae2bf9a24a016bf51dbccd401aeb4b64",
+      "versionId": "appgprj_6ae577c4324481919837bade627c6c99~appgver_61c16e47e06481919f967935990da86d",
+      "deploymentId": "appgdep_6ae57b3927988191a8bf89cd0e9c050a",
+      "sourceDeployment": "succeeded",
+      "directory": "sites/ion-implant-anneal-observer",
+      "outputDirectory": "dist",
+      "action": "add",
+      "previousVersion": null,
+      "changes": [
+        ".gitignore",
+        "README.md",
+        "dist/app.js",
+        "dist/index.html",
+        "dist/scene.js",
+        "dist/shared/observer.css",
+        "dist/shared/observer.js",
+        "dist/shared/player-clock.js",
+        "dist/shared/template-manifest.json",
+        "dist/state.js",
+        "dist/topic.css",
+        "docs/內容單.md",
+        "docs/驗收紀錄.md",
+        "package.json",
+        "server.mjs",
+        "tests/player-clock.test.js",
+        "tests/topic.test.js"
+      ],
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 29,
+          "sha256": "8ce9a2ba133cb8009ebf9436a83204311ff951b59a8c18a00d5774757b47b2b2"
+        },
+        {
+          "path": "README.md",
+          "bytes": 2581,
+          "sha256": "f6f15fc87b73cae0dfb7b15298aa7eeace256106ced28227a19e85e3b9c91008"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1734,
+          "sha256": "f1a43e2ebd70788842a5b6f2df4b107b41caf10419479315b7952552eb1e1947"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 5437,
+          "sha256": "64d25fe164436896c8dd2189fcca2c9fc2ecaceac1a65cd238066e72e966cda7"
+        },
+        {
+          "path": "dist/scene.js",
+          "bytes": 5577,
+          "sha256": "946111f24a9873fc377bae40ec1c295865b5edd9c1dcade2b29e11100fd2bddc"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/state.js",
+          "bytes": 3383,
+          "sha256": "4579c2d0b8cb87ee5d2b14b6841940924e498e0342f0370612f818ab16aa1545"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 1256,
+          "sha256": "bd9c836abea4365a67d8e34789fba79e00db5156091021e619ffc1630c713b13"
+        },
+        {
+          "path": "docs/內容單.md",
+          "bytes": 3923,
+          "sha256": "a43e658ae3fad81ec04f858e9b70d5cadc22660e598b67a3365348112bd1970a"
+        },
+        {
+          "path": "docs/驗收紀錄.md",
+          "bytes": 6533,
+          "sha256": "55e4f0c1ec1823984adaf1dab2a3eab223eff8a4be2a68b0de2b4a2688ccb24c"
+        },
+        {
+          "path": "package.json",
+          "bytes": 163,
+          "sha256": "080396eb320bbba5d21670547b65f209b3e84ba4be5679d7bf7011aa3962ee9e"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 898,
+          "sha256": "1e983dd234075f017a1aeaec98be055046d5f20258e6648a23704c229815b64a"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2723,
+          "sha256": "c9e28b256617826fab3f372c8eae25122f05645c893958a2cc2208e8837b8c78"
+        },
+        {
+          "path": "tests/topic.test.js",
+          "bytes": 2005,
+          "sha256": "f2ec67a4d54a1d4c88910a745d48526a49c21d0afd06a0527eb3fb761c69af8c"
+        }
+      ]
+    },
+    {
+      "id": "appgprj_6ae576e900948191b256196c1cbd4066",
+      "slug": "wafer-probe-observer-20261031",
+      "title": "晶圓探針測試｜科學觀察動畫",
+      "originalUrl": "https://wafer-probe-observer-20261031.fishddry.chatgpt.site",
+      "version": 1,
+      "commit": "94ab16b5d9ecfc1d420c5bd6a87b5511cf635fc6",
+      "versionId": "appgprj_6ae576e900948191b256196c1cbd4066~appgver_5844cd0a85348191a1b88faa97ec289f",
+      "deploymentId": "appgdep_6ae57d7bf1c08191856657943c4a849a",
+      "sourceDeployment": "succeeded",
+      "directory": "sites/wafer-probe-observer-20261031",
+      "outputDirectory": "dist",
+      "action": "add",
+      "previousVersion": null,
+      "changes": [
+        ".gitignore",
+        "README.md",
+        "dist/app.js",
+        "dist/index.html",
+        "dist/layout.js",
+        "dist/materials.js",
+        "dist/notes.html",
+        "dist/scene.js",
+        "dist/shared/observer.css",
+        "dist/shared/observer.js",
+        "dist/shared/player-clock.js",
+        "dist/shared/template-manifest.json",
+        "dist/topic-model.js",
+        "dist/topic.css",
+        "docs/science-sources.md",
+        "docs/topic-content-sheet.txt",
+        "package.json",
+        "records/acceptance.md",
+        "records/browser-controls-and-boundaries.json",
+        "records/desktop-playback.json",
+        "records/mobile-playback.json",
+        "records/runtime-analysis.json",
+        "records/screenshots/mobile-keyframe-01.jpg",
+        "records/screenshots/mobile-keyframe-02.jpg",
+        "records/screenshots/mobile-keyframe-03.jpg",
+        "records/screenshots/mobile-keyframe-04.jpg",
+        "records/screenshots/mobile-keyframe-05.jpg",
+        "records/screenshots/mobile-keyframe-06.jpg",
+        "records/screenshots/mobile-keyframe-07.jpg",
+        "records/screenshots/mobile-keyframe-08.jpg",
+        "records/screenshots/mobile-keyframe-09.jpg",
+        "records/screenshots/mobile-keyframe-10.jpg",
+        "records/screenshots/mobile-keyframe-11.jpg",
+        "records/screenshots/mobile-keyframe-12.jpg",
+        "records/screenshots/mobile-keyframe-13.jpg",
+        "records/screenshots/reduced-motion-software.jpg",
+        "records/screenshots/size-1024x768.jpg",
+        "records/screenshots/size-360x560.jpg",
+        "records/screenshots/size-390x844.jpg",
+        "records/screenshots/size-844x390.jpg",
+        "server.mjs",
+        "tests/browser-qa.html",
+        "tests/player-clock.test.js",
+        "tests/topic-model.test.js"
+      ],
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 43,
+          "sha256": "5a267208376d4ac9e3e027168f60199d88d127fa42658b1037317f23dd300261"
+        },
+        {
+          "path": "README.md",
+          "bytes": 8380,
+          "sha256": "9c5da80a0afb73a514d76eca4a2a7dd284348785c8b981ceb7524362a51379cb"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 5971,
+          "sha256": "cc9dcc2c10de03521e8a374f3df3ca8eb6742fa5c65e4eead8810caa20d0b7d1"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 7608,
+          "sha256": "749dc2e1cb2c8e7418819e35952ab4088cccaeb46c03a77333b34787bef6af3c"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 1012,
+          "sha256": "641289c189b16f98e1d7b51256c9724b6a70ecece6d0aa240e6cecaf5136e55f"
+        },
+        {
+          "path": "dist/materials.js",
+          "bytes": 479,
+          "sha256": "d6c558873ae498b017ced93630bdb26d358fcc033bf1af5b199bedc7fa5f5746"
+        },
+        {
+          "path": "dist/notes.html",
+          "bytes": 7045,
+          "sha256": "ef21600d8a287a4fb7b1519032147626ecbeae3b3f9b57f21c59be1e8aa872bd"
+        },
+        {
+          "path": "dist/scene.js",
+          "bytes": 14494,
+          "sha256": "005faba149a02c4ad2aeb57b307cecc13d0096abb82d1632caa3b6e167eb208c"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/topic-model.js",
+          "bytes": 10004,
+          "sha256": "f82abbb7865fe16c91de64b359987b1d950ecec75a0392427a8b4c02fc80149c"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 1470,
+          "sha256": "6b4524592e1a54088bd2a593d557e6e42389c1b2a75968d680c8000a94622562"
+        },
+        {
+          "path": "docs/science-sources.md",
+          "bytes": 8744,
+          "sha256": "e840d582fd2bb5412407ee0abb931dae91a01f14c3f40ee8f722cbfb3a3dd54d"
+        },
+        {
+          "path": "docs/topic-content-sheet.txt",
+          "bytes": 18706,
+          "sha256": "3a16acf2c5290fb10dfcbfa50db7206afc54f0fcc444c2927704c62ac54b58fc"
+        },
+        {
+          "path": "package.json",
+          "bytes": 156,
+          "sha256": "1a5fe4e65d576991187f608662b056d668af4476889214c310d30a849cd16631"
+        },
+        {
+          "path": "records/acceptance.md",
+          "bytes": 7019,
+          "sha256": "d7e2d11792b2b5aedd3f1be485ad54b49b324ffdc2e42ec0198d6f22bec3ce3b"
+        },
+        {
+          "path": "records/browser-controls-and-boundaries.json",
+          "bytes": 45600,
+          "sha256": "f4a1546c74f3ce9221dead38e555a1426a98c597c0b11a1b8056ad8941703eef"
+        },
+        {
+          "path": "records/desktop-playback.json",
+          "bytes": 17097,
+          "sha256": "a0a35a2cfb02fb2a8bbfa52d0beb4b9748a9925673550170b39040f3b4eb5d87"
+        },
+        {
+          "path": "records/mobile-playback.json",
+          "bytes": 17911,
+          "sha256": "2fc93388d3b0917994b3484d6044f8ed954a93d8b8ac4d0b07125b2387a38f9d"
+        },
+        {
+          "path": "records/runtime-analysis.json",
+          "bytes": 49554,
+          "sha256": "e69ab414c22410fd6dba83c62f01137b2ce933728f5f15cb1aa110c4c5bcd554"
+        },
+        {
+          "path": "records/screenshots/mobile-keyframe-01.jpg",
+          "bytes": 48578,
+          "sha256": "0b0b0fa21518217d9654523c4af867480449516f34949bc70790000d728630d1"
+        },
+        {
+          "path": "records/screenshots/mobile-keyframe-02.jpg",
+          "bytes": 47767,
+          "sha256": "a223e39f2fa4e58c92df6092c1148dad4d044e03653d1e2255edde2fd143d53b"
+        },
+        {
+          "path": "records/screenshots/mobile-keyframe-03.jpg",
+          "bytes": 47719,
+          "sha256": "14f488c6de88c0a2e9fd240c2c7f53fb86d5fb29b7785aaa5f791d801981b052"
+        },
+        {
+          "path": "records/screenshots/mobile-keyframe-04.jpg",
+          "bytes": 49583,
+          "sha256": "d6be43f7f064f377f5f5fe2e60a5b13582bf5487250d8da289ef5fba27a959ce"
+        },
+        {
+          "path": "records/screenshots/mobile-keyframe-05.jpg",
+          "bytes": 49343,
+          "sha256": "58342ff718afe43d8cd7e86bc623e48c4a35fd7721dfb6cfa8c330578921a653"
+        },
+        {
+          "path": "records/screenshots/mobile-keyframe-06.jpg",
+          "bytes": 49375,
+          "sha256": "5071d375329178dc39480c6f1496b15697600529c13ff86ba529b9ab43fef57e"
+        },
+        {
+          "path": "records/screenshots/mobile-keyframe-07.jpg",
+          "bytes": 49560,
+          "sha256": "184c2b3480237fbf801b767e028bcf986e14e20d14c5a5b2f5319a1e9b7b20a1"
+        },
+        {
+          "path": "records/screenshots/mobile-keyframe-08.jpg",
+          "bytes": 48331,
+          "sha256": "9d0d26a35de39f0c710cff0d3e82a363fd811ab4d567479faf303e8603a0083e"
+        },
+        {
+          "path": "records/screenshots/mobile-keyframe-09.jpg",
+          "bytes": 48312,
+          "sha256": "c2dccbc09925e1ea5ff9078e1996ffbe1d40d17bc2d30819ecefc5e7898504db"
+        },
+        {
+          "path": "records/screenshots/mobile-keyframe-10.jpg",
+          "bytes": 50088,
+          "sha256": "a71ed11457c82b8d957603d6619aa08cc0638673b41e971027936657112efcf7"
+        },
+        {
+          "path": "records/screenshots/mobile-keyframe-11.jpg",
+          "bytes": 50533,
+          "sha256": "4dfbd51e51413222726bcbfd13d818f275dc6364631d659ead51c81818f1b585"
+        },
+        {
+          "path": "records/screenshots/mobile-keyframe-12.jpg",
+          "bytes": 52323,
+          "sha256": "e86eed80bebae4fce66a37d23a8a8617888d13738254090b5e292549a0329a1d"
+        },
+        {
+          "path": "records/screenshots/mobile-keyframe-13.jpg",
+          "bytes": 24813,
+          "sha256": "2ce7a77c2af902c9837a16d555fb9b6e4b4aa5ed63f0b772e515f456d9873f2a"
+        },
+        {
+          "path": "records/screenshots/reduced-motion-software.jpg",
+          "bytes": 53872,
+          "sha256": "5b52c7f32579c730aa49ea7718952b933c7800e406f09aacad34a67a911184db"
+        },
+        {
+          "path": "records/screenshots/size-1024x768.jpg",
+          "bytes": 61310,
+          "sha256": "f0edc0b120a34f6d462adafbe950c9f5efa9c3c61518f39f7f2f9984573760fb"
+        },
+        {
+          "path": "records/screenshots/size-360x560.jpg",
+          "bytes": 38788,
+          "sha256": "558bcf289fb3367033c171d721ea8410d69e71ca05fc9c95d861bafeeba310fc"
+        },
+        {
+          "path": "records/screenshots/size-390x844.jpg",
+          "bytes": 37514,
+          "sha256": "7d47cdf94c33dcfeb0bfedf664b72ca4d1d48e0b08111058f3735abea0c54cb5"
+        },
+        {
+          "path": "records/screenshots/size-844x390.jpg",
+          "bytes": 48243,
+          "sha256": "8551ea536ecfb1ba9bd6992cb977098a8fbf2d8e42d197c1cafd1173a8c0f413"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 1121,
+          "sha256": "225d40a304aeae63ecd729ca0d97cf35c369c045cf1badbe18e96f7fb6c2e2af"
+        },
+        {
+          "path": "tests/browser-qa.html",
+          "bytes": 1256,
+          "sha256": "5b96dbd12b646458970ded447070997395968b3e495d2b20796a46bb3f9ac03d"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2722,
+          "sha256": "14a78bf0f279c1470479081786fb7b284a60eed0567d2c725116e54f556571e4"
+        },
+        {
+          "path": "tests/topic-model.test.js",
+          "bytes": 4697,
+          "sha256": "327ae3f4b0bd25f875e7870b10631f31c1f459a2ac448529a439fc97d02dfe31"
+        }
+      ]
+    },
+    {
+      "id": "appgprj_6ae56f243cc881919cc8a53a2fa7321f",
+      "slug": "flip-chip-bonding-observer",
+      "title": "倒裝接合｜晶粒翻過來，怎麼接到基板？",
+      "originalUrl": "https://flip-chip-bonding-observer.fishddry.chatgpt.site",
+      "version": 1,
+      "commit": "83d33ee8fa9b87388196bd8e8b669057b24e5901",
+      "versionId": "appgprj_6ae56f243cc881919cc8a53a2fa7321f~appgver_c43251f096e081918989bd5a01e657ed",
+      "deploymentId": "appgdep_6ae57375467881919d4420625a78cb8a",
+      "sourceDeployment": "succeeded",
+      "directory": "sites/flip-chip-bonding-observer",
+      "outputDirectory": "dist",
+      "action": "add",
+      "previousVersion": null,
+      "changes": [
+        ".gitignore",
+        "README.md",
+        "dist/app.js",
+        "dist/index.html",
+        "dist/model.js",
+        "dist/shared/observer.css",
+        "dist/shared/observer.js",
+        "dist/shared/player-clock.js",
+        "dist/shared/template-manifest.json",
+        "dist/topic.css",
+        "package.json",
+        "server.mjs",
+        "tests/model.test.js",
+        "tests/player-clock.test.js"
+      ],
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 50,
+          "sha256": "fe608f370af736afceb9d5279629612efd6a52854e3d7403ce3ff73b1ea1357d"
+        },
+        {
+          "path": "README.md",
+          "bytes": 2798,
+          "sha256": "12816f130524b51cbde1a9a16656665c3ccfb419e3de41a4a154a2930da20d6a"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 9796,
+          "sha256": "c2105b339cfd022dc91437c514af216e2738c9f9d2ea5808e90282798ff380d1"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 6507,
+          "sha256": "78d496f5de7f739d15817d90df419deee731eb4786b24f979193dafb146f02e9"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 4366,
+          "sha256": "4f240d390dc07e52284e5b3900a45f54130c02f4fdd025b790d9fdf2af7da229"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 1121,
+          "sha256": "178798b19e16d9d0073f3577cad2fbc6ddb057bc124e5c5a707037356aaba84d"
+        },
+        {
+          "path": "package.json",
+          "bytes": 162,
+          "sha256": "a3842acede0076abdff1c746005f37a531b829efe13a520b912f338a9fd1822d"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 860,
+          "sha256": "612c99c11010735127cee231364283169eee64947738e9ab6bb2e9451e7fe7f2"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 1735,
+          "sha256": "62a8a965ba9c144a81fc71bb42c91e86d112aafc89d77ec694a404504782cc27"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2722,
+          "sha256": "14a78bf0f279c1470479081786fb7b284a60eed0567d2c725116e54f556571e4"
+        }
+      ]
+    },
+    {
+      "id": "appgprj_6ae56e3cdef88191913edb1598d440b6",
+      "slug": "copper-interconnect-cmp-observer",
+      "title": "銅互連與 CMP：為什麼填滿銅，還要把它磨掉？",
+      "originalUrl": "https://copper-interconnect-cmp-observer.fishddry.chatgpt.site",
+      "version": 1,
+      "commit": "8a974a63fd5c8163c4ef0fe2a498a58b3b6a02ff",
+      "versionId": "appgprj_6ae56e3cdef88191913edb1598d440b6~appgver_c06bdb1e5478819191d4d8b2ddbf0fdc",
+      "deploymentId": "appgdep_6ae571c4da3c81919940c4bac8d5f1ac",
+      "sourceDeployment": "succeeded",
+      "directory": "sites/copper-interconnect-cmp-observer",
+      "outputDirectory": "dist",
+      "action": "add",
+      "previousVersion": null,
+      "changes": [
+        ".gitignore",
+        "README.md",
+        "dist/app.js",
+        "dist/index.html",
+        "dist/materials.css",
+        "dist/model.js",
+        "dist/scene.js",
+        "dist/shared/observer.css",
+        "dist/shared/observer.js",
+        "dist/shared/player-clock.js",
+        "dist/shared/template-manifest.json",
+        "package.json",
+        "server.mjs",
+        "tests/model.test.js",
+        "tests/player-clock.test.js"
+      ],
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 45,
+          "sha256": "e544bfdd6f436a0e9e0ded3860ece007a5f89510ccf61b51c8ecc000f09fd563"
+        },
+        {
+          "path": "README.md",
+          "bytes": 1991,
+          "sha256": "e3bc3d7953fe9179a3bb5995a86d11e2ad793c08c9d2c4893bbf4b4227b59fe5"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1464,
+          "sha256": "f647f203f3ae51a06fb3470f4ab6400131510577005929352f3d3c2d001efbee"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 5459,
+          "sha256": "57d6fe9b6142f281519be694a7bef54d37676fc8f1a96044267432ba62ac6bb5"
+        },
+        {
+          "path": "dist/materials.css",
+          "bytes": 834,
+          "sha256": "ac5e5b55a6c9d1052a20f1e5efcde4caf6925a8a12f8060113a66abe15cd226e"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 4216,
+          "sha256": "a35edefa133152b4baef3b37f7880850b9e6648ddf394e10ec882dea0d2e6eb0"
+        },
+        {
+          "path": "dist/scene.js",
+          "bytes": 8319,
+          "sha256": "66de915e346a29ff3380f6be0282aa3ece852fed47ea03294817fd0782ff5517"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "package.json",
+          "bytes": 168,
+          "sha256": "8b439baef7b1803156c7d07f71dacbf3e593cfc21249482e38243c01c8b908b7"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 912,
+          "sha256": "9de5eccc70cfd7ed9b7a60f6a1d36b7110e3ec9efe586d084a2e8c04335a5373"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 1333,
+          "sha256": "d8129a94eb0be21ae2e40458073af4861f8260357e2bddd16bfcd939a19cc932"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2723,
+          "sha256": "c9e28b256617826fab3f372c8eae25122f05645c893958a2cc2208e8837b8c78"
+        }
+      ]
+    },
+    {
+      "id": "appgprj_6ae55d89ea9c8191bdb33a606369b63e",
+      "slug": "lithography-etch-observer",
+      "title": "微影到蝕刻：圖案怎麼留下來",
+      "originalUrl": "https://lithography-etch-observer.fishddry.chatgpt.site",
+      "version": 1,
+      "commit": "1edcf15b9c2eaabe436eb152b4e1a248ff66c6e2",
+      "versionId": "appgprj_6ae55d89ea9c8191bdb33a606369b63e~appgver_0c79d404d084819181423526cf2d3715",
+      "deploymentId": "appgdep_6ae5618cb1e881918fc66b7e8120bc85",
+      "sourceDeployment": "succeeded",
+      "directory": "sites/lithography-etch-observer",
+      "outputDirectory": "dist",
+      "action": "add",
+      "previousVersion": null,
+      "changes": [
+        ".gitignore",
+        "README.md",
+        "dist/app.js",
+        "dist/index.html",
+        "dist/layout.js",
+        "dist/materials.css",
+        "dist/scene.js",
+        "dist/shared/observer.css",
+        "dist/shared/observer.js",
+        "dist/shared/player-clock.js",
+        "dist/shared/template-manifest.json",
+        "dist/topic.js",
+        "package.json",
+        "server.mjs",
+        "tests/topic.test.mjs"
+      ],
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 31,
+          "sha256": "44f7d865d9728f40c7b3f6053fb01ba7959a021b00a51fd82edff6997b66e280"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3734,
+          "sha256": "d105d72123fedded8fac085b97b052782e527d2b636197446e471bd7a9eff888"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1977,
+          "sha256": "0c7117afaa542a6876356c2e522bf13337d727565b80bd04266b009b90f0bb31"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 4035,
+          "sha256": "c465a6e265e53ef84bb247e0b9f0864209fa0c53500afe0fb6724f14c9c04c72"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 797,
+          "sha256": "dfefc7f781a2852fe22964af3a87b80fe4a912d04b889bc9ebb5c35800b690fd"
+        },
+        {
+          "path": "dist/materials.css",
+          "bytes": 978,
+          "sha256": "8b6ba299412e9edf2baac9c2de407f871409a4c13f79e8d6146356d6612efb8b"
+        },
+        {
+          "path": "dist/scene.js",
+          "bytes": 8771,
+          "sha256": "d79810589b2f014f0ac95755b7f67c215eb51a113e1db0153ad31ac865544462"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/topic.js",
+          "bytes": 3440,
+          "sha256": "0e5240648576637af1a6d1577f99b7ad4c096724984a844419a0f68b3471d613"
+        },
+        {
+          "path": "package.json",
+          "bytes": 166,
+          "sha256": "c67e2741694cd871c0c6578d3b089cd68fe1a212a30109d5ed4a6f3493edf1df"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 930,
+          "sha256": "ae69e14d2021ea27097d437dee48d80fa8b5a73267103e9643317886487a3dfb"
+        },
+        {
+          "path": "tests/topic.test.mjs",
+          "bytes": 3159,
+          "sha256": "76d9dc645f5a824364d526cfff863a132a73a6fe8996e5731da9a5371e4fd855"
+        }
+      ]
+    },
+    {
+      "id": "appgprj_6ae415e3ac68819182a0fd488d8ad557",
+      "slug": "wafer-electrical-test-20261030",
+      "title": "晶圓電性測試",
+      "originalUrl": "https://wafer-electrical-test-20261030.fishddry.chatgpt.site",
+      "version": 2,
+      "commit": "1b86663d007d288ac2ff43b596a1d8a5a44ae920",
+      "versionId": "appgprj_6ae415e3ac68819182a0fd488d8ad557~appgver_9b69a904eb2c81919059d4911d041dd4",
+      "deploymentId": "appgdep_6ae41978597c81919d631d3a346351b4",
+      "sourceDeployment": "succeeded",
+      "directory": "sites/wafer-electrical-test-20261030",
+      "outputDirectory": "dist",
+      "action": "unchanged",
+      "previousVersion": 2,
+      "changes": [],
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 34,
+          "sha256": "6a1c4c9187930f9e0c6fb1aa17b9d465b43fbc3735a6e5a67c37bc590df6bdb4"
+        },
+        {
+          "path": "README.md",
+          "bytes": 2545,
+          "sha256": "86cb055274ced569fde69c931f2214de7e6936dd5c052ffa03b9c355c8885d94"
+        },
+        {
+          "path": "dist/app.mjs",
+          "bytes": 13148,
+          "sha256": "f8f645c241df349804f3de311e4f8766ee671f7346da22d435ac0e5a20c8fbf3"
+        },
+        {
+          "path": "dist/config.mjs",
+          "bytes": 1298,
+          "sha256": "02431e110d37c085dd3bf97205295e21d2162639456033ccf8a47ef65c220626"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 7848,
+          "sha256": "fe16e6e0ff666a5935ddaf2bd06b99733e2dd1fea9855a7f226753d3405e0abd"
+        },
+        {
+          "path": "dist/model.mjs",
+          "bytes": 2672,
+          "sha256": "d8705023ad224b1ff6b37aa9d91737b0fb6a6bdd82efee0194be8bd13ecc4a66"
+        },
+        {
+          "path": "dist/player.mjs",
+          "bytes": 1417,
+          "sha256": "0f292dde58be30707aa7c8d19524cd342f6d68cac581badd2fa0d88b96327577"
+        },
+        {
+          "path": "dist/qa.html",
+          "bytes": 4596,
+          "sha256": "49fcd1fafef19a9f697d148e55065a948efa67543dbb705d6860716282e46e02"
+        },
+        {
+          "path": "dist/source-project.zip",
+          "bytes": 47808,
+          "sha256": "e076937f476c181f6bbf451045727bc35e6e03688ea316d455ecc617dd668e19"
+        },
+        {
+          "path": "dist/style.css",
+          "bytes": 11732,
+          "sha256": "c829a7dd47c6cbfb61950721991a94c135bfb6494970b699c33adf03901b0cb7"
+        },
+        {
+          "path": "docs/acceptance.md",
+          "bytes": 5917,
+          "sha256": "8e3358247e23a959c27d7286503a7a678ce1be6c07cc18445001b203cf387361"
+        },
+        {
+          "path": "docs/changes.md",
+          "bytes": 595,
+          "sha256": "80491f3f35ad85eaadc849067264d96c3a062588f75d98a83094113f09819fc1"
+        },
+        {
+          "path": "docs/task-v1.txt",
+          "bytes": 47847,
+          "sha256": "4d1aa6fedabbac12f52835a83a2ecd42f3ca4329149f7b769084902b1ef462e9"
+        },
+        {
+          "path": "package-lock.json",
+          "bytes": 256,
+          "sha256": "a170fd21205b525cc10a03d38317d98ef1c5d0602190b460a05aa5e7d5df5731"
+        },
+        {
+          "path": "package.json",
+          "bytes": 332,
+          "sha256": "84b478f129d6bb0eb653936948785e307ac30decd19d0d117745a20314cf05a1"
+        },
+        {
+          "path": "tests/model.test.mjs",
+          "bytes": 3236,
+          "sha256": "3c2ac7654b0ad80ff4448b6d418577aeb40cc5fbb7eafa26b8da6452c8e9ce18"
+        },
+        {
+          "path": "tests/player.test.mjs",
+          "bytes": 2304,
+          "sha256": "fad3caea6c82b8364516160a1ae7b0e66ccecc6dcd9e6ceb348382498825efa2"
+        }
+      ]
+    },
+    {
+      "id": "appgprj_6ae3680ab9cc8191af149708a0b7d8f7",
+      "slug": "supply-chain-three-relations-20261029",
+      "title": "供應鏈：區分物料、服務與資訊",
+      "originalUrl": "https://supply-chain-three-relations-20261029.fishddry.chatgpt.site",
+      "version": 8,
+      "commit": "53d7ab5d15dcb8766cc175154a3a4f0504662731",
+      "versionId": "appgprj_6ae3680ab9cc8191af149708a0b7d8f7~appgver_b11e6c32e6408191b5381b51e32ef082",
+      "deploymentId": "appgdep_6ae4cb04243c819199385fa18616172f",
+      "sourceDeployment": "succeeded",
+      "directory": "sites/supply-chain-three-relations-20261029",
+      "outputDirectory": "dist",
+      "action": "update",
+      "previousVersion": 5,
+      "changes": [
+        "README.md",
+        "dist/app.js",
+        "dist/index.html",
+        "dist/shared/observer.css",
+        "dist/shared/observer.js",
+        "dist/shared/player-clock.js",
+        "dist/shared/template-manifest.json",
+        "dist/styles.css",
+        "dist/supply-scene.js"
+      ],
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 38,
+          "sha256": "e14efda5df44550c1001f415969e2be9baf8b0385979bf7cbc10123809657bc3"
+        },
+        {
+          "path": "ACCEPTANCE-v1.1.md",
+          "bytes": 3025,
+          "sha256": "5d88e612837f2c892ef4a75a131be904a1612588e77b5103bea7cce21936fbc0"
+        },
+        {
+          "path": "ACCEPTANCE.md",
+          "bytes": 3974,
+          "sha256": "606fbe201ecd58013ef6a4dde68e9ad3cb27c5a56938ac5673e7eafaf1edfc62"
+        },
+        {
+          "path": "README.md",
+          "bytes": 7793,
+          "sha256": "a2bf4123d00e7d7465f5147fcd9f7384f8c887fe1bb73e73bfec090e4ccb8c6f"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2397,
+          "sha256": "cf6b4551e0916c93251ef217f774cd260c2fab75281fe68e187f38af3d957ec7"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 6240,
+          "sha256": "bfce16538509bc28482589cd0f830485a362d60cda0fdc8d87337ec04603e9af"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 4116,
+          "sha256": "8c4d3f270c451c539f7325b4f8460530cd759fdb835cf2127e21a41fb65320ae"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/styles.css",
+          "bytes": 2490,
+          "sha256": "919f2d5e15aba719bea2a4949056da183e177fa22def5dca47ff885247b0f0be"
+        },
+        {
+          "path": "dist/supply-scene.js",
+          "bytes": 10899,
+          "sha256": "85c6871bb23a031eb74569f72611f4d6a9b580fd1611a60edea75486f08faf0a"
+        },
+        {
+          "path": "evidence/browser-results.json",
+          "bytes": 3034,
+          "sha256": "fa7ddd6e377acb5ca6b099b7b15edce1f77df0c83e78f837f5a0ea96fca62d25"
+        },
+        {
+          "path": "evidence/desktop-cycle-half.jpg",
+          "bytes": 140046,
+          "sha256": "ca64d1471dad11b2daaba609616e58452229d3953f8905d166f390e6f7fad6db"
+        },
+        {
+          "path": "evidence/mobile-29.png",
+          "bytes": 64948,
+          "sha256": "5ae312bc9397f26d4506a2fa7c8bed417a695c65c62ed00748fc22117c0f53f0"
+        },
+        {
+          "path": "evidence/mobile-cycle-1x.jpg",
+          "bytes": 234375,
+          "sha256": "690af38481f39963d5bc6dce5ee81be73641ce8243b9d530eb1578cddce5b8d6"
+        },
+        {
+          "path": "evidence/v1.1/desktop-22.png",
+          "bytes": 82033,
+          "sha256": "9151ab7d23b2eed826d1d669dd7248283f1ec29cca1bd4ae7315b56587477ec7"
+        },
+        {
+          "path": "evidence/v1.1/desktop-29.png",
+          "bytes": 87284,
+          "sha256": "0db3800af9fcc120c87e94d5cb34de611d0c26a2afa1f5cd2c68c00ce574be76"
+        },
+        {
+          "path": "evidence/v1.1/mobile-29.png",
+          "bytes": 54005,
+          "sha256": "8e6118ba03e1c56813e61736756a55363b9fad345db7ceea439df8f6df312f46"
+        },
+        {
+          "path": "evidence/v1.1/mobile-packaging.png",
+          "bytes": 50621,
+          "sha256": "da3a4438ee8d5bf9feea5c898021e9be72a1295b67708dad3efe068a928ba697"
+        },
+        {
+          "path": "evidence/v1.1/results.json",
+          "bytes": 2465,
+          "sha256": "3d1ded901b780e0eaaec8b000e69b441e2c34caa5f68619a3032a6747d1370e4"
+        },
+        {
+          "path": "package.json",
+          "bytes": 246,
+          "sha256": "7175b3812d9b78900398ac434b479ac87f35dd6988c8a94666ba590d6adabaea"
+        },
+        {
+          "path": "server.cjs",
+          "bytes": 964,
+          "sha256": "df2d03bfef4d33fda2bf52c4dc24be09fe0003329d3e23ea5fd4a7dc399ffabb"
+        },
+        {
+          "path": "tests/browser.cjs",
+          "bytes": 10865,
+          "sha256": "d506bb0d63ff15fde5f4e6c576e0d60b189faf62efaa82f8f01f150f22f98461"
+        },
+        {
+          "path": "tests/fixtures/index-v1.html",
+          "bytes": 7724,
+          "sha256": "459c83d1c2e2a4fc84a83e5b2e3ae5eadcfc8f4d0696f412fde6135da675d4a6"
+        },
+        {
+          "path": "tests/model.test.cjs",
+          "bytes": 1610,
+          "sha256": "afbd510efbcdf1df760d9073f7fc162f1b098bee5d37d397dbd6146ed7f6323a"
+        },
+        {
+          "path": "tests/restyle.cjs",
+          "bytes": 6915,
+          "sha256": "8f688b9afb4034be6f14eb82a5830a907e1ebc4099a16a455dd6e49707c4e4cc"
+        },
+        {
+          "path": "供應鏈_物料服務資訊_動畫任務_v1.txt",
+          "bytes": 43991,
+          "sha256": "8240470545564985853fb088d5af09e4514f68f6e48f455382dc484c505ce209"
+        }
+      ]
+    },
+    {
+      "id": "appgprj_6ae338a8206c81919853bec80ed96977",
+      "slug": "soic-eight-observer",
+      "title": "SOIC-8 封裝觀察",
+      "originalUrl": "https://soic-eight-observer.fishddry.chatgpt.site",
+      "version": 4,
+      "commit": "5eed5512f8028286cd06ac22da4fdfe02199fc66",
+      "versionId": "appgprj_6ae338a8206c81919853bec80ed96977~appgver_00d43701c9f881919e426b02529cd904",
+      "deploymentId": "appgdep_6ae4cae678148191b4c443777821bd06",
+      "sourceDeployment": "succeeded",
+      "directory": "sites/soic-eight-observer",
+      "outputDirectory": "dist",
+      "action": "update",
+      "previousVersion": 1,
+      "changes": [
+        "README.md",
+        "dist/app.js",
+        "dist/clock.js",
+        "dist/index.html",
+        "dist/inspector.js",
+        "dist/layouts.js",
+        "dist/scene.js",
+        "dist/shared/observer.css",
+        "dist/shared/observer.js",
+        "dist/shared/player-clock.js",
+        "dist/shared/template-manifest.json",
+        "dist/styles.css"
+      ],
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 5684,
+          "sha256": "dde2fd96f9c730b6b20c7d3581bd041b4a5af526caa429c770ec59c8b3a88d8c"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 3096,
+          "sha256": "2e210c1d935a1b87cb056817e41551bbe767aa04fb481553923effff34fbe2f9"
+        },
+        {
+          "path": "dist/clock.js",
+          "bytes": 54,
+          "sha256": "97a78b40ecc24dabe4298c7e8a4161038b397d07362278288c4029db2eebf5bf"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 3235,
+          "sha256": "915a29ba260247c69b22d1d69e4dca90a47afd579a8eb43cc6ad85c14dd11a7d"
+        },
+        {
+          "path": "dist/inspector.js",
+          "bytes": 2195,
+          "sha256": "6c725764745550fceafa621c29d03315fe1b911d1020c0bc0605e87d2e56167c"
+        },
+        {
+          "path": "dist/layouts.js",
+          "bytes": 2284,
+          "sha256": "6fef5c85d70aab37b0052d07abd812ede26d9992e635736c33e0eca7e5e972e3"
+        },
+        {
+          "path": "dist/primitives.js",
+          "bytes": 4451,
+          "sha256": "fff9c3ab10b03386932724618101c7ca20aeea5a41299bb09325450ff409c106"
+        },
+        {
+          "path": "dist/scene.js",
+          "bytes": 10095,
+          "sha256": "29ab215d2c6efb6d7c609b6c076c95d1e676fc2ad808bfbb61f739b142bd89b4"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/styles.css",
+          "bytes": 2498,
+          "sha256": "194abddf092ccbe0e1b15c574e8a5631738ee02c9047f4676cae45abff56a705"
+        },
+        {
+          "path": "dist/topic.js",
+          "bytes": 6280,
+          "sha256": "25aeed82d8a48b1d56b2106fb3d14a42299e1ebbef25380b335f4edce64d4a02"
+        },
+        {
+          "path": "package.json",
+          "bytes": 132,
+          "sha256": "649d0998811253bb0315e0e4b0a792f3461681bd55a64333ed927fc39a406c87"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 784,
+          "sha256": "1053e96b3f31cb9fc48d541b49133eaae250809e4d9fc68f94f488348ed1dd31"
+        },
+        {
+          "path": "tests/acceptance.test.mjs",
+          "bytes": 4604,
+          "sha256": "b63d8183a3c1121856f66ace51e199a0357be4a417fa1812a1951023402d30ca"
+        }
+      ]
+    },
+    {
+      "id": "appgprj_6ae3177ebd1881918fa6b941e15861ba",
+      "slug": "semiconductor-coordinate-atlas-1029",
+      "title": "半導體知識座標圖",
+      "originalUrl": "https://semiconductor-coordinate-atlas-1029.fishddry.chatgpt.site",
+      "version": 9,
+      "commit": "bb7cb0728ef145e405e14c3657cc72289f040f5f",
+      "versionId": "appgprj_6ae3177ebd1881918fa6b941e15861ba~appgver_a895df9241f48191bf7f2e4f0ff1fff8",
+      "deploymentId": "appgdep_6ae366aac2888191a1d0574ac4974006",
+      "sourceDeployment": "succeeded",
+      "directory": "sites/semiconductor-coordinate-atlas-1029",
+      "outputDirectory": "dist",
+      "action": "unchanged",
+      "previousVersion": 9,
+      "changes": [],
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 122,
+          "sha256": "efdf3baa7cf7fd2c311c30f1e90ea8836625e07e62d5405973a0c424e9be12fa"
+        },
+        {
+          "path": "QA.md",
+          "bytes": 21932,
+          "sha256": "7322f96079309e98ecf9fd937c2d57258af91f97db33d2329f7792eafdfcbf53"
+        },
+        {
+          "path": "README.md",
+          "bytes": 16318,
+          "sha256": "c8a56fc54c18e789b87d140145fb2557ad28fda1c79ef7c606d5015adeb567de"
+        },
+        {
+          "path": "dist/app.mjs",
+          "bytes": 37604,
+          "sha256": "7d8886df3966c8fda7ef6021a09542f1ba5150ef9b5740114a137ae2fd3d339d"
+        },
+        {
+          "path": "dist/coordinate-motion.mjs",
+          "bytes": 1172,
+          "sha256": "1ed3e825986a458a1c83525e92ef0d99664bcab1befd1cc175dc0012c9bae740"
+        },
+        {
+          "path": "dist/core.mjs",
+          "bytes": 4351,
+          "sha256": "6200af64d0907074224ddbc8a567ebed84dfb1fa0563c5acab57783cbb9494d0"
+        },
+        {
+          "path": "dist/data-manager.mjs",
+          "bytes": 5336,
+          "sha256": "842dedb82cb80abaf8c3b7862cf6551d8c8efbab0edb9b628a0b44852261f072"
+        },
+        {
+          "path": "dist/data-transfer.mjs",
+          "bytes": 8204,
+          "sha256": "d994dd5585533a58af67cf00daa14ff2f30aebdcbad2b546777a0e184597674a"
+        },
+        {
+          "path": "dist/data.json",
+          "bytes": 79166,
+          "sha256": "3b9e7b352f8cc46e9e87f0c5f77812e0ba7243bfd80cc7f06aede7cf170c09ba"
+        },
+        {
+          "path": "dist/exploration-history.mjs",
+          "bytes": 3385,
+          "sha256": "266beaaafff3d057b3e67adc472815d67e38e626ed03e2172838a13dd0f6d08c"
+        },
+        {
+          "path": "dist/hierarchy.mjs",
+          "bytes": 2091,
+          "sha256": "a1b186020eb467124c19d9eb1473ed424b402f9b6ea919035cccbde2db5717d6"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 14639,
+          "sha256": "e83804386719fe81df0ef374beab94c5e7db2c8446affd6abf80fd52f962e813"
+        },
+        {
+          "path": "dist/legend.mjs",
+          "bytes": 2598,
+          "sha256": "772e0f3323bf01076e6cd6be5018dd967c94cf84d828ac497cfbbc18925a06e9"
+        },
+        {
+          "path": "dist/map-layout.mjs",
+          "bytes": 4385,
+          "sha256": "0e37c4e150724ed94eb7a117881ff1c3f034b2f1bd73d51fa693ef91a17d5736"
+        },
+        {
+          "path": "dist/navigator.mjs",
+          "bytes": 8530,
+          "sha256": "0771dcdba983bbc40cb1c89d487794ca90e6a62589a736e6fada5f52a798eafe"
+        },
+        {
+          "path": "dist/relation-style.mjs",
+          "bytes": 4318,
+          "sha256": "2db93dd7ee5854cabfa7a0349090a5908f3b340628c5f0f1189ffde6c9655294"
+        },
+        {
+          "path": "dist/style.css",
+          "bytes": 25604,
+          "sha256": "cc1bbb8c4cba19741a7f93414768a075ccbf7ce1c4fc9241fe473eaa881eeed1"
+        },
+        {
+          "path": "docs/arrows-preview.jpg",
+          "bytes": 28873,
+          "sha256": "4be013eef30c411987ac002b18419ee542e87c8abbe931795145574df466421b"
+        },
+        {
+          "path": "docs/axis-controls-preview.jpg",
+          "bytes": 48834,
+          "sha256": "74538a0e167c37c6010033c82d0006f4e6433ebf2ccab478fa0a2e1737978004"
+        },
+        {
+          "path": "docs/data-preview.jpg",
+          "bytes": 52310,
+          "sha256": "15df93a997e210ee4d8c5e11f6173becba3664749e559278ad14ad31f0b149d2"
+        },
+        {
+          "path": "docs/dual-map-preview.jpg",
+          "bytes": 52321,
+          "sha256": "df5e525623d85debe1457f5c795427faeaac09c5ced413f6aefcb94cf8e97fc8"
+        },
+        {
+          "path": "docs/fixed-points-preview.jpg",
+          "bytes": 41011,
+          "sha256": "de5a19fdbe7081ba78de0e379a204cbfb17ba5467114630299858c7d89d9584d"
+        },
+        {
+          "path": "docs/history-preview.jpg",
+          "bytes": 49652,
+          "sha256": "a5db49109b4778e54116e54b4eef88e3aec3186432e2df4f4e4db615f6a6371a"
+        },
+        {
+          "path": "docs/names-default-preview.jpg",
+          "bytes": 48783,
+          "sha256": "c02066224b3bd817dfd2e8762b3cb361f5e31f42fed385866a64d1dc41eae4e8"
+        },
+        {
+          "path": "docs/overlay-preview.jpg",
+          "bytes": 32660,
+          "sha256": "f218b063d923ccba87ff29b3236e68fd71597240746d4b20914b8cf1eb2089ce"
+        },
+        {
+          "path": "docs/tree-preview.jpg",
+          "bytes": 32945,
+          "sha256": "dd0492a8b87099bd618ec1598ccb276d7143d6b2f4373cae8830cf491a99d998"
+        },
+        {
+          "path": "tests/coordinate-motion.test.mjs",
+          "bytes": 1879,
+          "sha256": "2d92628efd14bd4c01bcec739a25d5977ee0de5f8c5822c2e7d7963066a8beed"
+        },
+        {
+          "path": "tests/core.test.mjs",
+          "bytes": 4395,
+          "sha256": "cbd0244f20d15057b553fcc71539b0b5208e758b5e6b29d9f516d6dfff5fe0f1"
+        },
+        {
+          "path": "tests/hierarchy.test.mjs",
+          "bytes": 2181,
+          "sha256": "d251dce343c01506e5f3700b5f6fdf8e8ab42c1391df91dc247115c0550745ef"
+        },
+        {
+          "path": "tests/history.test.mjs",
+          "bytes": 2997,
+          "sha256": "061a6cf195c196b0be549af4cb045cb18c3648648ae212d9ef173a2aec9a0294"
+        },
+        {
+          "path": "tests/make-qa.py",
+          "bytes": 4494,
+          "sha256": "59b0e84e0341ddd2b8a044d2ed6893a24a423c7f689ac04dd3e10ab8f06e4c2b"
+        },
+        {
+          "path": "tests/map-layout.test.mjs",
+          "bytes": 2192,
+          "sha256": "4238d31428db84af75d0cea39b2b2de2fc595d101a1aaf76763c9216bdd7bc9d"
+        },
+        {
+          "path": "tests/relations.test.mjs",
+          "bytes": 2343,
+          "sha256": "02998d3b509d649e1b0c637cfe4416264352e9dc73183f8ac75b281f91212d1d"
+        },
+        {
+          "path": "tests/transfer.test.mjs",
+          "bytes": 4913,
+          "sha256": "60bee897f556441344bdd9d35cd86d072924f6cbf1bdde9ebc950e682ca6ac89"
+        }
+      ]
+    }
+  ]
+}

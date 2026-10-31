@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="固定局部剖面追蹤同一段銅互連：開槽、阻障層、種子層、電鍍填銅與 CMP。44 秒繁體中文觀察動畫。"><title>銅互連與 CMP——為什麼填滿銅，還要把它磨掉？</title><link rel="icon" href="data:,"><link rel="stylesheet" href="shared/observer.css"><link rel="stylesheet" href="materials.css"></head>
+<body><div id="observer"></div>
+<template id="topic-notes">
+ <p class="note-kicker">銅互連與 CMP · 單層鑲嵌製程</p>
+ <label for="note-stage" class="sr-only">選擇步驟說明</label><select id="note-stage"></select>
+ <h2>正在看什麼</h2><p id="note-what"></p>
+ <h2>值得注意的細節</h2><p id="note-detail"></p>
+ <button id="note-seek" class="primary">定位此步</button><p class="pause-note">定位後保持暫停；關閉面板可看全圖，或按「播放接續」。</p>
+ <details><summary>為什麼填滿銅，還要磨掉？</summary><p>電鍍能把狹小溝槽填好，但也會在頂面留下連續的銅。若不去除，原本應分開的相鄰線路會被連在一起。</p><p>CMP 清除多餘銅，再清除場區的導電阻障／襯層，讓槽內的銅留下，並為後續堆疊提供平坦表面。</p></details>
+ <details><summary>補充圖：線沿哪個方向延伸？</summary>
+ <svg class="supplement" viewBox="0 0 320 160" role="img" aria-label="俯視兩條平行銅線，虛線為主動畫的橫截面位置"><rect x="14" y="14" width="292" height="124" fill="#DFEAF0" stroke="#889FAE"/><rect x="70" y="14" width="52" height="124" fill="#DFAB87" stroke="#6D818B" stroke-width="4"/><rect x="198" y="14" width="52" height="124" fill="#DFAB87" stroke="#6D818B" stroke-width="4"/><path d="M5 76H315" stroke="#526F82" stroke-width="2" stroke-dasharray="5 5"/><text x="160" y="158" text-anchor="middle" fill="#253039" font-size="14">俯視 · 虛線處切開，看主畫面的剖面</text></svg>
+ <p>主畫面看到兩條線的截面。線路沿畫面前後方向延伸；本版只顯示它們在這個局部彼此分隔。</p></details>
+ <details><summary>簡化、材料與比例</summary><ul>
+ <li>採傳統銅鑲嵌流程的單層溝槽，省略通孔與雙鑲嵌整合，不代表所有先進節點的材料配方。</li>
+ <li>起點已完成曝光與顯影；光罩、抗反射層、硬遮罩與蝕刻停止層未畫。去膠與清潔合併呈現。</li>
+ <li>TaN 阻障與 Ta 襯層合併為一個灰色薄層。薄膜厚度刻意放大，側壁沉積理想化為均勻覆蓋。</li>
+ <li>深銅色是種子銅，淺銅色是電鍍銅，僅用顏色追蹤來源；兩者是同一種金屬，不是兩種互連材料。</li>
+ <li>電鍍以連續材料成長表示，強調由底部優先填充；不模擬離子、添加劑、電流密度、晶粒或退火。</li>
+ <li>CMP 分為表面銅與表面阻障兩段；研磨墊、研磨液和帶走的材料是接觸與去向示意。省略換墊、換液與清潔機構。</li>
+ <li>完成面理想化為齊平；實際可能有銅凹陷（dishing）、絕緣層侵蝕（erosion）與殘留，需終點控制，不能無限磨下去。</li>
+ <li>省略後續蓋層與多層堆疊。44 秒是觀看安排，幾何不按實際比例，並非製程時間或物理模擬。</li>
+ </ul></details>
+ <details><summary>查證來源</summary><ol class="source-list">
+ <li><a href="https://www.iue.tuwien.ac.at/phd/orio/node10.html" target="_blank" rel="noopener noreferrer">TU Wien · R. L. de Orio：Damascene Fabrication Process</a><br>支持先圖形化絕緣層、再阻障、種子銅、電鍍與 CMP 的順序；原文為雙鑲嵌，本版只取單層溝槽。</li>
+ <li><a href="https://www.appliedmaterials.com/us/en/product-library/endura-amber-pvd.html" target="_blank" rel="noopener noreferrer">Applied Materials · Endura Amber PVD</a><br>支持阻障抑制銅擴散與種子層銜接後續電鍍。</li>
+ <li><a href="https://newsroom.lamresearch.com/Tech-Brief-Elements-of-Electroplating" target="_blank" rel="noopener noreferrer">Lam Research · Elements of Electroplating（2018）</a><br>支持 Ta/TaN、薄銅種子層與添加劑控制的底部優先填充。</li>
+ <li><a href="https://www.fujifilm.com/uk/en/business/semiconductor-materials/cmp/barrier-slurries/applications" target="_blank" rel="noopener noreferrer">FUJIFILM · Barrier CMP Slurries</a><br>支持先清除銅、再移除露出的表面阻障，並進行平坦化。</li>
+ <li><a href="https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-advanced-copper-cmp-processes-new" target="_blank" rel="noopener noreferrer">Applied Materials · Copper CMP Processes（2000）</a><br>支持銅與阻障分段處理、終點控制，以及凹陷與侵蝕限制。</li>
+ </ol><p class="source-intro">查核：2026-10-31。共用規格 v1.0 · 程式範本 1.0.0 · 本主題 1.0.0。</p></details>
+ <details><summary>操作與鍵盤</summary><p>右上角暫停／播放、重播與說明。底部可選 0.5、1、1.5、2 倍速；拖曳或點選最底部拉桿可定位，定位後暫停。</p><p>Tab 切換控制；拉桿使用方向鍵、Home、End。聚焦動畫後按空白鍵可暫停／接續；Esc 關閉說明，仍保持暫停。</p></details>
+</template><script type="module" src="app.js"></script></body></html>

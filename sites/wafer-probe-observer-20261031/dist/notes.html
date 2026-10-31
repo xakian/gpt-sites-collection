@@ -1,0 +1,74 @@
+<template id="topic-notes">
+  <p class="eyebrow">正在看什麼</p>
+  <h2 id="note-title">對準同一個晶粒位置</h2>
+  <p id="note-body">晶圓仍是一整片。工作台將選定晶粒的金屬接點對準探針；數位晶圓圖以相同座標記錄這個位置。</p>
+
+  <h3>值得注意的細節</h3>
+  <p id="note-detail">探針與接點必須先對準，再建立暫時電接觸。圖上的位置標記不是切割，也不是晶粒正在離開晶圓。</p>
+  <p>俯視圖以晶圓為參考，所以晶圓保持固定；接觸放大圖顯示工作台的 XY 定位與 Z 升降。測完一個位置，先分離，再移向下一個位置。</p>
+
+  <h3>定位此步</h3>
+  <label class="sr-only" for="phase-select">選擇要查看的階段</label>
+  <select id="phase-select" aria-describedby="phase-select-help"></select>
+  <p id="phase-select-help" class="pause-note">選擇階段只切換說明。按「定位此步」才移動動畫，定位後保持暫停。</p>
+  <button id="locate-phase" class="primary" type="button">定位此步</button>
+
+  <h3>接觸的側面</h3>
+  <svg viewBox="0 0 344 202" role="img" aria-labelledby="contact-figure-title contact-figure-desc" style="display:block;width:100%;height:auto;max-width:360px;margin:12px auto;">
+    <title id="contact-figure-title">探針與晶圓金屬接點的接觸剖面示意</title>
+    <desc id="contact-figure-desc">上方探針卡連著兩支示意探針；下方工作台帶晶圓向上，使探針接觸表面的金屬接點。探針沒有穿透晶粒。</desc>
+    <g fill="none" stroke="#697780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="53" y="33" width="220" height="18" rx="3" fill="#DCE6DD"/>
+      <path d="M90 51L98 76Q100 82 110 90L120 105M237 51L231 76Q229 82 222 93L220 105" stroke="#778D9C" stroke-width="3"/>
+      <rect x="51" y="110" width="224" height="18" rx="2" fill="#D9E2EB"/>
+      <rect x="110" y="105" width="20" height="5" rx="1" fill="#CEB982"/>
+      <rect x="210" y="105" width="20" height="5" rx="1" fill="#CEB982"/>
+      <rect x="57" y="136" width="212" height="31" rx="3" fill="#E7EBEC"/>
+      <path d="M72 128V136M255 128V136M293 164V97M288 104L293 97L298 104"/>
+      <path d="M49 77H83L106 89M169 91L169 101L133 107M39 120H49" stroke="#9BA9B1" stroke-width="1"/>
+    </g>
+    <g fill="#253039" font-family="inherit" font-size="16">
+      <text x="54" y="23">探針卡</text>
+      <text x="7" y="81">探針</text>
+      <text x="169" y="84" text-anchor="middle">金屬接點</text>
+      <text x="4" y="125">晶圓</text>
+      <text x="163" y="157" text-anchor="middle">晶圓工作台</text>
+      <text x="304" y="133">Z</text>
+      <text x="172" y="192" text-anchor="middle" fill="#5B6B75">接觸是暫時的，晶圓尚未切開</text>
+    </g>
+  </svg>
+
+  <details>
+    <summary>簡化與判讀限制</summary>
+    <ul>
+      <li>54 秒是觀看安排，不是真實測試時間。先慢看兩顆，再加快呈現其餘 35 顆；實務可同時測多顆，也可能重測。</li>
+      <li>37 顆晶粒與 4 支探針都是示意。晶粒大小、接點、探針、接觸間隙與升降距離沒有按相同比例繪製；省略外殼、線路、溫控、校正與探針清潔。</li>
+      <li>示例以「相對輸出」的 0.90–1.10 區間示範判讀；0.96 通過、1.28 未通過。這些無因次數值不是工業規格，也不代表任一真實晶片的測試限值。實際測試包含多項電性與功能檢查。</li>
+      <li>本圖的 X 向右、Y 向下，中心為 (0,0)。這是晶粒索引，不是毫米；不同設備或檔案可採用不同原點與方向。</li>
+      <li>晶圓圖是數位測試紀錄。✓／× 與結果色沒有塗到實物上；晶粒測完仍留在完整晶圓上。未測與未通過是不同狀態。</li>
+      <li>通過只表示符合本次測試條件、項目與限值，不能保證所有功能與可靠度。未通過也可能需要排除接觸或量測異常；本版省略異常診斷、重測及多級分類。</li>
+      <li>接觸力可使探針微量彈性變形，某些接觸形式會有微小擦拭；本圖不模擬接觸力、接觸電阻或氧化層破除。探針不應被理解為刺穿晶粒。</li>
+      <li>電性路徑的亮起與讀值變化用來提示測試活動，不表示電子或資料以畫面速度沿線移動。循環遮罩表示「重新觀看同一示意」，不表示製程倒轉或實際刪除測試紀錄。</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>科學來源</summary>
+    <p class="source-intro">一手資料核對：2026-10-31。下列來源支援機構、電測與紀錄方式；動畫數值、時間及座標慣例由本示意自行設定。</p>
+    <ol>
+      <li><a href="https://www.jem-net.co.jp/en/products/handotai" target="_blank" rel="noopener noreferrer">JEM｜Products for Semiconductor Test</a>：切割前測試、探針接觸焊墊、訊號收發，以及 DC、AC、功能測試。</li>
+      <li><a href="https://patents.google.com/patent/US20070170941A1/en" target="_blank" rel="noopener noreferrer">FormFactor｜Composite Motion Probing，US20070170941A1</a>：工作台 XY 定位、Z 接觸、探針彈性壓縮與測試介面。2007 年原始專利用來說明基本機構，不代表最新產品規格。</li>
+      <li><a href="https://www.formfactor.com/product/probe-systems/software/velox/" target="_blank" rel="noopener noreferrer">FormFactor｜Velox，AutoAlign</a>：晶圓對準、晶粒索引與晶圓圖生成。</li>
+      <li><a href="https://www.ni.com/en/solutions/semiconductor/enterprise-data-management-analytics/managing-wafer-yield-semiconductor-fabrication.html" target="_blank" rel="noopener noreferrer">NI｜Managing Wafer Yield Across Semiconductor Fabrication</a>：將測試資料與規格門檻比較，據以分類晶粒。</li>
+      <li><a href="https://www.ni.com/en/solutions/semiconductor/enterprise-data-management-analytics/reducing-quality-escapes-manufacturing.html" target="_blank" rel="noopener noreferrer">NI｜Reducing Quality Escapes in Semiconductor Manufacturing</a>：晶圓圖的失敗位置、晶粒與晶圓識別紀錄、誤判及重測。</li>
+      <li><a href="https://www.teradyne.com/2023/09/05/test-strategies-in-the-era-of-heterogeneous-integration/" target="_blank" rel="noopener noreferrer">Teradyne｜Test Strategies in the Era of Heterogeneous Integration</a>：測試覆蓋率、缺陷漏出，以及晶圓、封裝後與系統測試的分工。</li>
+    </ol>
+  </details>
+
+  <details>
+    <summary>版本與操作</summary>
+    <p>共用規格 v1.0 · 共用程式範本 1.0.0 · 晶圓探針測試 1.0.0。</p>
+    <p>上方可暫停、接續、重播及開啟說明。底部可選 0.5／1／1.5／2 倍速；點按或拖曳進度後保持暫停。拉桿支援方向鍵、Home 與 End。</p>
+    <p>開啟說明會暫停；關閉後仍暫停，按「播放接續」才繼續。系統減少動態偏好會以靜態畫面開始，仍可明確按播放。</p>
+  </details>
+</template>
