@@ -1,0 +1,2 @@
+import{smooth}from'./svg.js';
+export function stateAt(t){const q=t<5?0:t<7?smooth((t-5.2)/1.4):t<25?1:t<27?1-smooth((t-25.2)/1.4):0;let bl=0,bb=1,mode='保持／周邊高阻';if(t>=3&&t<12){bl=smooth((t-3)/1);bb=1-bl;mode=t<7?'寫入驅動':'保持／周邊高阻';}else if(t>=12&&t<15){bl=1;bb=smooth((t-12)/2);mode='兩條位線預充';}else if(t>=15&&t<23){bl=1;bb=1-.14*smooth((t-15)/2);mode=t<18?'差動感測：讀出 1':'讀後保持／周邊高阻';}else if(t>=23&&t<27){bl=1-smooth((t-23)/1);bb=.86+.14*smooth((t-23)/1);mode='相反資料寫入';}return{q,qb:1-q,bl,bb,wl:(t>=5&&t<7)||(t>=15&&t<18)||(t>=25&&t<27),read:t>=15&&t<18,mode};}

@@ -1,0 +1,3 @@
+import{test}from'node:test';import assert from'node:assert/strict';import{stateAt}from'../dist/model.js';
+test('charge remains through power off and read, erase removes it',()=>{for(let t=9;t<22;t+=.1)assert.equal(stateAt(t).charge,1);assert.equal(stateAt(12).power,false);assert.equal(stateAt(17).bit,0);assert.equal(stateAt(17).conduct,false);assert.equal(stateAt(30).charge,0);assert.equal(stateAt(30).bit,1);assert.equal(stateAt(30).conduct,true);});
+test('read voltage separates both thresholds and loop preserves erased material state',()=>{assert.ok(stateAt(17).vth>stateAt(17).vread);assert.ok(stateAt(30).vth<stateAt(30).vread);assert.equal(stateAt(32).charge,stateAt(0).charge);});

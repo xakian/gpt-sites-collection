@@ -1,3 +1,9 @@
+# 本分支新增：科學觀察動畫八站
+
+**只同步 GitHub，尚未部署 Vercel。** [八站目錄、版本與後續部署說明](migration/science-animation-batch-01.md)。既有十站內容保持 main 版本。
+
+---
+
 # GPT Sites Collection
 
 2026-10-30 後續決定：使用者要求最後一次遷移後手動刪除原 GPT Sites。本次僅將正式內容仍停留在 v26 的「擴散 · 01」更新至 v27，依據見 migration/retirement-2026-10-30.json。這段取代下方「原 GPT Sites 保留」的歷史描述；之後仍以本 GitHub 儲存庫為唯一修改來源，不再同步 GPT Sites。

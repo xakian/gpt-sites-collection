@@ -1,0 +1,566 @@
+{
+  "checkedAt": "2026-10-31T12:33:26.513Z",
+  "scope": "source migration and local checks only",
+  "sourceFilesMatched": 128,
+  "modelTestsPassed": 16,
+  "runtimeHttpFilesMatched": 88,
+  "deploymentRequested": false,
+  "results": [
+    {
+      "slug": "thermal-oxidation-observer-b01",
+      "modelTests": {
+        "passed": 2,
+        "failed": 0
+      },
+      "syntax": "pass",
+      "localhostHttp": {
+        "files": [
+          {
+            "path": "app.js",
+            "status": 200,
+            "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+          },
+          {
+            "path": "drawing.js",
+            "status": 200,
+            "sha256": "54af1b894a980a3c314c8a57adc0ed6cb487fb66ca1562a618c10322df4a3cec"
+          },
+          {
+            "path": "index.html",
+            "status": 200,
+            "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+          },
+          {
+            "path": "model.js",
+            "status": 200,
+            "sha256": "2ed5d3bfd4ab10c4088fc551f85f077ef7054f552093a859e6789e2345f2eb1d"
+          },
+          {
+            "path": "shared/observer.css",
+            "status": 200,
+            "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+          },
+          {
+            "path": "shared/observer.js",
+            "status": 200,
+            "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+          },
+          {
+            "path": "shared/player-clock.js",
+            "status": 200,
+            "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+          },
+          {
+            "path": "shared/template-manifest.json",
+            "status": 200,
+            "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+          },
+          {
+            "path": "svg.js",
+            "status": 200,
+            "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+          },
+          {
+            "path": "topic.css",
+            "status": 200,
+            "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+          },
+          {
+            "path": "topic.js",
+            "status": 200,
+            "sha256": "714daf61a3f76e75c63560252d3fb5f106002d0fc1aa07fd8bd575954c716f5f"
+          }
+        ],
+        "rootStatus": 200
+      },
+      "productionDeployment": "not requested; not performed"
+    },
+    {
+      "slug": "pn-junction-observer-b01",
+      "modelTests": {
+        "passed": 2,
+        "failed": 0
+      },
+      "syntax": "pass",
+      "localhostHttp": {
+        "files": [
+          {
+            "path": "app.js",
+            "status": 200,
+            "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+          },
+          {
+            "path": "drawing.js",
+            "status": 200,
+            "sha256": "cfc0a51baa976a1b4e655a22c0d590b8c06c71e148a52b3b7828aee783373cc4"
+          },
+          {
+            "path": "index.html",
+            "status": 200,
+            "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+          },
+          {
+            "path": "model.js",
+            "status": 200,
+            "sha256": "43cf51e2028ad7fb87b4f8d6847bd971705d2350ba1e6cd4ee5cdd12b04024c1"
+          },
+          {
+            "path": "shared/observer.css",
+            "status": 200,
+            "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+          },
+          {
+            "path": "shared/observer.js",
+            "status": 200,
+            "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+          },
+          {
+            "path": "shared/player-clock.js",
+            "status": 200,
+            "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+          },
+          {
+            "path": "shared/template-manifest.json",
+            "status": 200,
+            "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+          },
+          {
+            "path": "svg.js",
+            "status": 200,
+            "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+          },
+          {
+            "path": "topic.css",
+            "status": 200,
+            "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+          },
+          {
+            "path": "topic.js",
+            "status": 200,
+            "sha256": "3b22de257240051b85084f5874c618b23774fbdf095b907cd12d0ceef705325b"
+          }
+        ],
+        "rootStatus": 200
+      },
+      "productionDeployment": "not requested; not performed"
+    },
+    {
+      "slug": "cmos-inverter-observer-b01",
+      "modelTests": {
+        "passed": 2,
+        "failed": 0
+      },
+      "syntax": "pass",
+      "localhostHttp": {
+        "files": [
+          {
+            "path": "app.js",
+            "status": 200,
+            "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+          },
+          {
+            "path": "drawing.js",
+            "status": 200,
+            "sha256": "7cee720c168f7345b6fb09ed0efc48199c3593383551a9a5e5e81019f1a791c4"
+          },
+          {
+            "path": "index.html",
+            "status": 200,
+            "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+          },
+          {
+            "path": "model.js",
+            "status": 200,
+            "sha256": "cc2e1c9f85f88e495abf9280a2465082298fdd57076424300d4b951625b67d34"
+          },
+          {
+            "path": "shared/observer.css",
+            "status": 200,
+            "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+          },
+          {
+            "path": "shared/observer.js",
+            "status": 200,
+            "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+          },
+          {
+            "path": "shared/player-clock.js",
+            "status": 200,
+            "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+          },
+          {
+            "path": "shared/template-manifest.json",
+            "status": 200,
+            "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+          },
+          {
+            "path": "svg.js",
+            "status": 200,
+            "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+          },
+          {
+            "path": "topic.css",
+            "status": 200,
+            "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+          },
+          {
+            "path": "topic.js",
+            "status": 200,
+            "sha256": "10d0a5e1d787b052a85b34e7afee38a6fee6bb4c894d40e23a04682717218ea9"
+          }
+        ],
+        "rootStatus": 200
+      },
+      "productionDeployment": "not requested; not performed"
+    },
+    {
+      "slug": "sram-six-transistor-observer-b01",
+      "modelTests": {
+        "passed": 2,
+        "failed": 0
+      },
+      "syntax": "pass",
+      "localhostHttp": {
+        "files": [
+          {
+            "path": "app.js",
+            "status": 200,
+            "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+          },
+          {
+            "path": "drawing.js",
+            "status": 200,
+            "sha256": "0e5675beae957e584c8367dcd4ce59f02f3be811f81deb01523380e39bc5ef6c"
+          },
+          {
+            "path": "index.html",
+            "status": 200,
+            "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+          },
+          {
+            "path": "model.js",
+            "status": 200,
+            "sha256": "ed1fe34d0a368c9e25f7938f25322a2c1342521b41d8248a6d654d522655d490"
+          },
+          {
+            "path": "shared/observer.css",
+            "status": 200,
+            "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+          },
+          {
+            "path": "shared/observer.js",
+            "status": 200,
+            "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+          },
+          {
+            "path": "shared/player-clock.js",
+            "status": 200,
+            "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+          },
+          {
+            "path": "shared/template-manifest.json",
+            "status": 200,
+            "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+          },
+          {
+            "path": "svg.js",
+            "status": 200,
+            "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+          },
+          {
+            "path": "topic.css",
+            "status": 200,
+            "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+          },
+          {
+            "path": "topic.js",
+            "status": 200,
+            "sha256": "72271bf9b39c15286f53bf0d3702241fc4b26d8bc60be3219547175088c7132f"
+          }
+        ],
+        "rootStatus": 200
+      },
+      "productionDeployment": "not requested; not performed"
+    },
+    {
+      "slug": "nand-flash-observer-b01",
+      "modelTests": {
+        "passed": 2,
+        "failed": 0
+      },
+      "syntax": "pass",
+      "localhostHttp": {
+        "files": [
+          {
+            "path": "app.js",
+            "status": 200,
+            "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+          },
+          {
+            "path": "drawing.js",
+            "status": 200,
+            "sha256": "1beeec59644eb2b1243fbce35af7538679955b11d9869836634887bf9c3bfef6"
+          },
+          {
+            "path": "index.html",
+            "status": 200,
+            "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+          },
+          {
+            "path": "model.js",
+            "status": 200,
+            "sha256": "19bc88a0f122d097d08f51b4bb1d8ee7e6aea5bf9c13662d39fb08d9b8e4da9d"
+          },
+          {
+            "path": "shared/observer.css",
+            "status": 200,
+            "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+          },
+          {
+            "path": "shared/observer.js",
+            "status": 200,
+            "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+          },
+          {
+            "path": "shared/player-clock.js",
+            "status": 200,
+            "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+          },
+          {
+            "path": "shared/template-manifest.json",
+            "status": 200,
+            "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+          },
+          {
+            "path": "svg.js",
+            "status": 200,
+            "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+          },
+          {
+            "path": "topic.css",
+            "status": 200,
+            "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+          },
+          {
+            "path": "topic.js",
+            "status": 200,
+            "sha256": "4fac38213f0a5c47526e3cded74e468a43158f3e10a90c15a14971f7a89587e9"
+          }
+        ],
+        "rootStatus": 200
+      },
+      "productionDeployment": "not requested; not performed"
+    },
+    {
+      "slug": "cmos-image-sensor-observer-b01",
+      "modelTests": {
+        "passed": 2,
+        "failed": 0
+      },
+      "syntax": "pass",
+      "localhostHttp": {
+        "files": [
+          {
+            "path": "app.js",
+            "status": 200,
+            "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+          },
+          {
+            "path": "drawing.js",
+            "status": 200,
+            "sha256": "5449d43790518744fe966b273044726cbafbde4d4f42f7460fe2e14dee53e02f"
+          },
+          {
+            "path": "index.html",
+            "status": 200,
+            "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+          },
+          {
+            "path": "model.js",
+            "status": 200,
+            "sha256": "14415fd30cb4f89e5ef11e2f4b883f223fd7fb5fca92cee2d8d719edbe445484"
+          },
+          {
+            "path": "shared/observer.css",
+            "status": 200,
+            "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+          },
+          {
+            "path": "shared/observer.js",
+            "status": 200,
+            "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+          },
+          {
+            "path": "shared/player-clock.js",
+            "status": 200,
+            "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+          },
+          {
+            "path": "shared/template-manifest.json",
+            "status": 200,
+            "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+          },
+          {
+            "path": "svg.js",
+            "status": 200,
+            "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+          },
+          {
+            "path": "topic.css",
+            "status": 200,
+            "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+          },
+          {
+            "path": "topic.js",
+            "status": 200,
+            "sha256": "f620cd4ad5355ab5b5ce68d1aa76e4db8b0699ae9ae34a4468b78570f117630c"
+          }
+        ],
+        "rootStatus": 200
+      },
+      "productionDeployment": "not requested; not performed"
+    },
+    {
+      "slug": "led-emission-observer-b01",
+      "modelTests": {
+        "passed": 2,
+        "failed": 0
+      },
+      "syntax": "pass",
+      "localhostHttp": {
+        "files": [
+          {
+            "path": "app.js",
+            "status": 200,
+            "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+          },
+          {
+            "path": "drawing.js",
+            "status": 200,
+            "sha256": "c7a89238a0406574e7e38d3db58afb435b750faf0ef20b43c2d5f2fcb3b250ee"
+          },
+          {
+            "path": "index.html",
+            "status": 200,
+            "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+          },
+          {
+            "path": "model.js",
+            "status": 200,
+            "sha256": "3b9ad861fb96d355452df8f12f38c88631f54006d7a5818c6995f78b9f9753c4"
+          },
+          {
+            "path": "shared/observer.css",
+            "status": 200,
+            "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+          },
+          {
+            "path": "shared/observer.js",
+            "status": 200,
+            "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+          },
+          {
+            "path": "shared/player-clock.js",
+            "status": 200,
+            "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+          },
+          {
+            "path": "shared/template-manifest.json",
+            "status": 200,
+            "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+          },
+          {
+            "path": "svg.js",
+            "status": 200,
+            "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+          },
+          {
+            "path": "topic.css",
+            "status": 200,
+            "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+          },
+          {
+            "path": "topic.js",
+            "status": 200,
+            "sha256": "0fab7bb0f6da6124a89ccafb034536c29a85cd572eca04b07a94d1faaa99b208"
+          }
+        ],
+        "rootStatus": 200
+      },
+      "productionDeployment": "not requested; not performed"
+    },
+    {
+      "slug": "tsv-observer-b01",
+      "modelTests": {
+        "passed": 2,
+        "failed": 0
+      },
+      "syntax": "pass",
+      "localhostHttp": {
+        "files": [
+          {
+            "path": "app.js",
+            "status": 200,
+            "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+          },
+          {
+            "path": "drawing.js",
+            "status": 200,
+            "sha256": "fe3a6692ec981ae89ad359b04c1ff670e5654a7d212fe68912ccb68741883a23"
+          },
+          {
+            "path": "index.html",
+            "status": 200,
+            "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+          },
+          {
+            "path": "model.js",
+            "status": 200,
+            "sha256": "b1e2e94d6cc94c063ebc37cfa947f7728579e3b2b89ad751dc74299777d64213"
+          },
+          {
+            "path": "shared/observer.css",
+            "status": 200,
+            "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+          },
+          {
+            "path": "shared/observer.js",
+            "status": 200,
+            "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+          },
+          {
+            "path": "shared/player-clock.js",
+            "status": 200,
+            "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+          },
+          {
+            "path": "shared/template-manifest.json",
+            "status": 200,
+            "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+          },
+          {
+            "path": "svg.js",
+            "status": 200,
+            "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+          },
+          {
+            "path": "topic.css",
+            "status": 200,
+            "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+          },
+          {
+            "path": "topic.js",
+            "status": 200,
+            "sha256": "276bdf67b3a430d8e8ba3ce8525a287beee5a0647d065b0f9847832101cfbe99"
+          }
+        ],
+        "rootStatus": 200
+      },
+      "productionDeployment": "not requested; not performed"
+    }
+  ],
+  "originalQaLimitations": [
+    "Actual background return and browser prefers-reduced-motion still untested in the original QA; not reclassified by this file migration.",
+    "Physical phone touch, real OS reduced motion and full signed-out login remain untested."
+  ]
+}

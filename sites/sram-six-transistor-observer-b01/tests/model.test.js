@@ -1,0 +1,3 @@
+import test from'node:test';import assert from'node:assert/strict';import{stateAt}from'../dist/model.js';
+test('complementary nodes change only during write access',()=>{let prev=stateAt(0).q;for(let t=.01;t<32;t+=.01){const s=stateAt(t);assert(Math.abs(s.q+s.qb-1)<1e-10);if(Math.abs(s.q-prev)>1e-9)assert(s.wl&&!s.read);prev=s.q;}});
+test('read follows precharge and does not destroy data',()=>{const pre=stateAt(14.5),read=stateAt(17.5),after=stateAt(21);assert(!pre.wl&&pre.bl===1&&pre.bb===1);assert(read.wl&&read.bb<read.bl&&read.q===1);assert(after.q===1&&!after.wl);assert.equal(stateAt(31.999).q,stateAt(0).q);});

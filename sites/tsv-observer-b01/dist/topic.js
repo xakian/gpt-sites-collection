@@ -1,0 +1,26 @@
+export const topic={title:'矽穿孔 TSV：導線怎麼穿過一片矽？',shortTitle:'TSV · 從盲孔到前後連通',sceneLabel:'被動矽中介層 TSV 剖面，前側在上、背側在下，同一孔位經絕緣、阻障、種子、填銅、支撐減薄與背面接點形成。',duration:46,overview:39.5,stages:[
+{start:0,key:1,title:'原料與前側開口',what:'追蹤同一個孔位：前側在上、背側在下，起始矽片尚未穿透。前側遮罩保留蝕刻開口。',detail:'採被動矽中介層、前側盲孔填銅後再由背面露出的代表路線；不混入主動晶體管製程。'},
+{start:2,key:5.5,title:'蝕刻盲孔',what:'開口內的矽被移除，孔逐漸加深，但孔底與背面之間仍有矽。',detail:'離開孔位的灰色符號代表被移除材料的去向；遮罩後續去除。沒有把初始孔畫成貫穿孔。'},
+{start:6,key:7.8,title:'加入絕緣襯層',what:'孔壁與孔底覆上 SiO₂，將日後銅導體與周圍矽隔離。',detail:'襯層厚度為放大示意；最後只在設計接點開窗，側壁絕緣持續保留。'},
+{start:8,key:9.8,title:'加入銅擴散阻障',what:'在絕緣層內加入阻障層，限制銅向周圍材料擴散。',detail:'阻障與種子層功能不同；此圖不指定所有製程通用的化學配方。'},
+{start:10,key:11.8,title:'加入導電種子層',what:'種子層連續覆蓋孔內，提供後續電鍍所需的導電表面。',detail:'紫色阻障、金色種子與綠色絕緣分開保留。實際薄膜遠比圖中薄。'},
+{start:12,key:14.5,title:'電鍍填銅',what:'銅從電鍍供應加入孔內並逐漸填滿；表面也形成多餘金屬。',detail:'填充以自底向上示意，沒有解算添加劑、電場或空洞形成。銅不是由被移除的矽變成。'},
+{start:16,key:17.5,title:'平坦化，留下孔內銅',what:'表面多餘金屬被去除，孔內的銅保持原位。',detail:'CMP 與清理只保留必要銜接，不展開另一套銅互連製程。'},
+{start:18,key:20.5,title:'形成正面布線',what:'正面介電保護、接觸開口、再佈線與接墊連到孔內銅。',detail:'RDL 是表面再佈線；此時背面尚無接點，所以沒有完整的前後連通標示。'},
+{start:21,key:22.8,title:'先接上臨時載板',what:'以接合膠把前側固定到臨時載板，再開始背面加工。',detail:'載板保護並支承接下來會變薄的矽片。畫面保持前上、背下，不旋轉或更換孔位。'},
+{start:23,key:27.5,title:'從背側減薄',what:'背側工具逐步移除矽，接近並露出原盲孔的封閉端。載板全程承托。',detail:'本示意先露出孔底襯層；這還不是已接通的銅端點。灰色虛線標出原背側位置。'},
+{start:28,key:29.5,title:'背面介電保護',what:'薄化後的背面形成介電保護，銅端仍被端面材料與保護層隔開。',detail:'此時不得畫完整導通路徑。側壁絕緣仍在，矽厚度不會自行回復。'},
+{start:30,key:31.8,title:'開窗露出銅端',what:'在對準 TSV 的位置開接觸窗，移除阻擋接觸的介電層與必要端面材料。',detail:'只在中央接點範圍清理；孔壁絕緣、阻障和種子保留。顯示接觸窗口是為了避免金屬隔著絕緣層假導通。'},
+{start:32,key:34.8,title:'形成背面布線與接墊',what:'背面金屬填入接觸窗，連到銅端，再延伸至背面接墊。',detail:'圖上開口、端面接觸與布線依序完成，前後金屬網路才具備電連續性。'},
+{start:35,key:35.8,title:'承托移交',what:'背側的邊緣承托先接手薄片，前側載板仍保留。',detail:'承托避開背面接墊；這是處理薄片的概念示意，不宣稱某種唯一量產夾具。'},
+{start:36,key:37,title:'移除前側載板',what:'在背側承托保護下，前側臨時載板與接合膠離開。',detail:'實際解離方式依材料和製程而異；此圖不顯示無支撐的薄片懸空。'},
+{start:38,key:39.5,title:'前後接點連通',what:'前接墊 → 正面 RDL → Cu TSV → 背面 RDL → 背接墊形成連續金屬路徑。',detail:'綠色高亮表示可連通的路徑，不是宣稱沒有外部回路也會自發流出電流。'},
+{start:42,key:43,title:'完成件退場',what:'完成件與承托一起退場，孔內的銅與襯層都保留。',detail:'沒有倒轉填銅、減薄或蝕刻來恢復原料。'},
+{start:44,key:45.3,title:'新矽片進場',what:'新的矽片與新孔位進場，開始下一次製作。',detail:'循環接縫銜接未加工的新材料，前一片完成件已離開。'}],notes:[
+'固定前側在上、背側在下，採被動矽中介層代表流程。孔寬、深度、薄膜厚度、移除顆粒與工具形狀只作定性示意，不是製程設計值。',
+'綠色 SiO₂ 是絕緣，紫色是銅擴散阻障，金色是導電種子層，暖銅色是填銅與 RDL。孔底在背面開窗時局部移除，側壁保持隔離。',
+'前後 RDL 的介電層、接觸開口與接墊保留必要關係；光刻、清洗、CMP 配方與完整封裝堆疊均省略。端面開窗含必要清理，不假設隔著絕緣可以導通。',
+'先載板接合再薄化，先移交承托再解離。完成件退場時由背側邊緣承托支承，沒有讓薄矽裸片失去支撐。'],sources:[
+{title:'Fraunhofer IZM · TSV Integration',url:'https://www.izm.fraunhofer.de/en/abteilungen/wafer-level-system-integration/process_technologies/TSV_TGV_integration/TSV_integration.html',supports:'被動矽中介層、前盲孔、絕緣填銅、正面布線、背面薄化露出與背面布線。'},
+{title:'Fraunhofer IZM · Wafer Bonding, Thinning, Thin Wafer Handling',url:'https://www.izm.fraunhofer.de/en/abteilungen/wafer-level-system-integration/leistungsangebot/bonding_thinning.html',supports:'臨時接合、薄片承托、轉移、解離與去膠。'},
+{title:'Fraunhofer IZM · CERN Electronics Seminar（2022）',url:'https://indico.cern.ch/event/1065134/attachments/2426219/4153757/2022-04-12%20Fraunhofer%20IZM-CERN%20Electronics%20Seminar.pdf',supports:'第 9、12 頁補充載板、背薄化、背介電、開窗與 RDL 順序；只借用背面加工順序，不引入其主動 CMOS via-last 元件。'}]};

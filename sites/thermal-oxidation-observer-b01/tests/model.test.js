@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {stateAt} from '../dist/model.js';
+test('oxidation consumes silicon and expands outward without reversing',()=>{let last=0;for(let t=0;t<23;t+=.05){const s=stateAt(t);assert(s.thickness>=last-1e-8);assert(Math.abs(s.consumed+s.outward-s.thickness)<1e-7);assert(s.consumed<=s.thickness);last=s.thickness;}assert.equal(stateAt(1).thickness,0);assert.equal(stateAt(21).thickness,stateAt(22.9).thickness);});
+test('thick oxide grows more slowly over equal viewing intervals',()=>assert(stateAt(7).thickness-stateAt(3).thickness>stateAt(19).thickness-stateAt(15).thickness));

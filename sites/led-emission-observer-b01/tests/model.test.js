@@ -1,0 +1,3 @@
+import{test}from'node:test';import assert from'node:assert/strict';import{stateAt}from'../dist/model.js';
+test('no injection without drive; residual events finish before seam',()=>{assert.equal(stateAt(1).events.length,0);for(let t=22;t<30;t+=.1)assert.equal(stateAt(t).injecting,false);assert.equal(stateAt(28).events.length,0);assert.equal(stateAt(30).drive,stateAt(0).drive);});
+test('radiative emission follows injection and includes loss channels',()=>{const e=stateAt(12).events;assert.ok(e.some(x=>x.radiative));assert.ok(e.some(x=>!x.radiative));assert.ok(stateAt(9).events.some(x=>x.trapped));for(let t=0;t<6.6;t+=.1)assert.equal(stateAt(t).light,false);});

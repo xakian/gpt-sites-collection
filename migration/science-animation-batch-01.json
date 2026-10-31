@@ -1,0 +1,937 @@
+{
+  "syncedAt": "2026-10-31T12:32:29.459Z",
+  "scope": "GitHub only; no Vercel deployment",
+  "repository": "xakian/gpt-sites-collection",
+  "branch": "codex/science-animation-batch-01",
+  "baseCommit": "76cbd97e7a7d3aa098cdbf55e3b394d93ac23ba1",
+  "sourceChat": "建立八個私人動畫網站",
+  "sourceChatId": "01a1908b-8ce1-7081-abec-f4281a2112c8",
+  "originalSitesUnchanged": true,
+  "sites": [
+    {
+      "number": 1,
+      "title": "熱氧化",
+      "fullTitle": "熱氧化：矽表面的氧化層",
+      "slug": "thermal-oxidation-observer-b01",
+      "sourceProjectId": "appgprj_6ae58486f0248191959b1a32b3fbc098",
+      "sourceUrl": "https://thermal-oxidation-observer-b01.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae58486f0248191959b1a32b3fbc098~appgver_a56754729c208191a17d5b6584456136",
+      "sourceCommit": "1b90c58b889e1450fbf60684a3721713b8dfa3f1",
+      "sourceDeploymentId": "appgdep_6ae5862251548191bca92f5a191a6d41",
+      "directory": "sites/thermal-oxidation-observer-b01",
+      "outputDirectory": "dist",
+      "sourceAccess": "owner-private (unchanged)",
+      "previousGitHubBackup": {
+        "branch": "codex/sites-sync-20261031",
+        "matchedFiles": 16
+      },
+      "files": [
+        {
+          "sourcePath": ".gitignore",
+          "path": ".gitignore",
+          "bytes": 39,
+          "sha256": "ec76c8840b83c613df2399010ab3ff8dba47f788ff542992b014f9278e1aad39"
+        },
+        {
+          "sourcePath": "README.md",
+          "path": "README.source.md",
+          "bytes": 544,
+          "sha256": "bf55c810eab52771bbc1a1e576b04c3ac9a3426216b4dcaefede0127c59dc0d1"
+        },
+        {
+          "sourcePath": "dist/app.js",
+          "path": "dist/app.js",
+          "bytes": 2200,
+          "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+        },
+        {
+          "sourcePath": "dist/drawing.js",
+          "path": "dist/drawing.js",
+          "bytes": 1882,
+          "sha256": "54af1b894a980a3c314c8a57adc0ed6cb487fb66ca1562a618c10322df4a3cec"
+        },
+        {
+          "sourcePath": "dist/index.html",
+          "path": "dist/index.html",
+          "bytes": 451,
+          "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+        },
+        {
+          "sourcePath": "dist/model.js",
+          "path": "dist/model.js",
+          "bytes": 447,
+          "sha256": "2ed5d3bfd4ab10c4088fc551f85f077ef7054f552093a859e6789e2345f2eb1d"
+        },
+        {
+          "sourcePath": "dist/shared/observer.css",
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "sourcePath": "dist/shared/observer.js",
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "sourcePath": "dist/shared/player-clock.js",
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "sourcePath": "dist/shared/template-manifest.json",
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "sourcePath": "dist/svg.js",
+          "path": "dist/svg.js",
+          "bytes": 1610,
+          "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+        },
+        {
+          "sourcePath": "dist/topic.css",
+          "path": "dist/topic.css",
+          "bytes": 570,
+          "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+        },
+        {
+          "sourcePath": "dist/topic.js",
+          "path": "dist/topic.js",
+          "bytes": 2793,
+          "sha256": "714daf61a3f76e75c63560252d3fb5f106002d0fc1aa07fd8bd575954c716f5f"
+        },
+        {
+          "sourcePath": "package.json",
+          "path": "package.json",
+          "bytes": 170,
+          "sha256": "1bfa3ebe7b06ff7e6bfe608fc9fecd635af7040509b007cda7d677bdd7b383ba"
+        },
+        {
+          "sourcePath": "server.mjs",
+          "path": "server.mjs",
+          "bytes": 851,
+          "sha256": "56534500ba094b352fd4178def2a4e909b3d47f740d307dda899bbdaf33e2185"
+        },
+        {
+          "sourcePath": "tests/model.test.js",
+          "path": "tests/model.test.js",
+          "bytes": 647,
+          "sha256": "3b79017fe0f3600513d25ca4ab06a3d83ddc100926dbb954a9c69f5bc8003dc7"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "PN 接面二極體",
+      "fullTitle": "PN 接面二極體：電流為什麼偏好一個方向？",
+      "slug": "pn-junction-observer-b01",
+      "sourceProjectId": "appgprj_6ae5868dd4688191bfed5e9bb0c34a00",
+      "sourceUrl": "https://pn-junction-observer-b01.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae5868dd4688191bfed5e9bb0c34a00~appgver_fff524ffdfec81918d92ca89f6176d98",
+      "sourceCommit": "2870f8e39ea26a0b26f2b4555458343b06402161",
+      "sourceDeploymentId": "appgdep_6ae5880030e48191bf09daf1a7a0b22e",
+      "directory": "sites/pn-junction-observer-b01",
+      "outputDirectory": "dist",
+      "sourceAccess": "owner-private (unchanged)",
+      "previousGitHubBackup": {
+        "branch": "codex/sites-sync-20261031",
+        "matchedFiles": 16
+      },
+      "files": [
+        {
+          "sourcePath": ".gitignore",
+          "path": ".gitignore",
+          "bytes": 39,
+          "sha256": "ec76c8840b83c613df2399010ab3ff8dba47f788ff542992b014f9278e1aad39"
+        },
+        {
+          "sourcePath": "README.md",
+          "path": "README.source.md",
+          "bytes": 547,
+          "sha256": "6a278a8a66819405f6410f29e9b935831fc1cd28a74cacf1b141100fe14198a5"
+        },
+        {
+          "sourcePath": "dist/app.js",
+          "path": "dist/app.js",
+          "bytes": 2200,
+          "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+        },
+        {
+          "sourcePath": "dist/drawing.js",
+          "path": "dist/drawing.js",
+          "bytes": 2571,
+          "sha256": "cfc0a51baa976a1b4e655a22c0d590b8c06c71e148a52b3b7828aee783373cc4"
+        },
+        {
+          "sourcePath": "dist/index.html",
+          "path": "dist/index.html",
+          "bytes": 451,
+          "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+        },
+        {
+          "sourcePath": "dist/model.js",
+          "path": "dist/model.js",
+          "bytes": 314,
+          "sha256": "43cf51e2028ad7fb87b4f8d6847bd971705d2350ba1e6cd4ee5cdd12b04024c1"
+        },
+        {
+          "sourcePath": "dist/shared/observer.css",
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "sourcePath": "dist/shared/observer.js",
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "sourcePath": "dist/shared/player-clock.js",
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "sourcePath": "dist/shared/template-manifest.json",
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "sourcePath": "dist/svg.js",
+          "path": "dist/svg.js",
+          "bytes": 1610,
+          "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+        },
+        {
+          "sourcePath": "dist/topic.css",
+          "path": "dist/topic.css",
+          "bytes": 570,
+          "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+        },
+        {
+          "sourcePath": "dist/topic.js",
+          "path": "dist/topic.js",
+          "bytes": 3331,
+          "sha256": "3b22de257240051b85084f5874c618b23774fbdf095b907cd12d0ceef705325b"
+        },
+        {
+          "sourcePath": "package.json",
+          "path": "package.json",
+          "bytes": 164,
+          "sha256": "d048cf1fbe8bcc220c463e452f1db1c78b09b49c0041663292bc6c7236a9cf21"
+        },
+        {
+          "sourcePath": "server.mjs",
+          "path": "server.mjs",
+          "bytes": 851,
+          "sha256": "4576bbe079999479c3de145f12c95adbc853747af40774161cacfa8086e233b3"
+        },
+        {
+          "sourcePath": "tests/model.test.js",
+          "path": "tests/model.test.js",
+          "bytes": 594,
+          "sha256": "70fa6a6c6707e7b172c29defa6f74c22eb5276c0325ac503f3c046279ae736ff"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "CMOS 反相器",
+      "fullTitle": "CMOS 反相器：兩顆電晶體如何把 0 變成 1？",
+      "slug": "cmos-inverter-observer-b01",
+      "sourceProjectId": "appgprj_6ae5884d14988191b0aec89a73a417ae",
+      "sourceUrl": "https://cmos-inverter-observer-b01.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae5884d14988191b0aec89a73a417ae~appgver_b06e4af0fa08819194f7c2e9fd5b2a46",
+      "sourceCommit": "94d63e62d9c8d18d507043f76f08e177e488702e",
+      "sourceDeploymentId": "appgdep_6ae589bb49f0819190bb435cc94f5629",
+      "directory": "sites/cmos-inverter-observer-b01",
+      "outputDirectory": "dist",
+      "sourceAccess": "owner-private (unchanged)",
+      "previousGitHubBackup": {
+        "branch": "codex/sites-sync-20261031",
+        "matchedFiles": 16
+      },
+      "files": [
+        {
+          "sourcePath": ".gitignore",
+          "path": ".gitignore",
+          "bytes": 39,
+          "sha256": "ec76c8840b83c613df2399010ab3ff8dba47f788ff542992b014f9278e1aad39"
+        },
+        {
+          "sourcePath": "README.md",
+          "path": "README.source.md",
+          "bytes": 545,
+          "sha256": "26690f3d801b68dd5b1ae40e8274eaa8231b28ecda4adec16c023ae6fdd0f308"
+        },
+        {
+          "sourcePath": "dist/app.js",
+          "path": "dist/app.js",
+          "bytes": 2200,
+          "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+        },
+        {
+          "sourcePath": "dist/drawing.js",
+          "path": "dist/drawing.js",
+          "bytes": 2365,
+          "sha256": "7cee720c168f7345b6fb09ed0efc48199c3593383551a9a5e5e81019f1a791c4"
+        },
+        {
+          "sourcePath": "dist/index.html",
+          "path": "dist/index.html",
+          "bytes": 451,
+          "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+        },
+        {
+          "sourcePath": "dist/model.js",
+          "path": "dist/model.js",
+          "bytes": 320,
+          "sha256": "cc2e1c9f85f88e495abf9280a2465082298fdd57076424300d4b951625b67d34"
+        },
+        {
+          "sourcePath": "dist/shared/observer.css",
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "sourcePath": "dist/shared/observer.js",
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "sourcePath": "dist/shared/player-clock.js",
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "sourcePath": "dist/shared/template-manifest.json",
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "sourcePath": "dist/svg.js",
+          "path": "dist/svg.js",
+          "bytes": 1610,
+          "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+        },
+        {
+          "sourcePath": "dist/topic.css",
+          "path": "dist/topic.css",
+          "bytes": 570,
+          "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+        },
+        {
+          "sourcePath": "dist/topic.js",
+          "path": "dist/topic.js",
+          "bytes": 2867,
+          "sha256": "10d0a5e1d787b052a85b34e7afee38a6fee6bb4c894d40e23a04682717218ea9"
+        },
+        {
+          "sourcePath": "package.json",
+          "path": "package.json",
+          "bytes": 166,
+          "sha256": "eb75867dfa744a73307c5ace023f9fa2d135fc0d93a847b13a1ad418fc4ebcbd"
+        },
+        {
+          "sourcePath": "server.mjs",
+          "path": "server.mjs",
+          "bytes": 851,
+          "sha256": "75f27668f3c5c8c1d1ae966844bbfeadbd747075b0e39a5aef339469f3b61fb1"
+        },
+        {
+          "sourcePath": "tests/model.test.js",
+          "path": "tests/model.test.js",
+          "bytes": 589,
+          "sha256": "286633f2bef1db8fefdaffd4f847a4576d83ba715a15cbd31e5fedde237d6dca"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "SRAM 六電晶體記憶單元",
+      "fullTitle": "SRAM：六顆電晶體怎麼記住一個位元？",
+      "slug": "sram-six-transistor-observer-b01",
+      "sourceProjectId": "appgprj_6ae58a3244b08191913ed2a48a888afb",
+      "sourceUrl": "https://sram-six-transistor-observer-b01.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae58a3244b08191913ed2a48a888afb~appgver_88108d8d8ec48191946ac21013a347b7",
+      "sourceCommit": "08247fdf85d361f04d83158da7770ea2564b12b9",
+      "sourceDeploymentId": "appgdep_6ae58c8348b88191aef16b3f150fe185",
+      "directory": "sites/sram-six-transistor-observer-b01",
+      "outputDirectory": "dist",
+      "sourceAccess": "owner-private (unchanged)",
+      "previousGitHubBackup": null,
+      "files": [
+        {
+          "sourcePath": ".gitignore",
+          "path": ".gitignore",
+          "bytes": 39,
+          "sha256": "ec76c8840b83c613df2399010ab3ff8dba47f788ff542992b014f9278e1aad39"
+        },
+        {
+          "sourcePath": "README.md",
+          "path": "README.source.md",
+          "bytes": 554,
+          "sha256": "7052daf303727a615a6afc413c883f73fe5a39ada623f597a998d358126b04f3"
+        },
+        {
+          "sourcePath": "dist/app.js",
+          "path": "dist/app.js",
+          "bytes": 2200,
+          "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+        },
+        {
+          "sourcePath": "dist/drawing.js",
+          "path": "dist/drawing.js",
+          "bytes": 2375,
+          "sha256": "0e5675beae957e584c8367dcd4ce59f02f3be811f81deb01523380e39bc5ef6c"
+        },
+        {
+          "sourcePath": "dist/index.html",
+          "path": "dist/index.html",
+          "bytes": 451,
+          "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+        },
+        {
+          "sourcePath": "dist/model.js",
+          "path": "dist/model.js",
+          "bytes": 648,
+          "sha256": "ed1fe34d0a368c9e25f7938f25322a2c1342521b41d8248a6d654d522655d490"
+        },
+        {
+          "sourcePath": "dist/shared/observer.css",
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "sourcePath": "dist/shared/observer.js",
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "sourcePath": "dist/shared/player-clock.js",
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "sourcePath": "dist/shared/template-manifest.json",
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "sourcePath": "dist/svg.js",
+          "path": "dist/svg.js",
+          "bytes": 1610,
+          "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+        },
+        {
+          "sourcePath": "dist/topic.css",
+          "path": "dist/topic.css",
+          "bytes": 570,
+          "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+        },
+        {
+          "sourcePath": "dist/topic.js",
+          "path": "dist/topic.js",
+          "bytes": 3861,
+          "sha256": "72271bf9b39c15286f53bf0d3702241fc4b26d8bc60be3219547175088c7132f"
+        },
+        {
+          "sourcePath": "package.json",
+          "path": "package.json",
+          "bytes": 160,
+          "sha256": "b72e0fd0551568ec923ec149688dc9a8b0d612d4839af57b47f2860729579c13"
+        },
+        {
+          "sourcePath": "server.mjs",
+          "path": "server.mjs",
+          "bytes": 851,
+          "sha256": "edfbb124ecc5be7ae61b0ff970f8c833fe118ee7d1a6a25125904bb952204b45"
+        },
+        {
+          "sourcePath": "tests/model.test.js",
+          "path": "tests/model.test.js",
+          "bytes": 623,
+          "sha256": "5b56ff95050073d3a195b7172509237b32c8e5c5650f76ec33fecaf16c77c60b"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "NAND 快閃記憶體",
+      "fullTitle": "NAND 快閃記憶體：把電荷留在浮動閘",
+      "slug": "nand-flash-observer-b01",
+      "sourceProjectId": "appgprj_6ae58db534f081919e21a2434f67811d",
+      "sourceUrl": "https://nand-flash-observer-b01.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae58db534f081919e21a2434f67811d~appgver_4245dd019e5c8191aaaa1c272bc2440a",
+      "sourceCommit": "6cbc75a45864ce4bc183526432c840645323519a",
+      "sourceDeploymentId": "appgdep_6ae58e01e49481919d89a9a87635a82a",
+      "directory": "sites/nand-flash-observer-b01",
+      "outputDirectory": "dist",
+      "sourceAccess": "owner-private (unchanged)",
+      "previousGitHubBackup": null,
+      "files": [
+        {
+          "sourcePath": ".gitignore",
+          "path": ".gitignore",
+          "bytes": 39,
+          "sha256": "ec76c8840b83c613df2399010ab3ff8dba47f788ff542992b014f9278e1aad39"
+        },
+        {
+          "sourcePath": "README.md",
+          "path": "README.source.md",
+          "bytes": 548,
+          "sha256": "b77faa3fb2b27c50361b9724193270ca37614bc16d8ab42838a65b5acd5b25c7"
+        },
+        {
+          "sourcePath": "dist/app.js",
+          "path": "dist/app.js",
+          "bytes": 2200,
+          "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+        },
+        {
+          "sourcePath": "dist/drawing.js",
+          "path": "dist/drawing.js",
+          "bytes": 2219,
+          "sha256": "1beeec59644eb2b1243fbce35af7538679955b11d9869836634887bf9c3bfef6"
+        },
+        {
+          "sourcePath": "dist/index.html",
+          "path": "dist/index.html",
+          "bytes": 451,
+          "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+        },
+        {
+          "sourcePath": "dist/model.js",
+          "path": "dist/model.js",
+          "bytes": 691,
+          "sha256": "19bc88a0f122d097d08f51b4bb1d8ee7e6aea5bf9c13662d39fb08d9b8e4da9d"
+        },
+        {
+          "sourcePath": "dist/shared/observer.css",
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "sourcePath": "dist/shared/observer.js",
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "sourcePath": "dist/shared/player-clock.js",
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "sourcePath": "dist/shared/template-manifest.json",
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "sourcePath": "dist/svg.js",
+          "path": "dist/svg.js",
+          "bytes": 1610,
+          "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+        },
+        {
+          "sourcePath": "dist/topic.css",
+          "path": "dist/topic.css",
+          "bytes": 570,
+          "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+        },
+        {
+          "sourcePath": "dist/topic.js",
+          "path": "dist/topic.js",
+          "bytes": 4234,
+          "sha256": "4fac38213f0a5c47526e3cded74e468a43158f3e10a90c15a14971f7a89587e9"
+        },
+        {
+          "sourcePath": "package.json",
+          "path": "package.json",
+          "bytes": 163,
+          "sha256": "2c78549b54eb8df2fd2e62eb51789348458c8676908576924516e6004e72206a"
+        },
+        {
+          "sourcePath": "server.mjs",
+          "path": "server.mjs",
+          "bytes": 851,
+          "sha256": "0239600658de1b007e8eab9c23475256904321ff471ac638823118085bfbfee8"
+        },
+        {
+          "sourcePath": "tests/model.test.js",
+          "path": "tests/model.test.js",
+          "bytes": 692,
+          "sha256": "957ae70d376b9b3d3863e2a89f575a37e932ed224b89bf6049fbc794ef21c00e"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "CMOS 影像感測器",
+      "fullTitle": "CMOS 影像感測器：光怎麼變成像素數值？",
+      "slug": "cmos-image-sensor-observer-b01",
+      "sourceProjectId": "appgprj_6ae58fc237288191ae81fba2c72cf9b1",
+      "sourceUrl": "https://cmos-image-sensor-observer-b01.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae58fc237288191ae81fba2c72cf9b1~appgver_e4d97350029c81918d748731156c91d8",
+      "sourceCommit": "ddc79d6e904f6e2d654dfea5274ba0d25273ab14",
+      "sourceDeploymentId": "appgdep_6ae58ffe448c819189b63f9f1073a4d6",
+      "directory": "sites/cmos-image-sensor-observer-b01",
+      "outputDirectory": "dist",
+      "sourceAccess": "owner-private (unchanged)",
+      "previousGitHubBackup": null,
+      "files": [
+        {
+          "sourcePath": ".gitignore",
+          "path": ".gitignore",
+          "bytes": 39,
+          "sha256": "ec76c8840b83c613df2399010ab3ff8dba47f788ff542992b014f9278e1aad39"
+        },
+        {
+          "sourcePath": "README.md",
+          "path": "README.source.md",
+          "bytes": 555,
+          "sha256": "1242163c7e49ec13cec37d4f541c888185f8829093e1f8d45aa08a8e985c7d8a"
+        },
+        {
+          "sourcePath": "dist/app.js",
+          "path": "dist/app.js",
+          "bytes": 2200,
+          "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+        },
+        {
+          "sourcePath": "dist/drawing.js",
+          "path": "dist/drawing.js",
+          "bytes": 2573,
+          "sha256": "5449d43790518744fe966b273044726cbafbde4d4f42f7460fe2e14dee53e02f"
+        },
+        {
+          "sourcePath": "dist/index.html",
+          "path": "dist/index.html",
+          "bytes": 451,
+          "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+        },
+        {
+          "sourcePath": "dist/model.js",
+          "path": "dist/model.js",
+          "bytes": 1109,
+          "sha256": "14415fd30cb4f89e5ef11e2f4b883f223fd7fb5fca92cee2d8d719edbe445484"
+        },
+        {
+          "sourcePath": "dist/shared/observer.css",
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "sourcePath": "dist/shared/observer.js",
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "sourcePath": "dist/shared/player-clock.js",
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "sourcePath": "dist/shared/template-manifest.json",
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "sourcePath": "dist/svg.js",
+          "path": "dist/svg.js",
+          "bytes": 1610,
+          "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+        },
+        {
+          "sourcePath": "dist/topic.css",
+          "path": "dist/topic.css",
+          "bytes": 570,
+          "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+        },
+        {
+          "sourcePath": "dist/topic.js",
+          "path": "dist/topic.js",
+          "bytes": 4081,
+          "sha256": "f620cd4ad5355ab5b5ce68d1aa76e4db8b0699ae9ae34a4468b78570f117630c"
+        },
+        {
+          "sourcePath": "package.json",
+          "path": "package.json",
+          "bytes": 170,
+          "sha256": "0bb8334b2b560a2f8ca575296c29e5833ca089b5dfb59609e5bcfe56afacfcb6"
+        },
+        {
+          "sourcePath": "server.mjs",
+          "path": "server.mjs",
+          "bytes": 851,
+          "sha256": "f3dcbe01c4cf6c134c84d5158f17ebebe6e463b3a487813dde3e3c0a13690a55"
+        },
+        {
+          "sourcePath": "tests/model.test.js",
+          "path": "tests/model.test.js",
+          "bytes": 794,
+          "sha256": "1f81b6a8036bfba31b7f9fe17c3e05fd54921277f20988bdd01da61ae18ff68b"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "LED 發光",
+      "fullTitle": "LED：電流如何在半導體裡變成光？",
+      "slug": "led-emission-observer-b01",
+      "sourceProjectId": "appgprj_6ae591991bdc8191ad6c84f4c4933f62",
+      "sourceUrl": "https://led-emission-observer-b01.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae591991bdc8191ad6c84f4c4933f62~appgver_0fdb9e04ec6481918b9aeb00292a0d74",
+      "sourceCommit": "f70b777857359296739959a5055140caf0087e1c",
+      "sourceDeploymentId": "appgdep_6ae59231d250819185e8d5de57c055d8",
+      "directory": "sites/led-emission-observer-b01",
+      "outputDirectory": "dist",
+      "sourceAccess": "owner-private (unchanged)",
+      "previousGitHubBackup": null,
+      "files": [
+        {
+          "sourcePath": ".gitignore",
+          "path": ".gitignore",
+          "bytes": 39,
+          "sha256": "ec76c8840b83c613df2399010ab3ff8dba47f788ff542992b014f9278e1aad39"
+        },
+        {
+          "sourcePath": "README.md",
+          "path": "README.source.md",
+          "bytes": 540,
+          "sha256": "1d498ed821b4215be2d6444013ea77db830802403be35e54992a91683615aea4"
+        },
+        {
+          "sourcePath": "dist/app.js",
+          "path": "dist/app.js",
+          "bytes": 2200,
+          "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+        },
+        {
+          "sourcePath": "dist/drawing.js",
+          "path": "dist/drawing.js",
+          "bytes": 2418,
+          "sha256": "c7a89238a0406574e7e38d3db58afb435b750faf0ef20b43c2d5f2fcb3b250ee"
+        },
+        {
+          "sourcePath": "dist/index.html",
+          "path": "dist/index.html",
+          "bytes": 451,
+          "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+        },
+        {
+          "sourcePath": "dist/model.js",
+          "path": "dist/model.js",
+          "bytes": 656,
+          "sha256": "3b9ad861fb96d355452df8f12f38c88631f54006d7a5818c6995f78b9f9753c4"
+        },
+        {
+          "sourcePath": "dist/shared/observer.css",
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "sourcePath": "dist/shared/observer.js",
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "sourcePath": "dist/shared/player-clock.js",
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "sourcePath": "dist/shared/template-manifest.json",
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "sourcePath": "dist/svg.js",
+          "path": "dist/svg.js",
+          "bytes": 1610,
+          "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+        },
+        {
+          "sourcePath": "dist/topic.css",
+          "path": "dist/topic.css",
+          "bytes": 570,
+          "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+        },
+        {
+          "sourcePath": "dist/topic.js",
+          "path": "dist/topic.js",
+          "bytes": 4006,
+          "sha256": "0fab7bb0f6da6124a89ccafb034536c29a85cd572eca04b07a94d1faaa99b208"
+        },
+        {
+          "sourcePath": "package.json",
+          "path": "package.json",
+          "bytes": 165,
+          "sha256": "2404771743932bf8a9605a741717c73fc6403492cf7a372bb38837e40a42bb6f"
+        },
+        {
+          "sourcePath": "server.mjs",
+          "path": "server.mjs",
+          "bytes": 851,
+          "sha256": "ea3bf1b71052c49d85f97c17ba339754c593de1f77126a66be32ff992ae2fd31"
+        },
+        {
+          "sourcePath": "tests/model.test.js",
+          "path": "tests/model.test.js",
+          "bytes": 667,
+          "sha256": "d364f673f487138a26821bfbece9b606c86e8bc83ec6595e4d8ee9545ea42644"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "矽穿孔 TSV",
+      "fullTitle": "矽穿孔 TSV：導線怎麼穿過一片矽？",
+      "slug": "tsv-observer-b01",
+      "sourceProjectId": "appgprj_6ae5943a631881919ff00a4419b7bd8e",
+      "sourceUrl": "https://tsv-observer-b01.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae5943a631881919ff00a4419b7bd8e~appgver_693e4f7970048191a38f350cac2200ac",
+      "sourceCommit": "03ffa63da2bf3c1db25fbeb2a18982dfe4473ee1",
+      "sourceDeploymentId": "appgdep_6ae5949ac27c8191a14e12e2ecffab7b",
+      "directory": "sites/tsv-observer-b01",
+      "outputDirectory": "dist",
+      "sourceAccess": "owner-private (unchanged)",
+      "previousGitHubBackup": null,
+      "files": [
+        {
+          "sourcePath": ".gitignore",
+          "path": ".gitignore",
+          "bytes": 39,
+          "sha256": "ec76c8840b83c613df2399010ab3ff8dba47f788ff542992b014f9278e1aad39"
+        },
+        {
+          "sourcePath": "README.md",
+          "path": "README.source.md",
+          "bytes": 534,
+          "sha256": "6551338daf7b9fa231afb0c556cc2abe21bc8a303720c5454638a4e55a37acc0"
+        },
+        {
+          "sourcePath": "dist/app.js",
+          "path": "dist/app.js",
+          "bytes": 2200,
+          "sha256": "84ae58531cb4d26d7265677250877fd67cf248683a5408ee250fc4502500f3c8"
+        },
+        {
+          "sourcePath": "dist/drawing.js",
+          "path": "dist/drawing.js",
+          "bytes": 3632,
+          "sha256": "fe3a6692ec981ae89ad359b04c1ff670e5654a7d212fe68912ccb68741883a23"
+        },
+        {
+          "sourcePath": "dist/index.html",
+          "path": "dist/index.html",
+          "bytes": 451,
+          "sha256": "0e9cbce7c2cb1214edf69ac733ee2071468efc35def5baa33a61d20c7463090f"
+        },
+        {
+          "sourcePath": "dist/model.js",
+          "path": "dist/model.js",
+          "bytes": 1085,
+          "sha256": "b1e2e94d6cc94c063ebc37cfa947f7728579e3b2b89ad751dc74299777d64213"
+        },
+        {
+          "sourcePath": "dist/shared/observer.css",
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "sourcePath": "dist/shared/observer.js",
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "sourcePath": "dist/shared/player-clock.js",
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "sourcePath": "dist/shared/template-manifest.json",
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "sourcePath": "dist/svg.js",
+          "path": "dist/svg.js",
+          "bytes": 1610,
+          "sha256": "fb64710f43a90a59a372513c879c1f22955d9fba60e79e9efe745e1448a602c1"
+        },
+        {
+          "sourcePath": "dist/topic.css",
+          "path": "dist/topic.css",
+          "bytes": 570,
+          "sha256": "df51b049e046c712262a0e849e2f6444b4dc690a3624a95b8f8ef14c693d7aab"
+        },
+        {
+          "sourcePath": "dist/topic.js",
+          "path": "dist/topic.js",
+          "bytes": 6203,
+          "sha256": "276bdf67b3a430d8e8ba3ce8525a287beee5a0647d065b0f9847832101cfbe99"
+        },
+        {
+          "sourcePath": "package.json",
+          "path": "package.json",
+          "bytes": 156,
+          "sha256": "cc216ed92c230cb3917fcf14603ac9968e9d83ee8ef496346a9cced824dff547"
+        },
+        {
+          "sourcePath": "server.mjs",
+          "path": "server.mjs",
+          "bytes": 851,
+          "sha256": "61d5f884ed91731c6914dfa9f8558befee581f0fec386ae659133efa5d8e43fb"
+        },
+        {
+          "sourcePath": "tests/model.test.js",
+          "path": "tests/model.test.js",
+          "bytes": 786,
+          "sha256": "18c07b1b0c75f2d3fd076aca6f8f43ea9c0b43327695c3c5b628beed8a8ee9ce"
+        }
+      ]
+    }
+  ],
+  "knownLimitations": [
+    "Actual background return and browser prefers-reduced-motion still untested in the original QA; not reclassified by this file migration.",
+    "Physical phone touch, real OS reduced motion and full signed-out login remain untested."
+  ]
+}

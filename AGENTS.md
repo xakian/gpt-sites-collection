@@ -1,3 +1,17 @@
+# 本分支：八站只同步 GitHub
+
+使用者 2026-10-31 最新要求：同步「科學觀察動畫」中「建立八個私人動畫網站」的八站到 GitHub，Vercel 留待另一次明確要求。
+
+- 分支 `codex/science-animation-batch-01`，以 main 的 76cbd97 為基礎。此分支只做來源備份，不合併 main、不部署、不修改其他工作分支或原 GPT Sites。
+- 八站與對照資料見 `migration/science-animation-batch-01.json`；保留來源的實際版本與未測狀態，不宣稱完成完整播放驗收。
+- 保留根目錄 codex/** 禁止部署規則、既有十站規則，以及八站的 deploymentEnabled:false。未取得新的部署要求前不可解除。
+- 後續發布先盤點主站現有內容：前三站可能已一致，不重複部署；只發布真正有差異者。
+- 不修改 canonical 共用範本，動畫與 dist 內容本次逐位元組保留。GitHub 副本不反向推送至 GPT Sites。
+
+以下為既有主線維護規則，與本次 GitHub-only 範圍衝突時以上述為準。
+
+---
+
 # 維護規則
 
 2026-10-31 發布規則：使用者確認台灣半導體圖譜的精簡版上線，其他站不可重複部署。10 個專案已在各自的 `vercel.json` 禁止 `codex/**` 自動預覽；正式分支仍正常部署。`ignoreCommand` 呼叫 `scripts/vercel-ignore-unchanged.mjs`，比較上次成功部署的 `VERCEL_GIT_PREVIOUS_SHA` 與當前版本，僅在該站 `dist/` 或實質部署設定有變更時建置。文件和首次加入省用量規則不算網站更新。不能改成僅比最後一個 commit；缺少比較依據時會保守建置，發布前須先核對各站基準與測試結果。這些規則須保留，除非使用者明確變更發布策略。
