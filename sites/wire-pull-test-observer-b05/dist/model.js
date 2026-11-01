@@ -1,0 +1,9 @@
+import {ramp,ease} from './view.js';
+export const state=t=>({enter:ease(ramp(t,3,6)),contact:ease(ramp(t,6,8)),load:ramp(t,8,16),broken:t>=16,recoil:ease(ramp(t,16,16.8)),force:t<16?ramp(t,8,16):.03+.97*(1-ramp(t,16,16.3)),withdraw:ease(ramp(t,18,20)),recordExit:ease(ramp(t,23,25)),exit:ease(ramp(t,24,26)),incoming:ease(ramp(t,26,28))});
+export const topic={title:'打線接點拉力測試',question:'線材先斷時，量到的是哪一個力？',duration:28,overview:17.5,intro:'採未模封試件的破壞性wire pull。固定兩端焊墊與試件，拉鉤從線弧下方接觸後垂直上升；本例選線材中段斷裂，同時記錄峰值與斷裂位置。',simplifications:'單一金屬線、對稱局部剖視；線徑、線弧、位移、力與時間均為可讀示意，不是材料應力模型或測試數據。力條只表示拉鉤的相對載荷，不設定通用合格門檻；鉤位和線弧角度會影響各段張力。圖中從右下方進入的鉤部代表三維鉤入動作的投影，省略鄰線。金屬線斷裂後保留兩段與兩端接點，不能自動判定兩個接點合格。',sources:[{title:'Xyztec · Mechanical Bond Failure Modes',url:'https://www.xyztec.com/blog/how-do-you-interpret-failure-modes-in-mechanical-bond-testing/',claim:'須共同判讀測得的力與破壞位置；線材斷裂、接點剝離、頸部破壞是不同模式。'},{title:'Xyztec · Ribbon and Wire Pull',url:'https://www.xyztec.com/blog/what-is-ribbon-pull-testing-and-how-does-it-differ-from-wire-pull/',claim:'拉鉤置於線弧下並向上加載；線材幾何、鉤位及載荷方向影響結果。'},{title:'Xyztec · Pull Tests',url:'https://www.xyztec.com/knowledgecenter/pull-tests/tweezer-pull/',claim:'拉力測試需選定適當夾持與施力方式；本題選拉鉤，並非鑷夾或剪切流程。'}],steps:[
+{start:0,key:2,title:'已接線試件固定',what:'線弧與左右接點已形成；試件夾在固定治具上，並非重新打線。',detail:'兩端焊墊、基板和夾持位置在受力期間不移動。'},
+{start:3,key:7.9,title:'拉鉤從線弧下方接觸',what:'鉤部先進到線弧下，再向上接觸線材。',detail:'沒有預先切斷線材、刮傷焊墊或勾到鄰線；接觸後才開始增加載荷。'},
+{start:8,key:15.8,title:'上拉與載荷增加',what:'拉鉤上升，線弧受力改變形狀；相對力條持續增加。',detail:'感測器量到的是拉鉤載荷，線弧角度會影響兩段張力，不能把讀值無條件分配給每個接點。'},
+{start:16,key:16.35,title:'中段斷裂與力下降',what:'線材中段斷裂，兩段分開回彈；力讀值與破壞同步下降。',detail:'斷裂前後峰值記憶保留，兩端接點仍附著於焊墊。這不是接點各自被拉到破壞。'},
+{start:18,key:21,title:'峰值與破壞位置一起記錄',what:'工具退出，資料記錄保留峰值標記與「線材中段」位置。',detail:'其他模式包括頸部斷裂、接點剝離與焊墊破壞；需按線材、方法及規範判讀，線斷不自動等於合格。'},
+{start:23,key:24.5,title:'破壞試件與紀錄分流',what:'資料向上存檔，破壞試件向右離場，新完整試件由左側進場。',detail:'兩段斷線不重新接回；下一輪是新試件。'}]};

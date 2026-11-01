@@ -1,0 +1,1 @@
+export function layout({w,h}){const mobile=w<650,mainY=mobile?Math.max(136,h*.25):Math.max(140,h*.37);return{w,h,mobile,font:mobile?15:17,main:{x:mobile?28:w*.08,y:mainY,width:mobile?w-56:w*.45},zoom:{x:mobile?28:w*.61,y:mobile?Math.max(mainY+210,h*.68):Math.max(150,h*.45),width:mobile?w-56:w*.32}};}

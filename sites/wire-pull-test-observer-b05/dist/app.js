@@ -1,0 +1,12 @@
+import {mount,txt,rect,path,ramp,lerp} from './view.js';import {topic,state} from './model.js';
+function specimen(s,font){let g=rect(80,310,480,22,'resin')+rect(100,290,60,20,'metal')+rect(480,290,60,20,'metal');const mid=200-60*s.load,wire=(d)=>path(d,'', 'fill="none" stroke="#b3945c" stroke-width="5" stroke-linecap="round" vector-effect="non-scaling-stroke"');
+ if(!s.broken)g+=wire(`M130,290 Q190,${200-20*s.load} 320,${mid} Q450,${200-20*s.load} 510,290`);else{const rx=lerp(318,280,s.recoil),ry=lerp(140,235,s.recoil);g+=wire(`M130,290 Q190,210 ${rx},${ry}`)+wire(`M${640-rx},${ry} Q450,210 510,290`);}
+ g+=txt(130,279,'A',font)+txt(510,279,'B',font);return g;}
+mount(topic,(t,{w,h,small})=>{const s=state(t),short=h<300,scale=Math.min((w-16)/640,(h-(short?45:90))/370,1.6),font=(small?15:16)/scale,ox=(w-640*scale)/2,oy=short?3:(h-370*scale)/2-12,travel=w/scale+680,fs=small?15:16;
+ let out=txt(short?12:w/2,25,t<8?'固定試件 · 從線弧下方鉤入':t<16?'拉鉤上升 · 兩端接點仍固定':t<23?'線材中段先斷 · 不是接點各自強度':'紀錄存檔 ↑　破壞試件 →',fs,short?'start':'middle');
+ out+=`<g transform="translate(${ox} ${oy}) scale(${scale})">`+rect(55,334,530,15,'fixture');
+ out+=`<g transform="translate(${travel*s.exit} 0)">`+specimen(s,font)+'</g>';if(t>=26)out+=`<g transform="translate(${-travel*(1-s.incoming)} 0)">`+specimen(state(0),font)+'</g>';
+ const clampAlpha=t<24?1-ramp(t,23,24):ramp(t,27.5,28);out+=`<g opacity="${clampAlpha}">`+rect(65,300,30,34,'fixture')+rect(545,300,30,34,'fixture')+'</g>';
+ if(t>=3&&t<20){const dx=100*(1-s.enter),dy=25*(1-s.contact)-60*s.load-60*s.withdraw;out+=`<g transform="translate(${dx} ${dy})" opacity="${ramp(t,3,3.5)*(1-s.withdraw)}">`+rect(311,95,52,30,'fixture')+path('M337,125 V190 Q337,206 320,206 Q303,206 303,190','', 'fill="none" stroke="#647d8e" stroke-width="6" stroke-linecap="round" vector-effect="non-scaling-stroke"')+txt(400,116,'感測器',font,'start')+'</g>';}
+ if(s.broken&&t<25)out+=`<g transform="translate(0 ${-230*s.recordExit})" opacity="${1-s.recordExit}">`+rect(10,90,240,70,'','fill="#edf1ee"')+txt(130,118,'峰值已記錄',font)+txt(130,148,'位置：線材中段',font)+'</g>';
+ out+='</g>';const barX=w*.26,barW=w*.48,barY=h-14;out+=txt(w/2,h-26,'相對拉鉤載荷 · 示意',fs)+`<rect x="${barX}" y="${barY}" width="${barW}" height="6" rx="3" fill="#e0e6e8"/><rect x="${barX}" y="${barY}" width="${barW*(t<24?s.force:0)}" height="6" rx="3" fill="#7b9f98"/>`;if(s.broken&&t<25)out+=path(`M${barX+barW},${barY-4} V${barY+10}`,'guide');return out;});

@@ -1,0 +1,10 @@
+import {ramp,ease,lerp} from './view.js';
+export const state=t=>({transfer:ease(ramp(t,12,17)),exit:ease(ramp(t,30,32)),incoming:ease(ramp(t,32,34)),recordExit:ease(ramp(t,28,30)),signal:.1+.75*ramp(t,19,22)*(1-ramp(t,24,27)),bombGas:ramp(t,3,4)*(1-ramp(t,12,13))});
+export const particles=t=>Array.from({length:6},(_,i)=>{const start=4+i*1.05,ip=ramp(t,start,start+1.5),x=-25+(i%3)*22,y=i<3?-12:12,release=18+i*.9,op=ramp(t,release,release+1.4);let px,py;if(ip<.45){px=lerp(90,50,ip/.45);py=0;}else{px=lerp(50,x,(ip-.45)/.55);py=lerp(0,y,(ip-.45)/.55);}if(t>=release){if(op<.6){px=lerp(x,50,op/.6);py=lerp(y,0,op/.6);}else{px=lerp(50,90,(op-.6)/.4);py=0;}}return{x:px,y:py,opacity:t<start?0:1-ramp(t,release+1.3,release+1.5)};});
+export const topic={title:'氣密封裝氦氣測漏',question:'沒有充氣接口，氦如何先進入再被測到？',duration:34,overview:21,intro:'採已封口、無充氣接口的小型空腔封裝，以加壓浸氦（bombing）後真空測試。追蹤同一試件A與同一處放大的微漏通道，量測的是送到檢漏器的總氦訊號。',simplifications:'氦以紫色圓點表示，數量不是分子數或濃度；漏縫放大以便閱讀，不是製程開孔。空腔剖視僅供教學，儀器不能由總訊號直接定位漏點。轉移、外表清理、等待與腔體操作以概念動作縮時；材料、內部體積、壓力和時間需按實際方法設定。保留校正與背景步驟，但不模擬完整質譜、標準漏孔校正或通用漏率門檻。',sources:[{title:'Agilent · VS Series User Manual',url:'https://www.agilent.com/cs/library/usermanuals/public/6999-09-942L.pdf',claim:'附錄B.3.2.1的inside-out／bombing流程，封口件先浸氦再置真空測得總漏訊號。'},{title:'LACO · Helium Leak Testing of Small Sealed Parts',url:'https://lacotech.com/resources/app-01-06_hlt-of-small-seal-parts/',claim:'內部氦存量與轉移／抽氣時間影響結果；大漏可能先漏光而假低，需配套粗漏檢查；外表殘氦也需處理。'}],steps:[
+{start:0,key:2,title:'校正與背景確認',what:'先確認檢漏器校正與背景，試件A是已封口的小空腔，沒有另設充氣接口。',detail:'右側微漏通道是教學剖視揭示，實際量測不會直接顯示這個漏點。'},
+{start:3,key:10.5,title:'加壓浸氦，氦由漏路進入',what:'外部氦分壓較高，氦經唯一示意漏路逐步進入空腔。',detail:'氦不穿透圖中的完整金屬壁，也不是從未畫出的充氣口灌入。'},
+{start:12,key:14.5,title:'外表清理與轉移等待',what:'依流程去除外表殘氦並轉移，內部氦仍隨同一試件保留。',detail:'轉移時間和內部體積會影響可測存量；本例保留可觀測氦，不將換腔當作重設。'},
+{start:17,key:21,title:'真空釋出並送往檢漏器',what:'真空測試腔的外部氦分壓降低，內部氦沿同一漏路釋出，再經腔體管路送往檢漏器。',detail:'總氦訊號高於背景可提供漏氣證據，但並不告訴觀眾漏點的空間位置。'},
+{start:25,key:26,title:'保存訊號與判讀限制',what:'保存本例曾高於背景的氦訊號，內部示蹤氣體隨釋出逐漸減少。',detail:'無訊號不等於絕對氣密；大漏可能在轉移或抽氣時先失去氦，需要配套粗漏檢查。外表殘氦也可能干擾。'},
+{start:28,key:31,title:'資料與原試件分流',what:'紀錄另存，試件A保留原漏路離開，新試件進場。',detail:'檢測沒有把漏孔修好；下一輪的氦是新一批，不是已抽走的氦倒灌。'}]};

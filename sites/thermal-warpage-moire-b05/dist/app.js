@@ -1,0 +1,25 @@
+import {mount,txt,rect,path,ramp,lerp} from './view.js';import {topic,state,height} from './model.js';
+const point=(u,v,z)=>[300+150*u+60*v,220+55*v-z];const coords=p=>p.map(v=>v.toFixed(2)).join(',');
+function edge(a,offset=0){const ps=[];for(let i=0;i<=24;i++){const u=-1+i/12;ps.push(point(u,-1,height(u,-1,a)+offset));}for(let i=1;i<=16;i++){const v=-1+i/8;ps.push(point(1,v,height(1,v,a)+offset));}for(let i=23;i>=0;i--){const u=-1+i/12;ps.push(point(u,1,height(u,1,a)+offset));}for(let i=15;i>0;i--){const v=-1+i/8;ps.push(point(-1,v,height(-1,v,a)+offset));}return ps;}
+const polygon=(ps,fill,extra='')=>`<polygon points="${ps.map(coords).join(' ')}" fill="${fill}" ${extra}/>`;
+function surface(a,phase,font){let g='';for(const [u,v] of [[-1,-1],[1,-1],[-1,1]]){const p=point(u,v,-20+phase);g+=`<circle cx="${p[0]}" cy="${p[1]}" r="8" fill="#dfe5e9" stroke="#8798a2"/>`;}
+ g+=polygon(edge(a,phase-12),'#d7bc87','stroke="#697b85" stroke-width="1"');g+=polygon(edge(a,phase-7),'#e4d6bd','stroke="#697b85" stroke-width="1"');
+ g+='<g filter="url(#fringe-soft)">';for(let j=0;j<32;j++)for(let i=0;i<48;i++){const u=-1+i/24,v=-1+j/16,du=1/24,dv=1/16,z=height(u+du/2,v+dv/2,a),intensity=.5+.5*Math.cos((90-z-phase)*Math.PI/6),c=Math.round(184+56*intensity),fill=`rgb(${c},${c+2},${c+1})`;g+=polygon([[u,v],[u+du,v],[u+du,v+dv],[u,v+dv]].map(([x,y])=>point(x,y,height(x,y,a)+phase)),fill,`stroke="${fill}" stroke-width=".5"`);}g+='</g>';
+ g+=polygon(edge(a,phase),'none','stroke="#657a86" stroke-width="1.3"');g+=txt(520,260,'A',font);return g;}
+function profile(a,font,alpha){let p='';for(let i=0;i<=40;i++){const u=-1+i/20;p+=(i?' L':'M')+(150+300*i/40)+','+(335-height(u,0,a));}return `<g opacity="${alpha}">`+path('M150,335 H450','guide','stroke-dasharray="3 3"')+path(p,'signal')+txt(300,365,'中央側輪廓 · 同一高度基準',font)+'</g>';}
+function heightMap(a,font){let g=rect(30,55,200,160,'','fill="#f4f6f5"');for(let j=0;j<16;j++)for(let i=0;i<20;i++){const u=-1+(i+.5)/10,v=-1+(j+.5)/8,z=height(u,v,a)/40,r=Math.round(164+66*z),gg=Math.round(190+15*z),b=Math.round(207-65*z);g+=`<rect x="${30+i*10}" y="${55+j*10}" width="10.2" height="10.2" fill="rgb(${r},${gg},${b})"/>`;}
+ g+=path('M30,135 H230','guide','stroke-dasharray="4 4"')+path('M30,225 H230 m-7,-5 7,5 -7,5 M20,55 V215 m-5,-7 5,7 5,-7','guide')+txt(245,230,'x',font)+txt(12,240,'y',font);
+ for(let i=0;i<40;i++){const z=i/39;g+=`<rect x="${30+i*5}" y="260" width="5.1" height="10" fill="rgb(${164+66*z},${190+15*z},${207-65*z})"/>`;}
+ return g+txt(130,310,'低　→　高',font);}
+mount(topic,(t,{w,h,small})=>{const s=state(t),short=h<300,compact=small&&h<500,fs=small?15:16,main=small?{x:0,y:compact?35:50,w,h:h*(compact?.46:.52)}:{x:10,y:short?30:45,w:w*.65,h:h-45},map=small?{x:0,y:h*(compact?.58:.60),w,h:h*(compact?.40:.37)}:{x:w*.68,y:55,w:w*.30,h:h-60};
+ let out=txt(short?10:w/2,24,t<4?'室溫參考 · EMC／Cu 試片':t<13?'升溫 · 本例中心逐漸較高':t<14?'高溫疊紋 · 單張明暗不足以判凹凸':t<19?'固定光柵 · 試片相位步進':t<22?'參考＋相位 → 相對高度':t<29?'冷卻 · 保留殘餘翹曲':'紀錄存檔 ↑　試片帶原形狀 →',fs,short?'start':'middle');
+ const sc=Math.min(main.w/600,main.h/380),fx=fs/sc,mx=main.x+(main.w-600*sc)/2,my=main.y+(main.h-380*sc)/2,travel=w/sc+650;
+ out+='<defs><filter id="fringe-soft" x="-2%" y="-4%" width="104%" height="108%"><feGaussianBlur stdDeviation=".7"/></filter><clipPath id="specimen-viewport"><rect x="0" y="40" width="600" height="270"/></clipPath><clipPath id="data-viewport"><rect x="0" y="48" width="280" height="300"/></clipPath></defs>';out+=`<g transform="translate(${mx} ${my}) scale(${sc})">`;
+ out+='<g clip-path="url(#specimen-viewport)">'+`<g transform="translate(${travel*s.exit} 0)">`+surface(s.amplitude,s.phase,fx)+'</g>';if(t>=32)out+=`<g transform="translate(${-travel*(1-s.incoming)} 0)">`+surface(4,0,fx)+'</g>';out+='</g>';
+ // Fixed reference grating and perpendicular camera; light rays are distinct from data and thermal shape.
+ out+=polygon([point(-1,-1,90),point(1,-1,90),point(1,1,90),point(-1,1,90)],'#e5edf0','fill-opacity=".3" stroke="#8296a1"');for(let i=0;i<=20;i++){const u=-1+i/10;out+=path('M'+coords(point(u,-1,90))+' L'+coords(point(u,1,90)),'guide','opacity=".65"');}
+ out+=rect(274,6,52,30,'fixture')+path('M300,36 V65','guide')+txt(345,28,'相機',fx,'start')+txt(535,145,'光柵',fx)+txt(65,45,'白光',fx);
+ if(t<30)for(let i=0;i<3;i++)out+=path(`M${65+i*14},58 L${165+i*24},${155+i*4}`,'','fill="none" stroke="#c5b884" stroke-width="2" vector-effect="non-scaling-stroke"');
+ out+=profile(t>=32?4:s.amplitude,fx,t>=32?s.incoming:1-s.exit)+'</g>';
+ const ms=Math.min(map.w/280,map.h/340),mf=fs/ms,xx=map.x+(map.w-280*ms)/2,yy=map.y+(map.h-340*ms)/2;
+ out+=`<g transform="translate(${xx} ${yy}) scale(${ms})">`+txt(130,30,t<19?'參考與相位資訊':'相對高度 · 示意',mf);if(t<19)out+=rect(0,55,260,160,'','fill="none" stroke-dasharray="4 4"')+txt(130,125,'單張條紋',mf)+txt(130,165,'不能唯一判凹凸',mf);else if(t<31)out+=`<g clip-path="url(#data-viewport)"><g transform="translate(0 ${-170*s.recordExit})" opacity="${s.map*(1-s.recordExit)}">`+heightMap(s.amplitude,mf)+'</g></g>';out+='</g>';return out;});

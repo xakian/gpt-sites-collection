@@ -1,0 +1,1473 @@
+{
+  "schema": "gpt-sites.github-snapshot/1",
+  "capturedAt": "2026-11-01T06:51:51.031Z",
+  "repository": "xakian/gpt-sites-collection",
+  "branch": "codex/sites-sync-20261101-b05-b06",
+  "baseCommit": "76cbd97e7a7d3aa098cdbf55e3b394d93ac23ba1",
+  "scope": "15 approved published Sites only; GitHub branch only; no merge, Vercel deployment or main-site integration",
+  "sites": [
+    {
+      "title": "LTCC 陶瓷多層共燒",
+      "slug": "ltcc-cofiring-observer-b05",
+      "sourceProjectId": "appgprj_6ae6c49ee2688191bf91d5eab04b98b2",
+      "sourceUrl": "https://ltcc-cofiring-observer-b05.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6c49ee2688191bf91d5eab04b98b2~appgver_a78b60cb39ac81918d1d38efa07e434e",
+      "sourceCommit": "f9498e3967f317ac3411a34fe61f04fa43384feb",
+      "sourceDeploymentId": "appgdep_6ae6c6bb4c90819193b81b61912fe26b",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:63ddf7bbbe4dec20b9377afcf5955c53cde34cd710feba75a0fc31c22189f7c2",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/ltcc-cofiring-observer-b05",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 37,
+          "sha256": "0d8d39903c8c7d0a075c5740daeb0e031ea775310e91a71263dcc0ec034df247"
+        },
+        {
+          "path": "CONTENT.md",
+          "bytes": 3526,
+          "sha256": "34e5249c98f32ca8c96afb4aeddc22fce65f89303422a31834ce5643e7601d47"
+        },
+        {
+          "path": "README.md",
+          "bytes": 963,
+          "sha256": "4e6c86811a2ffbe96ed3a71a22fe282641551858645951b8fe9ea073c2b7a3e4"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 3595,
+          "sha256": "7ad4931b587812ce8e889633542d317f0fb6a5aeb2b0e78d62390391b5802ee0"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 407,
+          "sha256": "a501abde508e23584f8db1874cb7d55ce9aae25a205b02f4c4750f0f742b7374"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3691,
+          "sha256": "ee109225869b32a81643748b6e0b38ee85660113e5ab88610acbb94207fd04f2"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 743,
+          "sha256": "bafc45337327cf12b40ba4f70195d47eb36ac801ad8539786bb083a69edacfe3"
+        },
+        {
+          "path": "dist/view.js",
+          "bytes": 3254,
+          "sha256": "05079bc82c3b8189136bbcc15fc3b0c926bbb3198934890b5cc503d875dd37e4"
+        },
+        {
+          "path": "package.json",
+          "bytes": 182,
+          "sha256": "b7ac100c809cfb9203443026daa58b3dc177b2c88c5d4bcda4dca323af104796"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 912,
+          "sha256": "9dccfed047d4a735f36cbf201050e3a6e67310cea229cd049d0f436445db4e80"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "DAF 薄膜與階梯式晶粒堆疊",
+      "slug": "daf-stair-stack-observer-b06",
+      "sourceProjectId": "appgprj_6ae6c6c8b76c8191a8fbbd4d95e07062",
+      "sourceUrl": "https://daf-stair-stack-observer-b06.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6c6c8b76c8191a8fbbd4d95e07062~appgver_a97b28b402ac8191aa0a67950138047b",
+      "sourceCommit": "6e2e899ad4eb7e96a1f1e3701b596e552076c18c",
+      "sourceDeploymentId": "appgdep_6ae6c9a8453481919113940b337544ca",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:822ff4ef94bec004ee3144f3dd0dd48096494d5de33f1e1aa26737e063b3e37e",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/daf-stair-stack-observer-b06",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 31,
+          "sha256": "f53f9bbe82f0efc9f5e5f9124fb489a5ae0eb83c199632ae374cda7029224130"
+        },
+        {
+          "path": "README.md",
+          "bytes": 1238,
+          "sha256": "6e3f43d3849af8a20cd1be9c8cd312a1ff449b1cb8a8559411efbae9b20ac26e"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2238,
+          "sha256": "e8ce5d929b8194a404aa0f986a625ba1ca3c5daa93676630e2f77932978d96ad"
+        },
+        {
+          "path": "dist/graphics.js",
+          "bytes": 2952,
+          "sha256": "ccb0b0fc7db9d83a67c99797dbfcaaa2ed39040bed43d58a57caed99f6ddbd88"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 442,
+          "sha256": "88c8c631dfbe869bb045cf73cfbd44635851753b22889a8f5d1b379c297b9fa7"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 390,
+          "sha256": "d630ae15999f631701dbb9c73ed2c471c467f541fa588ccb29ced5371debee04"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3063,
+          "sha256": "7831c91a61526d6694ba90faa5ec21311bc43628d5286b9ef22b260aa6ff1a62"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "package.json",
+          "bytes": 143,
+          "sha256": "06dbe65ac4894915b28f60fffab29bc699b1273c3cb5e0e4bb82fa986e36b645"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 924,
+          "sha256": "e4f69a776d1f5adaea944147aab790a3acbe60589012044453a3afdd4d538ce5"
+        },
+        {
+          "path": "test.mjs",
+          "bytes": 717,
+          "sha256": "6805d4111d177b3bedea0e0c1aea460ef14a6ce901dea79bf17ab41ab2ee2acd"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "封裝內嵌矽橋互連",
+      "slug": "embedded-silicon-bridge-b05",
+      "sourceProjectId": "appgprj_6ae6c702a2bc8191a9f055d4a53eee83",
+      "sourceUrl": "https://embedded-silicon-bridge-b05.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6c702a2bc8191a9f055d4a53eee83~appgver_b4cccb72c31481918e436da8ee079090",
+      "sourceCommit": "d353eb1c99791a0ede842b556717453881dd299e",
+      "sourceDeploymentId": "appgdep_6ae6c8fc007c8191b45c560b1ba9a57b",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:eaa4d2f75aa0657b078527453d9cb600274f7b461e5235db0a408442e4581a3e",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/embedded-silicon-bridge-b05",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 37,
+          "sha256": "0d8d39903c8c7d0a075c5740daeb0e031ea775310e91a71263dcc0ec034df247"
+        },
+        {
+          "path": "CONTENT.md",
+          "bytes": 3240,
+          "sha256": "0ba75e4d4c6175bf9f65c9051a21072dd6e901186e3c7c3cc84b4c5fc995343e"
+        },
+        {
+          "path": "README.md",
+          "bytes": 967,
+          "sha256": "2d0b94be910372955a06cbf2b56d221529417b6798c3c0b918bda7880aaf5bb5"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2951,
+          "sha256": "7eee302e8ff7604f0d9955eb53048495b82811a66d4005c7b3d4b003e32f62cf"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 407,
+          "sha256": "a501abde508e23584f8db1874cb7d55ce9aae25a205b02f4c4750f0f742b7374"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3420,
+          "sha256": "e77e5cd00384d1c640f08583ac3ecf693575b3c339fa76902aa05006c97483ff"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 743,
+          "sha256": "bafc45337327cf12b40ba4f70195d47eb36ac801ad8539786bb083a69edacfe3"
+        },
+        {
+          "path": "dist/view.js",
+          "bytes": 3254,
+          "sha256": "05079bc82c3b8189136bbcc15fc3b0c926bbb3198934890b5cc503d875dd37e4"
+        },
+        {
+          "path": "package.json",
+          "bytes": 192,
+          "sha256": "15edaacfdab06446c46983376f28ca7f9497318266ea5b97bfd4c676cc568373"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 912,
+          "sha256": "6ba6bba85c777333ee92ea9961356ae8cb46d7330468b0bd91e9df3e3ef8a256"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "電漿晶圓分割",
+      "slug": "plasma-dicing-observer-b05",
+      "sourceProjectId": "appgprj_6ae6c94513cc81918e287262b31b4441",
+      "sourceUrl": "https://plasma-dicing-observer-b05.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6c94513cc81918e287262b31b4441~appgver_21432563439c81918ae00fd512db90bb",
+      "sourceCommit": "364745107a3ce1862c06e0302f2dbb559910d5c6",
+      "sourceDeploymentId": "appgdep_6ae6ca567b1481918f0679fb7e0a02c7",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:33e8489b646e59f2ac69d9ed03fc6a8533eaccac9c57532dde4f1911ae9f56b1",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/plasma-dicing-observer-b05",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 37,
+          "sha256": "0d8d39903c8c7d0a075c5740daeb0e031ea775310e91a71263dcc0ec034df247"
+        },
+        {
+          "path": "CONTENT.md",
+          "bytes": 3054,
+          "sha256": "62dbece883179dd1d3ee2edd6d9156198a906ac02a4b3edb0951bd73608ae34d"
+        },
+        {
+          "path": "README.md",
+          "bytes": 967,
+          "sha256": "869671334fd993b0afee8380585122034306a0cef4e42fd0ba94696b6b51882f"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2318,
+          "sha256": "c23cf607e6ce36f12cf0779ae379c0671180f63836f1578f36bcef4768c15ba5"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 407,
+          "sha256": "a501abde508e23584f8db1874cb7d55ce9aae25a205b02f4c4750f0f742b7374"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3222,
+          "sha256": "86e23ac201bb8033bfae1dbfe38c9dd6b39efe4edc62418884fcaa6f12aa3ba4"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 743,
+          "sha256": "bafc45337327cf12b40ba4f70195d47eb36ac801ad8539786bb083a69edacfe3"
+        },
+        {
+          "path": "dist/view.js",
+          "bytes": 3254,
+          "sha256": "05079bc82c3b8189136bbcc15fc3b0c926bbb3198934890b5cc503d875dd37e4"
+        },
+        {
+          "path": "package.json",
+          "bytes": 182,
+          "sha256": "26538c3f235df606c3863ef56f52b2ac53b24e1474d83bc37efb4db84ef0a9b1"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 912,
+          "sha256": "8c1552f18d69b7dce44e4c37db27628e8f6db2a849016ea103e81a0381a88304"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "DBC 陶瓷覆銅接合",
+      "slug": "dbc-ceramic-copper-observer-b06",
+      "sourceProjectId": "appgprj_6ae6ca01a62081918384b081020d0466",
+      "sourceUrl": "https://dbc-ceramic-copper-observer-b06.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6ca01a62081918384b081020d0466~appgver_715c4446709c819188b667abbecb2d7b",
+      "sourceCommit": "b9173075c8f9b73046483c42ca95564819a72b7e",
+      "sourceDeploymentId": "appgdep_6ae6cb904cd081918bb590dd92efc3b2",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:6b53c51661f03b04177d02211d05bbee9d93261141254abb98c3697bf9f2738b",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/dbc-ceramic-copper-observer-b06",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 31,
+          "sha256": "f53f9bbe82f0efc9f5e5f9124fb489a5ae0eb83c199632ae374cda7029224130"
+        },
+        {
+          "path": "README.md",
+          "bytes": 974,
+          "sha256": "f064424f71f86e18a5fe4bc11fadc00cb7d1226f1959e8ad5a946a6a6a84adbb"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2164,
+          "sha256": "54434fa1929314fa1b07184a12ce6f7cd35781840dfe62f6ad851bf5b5c06331"
+        },
+        {
+          "path": "dist/graphics.js",
+          "bytes": 1836,
+          "sha256": "5bca0ad21214163e990d6cb8c61c7a196ce7ff5c359cb8a369eac7b9d44a84f3"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 412,
+          "sha256": "80b46c3be1ba5cf3727335685d4b99325291440a4cb8fcfe14adaf9f7478a2d9"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 302,
+          "sha256": "0f1181d14a902084f63eff454aec371a7ed24881c29758701eeeac68b18ed6bd"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 2453,
+          "sha256": "955dad2ee0dddef6cdb0ff078479ea3fc11910389641b6980a5a98637f81917b"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1450,
+          "sha256": "f1afb395656e03205038b5bbd859d625d04c3d7e532acd4e9b6e3454dfe26d4e"
+        },
+        {
+          "path": "package.json",
+          "bytes": 146,
+          "sha256": "d00e561db4498396c2839404d2a5361e2df1ff8cbf3cd252551ad6d5f6e3e6cf"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 924,
+          "sha256": "98bd0d864f138ded25a1855d28e25455a8d6a6509cd70c08986441f424d38749"
+        },
+        {
+          "path": "內容單.json",
+          "bytes": 2643,
+          "sha256": "de5d75679fd3b3f4b3d220852c42bb07afe302f4601c2cf67e93cb465832949a"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "真空迴焊減少空洞",
+      "slug": "vacuum-reflow-observer-b05",
+      "sourceProjectId": "appgprj_6ae6ca863c1c81918a846375fd1cbe58",
+      "sourceUrl": "https://vacuum-reflow-observer-b05.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6ca863c1c81918a846375fd1cbe58~appgver_050a3988b024819198911edbb90b5db1",
+      "sourceCommit": "0b4262fbd5a8742d022dfa15d3af0f47cb090dd1",
+      "sourceDeploymentId": "appgdep_6ae6cbd13b64819183dd6892931cd599",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:e87df87627f45e325e7ed239543a59dbd8e2db2246992d4864cb0f3fdb6dc2c2",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/vacuum-reflow-observer-b05",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 37,
+          "sha256": "0d8d39903c8c7d0a075c5740daeb0e031ea775310e91a71263dcc0ec034df247"
+        },
+        {
+          "path": "CONTENT.md",
+          "bytes": 2969,
+          "sha256": "e653cf774ba93463e706ef490bafa055a56b747b585dc46b4227a84f696c08e3"
+        },
+        {
+          "path": "README.md",
+          "bytes": 971,
+          "sha256": "36a6e96b1811794b7f2aac348a813777cccf8d79231434f21add21c7bb644f52"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 3132,
+          "sha256": "759c2ea04428e9eb2750f61b622d0dc5b7c11579c6f9113e2d53e3cf1eff6f7c"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 407,
+          "sha256": "a501abde508e23584f8db1874cb7d55ce9aae25a205b02f4c4750f0f742b7374"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3548,
+          "sha256": "5c59f5337b85cb3612e1268aff10292575e62bd1e8a97914805ce29f45a60ae3"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 743,
+          "sha256": "bafc45337327cf12b40ba4f70195d47eb36ac801ad8539786bb083a69edacfe3"
+        },
+        {
+          "path": "dist/view.js",
+          "bytes": 3254,
+          "sha256": "05079bc82c3b8189136bbcc15fc3b0c926bbb3198934890b5cc503d875dd37e4"
+        },
+        {
+          "path": "package.json",
+          "bytes": 182,
+          "sha256": "aa3b0850280ac3ee9a7f510e7c00c876fb8146d320cf82ebf8e4f5a92e17f3a7"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 912,
+          "sha256": "a9a89e4a0e99d2aa95be45a59ac6ca7a5f1afc6fcd8cc0394d213a9549bf34e8"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "銅錫瞬態液相接合",
+      "slug": "cu-sn-slid-observer-b06",
+      "sourceProjectId": "appgprj_6ae6cc041b0481918175c145250f3359",
+      "sourceUrl": "https://cu-sn-slid-observer-b06.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6cc041b0481918175c145250f3359~appgver_25992ddd07888191b05654ddcd126a2e",
+      "sourceCommit": "2f7db9cb242de51ef5ba1a57029b6e769c044795",
+      "sourceDeploymentId": "appgdep_6ae6cd1bdc808191a0e94784fa14c693",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:135aa8c4480c79c4539b6ea4d14143dd60768dfe82c9d569b6ff38213366503b",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/cu-sn-slid-observer-b06",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 31,
+          "sha256": "f53f9bbe82f0efc9f5e5f9124fb489a5ae0eb83c199632ae374cda7029224130"
+        },
+        {
+          "path": "README.md",
+          "bytes": 1049,
+          "sha256": "c7f01cc1479cebb33d9c4cbacf5a43e198e81ab698342b4bd153d99e8e8cb075"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2164,
+          "sha256": "54434fa1929314fa1b07184a12ce6f7cd35781840dfe62f6ad851bf5b5c06331"
+        },
+        {
+          "path": "dist/graphics.js",
+          "bytes": 2041,
+          "sha256": "0f5dfeb7f83b926f5c92cba3d377322b583e183e1b0228e35e0a94a7a31fcb0d"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 416,
+          "sha256": "a09050744763b2d3b5ac40ef245126f69c056d5f350115e06361d0c32caaa22c"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 253,
+          "sha256": "c0a9aa63ccdd17cb6e7b85da5da1aed24d1880aef8a95e2497d413d82a1229b7"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3321,
+          "sha256": "317221b1f938f7b8ed6460ce6eb5dd48213bc98c1843b9c99f491ea38e3a6230"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1450,
+          "sha256": "f1afb395656e03205038b5bbd859d625d04c3d7e532acd4e9b6e3454dfe26d4e"
+        },
+        {
+          "path": "package.json",
+          "bytes": 138,
+          "sha256": "8a55c0e59f631d9f59ce302685dec97edf202d7676f1da2936eab702d78a4b35"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 924,
+          "sha256": "65dcd04e79010016e37c22fd9d68f56d8e9aca9feeb85b41f01c3e81b708ab13"
+        },
+        {
+          "path": "內容單.json",
+          "bytes": 3503,
+          "sha256": "d3926a6bf538d8a7d40a178e9f3b89f8d50d499c32f974f1a15c650e43df2801"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "打線接點拉力測試",
+      "slug": "wire-pull-test-observer-b05",
+      "sourceProjectId": "appgprj_6ae6cc296e44819199b4f29a3917b696",
+      "sourceUrl": "https://wire-pull-test-observer-b05.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6cc296e44819199b4f29a3917b696~appgver_ba8e7d31b98081918d4652673d8ef015",
+      "sourceCommit": "25738a64b897ba0e1921166721cb699307042434",
+      "sourceDeploymentId": "appgdep_6ae6cd5ef6888191931ab0a5e8374f1c",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:c7916c5c0f03a3b87a822cc6e5e73120a986c455fdc2fa1737a3a71e55c0ac39",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/wire-pull-test-observer-b05",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 37,
+          "sha256": "0d8d39903c8c7d0a075c5740daeb0e031ea775310e91a71263dcc0ec034df247"
+        },
+        {
+          "path": "CONTENT.md",
+          "bytes": 3045,
+          "sha256": "1ac5af2a566120bea7b93e081a066a62b87e3ad6cfb767a6dd2b39c959a474db"
+        },
+        {
+          "path": "README.md",
+          "bytes": 968,
+          "sha256": "6a90e05b9c7b923fa791608cf1486b2743a211604a87826d8f28058ef24a7b9a"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2578,
+          "sha256": "0bfeca1ba9313054fd5a40c437d86323e927cba5feeda2f624188877e5d36c60"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 407,
+          "sha256": "a501abde508e23584f8db1874cb7d55ce9aae25a205b02f4c4750f0f742b7374"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3276,
+          "sha256": "8e669b6d1e7e2a8bf9b48e3ebbbdce3cc0cd67a9d07266ab992016766c8dea3f"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 743,
+          "sha256": "bafc45337327cf12b40ba4f70195d47eb36ac801ad8539786bb083a69edacfe3"
+        },
+        {
+          "path": "dist/view.js",
+          "bytes": 3254,
+          "sha256": "05079bc82c3b8189136bbcc15fc3b0c926bbb3198934890b5cc503d875dd37e4"
+        },
+        {
+          "path": "package.json",
+          "bytes": 183,
+          "sha256": "83eac862cb8a6ede8443aea323ff0c763313abf7a29a31a5714ac1da7e3be0af"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 912,
+          "sha256": "28c4124c1fff684d35bd75a4e91a64e846949c3b58765ca5faa27de55b48f31e"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "氣密封裝氦氣測漏",
+      "slug": "helium-leak-test-observer-b05",
+      "sourceProjectId": "appgprj_6ae6cd90ff5881918d550f7bab393fbd",
+      "sourceUrl": "https://helium-leak-test-observer-b05.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6cd90ff5881918d550f7bab393fbd~appgver_5f646b55c5108191b799b6d5b6581605",
+      "sourceCommit": "130b94bfd5f42291855fe4ef6813c52afce7e6ed",
+      "sourceDeploymentId": "appgdep_6ae6cf7de86081918a7370628d26e9da",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:958a9d6a068292915d43b0f38bb94419f09673618eda8476776a26f4f3ba9387",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/helium-leak-test-observer-b05",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 37,
+          "sha256": "0d8d39903c8c7d0a075c5740daeb0e031ea775310e91a71263dcc0ec034df247"
+        },
+        {
+          "path": "CONTENT.md",
+          "bytes": 2968,
+          "sha256": "bd6646d9fdd48590f95dbe8fa9c61f59ce7ee319758c1c3ae3346fa6f0bc878e"
+        },
+        {
+          "path": "README.md",
+          "bytes": 987,
+          "sha256": "cab57ec0e5a1bda85dd0d70df47c070b94657d0082e7bc249c04a0494d93d7d2"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 3403,
+          "sha256": "bbe78b75f60ad63c3e4f41e1742b6db130b6c2973fc92c3388156a87fa6e251a"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 407,
+          "sha256": "a501abde508e23584f8db1874cb7d55ce9aae25a205b02f4c4750f0f742b7374"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3573,
+          "sha256": "9c1277da51a8f996ccfa35e5d3e8d0a755b4d198d140420ec8a3ed7072b189dc"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 743,
+          "sha256": "bafc45337327cf12b40ba4f70195d47eb36ac801ad8539786bb083a69edacfe3"
+        },
+        {
+          "path": "dist/view.js",
+          "bytes": 3254,
+          "sha256": "05079bc82c3b8189136bbcc15fc3b0c926bbb3198934890b5cc503d875dd37e4"
+        },
+        {
+          "path": "package.json",
+          "bytes": 185,
+          "sha256": "44d964a053bccfef684d1f76b8b9f2e58c5b3616da4f00a71ba95e9cbdf6fa83"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 912,
+          "sha256": "ddbc3a53d22bd42fe7184eabb7b52745685ca868264bcb31e17dce879ec80250"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "矽玻璃陽極接合",
+      "slug": "silicon-glass-anodic-observer-b06",
+      "sourceProjectId": "appgprj_6ae6cdaf8cd08191a2bbb15cf44bdfc3",
+      "sourceUrl": "https://silicon-glass-anodic-observer-b06.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6cdaf8cd08191a2bbb15cf44bdfc3~appgver_9a0e2211f7dc8191a713f8641a05983a",
+      "sourceCommit": "73421379b9638147745d62edb7dcf6de11015c5d",
+      "sourceDeploymentId": "appgdep_6ae6cf79aae08191b158b958340feffb",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:31d5091b7ec8f3d5a6679444dabd911bcfefb79ce899e5c4e5505b57cb6e9133",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/silicon-glass-anodic-observer-b06",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 31,
+          "sha256": "f53f9bbe82f0efc9f5e5f9124fb489a5ae0eb83c199632ae374cda7029224130"
+        },
+        {
+          "path": "README.md",
+          "bytes": 1003,
+          "sha256": "0f0a0e604fe9360b87c8add297524b2f6299b143966eff26f9614276fd9f917e"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2164,
+          "sha256": "54434fa1929314fa1b07184a12ce6f7cd35781840dfe62f6ad851bf5b5c06331"
+        },
+        {
+          "path": "dist/graphics.js",
+          "bytes": 2259,
+          "sha256": "81f5c1eae6490d828b96bb3af190018c860776a3791598b08c74fe546111c170"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 410,
+          "sha256": "4f273d6261882db1cab081fc08bc6a8d64b3d7cef9b592439e1f2977bda1148f"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 166,
+          "sha256": "340c860cc59733010be0b41328647c4c31307e54d0f27eca367a2ab7b76acf67"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3476,
+          "sha256": "2dfa12ca82b9ed90ee1bde7f74a3c630506f4a0dc39d1705569c26cb0fd99c9b"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1450,
+          "sha256": "f1afb395656e03205038b5bbd859d625d04c3d7e532acd4e9b6e3454dfe26d4e"
+        },
+        {
+          "path": "package.json",
+          "bytes": 148,
+          "sha256": "1436f08716ccc5881fb04f1298531db17d677f1b2c4dbaf8670ddb0d6456c117"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 924,
+          "sha256": "2f5b330fe2dc94e1ebd4ed03d13be34f468dd1d8e1fa223b13d96e2f18e3d4ef"
+        },
+        {
+          "path": "內容單.json",
+          "bytes": 3635,
+          "sha256": "6bfb2ec11f711a870ffaa4da54fe19bb0e48a077c2167df47f201bd6d64c1709"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "封裝熱翹曲與陰影疊紋量測",
+      "slug": "thermal-warpage-moire-b05",
+      "sourceProjectId": "appgprj_6ae6cfbe47048191bcd5fabbd2875ad2",
+      "sourceUrl": "https://thermal-warpage-moire-b05.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6cfbe47048191bcd5fabbd2875ad2~appgver_b8cf2a1e1ed481919caa8dbe41e0b079",
+      "sourceCommit": "fe2a597ebec5679687e81c386f3de932dbfebd47",
+      "sourceDeploymentId": "appgdep_6ae6d1e405d0819186b5468a2b44269c",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:fc3bae717e4b7897d3ee4260ea0fd54f6a96e365a2a1eba67385e434d7262070",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/thermal-warpage-moire-b05",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 37,
+          "sha256": "0d8d39903c8c7d0a075c5740daeb0e031ea775310e91a71263dcc0ec034df247"
+        },
+        {
+          "path": "CONTENT.md",
+          "bytes": 3715,
+          "sha256": "73556574a259f817baef1e3edc5daac69e76311ae6a9a975223b5b7ddd0b9e7b"
+        },
+        {
+          "path": "README.md",
+          "bytes": 1038,
+          "sha256": "a286d74fc5b6e50e22b18ac0c8b95baca42c743cba68650841bcaa2d7041ae4f"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 5252,
+          "sha256": "723e400f65fdb90cebf5f028c49f32710281f1d34ef5ead3ffa1fec1f4bc6dd1"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 407,
+          "sha256": "a501abde508e23584f8db1874cb7d55ce9aae25a205b02f4c4750f0f742b7374"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3964,
+          "sha256": "69490cdf729e941dafa003888ece057c49691ac0be7147d3d4ded3c9624d6486"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 743,
+          "sha256": "bafc45337327cf12b40ba4f70195d47eb36ac801ad8539786bb083a69edacfe3"
+        },
+        {
+          "path": "dist/view.js",
+          "bytes": 3254,
+          "sha256": "05079bc82c3b8189136bbcc15fc3b0c926bbb3198934890b5cc503d875dd37e4"
+        },
+        {
+          "path": "package.json",
+          "bytes": 190,
+          "sha256": "7010076edf3dd11d7c6b7b6d7bf0d1b8a776eca20d90cd3de3cd599e59164128"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 912,
+          "sha256": "66db5a3a7ed464cf7119b6a6d9d1f61e3347b003d926e409c9447fa74c6db763"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "焊點電遷移與空洞成長",
+      "slug": "solder-electromigration-observer-b06",
+      "sourceProjectId": "appgprj_6ae6cfc8eeec8191b5e30f2f353408d5",
+      "sourceUrl": "https://solder-electromigration-observer-b06.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6cfc8eeec8191b5e30f2f353408d5~appgver_1cea168d07c48191a718be9f6839472c",
+      "sourceCommit": "026fc97030c5985c430e95da76bf14279005f3c0",
+      "sourceDeploymentId": "appgdep_6ae6d15f40088191a3fcc583ea4484fc",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:078754a161924b37d2af8cf5fa734ad5e4a330427306d733ece258f74e8d8f1b",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/solder-electromigration-observer-b06",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 31,
+          "sha256": "f53f9bbe82f0efc9f5e5f9124fb489a5ae0eb83c199632ae374cda7029224130"
+        },
+        {
+          "path": "README.md",
+          "bytes": 1139,
+          "sha256": "f7a8f6793de8267c97ea1917b1617c12d18de48f9bf4a3c2313c06837d6cf399"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2164,
+          "sha256": "54434fa1929314fa1b07184a12ce6f7cd35781840dfe62f6ad851bf5b5c06331"
+        },
+        {
+          "path": "dist/graphics.js",
+          "bytes": 2140,
+          "sha256": "748e01fd4dc462481d3c3df311096ac8b262ac28bc7571fc204a40436ff984cd"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 428,
+          "sha256": "300281de4e1eafcd1b21b658dbbef019c2f2927596309d3b9974cac2a43eed80"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 137,
+          "sha256": "7cb73467ab4d247a34415ce9d8180b9bd613ed6ad596713c46446b9883a291f3"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3045,
+          "sha256": "07eb46146f8c32ab19a8e202b46533874ae56852b1aa5ab6ab985aabeb39b108"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1450,
+          "sha256": "f1afb395656e03205038b5bbd859d625d04c3d7e532acd4e9b6e3454dfe26d4e"
+        },
+        {
+          "path": "package.json",
+          "bytes": 151,
+          "sha256": "40f0b5e995bec25b2a766d0ba0d56712760a4c4c07a0b9ce1c03405093ee41f8"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 924,
+          "sha256": "5ada0b0513214c57da4966a8ea69968fc22d9bc23940db3455f620af72d4b56b"
+        },
+        {
+          "path": "內容單.json",
+          "bytes": 3118,
+          "sha256": "24ec57e5325893a831ee0c03fce322e398534936ddc12dbaf25064e9d6df5414"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "BGA 焊點熱循環疲勞",
+      "slug": "bga-thermal-fatigue-observer-b06",
+      "sourceProjectId": "appgprj_6ae6d1a112e48191928a57a535529a70",
+      "sourceUrl": "https://bga-thermal-fatigue-observer-b06.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6d1a112e48191928a57a535529a70~appgver_6bf5ad94fe20819181be675586e33ff1",
+      "sourceCommit": "0927e52c165dc6ad52dc8cee007d5cb232cc298a",
+      "sourceDeploymentId": "appgdep_6ae6d49aaa2881919f67b600cc199cbf",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:9d99d396f31239b410975069e9483a6eb885bd68088dd53ee7ad87fd9e278ab0",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/bga-thermal-fatigue-observer-b06",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 31,
+          "sha256": "f53f9bbe82f0efc9f5e5f9124fb489a5ae0eb83c199632ae374cda7029224130"
+        },
+        {
+          "path": "README.md",
+          "bytes": 1103,
+          "sha256": "d310efbe6eb8626bfbdb0dd7d1cd23d4a9fe5c3a00615059c8765231be5471e4"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2164,
+          "sha256": "54434fa1929314fa1b07184a12ce6f7cd35781840dfe62f6ad851bf5b5c06331"
+        },
+        {
+          "path": "dist/graphics.js",
+          "bytes": 2468,
+          "sha256": "19b8046f462b5f3f596053b5e5fbfce82aa44969cd06b093bc227485bc5ce8fc"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 418,
+          "sha256": "e330b29caa509f6ae7ae43f03ae8c1e4c5f1e9f8172f6d75f3854b8efe62746c"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 312,
+          "sha256": "03fd7a72685158bf2e808a092c8b8b22fe00776c3040d3b73f9fbf86623cd294"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3846,
+          "sha256": "093a9af919d079c3f07b1ea65db3f10d96dbaa9134fd67257e66229146be18a2"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1450,
+          "sha256": "f1afb395656e03205038b5bbd859d625d04c3d7e532acd4e9b6e3454dfe26d4e"
+        },
+        {
+          "path": "package.json",
+          "bytes": 147,
+          "sha256": "b7023c37e8ab212c0e06b8e70935a51aeddd840596bb4484e37f1f51f91ae24c"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 924,
+          "sha256": "55e4c36a0c5ee6ba5faab56c6efeaa704159b874b102f4d9eb4458c712317f66"
+        },
+        {
+          "path": "內容單.json",
+          "bytes": 3692,
+          "sha256": "053467f551170f3fbc82ce9aecdb9d6a7ea7f782bbeab0c3ff5edd3b6e80469a"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "彈簧壓接式功率封裝",
+      "slug": "spring-press-pack-observer-b06",
+      "sourceProjectId": "appgprj_6ae6d4dabfcc8191aa50049aee922e0d",
+      "sourceUrl": "https://spring-press-pack-observer-b06.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6d4dabfcc8191aa50049aee922e0d~appgver_11c3aad80968819195244598c9d8c2ec",
+      "sourceCommit": "8c4db7ada245cfa722048f54d5500abfb9c8d070",
+      "sourceDeploymentId": "appgdep_6ae6d71f134c8191a766e7318522ddb4",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:4a818d77e3881ca22c4218805c98822289a5f18f7e6e94f0b7a705f3c94d0d0c",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/spring-press-pack-observer-b06",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 31,
+          "sha256": "f53f9bbe82f0efc9f5e5f9124fb489a5ae0eb83c199632ae374cda7029224130"
+        },
+        {
+          "path": "README.md",
+          "bytes": 1146,
+          "sha256": "38af92309cdb30b1e292e766f78c6a85904ce4799ff29f37a1dc78255a20c137"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2164,
+          "sha256": "54434fa1929314fa1b07184a12ce6f7cd35781840dfe62f6ad851bf5b5c06331"
+        },
+        {
+          "path": "dist/graphics.js",
+          "bytes": 2159,
+          "sha256": "bc49635055020f5f9ab99e16a7bfede4cde6891522af5ac520990d2cc0d489c5"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 422,
+          "sha256": "bfc6f988ec2095bfdfe77155c2adde3b35875b210e67444e08396e94e05623ed"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 148,
+          "sha256": "51cd27d70ef23df5ff158e3a37c596c1a25df91759079a6426e20ebfea870cfa"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3114,
+          "sha256": "91d1b5b9e1c619187473408f558fd7f2f0efb49e6fa13f4eb0a49b1c87552bf4"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1450,
+          "sha256": "f1afb395656e03205038b5bbd859d625d04c3d7e532acd4e9b6e3454dfe26d4e"
+        },
+        {
+          "path": "package.json",
+          "bytes": 145,
+          "sha256": "f35a28016c5abe2df62bace2b2f788c3522ed4c23954f1cc287f67a5549496c3"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 924,
+          "sha256": "0181f37c3f2e43e390aacdfdc2e93dbdd3c642021ee24c1e689a02e64dfaf720"
+        },
+        {
+          "path": "內容單.json",
+          "bytes": 3121,
+          "sha256": "66aeef8f5e38c7a20310ca00b583950241aeb45b31d2892e4f435622b0e597ef"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "封裝微流道單相液冷",
+      "slug": "microchannel-liquid-cooling-observer-b06",
+      "sourceProjectId": "appgprj_6ae6d7b25c38819194a31e9188ad0c85",
+      "sourceUrl": "https://microchannel-liquid-cooling-observer-b06.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6d7b25c38819194a31e9188ad0c85~appgver_1a752658433481918619f55df2893ff5",
+      "sourceCommit": "9df24e1508ad3f9f0c34a88cb67ed748e6dc6d4b",
+      "sourceDeploymentId": "appgdep_6ae6d91099208191bc58567470a13f6a",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:ac3317e8f9c9862988a0ff6b4e64e14789039ad31ca38146c601c68690b027e9",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/microchannel-liquid-cooling-observer-b06",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 31,
+          "sha256": "f53f9bbe82f0efc9f5e5f9124fb489a5ae0eb83c199632ae374cda7029224130"
+        },
+        {
+          "path": "README.md",
+          "bytes": 1202,
+          "sha256": "21bda17349eae4f571e5459416e19cd93bfa51e36d8bde092ace0e19fdfaad6d"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2164,
+          "sha256": "54434fa1929314fa1b07184a12ce6f7cd35781840dfe62f6ad851bf5b5c06331"
+        },
+        {
+          "path": "dist/graphics.js",
+          "bytes": 3763,
+          "sha256": "23ea167aeb7059e6a4b022b16ed8e69189a7e7ca8aa503b112ab4e7893958cff"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 422,
+          "sha256": "ac23bcb726639b6287dfeaa706deafcece89818d3d8e99c56c85c3c3b85b7cac"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 188,
+          "sha256": "c37d6bf86a27a3b4ef46f1a7b22fff5ecd8c3346467b080584a1df3fc9593718"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 2697,
+          "sha256": "1f58a81f2f2200c69f5ed4058409d81fe41a8cbebdca70632ddba3c7fdefbf7b"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1450,
+          "sha256": "f1afb395656e03205038b5bbd859d625d04c3d7e532acd4e9b6e3454dfe26d4e"
+        },
+        {
+          "path": "package.json",
+          "bytes": 155,
+          "sha256": "06c0bac2ff54126985fb8e874d2fea5ac829009a8d1f069307329411917c8cef"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 924,
+          "sha256": "fcf8826e46543e4c74c4318111bc11679752e3695a153778b4de14c3a69b7eeb"
+        },
+        {
+          "path": "內容單.json",
+          "bytes": 2853,
+          "sha256": "fcc4f752a013ee9470fd4c722308104113a2893d4ee9c9c0f6979757469bd3e2"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    }
+  ],
+  "excluded": {
+    "unpublishedAtInventory": [],
+    "alreadyBackedUp": 45,
+    "laterCreatedSites": "Not in the approved 15-site scope"
+  },
+  "existingSiteDirectoriesPreserved": [
+    "coordinate-field-xjq-1028",
+    "diffusion-points-20261029",
+    "knowledge-atlas-20261028",
+    "semiconductor-coordinate-atlas-1029",
+    "semiconductor-foundry-lab",
+    "soic-eight-observer",
+    "supply-chain-three-relations-20261029",
+    "taiwan-semiconductor-atlas",
+    "wafer-electrical-test-20261030",
+    "wafer-works-lab-20261029"
+  ],
+  "verificationScope": "Exact source hashes, original automated checks, local HTTP and browser smoke checks. Does not replace original scientific or full device acceptance."
+}

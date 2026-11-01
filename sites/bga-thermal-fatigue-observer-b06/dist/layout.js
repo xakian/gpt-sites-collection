@@ -1,0 +1,1 @@
+export function layout({w,h}){const mobile=w<600;return{w,h,mobile,f:mobile?14:16,cx:mobile?w/2:w*.30,cy:mobile?h*.20:h*.44,bw:mobile?w-70:w*.45,k:Math.min(1.1,h/360),zx:mobile?w/2:w*.78,zy:mobile?h*.74:h*.49,zw:mobile?Math.min(190,w*.52):Math.min(215,w*.24),zh:mobile?Math.min(115,h*.25):Math.min(145,h*.43)};}

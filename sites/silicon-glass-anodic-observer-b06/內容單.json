@@ -1,0 +1,79 @@
+{
+  "batch": "06",
+  "spec": "v1.0",
+  "template": "1.0.0",
+  "version": "1.0.0",
+  "number": "04",
+  "title": "矽玻璃陽極接合",
+  "question": "離子移動以後，為什麼斷電仍接合？",
+  "duration": 32,
+  "overview": 26,
+  "simplification": "採含鹼硼矽玻璃與矽，玻璃在上、矽在下；矽端較正、玻璃外側較負。中央小空腔不參與接觸。Na⁺數量、耗盡區厚度及Si—O符號放大；只示意淨遷移與界面反應，不求解電場、空間電荷或反應速率。工業電壓與溫度依材料而異，本片不提供通用配方；接合完成仍須測漏。",
+  "supplement": "<p>加工時：加熱讓離子易移動，電場與界面電荷促進接觸及反應。完成後：封接邊留下化學接合，並非靠永久通電維持。</p>",
+  "sources": [
+    {
+      "title": "EV Group · Anodic Bonding",
+      "url": "https://www.evgroup.com/ja/technologies/anodic-bonding/",
+      "claim": "含鹼玻璃、加熱與電場輔助界面反應；使用同廠商可讀技術頁。"
+    },
+    {
+      "title": "Rose-Hulman · Anodic Bonding Procedure",
+      "url": "https://www.rose-hulman.edu/~adams1/courses/mems/other/Anodic%20bonding%20procedure.pdf",
+      "claim": "原校文件確認矽正、玻璃負與Na⁺方向，完成後關電冷卻。"
+    },
+    {
+      "title": "DTU Nanolab · Anodic bonding",
+      "url": "https://labadviser.nanolab.dtu.dk/index.php?mobileaction=toggle_view_mobile&title=Specific_Process_Knowledge%2FBonding%2FAnodic_bonding",
+      "claim": "含鹼玻璃材料與負極側配置。"
+    },
+    {
+      "title": "Michigan LNF · Anodic bonding",
+      "url": "https://lnf-wiki.eecs.umich.edu/wiki/Anodic_bonding",
+      "claim": "Na⁺往玻璃負端的說明；頁面有一句相反極性文字，本圖極性以另兩所學校資料交叉核對。"
+    }
+  ],
+  "stages": [
+    {
+      "start": 0,
+      "key": 3,
+      "title": "清潔接面後對位",
+      "explain": "玻璃靠近矽的封接邊，治具保持承托。中央凹下的空腔保持空，不是要填滿的接縫。",
+      "detail": "選的是適合陽極接合的含鹼硼矽玻璃，不把一般玻璃都視為相同材料。"
+    },
+    {
+      "start": 5,
+      "key": 8,
+      "title": "加熱並施加電場",
+      "explain": "矽端較正，玻璃外側較負；加熱使玻璃中的可動離子更容易遷移。",
+      "detail": "上方負端、下方正端，藍箭頭表示向上電場。玻璃保持固態形狀。"
+    },
+    {
+      "start": 10,
+      "key": 15,
+      "title": "Na⁺向玻璃負端遷移",
+      "explain": "同一批Na⁺往玻璃外側負極移動，封接邊附近出現離子耗盡區。",
+      "detail": "淡紫區依然是玻璃，不是被挖掉的空洞。Na⁺也不是電子。"
+    },
+    {
+      "start": 17,
+      "key": 21,
+      "title": "封接邊逐步形成 Si—O",
+      "explain": "界面靜電吸引促進緊密接觸，含氧界面逐步形成Si—O化學連接。",
+      "detail": "橙色短接點只在左右封接邊，不跨過中央空腔。"
+    },
+    {
+      "start": 24,
+      "key": 26,
+      "title": "斷電冷卻，接合仍保留",
+      "explain": "依工法結束外電場，冷卻並卸載。橙色界面化學連接仍保留。",
+      "detail": "斷電不是解黏；離子也不在此刻瞬間全部回到原位。"
+    },
+    {
+      "start": 28,
+      "key": 30,
+      "title": "完成件退場，新材料進場",
+      "explain": "已接合的矽與玻璃一起退場，新一組材料與治具進場。",
+      "detail": "不把同一永久接合界面倒轉拆開。"
+    }
+  ]
+}

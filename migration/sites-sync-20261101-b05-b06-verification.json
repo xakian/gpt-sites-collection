@@ -1,0 +1,310 @@
+{
+  "checkedAt": "2026-11-01T06:52:15.293Z",
+  "originalChecks": [
+    {
+      "slug": "ltcc-cofiring-observer-b05",
+      "passed": true,
+      "syntaxChecks": 6,
+      "originalTests": []
+    },
+    {
+      "slug": "daf-stair-stack-observer-b06",
+      "passed": true,
+      "syntaxChecks": 8,
+      "originalTests": [
+        {
+          "type": "original-test",
+          "file": "test.mjs",
+          "passed": true,
+          "output": "PASS: 5 layouts × 14 key/boundary states, unique die identities and cure boundary.\n"
+        }
+      ]
+    },
+    {
+      "slug": "embedded-silicon-bridge-b05",
+      "passed": true,
+      "syntaxChecks": 6,
+      "originalTests": []
+    },
+    {
+      "slug": "plasma-dicing-observer-b05",
+      "passed": true,
+      "syntaxChecks": 6,
+      "originalTests": []
+    },
+    {
+      "slug": "dbc-ceramic-copper-observer-b06",
+      "passed": true,
+      "syntaxChecks": 8,
+      "originalTests": []
+    },
+    {
+      "slug": "vacuum-reflow-observer-b05",
+      "passed": true,
+      "syntaxChecks": 6,
+      "originalTests": []
+    },
+    {
+      "slug": "cu-sn-slid-observer-b06",
+      "passed": true,
+      "syntaxChecks": 8,
+      "originalTests": []
+    },
+    {
+      "slug": "wire-pull-test-observer-b05",
+      "passed": true,
+      "syntaxChecks": 6,
+      "originalTests": []
+    },
+    {
+      "slug": "helium-leak-test-observer-b05",
+      "passed": true,
+      "syntaxChecks": 6,
+      "originalTests": []
+    },
+    {
+      "slug": "silicon-glass-anodic-observer-b06",
+      "passed": true,
+      "syntaxChecks": 8,
+      "originalTests": []
+    },
+    {
+      "slug": "thermal-warpage-moire-b05",
+      "passed": true,
+      "syntaxChecks": 6,
+      "originalTests": []
+    },
+    {
+      "slug": "solder-electromigration-observer-b06",
+      "passed": true,
+      "syntaxChecks": 8,
+      "originalTests": []
+    },
+    {
+      "slug": "bga-thermal-fatigue-observer-b06",
+      "passed": true,
+      "syntaxChecks": 8,
+      "originalTests": []
+    },
+    {
+      "slug": "spring-press-pack-observer-b06",
+      "passed": true,
+      "syntaxChecks": 8,
+      "originalTests": []
+    },
+    {
+      "slug": "microchannel-liquid-cooling-observer-b06",
+      "passed": true,
+      "syntaxChecks": 8,
+      "originalTests": []
+    }
+  ],
+  "allPassed": true,
+  "syntaxChecks": 106,
+  "originalTestScripts": 1,
+  "browserSmoke": {
+    "checkedAt": "2026-11-01T06:53:49.977Z",
+    "scope": "Local desktop controls on all 15 sites: initial auto-play, pause, End/Home seek, 2x speed selection, notes open/close, seek to third step, replay and valid SVG content. No full-cycle or multi-device acceptance claim.",
+    "sites": [
+      {
+        "slug": "ltcc-cofiring-observer-b05",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "stepSeek": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 9,
+        "invalidGeometry": false
+      },
+      {
+        "slug": "daf-stair-stack-observer-b06",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "stepSeek": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 10,
+        "invalidGeometry": false
+      },
+      {
+        "slug": "embedded-silicon-bridge-b05",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "stepSeek": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 33,
+        "invalidGeometry": false
+      },
+      {
+        "slug": "plasma-dicing-observer-b05",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "stepSeek": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 14,
+        "invalidGeometry": false
+      },
+      {
+        "slug": "dbc-ceramic-copper-observer-b06",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "stepSeek": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 8,
+        "invalidGeometry": false
+      },
+      {
+        "slug": "vacuum-reflow-observer-b05",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "stepSeek": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 57,
+        "invalidGeometry": false
+      },
+      {
+        "slug": "cu-sn-slid-observer-b06",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "stepSeek": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 9,
+        "invalidGeometry": false
+      },
+      {
+        "slug": "wire-pull-test-observer-b05",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "stepSeek": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 9,
+        "invalidGeometry": false
+      },
+      {
+        "slug": "helium-leak-test-observer-b05",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "stepSeek": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 34,
+        "invalidGeometry": false
+      },
+      {
+        "slug": "silicon-glass-anodic-observer-b06",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "stepSeek": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 12,
+        "invalidGeometry": false
+      },
+      {
+        "slug": "thermal-warpage-moire-b05",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "stepSeek": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 1574,
+        "invalidGeometry": false
+      },
+      {
+        "slug": "solder-electromigration-observer-b06",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "stepSeek": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 5,
+        "invalidGeometry": false
+      },
+      {
+        "slug": "bga-thermal-fatigue-observer-b06",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "stepSeek": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 31,
+        "invalidGeometry": false
+      },
+      {
+        "slug": "spring-press-pack-observer-b06",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "stepSeek": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 15,
+        "invalidGeometry": false
+      },
+      {
+        "slug": "microchannel-liquid-cooling-observer-b06",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "stepSeek": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 46,
+        "invalidGeometry": false
+      }
+    ],
+    "allPassed": true
+  },
+  "limitations": [
+    "Exact published source preserved. No new scientific review, full animation-cycle, physical-device, background-return, or OS reduced-motion acceptance. Only the DAF source contains an automated test script."
+  ],
+  "http": {
+    "checkedAt": "2026-11-01T06:52:34.122Z",
+    "files": 142,
+    "allPassed": true,
+    "scope": "Local HTTP response status, bytes and SHA-256 match published-source snapshot for every dist file"
+  },
+  "integrity": {
+    "sourceFiles": 217,
+    "runtimeFiles": 142,
+    "allMatchPublishedSource": true,
+    "existingSiteDirectoriesUnchanged": 10
+  },
+  "deploymentGuards": {
+    "rootCodexBranchesDisabled": true,
+    "existingTenProjectsCodexBranchesDisabled": true,
+    "new15ProjectsAllGitDeploymentDisabled": true,
+    "githubActionsAdded": false,
+    "documentation": "https://vercel.com/docs/project-configuration/git-configuration"
+  },
+  "preservedUpstreamWhitespaceWarnings": [
+    "sites/cu-sn-slid-observer-b06/dist/layout.js:2: new blank line at EOF.",
+    "sites/daf-stair-stack-observer-b06/dist/graphics.js:20: new blank line at EOF.",
+    "sites/daf-stair-stack-observer-b06/dist/layout.js:2: new blank line at EOF.",
+    "sites/daf-stair-stack-observer-b06/dist/model.js:12: new blank line at EOF.",
+    "sites/dbc-ceramic-copper-observer-b06/dist/graphics.js:14: new blank line at EOF.",
+    "sites/helium-leak-test-observer-b05/dist/app.js:21: new blank line at EOF.",
+    "sites/plasma-dicing-observer-b05/dist/app.js:18: new blank line at EOF.",
+    "sites/vacuum-reflow-observer-b05/dist/app.js:19: new blank line at EOF.",
+    "sites/vacuum-reflow-observer-b05/dist/model.js:11: new blank line at EOF."
+  ]
+}
