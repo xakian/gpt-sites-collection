@@ -1,0 +1,10 @@
+export const palette={si:'#C9D5DC',water:'#DCEEF4',particle:'#C4956E',energy:'#A499C1',line:'#657985',ink:'#253039',muted:'#5B6B75'};
+export const clamp=x=>Math.max(0,Math.min(1,x));
+export const ramp=(t,a,b)=>clamp((t-a)/(b-a));
+export const smooth=x=>x*x*(3-2*x);
+export const rect=(x,y,w,h,fill,extra='')=>`<rect x="${x}" y="${y}" width="${Math.max(0,w)}" height="${Math.max(0,h)}" fill="${fill}" ${extra}/>`;
+export const path=(d,color='#657985',width=1.4,extra='')=>`<path d="${d}" fill="none" stroke="${color}" stroke-width="${width}" stroke-linecap="round" stroke-linejoin="round" ${extra}/>`;
+export const text=(x,y,txt,size=16,anchor='middle',color='#253039')=>`<text x="${x}" y="${y}" text-anchor="${anchor}" fill="${color}" font-size="${size}">${txt}</text>`;
+export const circle=(x,y,r,fill,extra='')=>`<circle cx="${x}" cy="${y}" r="${r}" fill="${fill}" ${extra}/>`;
+export const group=(content,extra='')=>`<g ${extra}>${content}</g>`;
+export const arrow=(x,y,dx,dy,color='#7B9AAB')=>path(`M${x} ${y}l${dx} ${dy}m${-dx*.15-dy*.15} ${-dy*.15+dx*.15}l${dx*.15+dy*.15} ${dy*.15-dx*.15}l${-dx*.15+dy*.15} ${-dy*.15-dx*.15}`,color,1.6);

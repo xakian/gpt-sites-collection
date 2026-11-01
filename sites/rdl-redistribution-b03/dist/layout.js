@@ -1,0 +1,1 @@
+export function layout(width,height){const mobile=width<600;return {width,height,mobile,short:height<300,px:mobile?width*.1:width*.055,pw:mobile?width*.8:width*.48,py:height<300?86:Math.max(112,height*.22),ph:mobile&&height<500?90:height<300?108:130,cx:mobile?width*.1:width*.61,cw:mobile?width*.8:width*.34,cy:mobile?(height<500?height-110:height*.7):height*.62};}

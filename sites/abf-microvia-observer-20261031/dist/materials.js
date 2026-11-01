@@ -1,0 +1,1 @@
+export const colors={ink:'#253039',line:'#64747D',base:'#DCE7E6',abf:'#E7D8B7',copper:'#C98E70',seed:'#AE6D53',resist:'#B5C7DE',residue:'#B6A08D',laser:'#C17B79',liquid:'#8CB6C5',connection:'#5A8C78',paper:'#F7F9FA'};

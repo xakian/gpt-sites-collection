@@ -1,0 +1,4 @@
+#scene-wrap{width:100%;height:100%}#scene .outline{stroke:#61717B;stroke-width:1.2;stroke-linejoin:round}#scene text{fill:#253039;font-family:inherit;font-size:16px}#scene .small{font-size:12px;fill:#5B6B75}#scene .caption{font-size:14px;fill:#5B6B75}#scene .guide{stroke:#84949B;stroke-width:1;fill:none}#scene .silicon{fill:#A9BACC}#scene .glass{fill:#D8EAF0;fill-opacity:.75}#scene .adhesive{fill:#EAD7AD}#scene .release{fill:#B7A5C7}#scene .tape{fill:#A6C5B5}#scene .tool{fill:#DEE4E7}#scene .device{fill:#728D9E}#scene .gold{fill:#C6A16B}
+#scene .material{font-size:15px}#scene .caption{font-size:16px}
+
+#scene{overflow:hidden}

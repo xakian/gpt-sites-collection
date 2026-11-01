@@ -1,0 +1,471 @@
+{
+  "checkedAt": "2026-11-01T04:57:56.727Z",
+  "originalChecks": [
+    {
+      "slug": "acf-bonding-observer-b05",
+      "check": "original-syntax-check",
+      "passed": true,
+      "testFiles": 0,
+      "tests": 0,
+      "failures": 0
+    },
+    {
+      "slug": "moisture-reflow-observer-20261031",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 1,
+      "tests": 1,
+      "failures": 0
+    },
+    {
+      "slug": "xray-ct-void-observer-20261031",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 1,
+      "tests": 1,
+      "failures": 0
+    },
+    {
+      "slug": "acoustic-package-inspection-b03",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 2,
+      "tests": 9,
+      "failures": 0
+    },
+    {
+      "slug": "lid-tim-assembly-b03",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 2,
+      "tests": 8,
+      "failures": 0
+    },
+    {
+      "slug": "fiber-active-alignment-observer-20261031",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 1,
+      "tests": 1,
+      "failures": 0
+    },
+    {
+      "slug": "silver-sinter-die-attach-b03",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 2,
+      "tests": 8,
+      "failures": 0
+    },
+    {
+      "slug": "package-emi-shield-observer-20261031",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 1,
+      "tests": 1,
+      "failures": 0
+    },
+    {
+      "slug": "pop-package-stacking-b03",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 2,
+      "tests": 8,
+      "failures": 0
+    },
+    {
+      "slug": "mems-glass-frit-observer-20261031",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 1,
+      "tests": 1,
+      "failures": 0
+    },
+    {
+      "slug": "hybrid-bonding-b03",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 2,
+      "tests": 8,
+      "failures": 0
+    },
+    {
+      "slug": "rdl-redistribution-b03",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 2,
+      "tests": 8,
+      "failures": 0
+    },
+    {
+      "slug": "copper-clip-observer-20261031",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 1,
+      "tests": 1,
+      "failures": 0
+    },
+    {
+      "slug": "fanout-reconstituted-wafer-b03",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 2,
+      "tests": 8,
+      "failures": 0
+    },
+    {
+      "slug": "copper-pillar-observer-20261031",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 1,
+      "tests": 2,
+      "failures": 0
+    },
+    {
+      "slug": "abf-microvia-observer-20261031",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 1,
+      "tests": 2,
+      "failures": 0
+    },
+    {
+      "slug": "temporary-wafer-bonding-b03",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 2,
+      "tests": 9,
+      "failures": 0
+    },
+    {
+      "slug": "soi-layer-transfer-observer",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 1,
+      "tests": 7,
+      "failures": 0
+    },
+    {
+      "slug": "bosch-drie-observer",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 1,
+      "tests": 7,
+      "failures": 0
+    },
+    {
+      "slug": "sidewall-spacer-observer",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 1,
+      "tests": 7,
+      "failures": 0
+    },
+    {
+      "slug": "shallow-trench-isolation-observer",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 1,
+      "tests": 7,
+      "failures": 0
+    },
+    {
+      "slug": "selective-epitaxy-observer",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 1,
+      "tests": 7,
+      "failures": 0
+    },
+    {
+      "slug": "pecvd-sinx-observer",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 1,
+      "tests": 7,
+      "failures": 0
+    },
+    {
+      "slug": "pvd-sputtering-observer",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 1,
+      "tests": 7,
+      "failures": 0
+    },
+    {
+      "slug": "megasonic-cleaning-observer",
+      "check": "original-tests",
+      "passed": true,
+      "testFiles": 1,
+      "tests": 7,
+      "failures": 0
+    }
+  ],
+  "totalTests": 132,
+  "allPassed": true,
+  "browserSmoke": {
+    "checkedAt": "2026-11-01T05:01:38.597Z",
+    "scope": "Local desktop controls: auto-play available, pause, End/Home seek, 2x speed selection, notes open/close staying paused, replay and SVG content. No full-cycle or multi-device acceptance claim.",
+    "sites": [
+      {
+        "slug": "acf-bonding-observer-b05",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 17
+      },
+      {
+        "slug": "moisture-reflow-observer-20261031",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 18
+      },
+      {
+        "slug": "xray-ct-void-observer-20261031",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 401
+      },
+      {
+        "slug": "acoustic-package-inspection-b03",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 65
+      },
+      {
+        "slug": "lid-tim-assembly-b03",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 19
+      },
+      {
+        "slug": "fiber-active-alignment-observer-20261031",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 22
+      },
+      {
+        "slug": "silver-sinter-die-attach-b03",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 26
+      },
+      {
+        "slug": "package-emi-shield-observer-20261031",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 30
+      },
+      {
+        "slug": "pop-package-stacking-b03",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 39
+      },
+      {
+        "slug": "mems-glass-frit-observer-20261031",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 13
+      },
+      {
+        "slug": "hybrid-bonding-b03",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 32
+      },
+      {
+        "slug": "rdl-redistribution-b03",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 23
+      },
+      {
+        "slug": "copper-clip-observer-20261031",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 15
+      },
+      {
+        "slug": "fanout-reconstituted-wafer-b03",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 9
+      },
+      {
+        "slug": "copper-pillar-observer-20261031",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 12
+      },
+      {
+        "slug": "abf-microvia-observer-20261031",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 6
+      },
+      {
+        "slug": "temporary-wafer-bonding-b03",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 23
+      },
+      {
+        "slug": "soi-layer-transfer-observer",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 7
+      },
+      {
+        "slug": "bosch-drie-observer",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 4
+      },
+      {
+        "slug": "sidewall-spacer-observer",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 3
+      },
+      {
+        "slug": "shallow-trench-isolation-observer",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 7
+      },
+      {
+        "slug": "selective-epitaxy-observer",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 42
+      },
+      {
+        "slug": "pecvd-sinx-observer",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 15
+      },
+      {
+        "slug": "pvd-sputtering-observer",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 14
+      },
+      {
+        "slug": "megasonic-cleaning-observer",
+        "end": true,
+        "home": true,
+        "panel": true,
+        "pausedAfterPanel": true,
+        "replayPlaying": true,
+        "sceneShapes": 5
+      }
+    ],
+    "allPassed": true
+  },
+  "limitations": [
+    "No new full scientific re-review, physical-device, actual-background or OS reduced-motion acceptance; original limitations remain."
+  ],
+  "http": {
+    "checkedAt": "2026-11-01T04:59:41.670Z",
+    "files": 256,
+    "allPassed": true,
+    "scope": "Local HTTP response status, bytes and SHA-256 match published-source snapshot for every dist file"
+  },
+  "integrity": {
+    "sourceFiles": 406,
+    "runtimeFiles": 256,
+    "allMatchPublishedSource": true,
+    "existingSiteDirectoriesUnchanged": 10
+  },
+  "deploymentGuards": {
+    "rootCodexBranchesDisabled": true,
+    "existingTenProjectsCodexBranchesDisabled": true,
+    "new25ProjectsAllGitDeploymentDisabled": true,
+    "githubActionsAdded": false
+  },
+  "preservedUpstreamWhitespaceWarnings": [
+    "sites/abf-microvia-observer-20261031/dist/model.js:18: new blank line at EOF.",
+    "sites/fiber-active-alignment-observer-20261031/dist/drawing.js:20: new blank line at EOF.",
+    "sites/fiber-active-alignment-observer-20261031/dist/model.js:15: new blank line at EOF.",
+    "sites/megasonic-cleaning-observer/tests/player-clock.test.js:12: new blank line at EOF.",
+    "sites/mems-glass-frit-observer-20261031/dist/drawing.js:18: new blank line at EOF.",
+    "sites/package-emi-shield-observer-20261031/dist/drawing.js:20: new blank line at EOF.",
+    "sites/pecvd-sinx-observer/dist/model.js:14: new blank line at EOF.",
+    "sites/temporary-wafer-bonding-b03/tests/player-clock.test.js:12: new blank line at EOF.",
+    "sites/xray-ct-void-observer-20261031/dist/drawing.js:22: new blank line at EOF."
+  ]
+}

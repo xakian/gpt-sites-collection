@@ -1,0 +1,2 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {stateAt} from '../dist/model.js';
+test('先放晶粒再銅夾，退出不拆焊點',()=>{assert.equal(stateAt(6.8).die,1);assert.equal(stateAt(6.8).topSolder,0);assert.equal(stateAt(9.8).topSolder,1);assert.equal(stateAt(9.8).clipEnter,0);assert.equal(stateAt(15).clipDown,1);assert.equal(stateAt(17.5).toolExit,1);assert.equal(stateAt(17.5).wet,0);const end=stateAt(29.5);assert.equal(end.wet,1);assert.equal(end.clipDown,1);assert.equal(end.die,1);assert.ok(end.exit>0);});

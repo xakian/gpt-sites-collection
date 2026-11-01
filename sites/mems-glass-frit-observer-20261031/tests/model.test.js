@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {stateAt} from '../dist/model.js';
+test('排膠在封合前；完成後保持釉環、上下間隙',()=>{for(let t=0;t<34;t+=.01){const s=stateAt(t);if(s.burn){assert.equal(s.lower,0);assert.equal(s.flip,0);}if(s.wet>0){assert.equal(s.print,1);assert.equal(s.pre,1);assert.equal(s.flip,1);assert.equal(s.lower,1);}if(t>=27){assert.equal(s.wet,1);assert.ok(265+s.motion>243);assert.ok(275+s.motion<300);}}});

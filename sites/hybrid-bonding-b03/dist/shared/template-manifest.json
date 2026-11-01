@@ -1,0 +1,10 @@
+{
+  "template": "science-animation-observer",
+  "version": "1.0.0",
+  "specification": "1.0",
+  "files": {
+    "observer.js": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e",
+    "observer.css": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570",
+    "player-clock.js": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+  }
+}

@@ -1,0 +1,3 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {stateAt,solderProfile} from '../dist/model.js';
+test('阻障與焊料先後，柱間隔離在去金屬之後',()=>{assert.equal(stateAt(13.8).copper,1);assert.equal(stateAt(13.8).nickel,0);assert.equal(stateAt(15.8).nickel,1);assert.equal(stateAt(15.8).solder,0);assert.equal(stateAt(18.8).isolated,false);assert.equal(stateAt(22.8).isolated,true);assert.equal(stateAt(26).copper,1);assert.equal(stateAt(31).solder,1);});
+test('焊料整形的軸對稱體積保持',()=>{for(const q of [0,.25,.5,.75,1]){const p=solderProfile(q),n=10000,dr=35/n;let v=0;for(let i=0;i<n;i++){const r=(i+.5)*dr;v+=2*Math.PI*r*p.z(r)*dr;}assert.ok(Math.abs(v/(Math.PI*35**2*20)-1)<1e-6);}});

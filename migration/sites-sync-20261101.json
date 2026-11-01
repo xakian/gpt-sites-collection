@@ -1,0 +1,2660 @@
+{
+  "schema": "gpt-sites.github-snapshot/1",
+  "capturedAt": "2026-11-01T04:57:31.951Z",
+  "repository": "xakian/gpt-sites-collection",
+  "branch": "codex/sites-sync-20261101",
+  "baseCommit": "76cbd97e7a7d3aa098cdbf55e3b394d93ac23ba1",
+  "scope": "25 approved published Sites only; GitHub branch only; no merge, Vercel deployment or main-site integration",
+  "sites": [
+    {
+      "title": "ACF 異向導電膜接合",
+      "slug": "acf-bonding-observer-b05",
+      "sourceProjectId": "appgprj_6ae6c0b2b3048191bf7a838b20c51d38",
+      "sourceUrl": "https://acf-bonding-observer-b05.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6c0b2b3048191bf7a838b20c51d38~appgver_6adc559b99308191818a821716ca2704",
+      "sourceCommit": "12f2b631efd319000689bc5cc1ac8a0d25289a0b",
+      "sourceDeploymentId": "appgdep_6ae6c4699d1881918f663c692334be92",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:d81af46f55f071782253d0732c121777da110362fff9d05148861c2ad4c0a7cc",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/acf-bonding-observer-b05",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 37,
+          "sha256": "0d8d39903c8c7d0a075c5740daeb0e031ea775310e91a71263dcc0ec034df247"
+        },
+        {
+          "path": "CONTENT.md",
+          "bytes": 3375,
+          "sha256": "646e6bd7a94db528ae3d71c20604b36e80ad7669b58e834882b093f5ac7529cf"
+        },
+        {
+          "path": "README.md",
+          "bytes": 2067,
+          "sha256": "27a75c6d4ea77f2e96ec039dccca9962dbd484d31d4e29c50e85b2d5a0f38eee"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 3345,
+          "sha256": "22d0737a273046aa93e76447113cd56fa11538bf5e0c6f7372ad1ff2240c72cc"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 407,
+          "sha256": "a501abde508e23584f8db1874cb7d55ce9aae25a205b02f4c4750f0f742b7374"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3559,
+          "sha256": "34ab3dfd0df5b335579ff7a4ea445a3dc584f96fb86dfc3831cd78262648d4e4"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 743,
+          "sha256": "bafc45337327cf12b40ba4f70195d47eb36ac801ad8539786bb083a69edacfe3"
+        },
+        {
+          "path": "dist/view.js",
+          "bytes": 3254,
+          "sha256": "05079bc82c3b8189136bbcc15fc3b0c926bbb3198934890b5cc503d875dd37e4"
+        },
+        {
+          "path": "package.json",
+          "bytes": 180,
+          "sha256": "4b9233125a8621d56448a09e26309634cda5d8ebaf24c59f3345f45e2715cef7"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 912,
+          "sha256": "067ce6a4b990501ecd7d140376fb0dfea39e516b76d2c47f541cf7f087f4494d"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "封裝吸濕與迴焊爆米花效應",
+      "slug": "moisture-reflow-observer-20261031",
+      "sourceProjectId": "appgprj_6ae60f6d10a08191ab806e7fe2a630e9",
+      "sourceUrl": "https://moisture-reflow-observer-20261031.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae60f6d10a08191ab806e7fe2a630e9~appgver_e0b63ba4f8f88191bf080b87d5fda9b4",
+      "sourceCommit": "cb2232401490ad6db78e86015f1cab7b4b757c60",
+      "sourceDeploymentId": "appgdep_6ae60fbfb5b081918885223867dfd4c8",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:d19ecac4c83253eaa6ac1a1807ce66066aa2aaef083a227437d643aaeaf27c3b",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/moisture-reflow-observer-20261031",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 29,
+          "sha256": "ea34ec2b98e22f228ff069c12b60c123fe868f693886d45d3a77e1efca492f2d"
+        },
+        {
+          "path": "README.md",
+          "bytes": 633,
+          "sha256": "b9ee0a5c4d29928625db6cf7b83c03fac272d4da2e8f1aedf38fbbcca63904b7"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1363,
+          "sha256": "f4211493c00baacbe39df2d68018c041176467ba0b4178548512af0ffc0205bb"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 3657,
+          "sha256": "ce83efcf9efd84141544b6292ba691a6dcedc393f9a6d57a332b016b69c2fc82"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 2881,
+          "sha256": "9350c2bd4a902350ba8b2d3958d074638fd466b66c90b994b20fb4f55819d069"
+        },
+        {
+          "path": "dist/materials.js",
+          "bytes": 182,
+          "sha256": "6b40b1c249443f4460849db800ce4b464b501703aaf92d29557596211483b4ac"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3227,
+          "sha256": "f7a4f5ec2231ae145c9169a89a66a50845926439df346766791df62bf6e69980"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 485,
+          "sha256": "9be08cb90f4c23cd3ff9e1af831b239a96ae3a2d97b6a4a689ca14f889f29e8b"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 179,
+          "sha256": "9011137fb5b8b2932d67bdd19bb43cc2234977d96ed9846d26c26c8ef7745a17"
+        },
+        {
+          "path": "package.json",
+          "bytes": 195,
+          "sha256": "37df76274421b679973cbcb1ca6c94ef41c52ac358c8b7ec45c6d7c913b5c412"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 865,
+          "sha256": "26e278eddad33c8386d9cc123eb836efefd3a4f9836456587bd639e149e3086b"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 730,
+          "sha256": "d9096d484f8a2adf675935b759ba65c36f4d515dc5482913212c5d4f0ae2ad8f"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "X 光 CT 焊點孔洞檢測",
+      "slug": "xray-ct-void-observer-20261031",
+      "sourceProjectId": "appgprj_6ae60d1e68e88191abb1b200a4f37b4d",
+      "sourceUrl": "https://xray-ct-void-observer-20261031.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae60d1e68e88191abb1b200a4f37b4d~appgver_a12c16b55a3c81919179c75ad9892d17",
+      "sourceCommit": "8abfdf7e6f8e75fd1c0925beeefeb29d67552952",
+      "sourceDeploymentId": "appgdep_6ae60d709f8c8191863df88ea460edae",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:4408307075b074c7cebd37061b6314623c4cfd654c7d594943f3d017611c77c7",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/xray-ct-void-observer-20261031",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 29,
+          "sha256": "ea34ec2b98e22f228ff069c12b60c123fe868f693886d45d3a77e1efca492f2d"
+        },
+        {
+          "path": "README.md",
+          "bytes": 621,
+          "sha256": "ada83e59ca2a77dba7b87211d07dbd207a6e043871ee3ccfe199e504493b3ead"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1363,
+          "sha256": "f4211493c00baacbe39df2d68018c041176467ba0b4178548512af0ffc0205bb"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 3783,
+          "sha256": "1590bdbff975ddd8df1f82e702450b9b55157eb2c2b3213b7bdb625ef1720ea4"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 2498,
+          "sha256": "89aef0801cf2a7bcbd43cda3ba0bfc95f50c4426cb2a780208104b2995df3e33"
+        },
+        {
+          "path": "dist/materials.js",
+          "bytes": 172,
+          "sha256": "db6e2087f791bb7632591808d13c6400995c186ffb504a64dc7843e211715ff0"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3902,
+          "sha256": "bf72cf5eea582d18157041021fe0ccafc5ab5bc44bb9afdf3898c80d79b8f374"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 485,
+          "sha256": "9be08cb90f4c23cd3ff9e1af831b239a96ae3a2d97b6a4a689ca14f889f29e8b"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 179,
+          "sha256": "9011137fb5b8b2932d67bdd19bb43cc2234977d96ed9846d26c26c8ef7745a17"
+        },
+        {
+          "path": "package.json",
+          "bytes": 192,
+          "sha256": "fe59605ddf86e963dd52c2226e55a5a1182d2e499497359d04457a5f7ac0e606"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 865,
+          "sha256": "1668b3d72897e7f8b11578c82cf70477727811dff55d82a6fe63d39728ef5420"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 627,
+          "sha256": "5acc5422bb73a009e42eb1722d0f6b8e0f6a56d4d9c6d041c3b87c6d8bfe9b2f"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "超音波封裝檢測",
+      "slug": "acoustic-package-inspection-b03",
+      "sourceProjectId": "appgprj_6ae60c28f2a88191997237518a958fcb",
+      "sourceUrl": "https://acoustic-package-inspection-b03.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae60c28f2a88191997237518a958fcb~appgver_14c171d339a0819185a5f549b38e3cd4",
+      "sourceCommit": "f2cb56625c7eba30f27690956b7a442ce1c05f32",
+      "sourceDeploymentId": "appgdep_6ae60faa05a08191b756df9878d6f67f",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:f81d89bce6db4342e58d76301319e7ca2661afc49b0db556a9999fbc8378fb85",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/acoustic-package-inspection-b03",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 20,
+          "sha256": "295aa1f18923880afebb2e08aa70a8c4f285cc52baea238b8d2864d10e45d825"
+        },
+        {
+          "path": "README.md",
+          "bytes": 547,
+          "sha256": "afb229d0c469833dcc22047ae55bff8fc44dc4a5c2f55865de6b8a3252a40673"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1423,
+          "sha256": "9a074cb4aae1571eae7e7684a0fc7f8c76d861a4caadbae5333a7208d7b0822a"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 3387,
+          "sha256": "c8fe35682e03d6eeaafa12baaac171aaa8330692a47188a3fc5e79644baba47c"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 488,
+          "sha256": "6e6fc6dcea49bea31c07ec927dee9375a787a53547d39310809ad1e7fc907b6c"
+        },
+        {
+          "path": "dist/materials.css",
+          "bytes": 1046,
+          "sha256": "09b9054498e0ec382e04998b1fb7a3066e49bd686c08911314d7ae7ff2aa4430"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 4118,
+          "sha256": "c66553d8f496965b62c45530646f3fa7f9a5102d3e0030b22e90fe819ea69aef"
+        },
+        {
+          "path": "dist/scene.js",
+          "bytes": 3495,
+          "sha256": "e747a04f5f5baf875d928fe037f5f20f1835925b1001d3d2d4175a7c553c10dc"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 875,
+          "sha256": "ad89bdaf7aa90e1dcc5000ff8764c295003093d00917ccb38383df3e812e6f04"
+        },
+        {
+          "path": "docs/內容與來源.md",
+          "bytes": 2642,
+          "sha256": "bc86ea17a6dbd2f8f6b8760aed2beafdefa1af22ea7319582997a68dab1e0e14"
+        },
+        {
+          "path": "package.json",
+          "bytes": 180,
+          "sha256": "3e046fce73ff05b729a6aa72f03ef9dc152456a8245ffa7dfabf35a56d2637ea"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 866,
+          "sha256": "4e46e6d3d126e2a365f93fca1f7666177108035d2a8928914bf5776f9437e52b"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 1012,
+          "sha256": "68956153ca0b6e649ccaf102ed416a1b626437608dae432512becfc363b5461e"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2722,
+          "sha256": "14a78bf0f279c1470479081786fb7b284a60eed0567d2c725116e54f556571e4"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "散熱蓋與 TIM 組裝",
+      "slug": "lid-tim-assembly-b03",
+      "sourceProjectId": "appgprj_6ae609d8b8a48191963bb2cd5d93b47c",
+      "sourceUrl": "https://lid-tim-assembly-b03.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae609d8b8a48191963bb2cd5d93b47c~appgver_121bd080ef8481918f52453411a99c7b",
+      "sourceCommit": "16017dae7cebf965fa2a605d18cadbaa4e73e191",
+      "sourceDeploymentId": "appgdep_6ae60ae99a548191bbd41169a8a975fc",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:58659f89cfe8e655124cae0aa03d1bd491344fb7d218a8871ebdb19a83f3b091",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/lid-tim-assembly-b03",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 20,
+          "sha256": "295aa1f18923880afebb2e08aa70a8c4f285cc52baea238b8d2864d10e45d825"
+        },
+        {
+          "path": "README.md",
+          "bytes": 538,
+          "sha256": "1c09ba38e9c2bd3563fb1b2388620b983b168aba90f0229fae51fc1a51537e59"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1413,
+          "sha256": "62ffbe35ccd251fba19d661ec61d9123da26afebd0369b81fe403f6ca1bfe967"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 2939,
+          "sha256": "d12760f1dc537cd8661e98e0255e8d8e612e190ffb592881b6036f9ada5101fb"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 164,
+          "sha256": "6d7705c726e13996aa7bd77f80840eb8fbffcfce20f3a24d2fa33d082ec7cf80"
+        },
+        {
+          "path": "dist/materials.css",
+          "bytes": 1002,
+          "sha256": "d2405e350ce049270668abea8cf675ab86180196f3549e39ee3abe8b1a875522"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3561,
+          "sha256": "c5b9e0ad8a91307fcea24f042722862b6bf0f7d2e2aea71340beb1606ac7b6c4"
+        },
+        {
+          "path": "dist/scene.js",
+          "bytes": 2555,
+          "sha256": "ccf8c56fdc85fd908338f8b9e77e9c22cf5a3ec3120b83325ee014bd7390f8df"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 875,
+          "sha256": "ad89bdaf7aa90e1dcc5000ff8764c295003093d00917ccb38383df3e812e6f04"
+        },
+        {
+          "path": "docs/內容與來源.md",
+          "bytes": 2762,
+          "sha256": "f58d9cb33f2c4b4545115e9c2fff65de7065d8871629538a39c7a6d818d4b386"
+        },
+        {
+          "path": "package.json",
+          "bytes": 169,
+          "sha256": "4a21c447b195b1c9f54319b26bdbeff4425f70e04c1623898fc3a3db72e3d6ff"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 866,
+          "sha256": "0c373dbade2dd6c8d6f66a962d4ea10bea0d0ae5293a42d64311615415bb5520"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 618,
+          "sha256": "62cbdb2b0e642610f0f7b736bceeee16c88ed52d6edd3ba155f7a1723ab01711"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2722,
+          "sha256": "14a78bf0f279c1470479081786fb7b284a60eed0567d2c725116e54f556571e4"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "矽光子光纖主動對準",
+      "slug": "fiber-active-alignment-observer-20261031",
+      "sourceProjectId": "appgprj_6ae6096817388191b038be7f197cee47",
+      "sourceUrl": "https://fiber-active-alignment-observer-20261031.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6096817388191b038be7f197cee47~appgver_bef266b949ac81919227dd4424bbe407",
+      "sourceCommit": "adb100f64457bc6d2244a70af6c0b87d0603be8d",
+      "sourceDeploymentId": "appgdep_6ae60a0a74bc819188ff5fa17bfc8f41",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:0b1959fbd142673c62070f1d5e488b172fc82a2d105117a7c57beecc4f0ccd78",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/fiber-active-alignment-observer-20261031",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 29,
+          "sha256": "ea34ec2b98e22f228ff069c12b60c123fe868f693886d45d3a77e1efca492f2d"
+        },
+        {
+          "path": "README.md",
+          "bytes": 631,
+          "sha256": "15ca522a967809f295dc3685ffbfdad51e1457cfbc75082be136ec0923a1338c"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1363,
+          "sha256": "f4211493c00baacbe39df2d68018c041176467ba0b4178548512af0ffc0205bb"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 3346,
+          "sha256": "965320d363ef6fee8b771dc0fa06d066a6d603f28d55777d63bdbec2e406cbae"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 2439,
+          "sha256": "74e1b980a72815c6caea1b432598db5f12a7f4d2f49e2aec4d8e52d98585d9f4"
+        },
+        {
+          "path": "dist/materials.js",
+          "bytes": 197,
+          "sha256": "8548821311d7abc0bf8d2ed93546edf0c303ed7c85847560f2379267f1c2429b"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3103,
+          "sha256": "33d0e3021928dccba59b16a7ed451d3d462f18742811e6d86bab7274b177ceaf"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 485,
+          "sha256": "9be08cb90f4c23cd3ff9e1af831b239a96ae3a2d97b6a4a689ca14f889f29e8b"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 179,
+          "sha256": "9011137fb5b8b2932d67bdd19bb43cc2234977d96ed9846d26c26c8ef7745a17"
+        },
+        {
+          "path": "package.json",
+          "bytes": 202,
+          "sha256": "fa8eb3a976be09c874ba63b100cefdb0dd134de2c017a1a448c41608d9fb49e9"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 865,
+          "sha256": "e2143fe36f41923c3f858a038e88b887536af24331f04fe15c487769eb91298a"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 660,
+          "sha256": "e159bb9a2cb9e283fa767b5a2aadc64366164f1858c15cdfbad677db2de51d52"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "銀燒結固晶",
+      "slug": "silver-sinter-die-attach-b03",
+      "sourceProjectId": "appgprj_6ae607b296ec8191a595961f95ae7093",
+      "sourceUrl": "https://silver-sinter-die-attach-b03.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae607b296ec8191a595961f95ae7093~appgver_1f405556ad088191ac24ff9aab657270",
+      "sourceCommit": "04a6b86adff46e1dd241b0da73b539ed38f7751f",
+      "sourceDeploymentId": "appgdep_6ae608f3c52c81918395f07ca48ffaab",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:686bb090c6a4853b34301b791c96065b8e80bc3ac29422c78b5ff8fbbcdfc751",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/silver-sinter-die-attach-b03",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 20,
+          "sha256": "295aa1f18923880afebb2e08aa70a8c4f285cc52baea238b8d2864d10e45d825"
+        },
+        {
+          "path": "README.md",
+          "bytes": 538,
+          "sha256": "bdc13576dcdaa8e451e042a36b9e961e913556bbd29983a9043fc3b8239b1cb3"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1413,
+          "sha256": "62ffbe35ccd251fba19d661ec61d9123da26afebd0369b81fe403f6ca1bfe967"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 2693,
+          "sha256": "11de1983cc1347c32a2bc41b6627295babcba2d27047df08b6db88a091b84cde"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 443,
+          "sha256": "0c3585aa2c1945cef754daca06c6004131a436d70b5f8ec334f2d943635efb30"
+        },
+        {
+          "path": "dist/materials.css",
+          "bytes": 872,
+          "sha256": "c35838449373f851fe750c4fab70c9b5342cba36615d50bcc254169d639f6b0c"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3338,
+          "sha256": "9f478e02af8abf9e1c1195b3bb19b65f4d7cfe6c201f26046b3b38976e6196c1"
+        },
+        {
+          "path": "dist/scene.js",
+          "bytes": 3204,
+          "sha256": "fa273f71c03e85fa9f179065d22547c3d5c31a12d8aba0f94793996a12bf8e0f"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 875,
+          "sha256": "ad89bdaf7aa90e1dcc5000ff8764c295003093d00917ccb38383df3e812e6f04"
+        },
+        {
+          "path": "docs/內容與來源.md",
+          "bytes": 2639,
+          "sha256": "9d8e42345db915591ac00245bd6ba3ce944e0ea2300142f6f1541fec8174059c"
+        },
+        {
+          "path": "package.json",
+          "bytes": 177,
+          "sha256": "0bb7cf39e1637c6e708eb3da248d6f591f0e739ef463b1f1717da650f91b12eb"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 866,
+          "sha256": "4231cfbac366de38b20d3f8d4d03893433593a9e66dcfd10282da868844336c8"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 693,
+          "sha256": "c7a07f79a33f3f7cdb7a3248fa4672f1f63e329650b941d114eb555b2499b830"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2722,
+          "sha256": "14a78bf0f279c1470479081786fb7b284a60eed0567d2c725116e54f556571e4"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "封裝表面 EMI 屏蔽",
+      "slug": "package-emi-shield-observer-20261031",
+      "sourceProjectId": "appgprj_6ae606a298208191bf566df2018c032b",
+      "sourceUrl": "https://package-emi-shield-observer-20261031.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae606a298208191bf566df2018c032b~appgver_95bdedf7a918819189036100117815a3",
+      "sourceCommit": "67208b54b79e06ab49f7b48bfc26e21b3b87c4c0",
+      "sourceDeploymentId": "appgdep_6ae606eaee708191be9458bc929e9b4a",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:bf69c5494fb412152eba469a1aaf21eaaebb7f710d28ca6bbf6d5901e3e6223d",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/package-emi-shield-observer-20261031",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 29,
+          "sha256": "ea34ec2b98e22f228ff069c12b60c123fe868f693886d45d3a77e1efca492f2d"
+        },
+        {
+          "path": "README.md",
+          "bytes": 623,
+          "sha256": "67b3ec55ede6c51e4a19eaf2bbd508e29ed2cd3485399094fe1fc2bcd73cd2a3"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1363,
+          "sha256": "f4211493c00baacbe39df2d68018c041176467ba0b4178548512af0ffc0205bb"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 3316,
+          "sha256": "238b17fbaeeee258a7a1d468b4defd1e51f84f0c1a1a387ceac63f1497105ee9"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 2254,
+          "sha256": "082913c79bda573814df34a380198feb99b732ea962fb2e79145fc0e80a584e4"
+        },
+        {
+          "path": "dist/materials.js",
+          "bytes": 190,
+          "sha256": "4008ac98425ff1b58d99bfb447b6f54e371e79a9f1d9d285a8e6298db04eb5f4"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 2653,
+          "sha256": "115305517f33d7ee21c8f70ea0f472540b780a8611fdf4828d30359174e22acc"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 485,
+          "sha256": "9be08cb90f4c23cd3ff9e1af831b239a96ae3a2d97b6a4a689ca14f889f29e8b"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 179,
+          "sha256": "9011137fb5b8b2932d67bdd19bb43cc2234977d96ed9846d26c26c8ef7745a17"
+        },
+        {
+          "path": "package.json",
+          "bytes": 198,
+          "sha256": "2e879d7160d0765359efde7e563fc7ccc4847dd88d678d91d1d31374590e8658"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 865,
+          "sha256": "ba57db89f2327b724f1452c65449d9adaea92a012e0971b44811d524bea39a40"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 389,
+          "sha256": "f2ca937e561cba73a750204c3382a8feb71847ee1075c1f5b1d51b15b7a7e214"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "PoP 封裝堆疊",
+      "slug": "pop-package-stacking-b03",
+      "sourceProjectId": "appgprj_6ae6054ee59081919ecde080bbe4095d",
+      "sourceUrl": "https://pop-package-stacking-b03.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6054ee59081919ecde080bbe4095d~appgver_2b7adc3bbf608191b50204026377f07c",
+      "sourceCommit": "f314c4638a7c3c540a9d4b5eddee499770d7ad30",
+      "sourceDeploymentId": "appgdep_6ae606b53eb88191951954a0e1238a24",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:08f4358fdbd0e51a3b6a3ee02c7de98df1c22ec13ce43872b00b3eef1b91e383",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/pop-package-stacking-b03",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 20,
+          "sha256": "295aa1f18923880afebb2e08aa70a8c4f285cc52baea238b8d2864d10e45d825"
+        },
+        {
+          "path": "README.md",
+          "bytes": 535,
+          "sha256": "7fd7790992c9b05c9f2c4fc3d3b981d3d322a0c82cbe5969a8c1023f89434c61"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1413,
+          "sha256": "62ffbe35ccd251fba19d661ec61d9123da26afebd0369b81fe403f6ca1bfe967"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 2264,
+          "sha256": "8decfadb8f1df6bd2709708b4e3b42824268392824c7bfa228b2312be94c8423"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 165,
+          "sha256": "791a118d4b686e7e525456d78d252cd93ea0136f45be2fec41c8ee1dd40d2db6"
+        },
+        {
+          "path": "dist/materials.css",
+          "bytes": 845,
+          "sha256": "d5bc897dba01a2c0acac986106ba91ea0b8e08e7d3ae9211dd3be22f2807abd5"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3249,
+          "sha256": "49aaf4754a6deffa962c226ef7980905e77ad67171e45121badd2a4ce5d4a624"
+        },
+        {
+          "path": "dist/scene.js",
+          "bytes": 2536,
+          "sha256": "2467d6c04492708d1397580fc7e191727c6f67bbf02a35f6493f3274ad66d854"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 875,
+          "sha256": "ad89bdaf7aa90e1dcc5000ff8764c295003093d00917ccb38383df3e812e6f04"
+        },
+        {
+          "path": "docs/內容與來源.md",
+          "bytes": 2360,
+          "sha256": "72d77c0d7bcef9223cc3d56cbfe1f4ddd3b5063501512a282e440a5fb01a40fc"
+        },
+        {
+          "path": "package.json",
+          "bytes": 173,
+          "sha256": "96aad88ce6ea5d59c999d83a39da7eab4f822484125e6a2a320a0bd876d9b331"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 866,
+          "sha256": "5ab96c379519f84f23e732743ed577fa997a0c362fd50626152fb5acd67bc4b4"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 617,
+          "sha256": "5c86c30024434dce83ab85c43616c6685546f35a6717aec00e08eddbc7e55a68"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2722,
+          "sha256": "14a78bf0f279c1470479081786fb7b284a60eed0567d2c725116e54f556571e4"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "MEMS 空腔玻璃釉封裝",
+      "slug": "mems-glass-frit-observer-20261031",
+      "sourceProjectId": "appgprj_6ae603edf3408191abb4d062d777bf91",
+      "sourceUrl": "https://mems-glass-frit-observer-20261031.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae603edf3408191abb4d062d777bf91~appgver_48624f726e448191a303f8fe8a6d23ac",
+      "sourceCommit": "75aea63591b27320e1cbac5c6bce39bbe780135a",
+      "sourceDeploymentId": "appgdep_6ae604549128819195ebc5b28ad8a324",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:62821567f943d4cea8d2f48cd227b45aeafa6c72445fd1f21f3284fe23e3eed8",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/mems-glass-frit-observer-20261031",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 29,
+          "sha256": "ea34ec2b98e22f228ff069c12b60c123fe868f693886d45d3a77e1efca492f2d"
+        },
+        {
+          "path": "README.md",
+          "bytes": 623,
+          "sha256": "63886562654b1c8f009f393458ac03bfa5595ed2238cc1409aac83ddb5e6626a"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1363,
+          "sha256": "f4211493c00baacbe39df2d68018c041176467ba0b4178548512af0ffc0205bb"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 2927,
+          "sha256": "5ce65b56db843e90474a6a4bd06faae32e823cb0abf31dd173e8eff4cd625c94"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 2051,
+          "sha256": "aa24c587905a84507a760905ed3d06fbbaa9aae0cb136dddeb1b6bd8cc28816a"
+        },
+        {
+          "path": "dist/materials.js",
+          "bytes": 166,
+          "sha256": "9ebb6542a31959f075d673752793f0b675dc8629ed35720090417a3f5b73fe56"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 2805,
+          "sha256": "bc775159f770ac5dd3e821aa8070773e4fc9cc7035960dce18df3bd2e6e83162"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 485,
+          "sha256": "9be08cb90f4c23cd3ff9e1af831b239a96ae3a2d97b6a4a689ca14f889f29e8b"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 179,
+          "sha256": "9011137fb5b8b2932d67bdd19bb43cc2234977d96ed9846d26c26c8ef7745a17"
+        },
+        {
+          "path": "package.json",
+          "bytes": 195,
+          "sha256": "fc62c83c4c4a2191b3e9a4c65305acf622827d130f5e7ef7e64aee1ff30ebfb8"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 865,
+          "sha256": "c8ac2117f75fd947e3d68315e8e369446492fff7f88df7276e9962ad07496044"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 484,
+          "sha256": "aaf6edebd8b62db04616e720cd75cad7429843b5c423a9ffb87f10050c69a986"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "混合接合",
+      "slug": "hybrid-bonding-b03",
+      "sourceProjectId": "appgprj_6ae60292a7e48191bedd4b70c73c2483",
+      "sourceUrl": "https://hybrid-bonding-b03.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae60292a7e48191bedd4b70c73c2483~appgver_fd6952e7d1e4819180ed99a2f892bfc1",
+      "sourceCommit": "b8d1b248ba50b0ae54fb6c4db770483bfac62a8f",
+      "sourceDeploymentId": "appgdep_6ae60484a00c8191ada614b20232b6e6",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:6097a0046fa9f3b9aceec20279da1e1354ce20f50ffa53238f0a1b017a388b7f",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/hybrid-bonding-b03",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 20,
+          "sha256": "295aa1f18923880afebb2e08aa70a8c4f285cc52baea238b8d2864d10e45d825"
+        },
+        {
+          "path": "README.md",
+          "bytes": 525,
+          "sha256": "71e5b210c7e6dea6d5d97239da2d9edcad31518b90f0e6ff75e71ad4e0e35597"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1413,
+          "sha256": "62ffbe35ccd251fba19d661ec61d9123da26afebd0369b81fe403f6ca1bfe967"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 2355,
+          "sha256": "fdb18b9f8e2e99837f35ecd3682ffa98caf2524da77499285a37658acfd6f32f"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 143,
+          "sha256": "8f26f2ebf2324cc7c85d9afbd7fab276de655955179ec7b6f5343d58d8492cf5"
+        },
+        {
+          "path": "dist/materials.css",
+          "bytes": 749,
+          "sha256": "15cd66b8bcec7687c8e4e726e7e3c0838955e18059f26b86e8e8c33dd800d2b3"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3184,
+          "sha256": "64bdce3cd8f20d4fb0addfb84f2620b49b1794019ad2b52731d6c8a02e0681e1"
+        },
+        {
+          "path": "dist/scene.js",
+          "bytes": 2481,
+          "sha256": "861406d04938cafc8220cdafb2ef0c26d35f753a227a7ca987cf4f0f3b9ea592"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 875,
+          "sha256": "ad89bdaf7aa90e1dcc5000ff8764c295003093d00917ccb38383df3e812e6f04"
+        },
+        {
+          "path": "docs/內容與來源.md",
+          "bytes": 2382,
+          "sha256": "50ce279a5af5ccf5c0031dec36fee5be8633bf7ee26f7d1da266e274dbb0bdf2"
+        },
+        {
+          "path": "package.json",
+          "bytes": 167,
+          "sha256": "abb26a222b6919d8690faf05760a9b652f34c93e76216dbb068e085f4dcd4d83"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 866,
+          "sha256": "af8b8915c6ad24d3158bc0367675661738c1ce371cb09c9336e37de9e4f20971"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 600,
+          "sha256": "a11f2cdaefd8d0c2a443b7a4603f26bd823cfe48a081c8d2293249d7d92550d2"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2722,
+          "sha256": "14a78bf0f279c1470479081786fb7b284a60eed0567d2c725116e54f556571e4"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "RDL 重佈線層",
+      "slug": "rdl-redistribution-b03",
+      "sourceProjectId": "appgprj_6ae6006b6ca08191bba3058b3f505155",
+      "sourceUrl": "https://rdl-redistribution-b03.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae6006b6ca08191bba3058b3f505155~appgver_6cc87e272f708191aaab034db5f919c4",
+      "sourceCommit": "0568243681a9c581deabadba7d1d68b447081568",
+      "sourceDeploymentId": "appgdep_6ae601d5ffdc819195eeaa27a330d5c1",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:a68447152199bb7535c7397d7107b38e6eedd9967585e28608d4e392888b8a0c",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/rdl-redistribution-b03",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 20,
+          "sha256": "295aa1f18923880afebb2e08aa70a8c4f285cc52baea238b8d2864d10e45d825"
+        },
+        {
+          "path": "README.md",
+          "bytes": 533,
+          "sha256": "47dfdbfb4f1f11a156ca744b7a55c3f3bee4f6c0ca7643ce9010ec9070cb56d6"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1413,
+          "sha256": "62ffbe35ccd251fba19d661ec61d9123da26afebd0369b81fe403f6ca1bfe967"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 2698,
+          "sha256": "a1fc7cdbb0cd9cdb24551a22333de4c9080e14997eb2d10fa50d923d77c58399"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 366,
+          "sha256": "a955cb2e8dac687e357e395aba32ad6e049af9f0d99a72e7dbfb04728416057a"
+        },
+        {
+          "path": "dist/materials.css",
+          "bytes": 771,
+          "sha256": "bb1a8cd336d6ea83dfc454c698df3238c333b25c18113e5bcaaceb466ed7debc"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3583,
+          "sha256": "6e0cc414be876b43b1bf3d19b541345c542b3bbfc8c854ab8df0946f9fda34fe"
+        },
+        {
+          "path": "dist/scene.js",
+          "bytes": 3699,
+          "sha256": "0243f3f9d2e14592ea31fa8ec12eee8c90f062a46d3d5dc542a69e657c98651a"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 875,
+          "sha256": "ad89bdaf7aa90e1dcc5000ff8764c295003093d00917ccb38383df3e812e6f04"
+        },
+        {
+          "path": "docs/內容與來源.md",
+          "bytes": 2695,
+          "sha256": "3f103bdab6e5cfabf84a2fa9dd1f8dee787309e135a597ee729ed2877ec60a7c"
+        },
+        {
+          "path": "package.json",
+          "bytes": 171,
+          "sha256": "b2e94ac900b85bb90fabfe5dc841957eaec0b78ecc7454eac3e4c204836142ea"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 866,
+          "sha256": "f4d11d790dc9781dc0353878dc7fe1939db51977bbfe03a902dc80587980ff27"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 594,
+          "sha256": "93e7a4cca35e63f88bcf2c16ec38fa87ae9ecb91a7b0f66702846a6aeb1122e0"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2722,
+          "sha256": "14a78bf0f279c1470479081786fb7b284a60eed0567d2c725116e54f556571e4"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "功率封裝銅夾接合",
+      "slug": "copper-clip-observer-20261031",
+      "sourceProjectId": "appgprj_6ae5ff253010819181f57b3ba55b6d26",
+      "sourceUrl": "https://copper-clip-observer-20261031.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae5ff253010819181f57b3ba55b6d26~appgver_9166f4b02a2c8191979aa991888a60a1",
+      "sourceCommit": "d288dcd8789d45caa2e0f69289c45304b8d4a1c0",
+      "sourceDeploymentId": "appgdep_6ae601e448bc819188848fbea49885e4",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:652b46b1762090bbd63d82c37a5deac5bcd09513a24333aa50b95f9de67ca7b8",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/copper-clip-observer-20261031",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 29,
+          "sha256": "ea34ec2b98e22f228ff069c12b60c123fe868f693886d45d3a77e1efca492f2d"
+        },
+        {
+          "path": "README.md",
+          "bytes": 617,
+          "sha256": "a5ab046626c92866060cdaba737575935286c26666c6cdbf71ccf07ef48fd84b"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1363,
+          "sha256": "f4211493c00baacbe39df2d68018c041176467ba0b4178548512af0ffc0205bb"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 3017,
+          "sha256": "07ebcdde57c0b02ff209cdeba4e7a5e09e74dfd209fea980439eb5cd9ebf6d11"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 2644,
+          "sha256": "5b28a2480012ac9a8d289fab2c260d9675f262044d94b5f756ade2010f5f18ae"
+        },
+        {
+          "path": "dist/materials.js",
+          "bytes": 196,
+          "sha256": "9ea1c294a5ffeafb4d007208c51487a4cec39874630125d5904c3cf7f446328a"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 2557,
+          "sha256": "e048e5a4bce439f1942b0a85ab543bfa68ee813516da9828608a23adf003ce0e"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 485,
+          "sha256": "9be08cb90f4c23cd3ff9e1af831b239a96ae3a2d97b6a4a689ca14f889f29e8b"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 179,
+          "sha256": "9011137fb5b8b2932d67bdd19bb43cc2234977d96ed9846d26c26c8ef7745a17"
+        },
+        {
+          "path": "package.json",
+          "bytes": 191,
+          "sha256": "3d89864ad9d8d57dfa67dfabb73f72e2abcfe743ee61cda4f72516e2c217655e"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 865,
+          "sha256": "e93cba4d0e740bb048a0cb0b75512370daf67a05eb555e47a34e2cb4fd684ed0"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 555,
+          "sha256": "50435733f2ad1a27534f4a6b50b675305e5f4cdfd2f7b5bf9a8345468ac1b3a6"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "扇出重組晶圓",
+      "slug": "fanout-reconstituted-wafer-b03",
+      "sourceProjectId": "appgprj_6ae5fd03b95c81918b6b61092043e763",
+      "sourceUrl": "https://fanout-reconstituted-wafer-b03.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae5fd03b95c81918b6b61092043e763~appgver_27905b1eebbc8191af08734fbd6dc1b5",
+      "sourceCommit": "554a714389fb498cd5973f35f6fadbcf27828e59",
+      "sourceDeploymentId": "appgdep_6ae5ff186e1c81918eec8ea7d7037a51",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:7d2f389e9211cc66b7b3ee085743b62b2a6462a1a9ac52a247384ba430131b3d",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/fanout-reconstituted-wafer-b03",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 20,
+          "sha256": "295aa1f18923880afebb2e08aa70a8c4f285cc52baea238b8d2864d10e45d825"
+        },
+        {
+          "path": "README.md",
+          "bytes": 543,
+          "sha256": "45d63536e358639d1f7cfe3f1b030d90d39520bd4924c8581c94183bea5628ff"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1413,
+          "sha256": "62ffbe35ccd251fba19d661ec61d9123da26afebd0369b81fe403f6ca1bfe967"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 2161,
+          "sha256": "ddd1f018f4824c786a2b4da3c87a316fd032593b2bb6f737bac8c0f890eb3ce8"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 142,
+          "sha256": "b421713715e31295c10a6682ec2f41935d8f73bfb57034fefa0dc6b0ac64ed26"
+        },
+        {
+          "path": "dist/materials.css",
+          "bytes": 563,
+          "sha256": "49ba8f1d4a2058a49155d0604726f7057e1d6f3004946d5271d49e9d48d63362"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 2962,
+          "sha256": "91bd8558ef43eff5b2e0a90f8387ac394529efa86a2b08ecc9000740ed43039e"
+        },
+        {
+          "path": "dist/scene.js",
+          "bytes": 2501,
+          "sha256": "d9927b765bed171024b87fa4172ee458df48e123e52756a6dbd0397b7268320b"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 875,
+          "sha256": "ad89bdaf7aa90e1dcc5000ff8764c295003093d00917ccb38383df3e812e6f04"
+        },
+        {
+          "path": "docs/內容與來源.md",
+          "bytes": 2183,
+          "sha256": "bfcacae8948c2aed2a855b7e6b1c9d5e00c2d31b912d217b59769cad3b9297a0"
+        },
+        {
+          "path": "package.json",
+          "bytes": 179,
+          "sha256": "acc29f6f6841a593da980ab0fc3febdb4838112fb67c4fe1802352509ede6bae"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 866,
+          "sha256": "145b508a941a92911b8a68cec048ad8ad2ae61928b3c624069adff0a73c4973e"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 374,
+          "sha256": "a34684356206d956ea1ae45777f2b0fcd70176a4efb31904005a6ec69983e8d3"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2722,
+          "sha256": "14a78bf0f279c1470479081786fb7b284a60eed0567d2c725116e54f556571e4"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "銅柱凸塊製作",
+      "slug": "copper-pillar-observer-20261031",
+      "sourceProjectId": "appgprj_6ae5fcb6b48081918fa10e25dbdacb8e",
+      "sourceUrl": "https://copper-pillar-observer-20261031.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae5fcb6b48081918fa10e25dbdacb8e~appgver_4a3b51463d588191a5beb526b838ced0",
+      "sourceCommit": "23ca3a29548e8d9bd38585bd1527a0e99d377751",
+      "sourceDeploymentId": "appgdep_6ae5febed098819184b68138bb202582",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:302a940b8bb0971504d7179c5994d39cf2112fa06edea84e999eeb9f40f997b5",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/copper-pillar-observer-20261031",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 29,
+          "sha256": "ea34ec2b98e22f228ff069c12b60c123fe868f693886d45d3a77e1efca492f2d"
+        },
+        {
+          "path": "README.md",
+          "bytes": 613,
+          "sha256": "dc98c35e24fe0b739aaa5cc12d3b7eca27ab981baa9d90d89ff952a17a2ac6c0"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1363,
+          "sha256": "f4211493c00baacbe39df2d68018c041176467ba0b4178548512af0ffc0205bb"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 2800,
+          "sha256": "ff6d268f9db209159269c5c176365da343780031d2b11789712d63e65f804c32"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 2703,
+          "sha256": "d812a5ecc41b0f2bb3a5140186a2c76d8c99be97b43f644bfc30aa97ffe425cc"
+        },
+        {
+          "path": "dist/materials.js",
+          "bytes": 203,
+          "sha256": "3e68015bc626d93b4ca770313e549496f8274ec3a32e3ce6ffad14618359e17d"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3261,
+          "sha256": "77bd11914170a1f9c48e40ae116c49a8a0817375e76ebd969d5d47b359168a7c"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 485,
+          "sha256": "9be08cb90f4c23cd3ff9e1af831b239a96ae3a2d97b6a4a689ca14f889f29e8b"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 179,
+          "sha256": "9011137fb5b8b2932d67bdd19bb43cc2234977d96ed9846d26c26c8ef7745a17"
+        },
+        {
+          "path": "package.json",
+          "bytes": 193,
+          "sha256": "224ff1e39fa67c4aa92057925579569e02b4a7fc9bc756b24e3a54201d33bda3"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 865,
+          "sha256": "db7c176da48efe1aa184fb1e9a07e6b83c79ea2ab377b35e3539cded78a5ab8f"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 751,
+          "sha256": "e3c57da9b550f312a36817c3797779225f633d1f83ba4d8fda9f1936957b704a"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "ABF 載板增層與微盲孔",
+      "slug": "abf-microvia-observer-20261031",
+      "sourceProjectId": "appgprj_6ae5f99a2a048191ac3ba2429d8ce9fb",
+      "sourceUrl": "https://abf-microvia-observer-20261031.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae5f99a2a048191ac3ba2429d8ce9fb~appgver_4ec8f7c70a808191991dd5b5afab5938",
+      "sourceCommit": "063562fbae7c3fa3db3f1544b0bb1319388ec9c9",
+      "sourceDeploymentId": "appgdep_6ae5fc3d94e48191a1a3c101e1e4858e",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:f4af45451723bdb2b94a12e6c1ef94bd88eb846c3d4f494ab089596a29638223",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/abf-microvia-observer-20261031",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 39,
+          "sha256": "22cfdd80d731fbbe868737299e12d2033ee293a98b865cc01330d4bdf1b77798"
+        },
+        {
+          "path": "README.md",
+          "bytes": 1003,
+          "sha256": "7fa142df1b10914e550cbd416921fffb3112792b3b339e9f3738dfba09e28488"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1582,
+          "sha256": "83d5926838378e13ecec9852988be4ecac837d75c591a601d9e1004969b28e77"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 3910,
+          "sha256": "c13511f76e86bf6cf39679e4700296de5925877724ceb161c51313277d40c5b4"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 2789,
+          "sha256": "847513ea6e3269d7292ed91926e183db888deabef430e6e4ece1b963ecd266ed"
+        },
+        {
+          "path": "dist/materials.js",
+          "bytes": 218,
+          "sha256": "1777a6742134e96866c4742bb219ec8eb893c53fbc79f8f6382be9db142421df"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 2966,
+          "sha256": "dc90bf507af6d72dbc598241a356e711bdb5fa4ffde3ca241a77edcf38d41a8f"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/topic.css",
+          "bytes": 179,
+          "sha256": "9011137fb5b8b2932d67bdd19bb43cc2234977d96ed9846d26c26c8ef7745a17"
+        },
+        {
+          "path": "package.json",
+          "bytes": 157,
+          "sha256": "f49353a53a168688ce126afa9bb2ca8d85d40c2c66b3b9200bb77a5a2c2e0cf2"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 865,
+          "sha256": "d017d1a6e5af08a75c1227fe3a385190d15816c91fe7661c44940067bcb288b6"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 714,
+          "sha256": "b2e1304d35a2b28941a763b74635384d165ff133dfd7f65b54d6ec557df19cc4"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "暫時接合與薄晶圓搬運",
+      "slug": "temporary-wafer-bonding-b03",
+      "sourceProjectId": "appgprj_6ae5f997f55c8191ab282490da8befce",
+      "sourceUrl": "https://temporary-wafer-bonding-b03.fishddry.chatgpt.site",
+      "version": 2,
+      "versionId": "appgprj_6ae5f997f55c8191ab282490da8befce~appgver_05f38f4ae9f0819198f49e876879b687",
+      "sourceCommit": "4ee5d2568dbeba0a1344aab63afda4085ec255da",
+      "sourceDeploymentId": "appgdep_6ae5ffd8f69c81919565a547317e0664",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:beb71e163d8ea673bd29e98555ec9ccb62015449633d0b43477375f7dbc5d7a6",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/temporary-wafer-bonding-b03",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 20,
+          "sha256": "295aa1f18923880afebb2e08aa70a8c4f285cc52baea238b8d2864d10e45d825"
+        },
+        {
+          "path": "README.md",
+          "bytes": 926,
+          "sha256": "3eada52128aa08b9ec2ddb714e3810fc74c3509bb8dba7e48b5a28597e24781c"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1525,
+          "sha256": "ec417bb0498f68d5f76c073e57a62eb4515bb7d4744abc063e232151a136f041"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 2516,
+          "sha256": "b82190ba3b7d77e57269a4d638b4e4aec6b7123e5d861cd20d42bed0510b55a2"
+        },
+        {
+          "path": "dist/layout.js",
+          "bytes": 191,
+          "sha256": "3391d3a24980a761cf0800751dcd30b7f55d887ced64761b8ecfde56f81f278c"
+        },
+        {
+          "path": "dist/materials.css",
+          "bytes": 633,
+          "sha256": "3e6aae2700bfc9e4300db690b7d8b09bbd911e70f191791accf9265ad70f2bb2"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 2244,
+          "sha256": "d341d2682e8ee8acd092ac53bf1a9b9cd12dfbfec9fb6a1b8c125635c614c489"
+        },
+        {
+          "path": "dist/scene.js",
+          "bytes": 3622,
+          "sha256": "951ed433e84afec0923393f7b66e76340d02b595dd40893477a672f74db339d2"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "docs/內容與來源.md",
+          "bytes": 1710,
+          "sha256": "3db6b5a686a4e51a0cadbec5997e75c17843b2d18f43bdf836ab9b7f39933a5c"
+        },
+        {
+          "path": "package.json",
+          "bytes": 176,
+          "sha256": "cbb3941b9188e577930db93023cb37eaa048e60e4679ba33b5ed985e21e90b93"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 866,
+          "sha256": "0ab6f371a9922d44255ba863930ba6001c1ceacc38af5f9b301641690cc595f9"
+        },
+        {
+          "path": "tests/model.test.js",
+          "bytes": 616,
+          "sha256": "73a059748ee3fef9f14642d8c17c6aed2efb3c4dd0f63af7cb0b443aa199576d"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2723,
+          "sha256": "c9e28b256617826fab3f372c8eae25122f05645c893958a2cc2208e8837b8c78"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "SOI 薄層轉移｜把A的薄矽留在B上",
+      "slug": "soi-layer-transfer-observer",
+      "sourceProjectId": "appgprj_6ae5f18e57ec8191b54e4baac39cdfa6",
+      "sourceUrl": "https://soi-layer-transfer-observer.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae5f18e57ec8191b54e4baac39cdfa6~appgver_dc945f4d3cbc8191bf37302c54df76f7",
+      "sourceCommit": "4e61fd40c5b40a5336eb03ca3b7ed85dc3ea3bd9",
+      "sourceDeploymentId": "appgdep_6ae5f3862d188191b7149a550ee74365",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:547b177ee8c70e18c78b1640e67386bf46ddbb00c8a7583320f9016a483f030f",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/soi-layer-transfer-observer",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 29,
+          "sha256": "9c7182979d8e7fd8e4721c56a7eb1dfb83710dec95e7fe704d5c403200fdfc67"
+        },
+        {
+          "path": "README.md",
+          "bytes": 795,
+          "sha256": "88a300eef3919c4875ebd615f8a3f7d559da64b130bbc5d2bf2ede7b65361e19"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2118,
+          "sha256": "53302380cccf0dcef013453d23663974a0403ba95bc9b197ac9bce497e04a70c"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 3488,
+          "sha256": "241fa65c0eebefcebec19c4c28c81401405d3e528748061b2879013295ea7161"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 367,
+          "sha256": "0a42497d6a9f5623edb86193b788d022a94e90427c9b4a81d92e4fd30e3182fb"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3755,
+          "sha256": "1687528d7c93ba425195c4743b2e83d44412fb7bf33c431cc6c151261907e404"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1145,
+          "sha256": "1004aa7eb00979ed5a984c8f424d554446ca863bfc75fb42fb4c049efcb5d793"
+        },
+        {
+          "path": "docs/驗收.md",
+          "bytes": 2337,
+          "sha256": "df22b7200dcbebc12e65389ba59cddfa6b69d51cc44a878fea664b00b0bb1da6"
+        },
+        {
+          "path": "package.json",
+          "bytes": 170,
+          "sha256": "ffdfe48a96be936f97d5228ba85789f52af95ff3ac0d4b6b2b8c79cf8cf1af38"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 807,
+          "sha256": "00b192bcedd7b037b9475872dd6f7fac7c59019b39dff8a71a73bbb8f74319da"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2722,
+          "sha256": "14a78bf0f279c1470479081786fb7b284a60eed0567d2c725116e54f556571e4"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "Bosch 深矽蝕刻｜向下挖深並保護側壁",
+      "slug": "bosch-drie-observer",
+      "sourceProjectId": "appgprj_6ae5ef89422881919e4364e9a5f7ce03",
+      "sourceUrl": "https://bosch-drie-observer.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae5ef89422881919e4364e9a5f7ce03~appgver_2d4943317cd88191af9ebc04a418ca8a",
+      "sourceCommit": "4a8a6df1bbe801b300a61df3cb44ba1d38558a12",
+      "sourceDeploymentId": "appgdep_6ae5f116581c81919865595bf35ee467",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:8859781f62c6cbd3ce5f0cf8d8878847bb243805c9c4dd46d5eea80c169ad1f6",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/bosch-drie-observer",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 29,
+          "sha256": "9c7182979d8e7fd8e4721c56a7eb1dfb83710dec95e7fe704d5c403200fdfc67"
+        },
+        {
+          "path": "README.md",
+          "bytes": 712,
+          "sha256": "31fb1bdbf62b91bb7ef6d34fef3104a25b2cf6965c6d1f76bfd5a6f83b61fe9d"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2118,
+          "sha256": "53302380cccf0dcef013453d23663974a0403ba95bc9b197ac9bce497e04a70c"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 3709,
+          "sha256": "ef705ecca3147129901076f4e91397ea614ace928b7b04ea74219a445461555c"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 367,
+          "sha256": "0a42497d6a9f5623edb86193b788d022a94e90427c9b4a81d92e4fd30e3182fb"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3804,
+          "sha256": "baea97296590dab59096a9e91273ceceddaa3d4bb89de908b93a8f6c6eab697a"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1145,
+          "sha256": "1004aa7eb00979ed5a984c8f424d554446ca863bfc75fb42fb4c049efcb5d793"
+        },
+        {
+          "path": "docs/驗收.md",
+          "bytes": 1930,
+          "sha256": "d8b4bbe2b6b25df2e66a78efd1a03ad8cf91357eb998e4510321419f45a00448"
+        },
+        {
+          "path": "package.json",
+          "bytes": 162,
+          "sha256": "3f95a4aaef9d12ab395a7812307a1a8a124a87597837956171c233546115e308"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 807,
+          "sha256": "dea83dac136c5cfe1b33914e0d7fd8bac7636208cd4ecaa777054026bb7cc1ed"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2722,
+          "sha256": "14a78bf0f279c1470479081786fb7b284a60eed0567d2c725116e54f556571e4"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "側壁間隔層｜薄膜為什麼只留在兩側",
+      "slug": "sidewall-spacer-observer",
+      "sourceProjectId": "appgprj_6ae5edf9c59c819180c08766a8e81bb1",
+      "sourceUrl": "https://sidewall-spacer-observer.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae5edf9c59c819180c08766a8e81bb1~appgver_774e83ee762c8191afadf084d739dcb6",
+      "sourceCommit": "cd942c9e0cd1783348b093be4e326523dfa84f7c",
+      "sourceDeploymentId": "appgdep_6ae5ef2473c48191bfaa019146984a34",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:88f9241ee25c61fe5fa53370ef233b5c4539d8d7e1dec19c18e56506353a4236",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/sidewall-spacer-observer",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 29,
+          "sha256": "9c7182979d8e7fd8e4721c56a7eb1dfb83710dec95e7fe704d5c403200fdfc67"
+        },
+        {
+          "path": "README.md",
+          "bytes": 619,
+          "sha256": "25ccf85e05c5fa6315d2346467823c4ca3cdeb7cd052ccbfb994fc902e6b4f4b"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2118,
+          "sha256": "53302380cccf0dcef013453d23663974a0403ba95bc9b197ac9bce497e04a70c"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 2331,
+          "sha256": "c136b55edb32bcec08bf46f609b4e11f3e2cd12b1e7783845f3d0e04e73354ca"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 367,
+          "sha256": "0a42497d6a9f5623edb86193b788d022a94e90427c9b4a81d92e4fd30e3182fb"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 2915,
+          "sha256": "a6a909230c57f3a9311195c3f8f4a2bf32f83316d8aa6f748370d01542ab6b89"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1145,
+          "sha256": "1004aa7eb00979ed5a984c8f424d554446ca863bfc75fb42fb4c049efcb5d793"
+        },
+        {
+          "path": "docs/驗收.md",
+          "bytes": 1791,
+          "sha256": "a6cbb70459c99561b579569b5450987255b6ade6951b8e7141156f08c6193a2f"
+        },
+        {
+          "path": "package.json",
+          "bytes": 167,
+          "sha256": "dccd3de37dee26d71a9a7b982f886410fc7371349dfca50fffbf76fd6887903b"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 807,
+          "sha256": "873f9a5e61f5d805bf8526b055e70613dd3905f009479e56a6b799f2ee22fff2"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2722,
+          "sha256": "14a78bf0f279c1470479081786fb7b284a60eed0567d2c725116e54f556571e4"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "淺溝槽隔離｜矽表面的絕緣邊界",
+      "slug": "shallow-trench-isolation-observer",
+      "sourceProjectId": "appgprj_6ae5ebcf41288191891a51ecde76410a",
+      "sourceUrl": "https://shallow-trench-isolation-observer.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae5ebcf41288191891a51ecde76410a~appgver_b96df6606128819191588057dcfe8ecb",
+      "sourceCommit": "55c7a3b0526745bd9279c1a47bed3ef98becdc28",
+      "sourceDeploymentId": "appgdep_6ae5edbfdaf881919fee70ea9f79e09a",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:2ae122139915e7bb0fc4149833a513062e7d7195be469d7f8457d400596face6",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/shallow-trench-isolation-observer",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 29,
+          "sha256": "9c7182979d8e7fd8e4721c56a7eb1dfb83710dec95e7fe704d5c403200fdfc67"
+        },
+        {
+          "path": "README.md",
+          "bytes": 767,
+          "sha256": "5f4dfdf2fb9194efb724756a5c361f1db71cba1ed8525cbebe4b7075297b9669"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2118,
+          "sha256": "53302380cccf0dcef013453d23663974a0403ba95bc9b197ac9bce497e04a70c"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 3305,
+          "sha256": "36c5e814301cc03bb5a9369242ce9efb1f3f3a0108717422f847f10c32c8de63"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 367,
+          "sha256": "0a42497d6a9f5623edb86193b788d022a94e90427c9b4a81d92e4fd30e3182fb"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3627,
+          "sha256": "3f03edce2c80ed5c66883f8541f4341e641ef8a590a5b2f6b3a80c2091025bcf"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1145,
+          "sha256": "1004aa7eb00979ed5a984c8f424d554446ca863bfc75fb42fb4c049efcb5d793"
+        },
+        {
+          "path": "docs/驗收.md",
+          "bytes": 1959,
+          "sha256": "f573a5087ed0140b59f57dabbd2d3c3ad83c1bbd8636dd3430d3ad466e31eedd"
+        },
+        {
+          "path": "package.json",
+          "bytes": 176,
+          "sha256": "94448a8820522a06e275c65c552626a5fdd73624080776317ac7da382f7f5d04"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 807,
+          "sha256": "ae263b18af784acda0c14e7543067d679eca911c27ab5655e2ec630150da7c84"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2722,
+          "sha256": "14a78bf0f279c1470479081786fb7b284a60eed0567d2c725116e54f556571e4"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "選擇性矽磊晶｜晶體只在開窗中成長",
+      "slug": "selective-epitaxy-observer",
+      "sourceProjectId": "appgprj_6ae5e900341c819192e78570de82620f",
+      "sourceUrl": "https://selective-epitaxy-observer.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae5e900341c819192e78570de82620f~appgver_7a80d338f144819182e441f6df2c7e44",
+      "sourceCommit": "6a9fc254228fde1c6fac8c7df138447d8fe1d635",
+      "sourceDeploymentId": "appgdep_6ae5eb7aa7388191bb38d2790766f7af",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:282fcd5dadee6a4abde6294ee87599a233bb2b8b86c0907d63ff8fb593e0b7a4",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/selective-epitaxy-observer",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 29,
+          "sha256": "9c7182979d8e7fd8e4721c56a7eb1dfb83710dec95e7fe704d5c403200fdfc67"
+        },
+        {
+          "path": "README.md",
+          "bytes": 691,
+          "sha256": "cbd4ff8e08482cd565729f9e31c18c9355255538fa3d01db369861d4076d3943"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2118,
+          "sha256": "53302380cccf0dcef013453d23663974a0403ba95bc9b197ac9bce497e04a70c"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 2767,
+          "sha256": "b9231b6d700be47707c2416f583e39f1316c52c0c115b011f62ac3dcc29a929f"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 367,
+          "sha256": "0a42497d6a9f5623edb86193b788d022a94e90427c9b4a81d92e4fd30e3182fb"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3698,
+          "sha256": "b6c223fe1217aa86ec7b84a52654fb6b356ce3defde2db827f13e29cd8d2ee6f"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1145,
+          "sha256": "1004aa7eb00979ed5a984c8f424d554446ca863bfc75fb42fb4c049efcb5d793"
+        },
+        {
+          "path": "docs/驗收.md",
+          "bytes": 1969,
+          "sha256": "8ae3a7643032d634e770bdd5d397da044c256c2e78a0114b22999cbcdae9a2f9"
+        },
+        {
+          "path": "package.json",
+          "bytes": 169,
+          "sha256": "9c1fdd4c504a3e66d0ad727ab4fe7e88318b9474af3d06cdd23ac583ab5de782"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 807,
+          "sha256": "beb07654685d3e4812a6e438b32258e2e4c863de8e3caa9dbc19a351fa8c9375"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2722,
+          "sha256": "14a78bf0f279c1470479081786fb7b284a60eed0567d2c725116e54f556571e4"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "PECVD｜氣體如何形成保護膜",
+      "slug": "pecvd-sinx-observer",
+      "sourceProjectId": "appgprj_6ae5e6f8f6e88191b06253530382c8a7",
+      "sourceUrl": "https://pecvd-sinx-observer.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae5e6f8f6e88191b06253530382c8a7~appgver_c679b47f4d048191abb523dd2dae651f",
+      "sourceCommit": "874a6a9a056159f7e8722035e5b82511922254b5",
+      "sourceDeploymentId": "appgdep_6ae5e8cdca7c81919fdc0b85f0bcf613",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:c0a4ee7c9370c10c62504eae7d0fc1ba21ae8c4025a206e306c81758fbe392e4",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/pecvd-sinx-observer",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 29,
+          "sha256": "9c7182979d8e7fd8e4721c56a7eb1dfb83710dec95e7fe704d5c403200fdfc67"
+        },
+        {
+          "path": "README.md",
+          "bytes": 692,
+          "sha256": "2d988068483683780a3027a7bcf17d73e7851f1552ffa6d95c104028b7646d90"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2118,
+          "sha256": "53302380cccf0dcef013453d23663974a0403ba95bc9b197ac9bce497e04a70c"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 3148,
+          "sha256": "fc4c53fe2339ea99d01902ea58fce90c32866815106222e80cf2faf22a9ae001"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 367,
+          "sha256": "0a42497d6a9f5623edb86193b788d022a94e90427c9b4a81d92e4fd30e3182fb"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3366,
+          "sha256": "b1b220cc498c03806251c6d9ad5a8e5a8d7e0845266e78ed654b449f257bb79f"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1145,
+          "sha256": "1004aa7eb00979ed5a984c8f424d554446ca863bfc75fb42fb4c049efcb5d793"
+        },
+        {
+          "path": "docs/驗收.md",
+          "bytes": 2306,
+          "sha256": "6d42c0ac73ad5a50c69e25dec7111444801ab30a5f11f4c71fe59c1972bfb14f"
+        },
+        {
+          "path": "package.json",
+          "bytes": 162,
+          "sha256": "d064955bc852dbd688fafc379606f800bf10365b0fc76b9f1eb54c43c850dcc7"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 807,
+          "sha256": "bde96c9e09d619be0943e2a706ebd4e30df336b78e1e7b098dc03dda12374c74"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2722,
+          "sha256": "14a78bf0f279c1470479081786fb7b284a60eed0567d2c725116e54f556571e4"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "PVD 金屬濺鍍｜金屬怎麼搬到晶圓上",
+      "slug": "pvd-sputtering-observer",
+      "sourceProjectId": "appgprj_6ae5e46f5ce08191947eaf3885b79979",
+      "sourceUrl": "https://pvd-sputtering-observer.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae5e46f5ce08191947eaf3885b79979~appgver_4684cb5f5178819199828c6c06ace4b7",
+      "sourceCommit": "282f0aa3aaf5689fddfd64c6886d7ce9c2823956",
+      "sourceDeploymentId": "appgdep_6ae5e6be14d88191afdde76c7a45e9f9",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:1a5de6f1cb388dfa72ae109ba035833fa0a6774b6a47841cb86a6abf75df44d6",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/pvd-sputtering-observer",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 29,
+          "sha256": "9c7182979d8e7fd8e4721c56a7eb1dfb83710dec95e7fe704d5c403200fdfc67"
+        },
+        {
+          "path": "README.md",
+          "bytes": 721,
+          "sha256": "9b257ed8c3f230d7898d776da4150ba301be3446ee64943ea6fa62d4c5df9815"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 2118,
+          "sha256": "53302380cccf0dcef013453d23663974a0403ba95bc9b197ac9bce497e04a70c"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 2892,
+          "sha256": "e4f7cdf9ba7d4f8a40bd361c047b091fb4b8ee87e78610cf45ccff7c01d4f180"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 367,
+          "sha256": "0a42497d6a9f5623edb86193b788d022a94e90427c9b4a81d92e4fd30e3182fb"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 3731,
+          "sha256": "710e254ecee30fc3c09b9431c7faaaeadbd132b21c9b31b3da99c3b2c64216b7"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1145,
+          "sha256": "1004aa7eb00979ed5a984c8f424d554446ca863bfc75fb42fb4c049efcb5d793"
+        },
+        {
+          "path": "docs/驗收.md",
+          "bytes": 2817,
+          "sha256": "5a8795bc9bf1ba206e1f0f42537c08d937bd26dc23a28e721106d848fc2b91ac"
+        },
+        {
+          "path": "package.json",
+          "bytes": 166,
+          "sha256": "b02489ee20647f912feea735c21dfdc88f95741f0528c09c26f5316810099c35"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 807,
+          "sha256": "06db77adf751c410c8c708953eda1117575536c3e0c0b73abb9704817b3d54c6"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2722,
+          "sha256": "14a78bf0f279c1470479081786fb7b284a60eed0567d2c725116e54f556571e4"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    },
+    {
+      "title": "兆聲波晶圓清洗｜微粒如何被帶走",
+      "slug": "megasonic-cleaning-observer",
+      "sourceProjectId": "appgprj_6ae5e099e99c819199afd08ab926dd55",
+      "sourceUrl": "https://megasonic-cleaning-observer.fishddry.chatgpt.site",
+      "version": 1,
+      "versionId": "appgprj_6ae5e099e99c819199afd08ab926dd55~appgver_2d512675d45481919edc6a6ff410d2d9",
+      "sourceCommit": "4a00016237fafcbbb468bbfa794206b05505cb0c",
+      "sourceDeploymentId": "appgdep_6ae5e3d8e63c819184476a6f8fe15848",
+      "sourceAccess": "custom",
+      "sourceArchiveHash": "sha256:76520dfd5b0bd218d4f8e3d5dbf41f69ccc325e11adfb581b1be9761da081030",
+      "sourceDeploymentStatus": "succeeded",
+      "directory": "sites/megasonic-cleaning-observer",
+      "outputDirectory": "dist",
+      "files": [
+        {
+          "path": ".gitignore",
+          "bytes": 39,
+          "sha256": "6e4ea03c47c24fe59722953b821cd24bd10725281cc9c2488973c3a6aba3300d"
+        },
+        {
+          "path": "README.md",
+          "bytes": 904,
+          "sha256": "c897fbf6dd54a2994823c99a1da45693a8b24092ecf29de1a033e3556e6382c2"
+        },
+        {
+          "path": "dist/app.js",
+          "bytes": 1619,
+          "sha256": "88b6c1bd8349562369bf1184f806121a1ee19687b1ea2e86b40c266e583879ce"
+        },
+        {
+          "path": "dist/drawing.js",
+          "bytes": 2596,
+          "sha256": "b41ea15e15d924897c3019d40ba3bb26bad6bbbf440e07020893f78e56efb51c"
+        },
+        {
+          "path": "dist/index.html",
+          "bytes": 2361,
+          "sha256": "e00a8884200f1ca6896f5906ee54e7260ab6a3f2abe200b436261c2028528849"
+        },
+        {
+          "path": "dist/model.js",
+          "bytes": 2043,
+          "sha256": "6743e4d6719af6f95eedfc13968e77f212a265eceacec46baa7fe981be34a010"
+        },
+        {
+          "path": "dist/qa-status.js",
+          "bytes": 1190,
+          "sha256": "7ed57f077d42caf1064272e3a05454078020d4f04acb4d06a2541a2bbc79561f"
+        },
+        {
+          "path": "dist/shared/observer.css",
+          "bytes": 6506,
+          "sha256": "163940aad85d0517268b61bf8d33f1fd39acdbf0c7e5c708c44a1b5abe09e570"
+        },
+        {
+          "path": "dist/shared/observer.js",
+          "bytes": 7835,
+          "sha256": "9b5fbfd61574b09c87553c54f4523c71a38f92058a45c0c27caf15ecf23ba74e"
+        },
+        {
+          "path": "dist/shared/player-clock.js",
+          "bytes": 2559,
+          "sha256": "07db138bc322823c5ab861f98dfbf7211f331489f4c627166f81a33efc225442"
+        },
+        {
+          "path": "dist/shared/template-manifest.json",
+          "bytes": 378,
+          "sha256": "d2cf527c8b8652f1f0ee0b2de3e1e72dabc10aaad8f6646326a91b9112504f20"
+        },
+        {
+          "path": "dist/svg.js",
+          "bytes": 1145,
+          "sha256": "1004aa7eb00979ed5a984c8f424d554446ca863bfc75fb42fb4c049efcb5d793"
+        },
+        {
+          "path": "docs/內容與來源.md",
+          "bytes": 1081,
+          "sha256": "f7cf44c88404b517aca511d3f7a3b422e2359342e945a9c0a17a45adda19589c"
+        },
+        {
+          "path": "docs/驗收.md",
+          "bytes": 4767,
+          "sha256": "2ac0cfb7fffdbf41c5f520b325b1bb97e5541cb445ab51aa7dbb45a4051de39c"
+        },
+        {
+          "path": "package.json",
+          "bytes": 148,
+          "sha256": "f9362ea2fdbbafe53bd8416a018909732508a63ae834ac60ff2e0b36c3136f61"
+        },
+        {
+          "path": "server.mjs",
+          "bytes": 807,
+          "sha256": "c715a3cd03fb95a375a9c7083ccb8caf7ae8f9c1162fd15d63c0c2ba22e1c9ae"
+        },
+        {
+          "path": "tests/player-clock.test.js",
+          "bytes": 2723,
+          "sha256": "c9e28b256617826fab3f372c8eae25122f05645c893958a2cc2208e8837b8c78"
+        }
+      ],
+      "excludedSourceFiles": [
+        ".openai/hosting.json"
+      ],
+      "addedFiles": [
+        "GITHUB_SYNC.md",
+        "vercel.json"
+      ]
+    }
+  ],
+  "excluded": {
+    "unpublishedAtInventory": [
+      "ltcc-cofiring-observer-b05"
+    ],
+    "alreadyBackedUp": 20,
+    "laterCreatedSites": "Not in the approved 25-site scope"
+  },
+  "existingSiteDirectoriesPreserved": [
+    "coordinate-field-xjq-1028",
+    "diffusion-points-20261029",
+    "knowledge-atlas-20261028",
+    "semiconductor-coordinate-atlas-1029",
+    "semiconductor-foundry-lab",
+    "soic-eight-observer",
+    "supply-chain-three-relations-20261029",
+    "taiwan-semiconductor-atlas",
+    "wafer-electrical-test-20261030",
+    "wafer-works-lab-20261029"
+  ],
+  "verificationScope": "Exact source hashes, original automated checks, local HTTP and browser smoke checks. Does not replace original scientific or full device acceptance."
+}

@@ -1,0 +1,1 @@
+export const colors={line:'#64747D',wafer:'#D8E0E5',pad:'#C7AB83',passivation:'#DCE9E7',ubm:'#858895',copper:'#C98E70',nickel:'#A6B2AA',solder:'#CBD6E0',resist:'#BDCAE0',heat:'#CC9387',paper:'#F7F9FA'};

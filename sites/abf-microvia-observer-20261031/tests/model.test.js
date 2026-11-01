@@ -1,0 +1,3 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {stateAt,stages} from '../dist/model.js';
+test('材料時序與完成隔離',()=>{assert.equal(stateAt(9.8).hole,1);assert.equal(stateAt(9.8).clean,0);assert.equal(stateAt(12.8).clean,1);assert.equal(stateAt(12.8).seed,0);assert.equal(stateAt(16.8).connected,true);assert.equal(stateAt(24.8).isolated,false);assert.equal(stateAt(27.9).isolated,true);});
+test('成品退出不撤回材料，各關鍵幀有定義',()=>{for(const stage of stages)assert.equal(stateAt(stage.key).stage,stage);const s=stateAt(33.9);assert.equal(s.fill,1);assert.equal(s.film,1);assert.equal(s.clean,1);assert.equal(s.isolated,true);assert.ok(s.exit>.9);});

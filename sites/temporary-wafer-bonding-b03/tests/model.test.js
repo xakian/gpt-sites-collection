@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {stateAt} from '../dist/model.js';
+test('silicon only thins; frame supports before release',()=>{let prev=0;for(let t=0;t<36;t+=.025){const s=stateAt(t);assert.ok(s.thin>=prev);prev=s.thin;if(s.release>0)assert.equal(s.tape,1);if(s.separate>0)assert.equal(s.release,1);if(s.clean>0)assert.equal(s.separate,1);assert.ok(s.supportedBy);}});
+test('fresh silicon appears only after completed piece exit',()=>{assert.equal(stateAt(32).thin,1);assert.equal(stateAt(35).exit,1);assert.equal(stateAt(0).thin,0);assert.equal(stateAt(0).entry,0);});
