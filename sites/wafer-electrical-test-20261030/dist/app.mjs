@@ -1,13 +1,13 @@
 import {config} from './config.mjs';
 import {sampleTopic} from './model.mjs';
-import {Player} from './player.mjs';
+import {Player} from './dual/external-player.mjs';
 const $=id=>document.getElementById(id);
 const symbol=v=>v===null?'—':v?'✓':'×';
 const status=v=>v===null?'waiting':v?'pass':'fail';
 const result=v=>v===null?'待判定':v?'通過':'未通過';
 const text=(id,v)=>{const el=$(id);if(el.textContent!==String(v))el.textContent=v};
 const html=(id,v)=>{const el=$(id);if(el.innerHTML!==v)el.innerHTML=v};
-const layout=matchMedia('(max-width:700px)');
+const layout=matchMedia('(max-width:700px), (max-height:450px)');
 const resize=()=>{$('apparatus-svg').setAttribute('viewBox',layout.matches?'86 67 248 252':'0 0 720 385');$('apparatus-svg').setAttribute('preserveAspectRatio',layout.matches?'none':'xMidYMid meet')};
 resize();layout.addEventListener('change',resize);
 $('keyframes').innerHTML=config.keyframes.map(([t,label],i)=>`<button data-time="${t}" data-index="0${i+1}" aria-label="定位此步：${label}">${label}</button>`).join('');
@@ -51,7 +51,7 @@ function play(){closeInfo(false);player.play();$('play').focus();}
 $('play').addEventListener('click',()=>player.playing?player.pause():play());
 $('replay').addEventListener('click',()=>{closeInfo(false);player.replay();text('live-status','重新示範，從零秒開始')});
 $('speed').addEventListener('change',e=>player.setSpeed(e.target.value));
-$('timeline').addEventListener('input',e=>player.seek(e.target.value));
+$('timeline').addEventListener('input',e=>player.seekView(e.target.value));
 $('keyframes').addEventListener('click',e=>{const b=e.target.closest('[data-time]');if(b)player.seek(b.dataset.time)});
 const sections={
  '本例':`<h3>從回應到判定</h3><p>A、B 是同一設計的兩顆示意 CMOS 非反相緩衝器。測試系統建立連接、施加已知輸入，取得回應後才與規格比較。</p><p>兩者在輸入 0、1 時都符合預期。但在相同靜態條件下，A 的供電電流是 2 μA，B 是 14 μA。本例上限為 10 μA，因此只有 A 通過本例兩項。</p><p>晶粒始終留在晶圓上；結果圖是位置對應的測試紀錄。</p><button data-seek="35">定位此步：兩顆對照</button>`,
